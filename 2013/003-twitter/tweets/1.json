@@ -1,0 +1,1877 @@
+{
+    "data": [
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T01:42:02.000Z",
+        "id": "288460521093619712",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 11,
+          "quote_count": 0
+        },
+        "text": "000e23b: 17b0a5931e5cdd814924497411dc8621453401e70eef2ed6d7577f5dfe06fec296798f8c82ef45cbe0bbc68c8ceda0fdf7362b0f03a0b260ee60c29b5947ddd225",
+        "edit_history_tweet_ids": [
+          "288460521093619712"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T01:40:02.000Z",
+        "id": "288460019240951808",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 9,
+          "quote_count": 1
+        },
+        "text": "000e1fa: 3a0e78204c5c64466de120f76352b9dd52387304a0adf68389fc0f1ea5c2281b40b52257b065a4b3b1476225f95aefe9530eed88cb368edb3078d17e80975684d1",
+        "edit_history_tweet_ids": [
+          "288460019240951808"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T01:38:01.000Z",
+        "id": "288459512053125120",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 9,
+          "quote_count": 0
+        },
+        "text": "000e1b9: aac716b299654421a27aa8129f45f0053dad936f2d0ae468cad8449585af56838b4759777fc0c214724172e0e4d8af141bb1ecd3b140472811756d7412885d56e2",
+        "edit_history_tweet_ids": [
+          "288459512053125120"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T01:36:01.000Z",
+        "id": "288459010192052225",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 9,
+          "quote_count": 0
+        },
+        "text": "000e178: df9753bb1eef150091d0bdd6c62955cc0d3edc67f84d3d8bf26a7e30a88cd0e352612084a27ab71eada16945a062acb1400c9c80bdc7cc2efe18fe817f9e4d2562",
+        "edit_history_tweet_ids": [
+          "288459010192052225"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T01:34:01.000Z",
+        "id": "288458506141577216",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000e137: 2ef095bcb51f06f872e88d8f964ecec48d5e25483e1c35f042a82f553c97a0f05b24a85633d56c37bd83b6b4fb16166e77ba97cff54aa6d7268e17bee59019e47f",
+        "edit_history_tweet_ids": [
+          "288458506141577216"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T01:32:02.000Z",
+        "id": "288458004142108673",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000e0f6: 023fed68912e91c5789668992608543a6140b12c37d8007684d70b6f412c5533666f493538be2fd4e50530175a7d9ad0e52d536c0e7ad5eb4b3ebfe70e5471a7ff",
+        "edit_history_tweet_ids": [
+          "288458004142108673"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T01:30:02.000Z",
+        "id": "288457502377537536",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000e0b5: 7ee30acb1aa7d24cd94e84d495db72088feeec52572111bac8ab76d682c42e11d51d695a4553c8cf7b8b6c51a39a7d60b1af35c6aa15b79aa5081a110f2f034067",
+        "edit_history_tweet_ids": [
+          "288457502377537536"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T01:28:01.000Z",
+        "id": "288456995902730241",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 9,
+          "quote_count": 0
+        },
+        "text": "000e074: 1bdce6e932fd824265edd914679a3ac003dd6a93d7ce89a96b7a4f23403a1523796f9db9e734959566cbba75db179de1714270970cd236486a544625e54e3f466a",
+        "edit_history_tweet_ids": [
+          "288456995902730241"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T01:26:02.000Z",
+        "id": "288456493999718400",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 11,
+          "quote_count": 0
+        },
+        "text": "000e033: 92eb4f5ad04ef3db527cabe48d5c26cb03111dc95ee11c18ea8d1b2a66e09b0187a941375970c1d65eae3e3275c64be2709b036eb3fe5cf43406cad2f24c0751b6",
+        "edit_history_tweet_ids": [
+          "288456493999718400"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T01:24:02.000Z",
+        "id": "288455992063176705",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 7,
+          "quote_count": 1
+        },
+        "text": "000dff2: 92a54376ab72cdf71413ac56198476804f5ab75cf109875f815db3ea000c0f312878928114c07a4dae97b56e5c00d2b613e11718a34fea67ca5923dd7c92b6b487",
+        "edit_history_tweet_ids": [
+          "288455992063176705"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T01:22:01.000Z",
+        "id": "288455486058147840",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000dfb1: 96bd9ebae3b753e9065bd0fb02ad0afe381d1deabcfe1afb6e983259768adfd29b8898c9902f7ae2d1fdc36482dcff36eb823dba5500ff8ec0112080d4d405bf7d",
+        "edit_history_tweet_ids": [
+          "288455486058147840"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T01:20:02.000Z",
+        "id": "288454984192909312",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 7,
+          "quote_count": 0
+        },
+        "text": "000df70: 093df5d9b720a05ab559691c37dac6086760ce847558af33e441d63bee1177e8b8eed5654a4ee7b147f5f69c3af4a1127989e507016b131b75fb5a4cd27cf9184b",
+        "edit_history_tweet_ids": [
+          "288454984192909312"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T01:18:02.000Z",
+        "id": "288454480729616385",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000df2f: 607e43756cfd3abb62e5cbebf6f57ea75e1f855bb5f2fb133b4407d05be9b3cbc621bc40775aa8db19872e8fcd98b946cbbd23f77ba0068c879b9dc97b3ac58fbb",
+        "edit_history_tweet_ids": [
+          "288454480729616385"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T01:16:02.000Z",
+        "id": "288453978252001280",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 4,
+          "like_count": 10,
+          "quote_count": 0
+        },
+        "text": "000deee: f22374016b738f3a6916a162b9c87ef360e54d58d8e8c4b3ca8b75a9550a2aeb4f2629be58d59f349ccae12d1a286de161d90db797e8c9bee77cebe6d5fdde521d",
+        "edit_history_tweet_ids": [
+          "288453978252001280"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T01:14:02.000Z",
+        "id": "288453474662887426",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 11,
+          "quote_count": 0
+        },
+        "text": "000dead: da9780966426ebe9d613d6ca05d8638346c63082ba9cec3a7990d82a9a2ab3da3cbb0f191d3fc6545b199c829a2e96aa427138d6f74fca4cfdfbad3c7b0d5ae990",
+        "edit_history_tweet_ids": [
+          "288453474662887426"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T01:12:01.000Z",
+        "id": "288452968569786368",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 13,
+          "quote_count": 0
+        },
+        "text": "000de6c: fc903b879b6fb240b9d9a1073ba56e3044dc513227cc415a396ae68423ca995458439f4418062f6980fe1b75c01edd2ac017b2eaaf165df30c2cfecae9a765a23c",
+        "edit_history_tweet_ids": [
+          "288452968569786368"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T01:10:01.000Z",
+        "id": "288452466729680896",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 9,
+          "quote_count": 0
+        },
+        "text": "000de2b: 0a593709c571fd17a15c2a8cc7adcc46f43b8a656f09a6ea644e29925be473effaf0059f67906db581efd5e4c9f3959925994c94bb61f139fdc27cc286506756f9",
+        "edit_history_tweet_ids": [
+          "288452466729680896"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T01:08:02.000Z",
+        "id": "288451964675698689",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 9,
+          "quote_count": 0
+        },
+        "text": "000ddea: 9a7fbf56629870b381b5bc3ef56e1f1e529872e097d844fda7a2f97b61beb91756828be3d17d2901d90cd4298d7f76f1f92c16a30cdb573ec61250dfcf9063b79f",
+        "edit_history_tweet_ids": [
+          "288451964675698689"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T01:06:01.000Z",
+        "id": "288451458519666688",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 11,
+          "quote_count": 0
+        },
+        "text": "000dda9: 633e7555f31b49705ba949511d14ef9ce2a1e4cc74edfd338aeb45fbdee69e6d88d60209b3bc989c251997715ae75b39ca84ef4d97b6e0809cb1cfe6a1a4c05297",
+        "edit_history_tweet_ids": [
+          "288451458519666688"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T01:04:01.000Z",
+        "id": "288450956675407873",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 9,
+          "quote_count": 0
+        },
+        "text": "000dd68: ce736eee885cf9dac4f39444351e29ee7fe1bfaa39fea25fd1331d225e4edf05ff39dbbd2061938df6a1a5889773c274486e75625b9426b3b05b23302b5be08e8f",
+        "edit_history_tweet_ids": [
+          "288450956675407873"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T01:02:02.000Z",
+        "id": "288450454587850752",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 10,
+          "quote_count": 0
+        },
+        "text": "000dd27: b6d3a774bebdba68eef6253eba9c00fb36efd5fe17f25019bc58d8461eb07826e308ff0ae46414c40b413e29ccc9833a0a783a6ffb92ae54e680f716b48dcb2f15",
+        "edit_history_tweet_ids": [
+          "288450454587850752"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T01:00:01.000Z",
+        "id": "288449948465389568",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000dce6: 4de836756593235b7f919eb04fab82422a24367117b63b293ad8dec1dbb7959b83246705ae0da95d4b6bdbf2e858d755b1c2b0239421fd131c5abb57deabfe802a",
+        "edit_history_tweet_ids": [
+          "288449948465389568"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:58:01.000Z",
+        "id": "288449446516252672",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000dca5: f910ab0905ff46fa70a7d54d7d6e142b02c1baa69905a5ffd79bde0119776d9bad77f583923fddae5df8eefa69007ef7841f84a26f631b3f2034855d40ca41ddcc",
+        "edit_history_tweet_ids": [
+          "288449446516252672"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:56:02.000Z",
+        "id": "288448944613253122",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000dc64: 7d61276d1399ba23789d0822a51837cc35ae86e759e4f1bd74d02a5c2d1f78097ed1d232d20e5bfbaed1dfaa924298ff32d5c60c916ee7e390e2a24109816f3e88",
+        "edit_history_tweet_ids": [
+          "288448944613253122"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:54:02.000Z",
+        "id": "288448442483748864",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000dc23: 11f1af8c697a24b7b58ad75d1cd11fdcb143fffe9f35d674c6702d66302841ebbdde897068af3940650898aa1825b976acbc611bcc46050194072ed8fc2634ebce",
+        "edit_history_tweet_ids": [
+          "288448442483748864"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:52:01.000Z",
+        "id": "288447936352886785",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 1,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000dbe2: 5f71beb0487a15eb2e7fdaaff9c4f0db4b593f33a50828109797e4191ba05665fc36f5763631145ed73b00ef0f4c49655ff5cbf3bb10c152048641adf999da3282",
+        "edit_history_tweet_ids": [
+          "288447936352886785"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:50:02.000Z",
+        "id": "288447434454073344",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000dba1: 3b87f836bb53fa4c8e0793a0a302001bfc266b18e3af25b32a1f16f9af44bb1825308ab4e55e570f8041222a78e50ed45af7ab63eaedd4fafc6f0ecf23fe30e5b3",
+        "edit_history_tweet_ids": [
+          "288447434454073344"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:48:02.000Z",
+        "id": "288446932194582528",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 10,
+          "quote_count": 0
+        },
+        "text": "000db60: ab8d2eea5154aad4f95e3ea65b76d0efa5955ce5e9f70656364eeca547f11f55bd5f945eba34eb91388aa1f65e2e5928a986004d88ba32c5326de18765df82a720",
+        "edit_history_tweet_ids": [
+          "288446932194582528"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:46:01.000Z",
+        "id": "288446425904324608",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 7,
+          "quote_count": 0
+        },
+        "text": "000db1f: 3602f42d41e7c057995836bfc08873ccf157a55dfd575261e351e7782a200f6d093f204232fe9e6eb2e4139fdde2d061549473a8a483face1eda284f5f8b6b7801",
+        "edit_history_tweet_ids": [
+          "288446425904324608"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:44:01.000Z",
+        "id": "288445923896479746",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 9,
+          "quote_count": 0
+        },
+        "text": "000dade: 00e458b88bc065e4b250b69f29d6de206c15867803ead307c86d3d2fce9bed3093fd01de39c3045b39c780fe100096a5f6cf7ad404a661d3cf9b4495ce40a7b1f0",
+        "edit_history_tweet_ids": [
+          "288445923896479746"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:42:02.000Z",
+        "id": "288445421850857473",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000da9d: 9ef98ffc037049f4f8d7bd2c76def5782fc28e96e5c0f07b0a667e0b50248db4c6232902bdb83682809a80ddd58650e2b4a8d8015996a70b5d71a6dcfeeb872c8d",
+        "edit_history_tweet_ids": [
+          "288445421850857473"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:40:01.000Z",
+        "id": "288444915631931393",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000da5c: 413695c161b3d9945f0940fe87e59bf16ea453d8bff664cff3033cde80d6980d579fa4ab5b1cd5e5474f42a4bd0ef175dbd2a4f3b4b128df0058883bc011154d79",
+        "edit_history_tweet_ids": [
+          "288444915631931393"
+        ],
+        "entities": {
+          "annotations": [
+            {
+              "start": 0,
+              "end": 6,
+              "probability": 0.5286,
+              "type": "Other",
+              "normalized_text": "000da5c"
+            }
+          ]
+        }
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:38:01.000Z",
+        "id": "288444413527613440",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 9,
+          "quote_count": 0
+        },
+        "text": "000da1b: f65b2046c5ae6ab69f12adc6f9433dfdb51fdbe8b5b6adb01b5485f9bf5b7a7a6b4dd58431993be531cbb05fd98af9d9d133dfa2c07b41b49a9224303d6612a55d",
+        "edit_history_tweet_ids": [
+          "288444413527613440"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:36:02.000Z",
+        "id": "288443911591047168",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 1,
+          "like_count": 9,
+          "quote_count": 0
+        },
+        "text": "000d9da: 8e0a35a9b3481584d84786723a59f2e4d4e2c9643fffa601d2c946f39f836d2af4f31e13e172321619d1ca6b312959c6658ce64fda77087112cbce34b470915a8b",
+        "edit_history_tweet_ids": [
+          "288443911591047168"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:34:01.000Z",
+        "id": "288443405237903360",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 2,
+          "reply_count": 1,
+          "like_count": 9,
+          "quote_count": 0
+        },
+        "text": "000d999: c4931953c269dc3e474c2ec5c8f5c236337dc94bf2356f772b88d8a492d5ecbd4b0d35561f5ac6f922d4ef89fbd742d312c1b70856c653a4434ceb7e296b4143bf",
+        "edit_history_tweet_ids": [
+          "288443405237903360"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:32:01.000Z",
+        "id": "288442903162929152",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000d958: d4bf0b925b1da0d1cb90ed37e7cf511dffa3e69d21eeec503a3f167032b4632bf52b398c042858fb5e93006af03ce1537fb266fbeae993e36de5c8222b4bad24ec",
+        "edit_history_tweet_ids": [
+          "288442903162929152"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:30:02.000Z",
+        "id": "288442401238958080",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 2,
+          "reply_count": 0,
+          "like_count": 9,
+          "quote_count": 0
+        },
+        "text": "000d917: 438c60a710cfbcb5e48ba8960dcc40471650908ef2067f06ad5b1c694ff10f19d4ddd0db282172c5b80c8201b8eb4a0bf9778c9c83c4e57e3e59155939ff481c3b",
+        "edit_history_tweet_ids": [
+          "288442401238958080"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:28:02.000Z",
+        "id": "288441898618728448",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 2,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000d8d6: 6d49cfefed945091d384145f79c2059afdf8341d26d9abd2462eab3d29e22f68acf2b36cb1e0aea68dc65f2440c04d809637c4dfdbad874f6ed687b0fb5709df99",
+        "edit_history_tweet_ids": [
+          "288441898618728448"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:26:01.000Z",
+        "id": "288441392433348608",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 9,
+          "quote_count": 0
+        },
+        "text": "000d895: ff6f1d29de60c188d5f4d61f4be4bf6991c14512915c4ab4ddc86abaf3f925741f2e4a2e2f36f55613cfd30c8ff7ee79ac837c344bf8c6669949b6f17f45fe7d9b",
+        "edit_history_tweet_ids": [
+          "288441392433348608"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:24:01.000Z",
+        "id": "288440890542944258",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000d854: dd4c292144ef049e90ab64e6d9a223a1c9b5b5bb51383f1fd29f8f9394205b384a9ffa3eee0083b6a8fa08273df63c68dcf468caf15d14651d2289ad2686729786",
+        "edit_history_tweet_ids": [
+          "288440890542944258"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:22:02.000Z",
+        "id": "288440388514103296",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 2,
+          "like_count": 8,
+          "quote_count": 1
+        },
+        "text": "000d813: 29b39c1673fe058a9656e788d382ae9bc698580cbb6890d118d0cbf92dbde767b245e526f8be4510f011af22e50f6d094847c0e4fc5d6dd56e601687d0192a8860",
+        "edit_history_tweet_ids": [
+          "288440388514103296"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:20:01.000Z",
+        "id": "288439882249035776",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 1,
+          "like_count": 9,
+          "quote_count": 1
+        },
+        "text": "000d7d2: efd7149db07257bb2f8cbecc7dab51dee78c4513388fc2804e424e593672230263465c551173c1a33f2def0b835fd335d0949bac3550c1688f92a7684145a2d9f3",
+        "edit_history_tweet_ids": [
+          "288439882249035776"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:18:01.000Z",
+        "id": "288439380492840960",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 7,
+          "quote_count": 0
+        },
+        "text": "000d791: f1201ebc64f6dd3f0d2c5f56af4accb2c7bb0cc5dce4b431fe705d03f1747a3c772d081146e79ec2516a2e3b7c15ee2cffaf59ac6522040a1098aae1e2a6f7d15d",
+        "edit_history_tweet_ids": [
+          "288439380492840960"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:16:02.000Z",
+        "id": "288438878568857600",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000d750: 15d31bfeb113d719e14e33a02507e7ccb9ad15eee9d920bfcfbe84927f85122c155f806d4ea9c863c316ca89b2cadd1ecf194346dacdebb17f079a8422389ad65a",
+        "edit_history_tweet_ids": [
+          "288438878568857600"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:14:01.000Z",
+        "id": "288438372391849984",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 7,
+          "quote_count": 0
+        },
+        "text": "000d70f: 0f299520e17035c7878af0bf5fe3fa6409970c5dff914e60314cdbf74e6a3d54206a85b066dd8b01032653813162a5f07179bebc132f4a9d8118bec7cce8a87feb",
+        "edit_history_tweet_ids": [
+          "288438372391849984"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:12:01.000Z",
+        "id": "288437870543376384",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000d6ce: 05f9804ebb162580974c18a4548ee9b257351657e76ec3caee8e8e1000a7ea55dd5b17164cb7088d38f8d670c78a4b3559c68bbfb7f97850a108b5a47b82ea1955",
+        "edit_history_tweet_ids": [
+          "288437870543376384"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:10:02.000Z",
+        "id": "288437368611033089",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000d68d: 83273edb62f500deda287b5f26573deb8b76de572723bfd8519ed645b0f172d64424325e90761759c6265c229670868b2e03e4a92cc635eadeda456c46f58e3949",
+        "edit_history_tweet_ids": [
+          "288437368611033089"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:08:02.000Z",
+        "id": "288436864589914112",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 7,
+          "quote_count": 0
+        },
+        "text": "000d64c: 43994b657afa8fee3295c261e1ddc5a46c31bb8ee5b6c514496d5cf54ee7ef940b1135e4bbad3a12bb4197171a17af837235d33704f38c30add7e743fff4b63223",
+        "edit_history_tweet_ids": [
+          "288436864589914112"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:06:02.000Z",
+        "id": "288436362569469952",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 9,
+          "quote_count": 0
+        },
+        "text": "000d60b: 7a60bb798812deb834647e5dbfa795a91a68c88a494b6aca399c37c44693add190aac4f4ef03218bb0a31f6fedd0d0946d760c6fa68d8bcb4ca0009de5c6acb446",
+        "edit_history_tweet_ids": [
+          "288436362569469952"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:04:01.000Z",
+        "id": "288435856354721792",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000d5ca: ff9bdd47684c319a202e2bd0a50e8a8b13fb36b8434b6886698a92ae7467278db64c1862dd09440bf4216b6ed90f34f0f5a544db67ca887a02b9d02ffe2b35357c",
+        "edit_history_tweet_ids": [
+          "288435856354721792"
+        ],
+        "entities": {
+          "annotations": [
+            {
+              "start": 0,
+              "end": 6,
+              "probability": 0.602,
+              "type": "Other",
+              "normalized_text": "000d5ca"
+            }
+          ]
+        }
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:02:02.000Z",
+        "id": "288435354598514688",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 7,
+          "quote_count": 0
+        },
+        "text": "000d589: d92fb725b208c0b9e359ffd207c8ad8408f95508481bf28c60eaa95b904dee1967442ae8930d12aa31b671e3b1ffbad2319b0c5abe9eda8596f4d36a33defaf110",
+        "edit_history_tweet_ids": [
+          "288435354598514688"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-08T00:00:02.000Z",
+        "id": "288434852833927168",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 9,
+          "quote_count": 0
+        },
+        "text": "000d548: cb1af8751380f1bda3d49f6954affd707bf5650a0e3019e962b8fe6890882378840ad457660837c84e1cc4eab96674b7e075640ec2ad76aa9fbf869f08b35ed147",
+        "edit_history_tweet_ids": [
+          "288434852833927168"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:58:01.000Z",
+        "id": "288434346350768128",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 7,
+          "quote_count": 0
+        },
+        "text": "000d507: 496b291efacfca3bb1fa16cd6675fce0531ae435d18f742eae78ec82aec074895624e8bba4945a8b43fb762c6e45367592706fa20397e569ce6db160a06fcb227a",
+        "edit_history_tweet_ids": [
+          "288434346350768128"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:56:01.000Z",
+        "id": "288433843692781568",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 7,
+          "quote_count": 0
+        },
+        "text": "000d4c6: 15773f949a22d60dda03a91fcb8017ac49cae4b87efdad9e33ddee0bf23412c960a8acfcf7226a9d2db88f7dfb0a5c9f6c9d9ed9353072356ee23006fa43276063",
+        "edit_history_tweet_ids": [
+          "288433843692781568"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:54:02.000Z",
+        "id": "288433341655568384",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 7,
+          "quote_count": 0
+        },
+        "text": "000d485: aa30f8417c8b466b9e7e8c5d7f02e42a2b2c1970581937badb193136899a14fb101ed3ed08cd047b813f82c8fe2578db7b75d5e5ed9240a360cabb2d8bee82f6cb",
+        "edit_history_tweet_ids": [
+          "288433341655568384"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:52:01.000Z",
+        "id": "288432835554062336",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 7,
+          "quote_count": 0
+        },
+        "text": "000d444: 0fbccc7655bd77ac4decb9735eef7cf9de17f0f9ab8dd1eb535fc9e0687fc2ec6455cc05346dcc998bf5bddf68f272b8bae0d2944bf4227a455b03fc0092806916",
+        "edit_history_tweet_ids": [
+          "288432835554062336"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:50:01.000Z",
+        "id": "288432333504278529",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 9,
+          "quote_count": 0
+        },
+        "text": "000d403: 9bde9725b73d64aa5c4e7369122c2ce3bcdaf4de51ed59078671fe3b14d29fb655b5f5a7af08ae2d61deb53a6c31d806cee244b9199a49313a0643e9b90bebabdd",
+        "edit_history_tweet_ids": [
+          "288432333504278529"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:48:02.000Z",
+        "id": "288431831441887232",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 10,
+          "quote_count": 0
+        },
+        "text": "000d3c2: 33e1512185c3a7562d24b5bb710901c43f4bf8b97f36b6152b5fae93adf3fa8a7f12e00fccacc384da228eac40f19c1fdb023d43c9bb0f2bd2133b9149e47abd59",
+        "edit_history_tweet_ids": [
+          "288431831441887232"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:46:02.000Z",
+        "id": "288431329585016835",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000d381: 17e772665311831ab25b6ca2cebd60779f97fc628ad56ea01ca1026a70d66853e13348710fd035a0d59917abf480312ee2f106a3dff40a5da3a4d2df6f519b02b7",
+        "edit_history_tweet_ids": [
+          "288431329585016835"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:44:01.000Z",
+        "id": "288430823479316481",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 7,
+          "quote_count": 0
+        },
+        "text": "000d340: cdeb32ba4356cdfd9d4574a15ada6e8bcfdaea67dada9d91bd7a9e7aa9ec4194fda39d6adff0315d6205d1e84c9421df7499c5479d25df4df5a6e01514b3199962",
+        "edit_history_tweet_ids": [
+          "288430823479316481"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:42:02.000Z",
+        "id": "288430321437904896",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000d2ff: 0dd7e57f0bfa12d5ff8bf4c6c30129c1c70ef8f80f92b827dafd69d40e941bd02fe63e25b420b392e5a4cb4cfd1f563aab7aa6da3909b0d7cefe2e2219166e09e2",
+        "edit_history_tweet_ids": [
+          "288430321437904896"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:40:02.000Z",
+        "id": "288429819736256515",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000d2be: d7861157e571bcf10cb1218609571e1e81c80395f5eeaff7b386a835354196ffacd52c83d43c544a8b519a1f5f5d6dcf28cfb5af9ddd80248005cde55e32e5420d",
+        "edit_history_tweet_ids": [
+          "288429819736256515"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:38:01.000Z",
+        "id": "288429313638952962",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 7,
+          "quote_count": 0
+        },
+        "text": "000d27d: 4bd173d8ecd7cdd96fa2e066f0fc1976008f71b14113ec1617403736101e31cd6a728a2b7aa13df6491e888e33805cd7f1f26a051397c226994c15a814ab01e57b",
+        "edit_history_tweet_ids": [
+          "288429313638952962"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:36:02.000Z",
+        "id": "288428811626881025",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 7,
+          "quote_count": 0
+        },
+        "text": "000d23c: 33870eb6dae15f8613c6a1d1e6c259c7f5e675915bfcf3c57ab9f60aef72734f9191a4d0b91a748aa6d184d0e2d4ef38a482467d612f5e0aa32b7d838f6a0bc25a",
+        "edit_history_tweet_ids": [
+          "288428811626881025"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:34:02.000Z",
+        "id": "288428308591411200",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 7,
+          "quote_count": 0
+        },
+        "text": "000d1fb: 0ec510a61089a934f138c1d160f1ff91eed479b46748e493830470a65f132b17c53958bbfa8408a542b3626fe9e95a1b7ed37420db1ac48a3f6475321e421f3ac5",
+        "edit_history_tweet_ids": [
+          "288428308591411200"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:32:01.000Z",
+        "id": "288427802615742467",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 7,
+          "quote_count": 0
+        },
+        "text": "000d1ba: fa97879e399bcd432cffc8dddde26a8ec8230697526cc8145f1f46a00ecca9ae6378bd827b27d2caed0c4f06dd573b0c6ddbe69276a8ede067dafea26cbce2218e",
+        "edit_history_tweet_ids": [
+          "288427802615742467"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:30:01.000Z",
+        "id": "288427300595314690",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 9,
+          "quote_count": 0
+        },
+        "text": "000d179: 75d4727901c8bc6e6008877db99d29bd462e787015a4bee8fae576f5a81dd131cb840b1c30bf50e35d038c16f11a33c364dbc095f0ac89eb609e7a42a5fa13352a",
+        "edit_history_tweet_ids": [
+          "288427300595314690"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:28:02.000Z",
+        "id": "288426798117711872",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000d138: cf1065279510e772c599e65a07cfe4956a57f722fd1c625bfa82596d0da912916abb58d1190415695f14d2fea661f492ce3c4c9e459276ff14dec5997a061d54f0",
+        "edit_history_tweet_ids": [
+          "288426798117711872"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:26:02.000Z",
+        "id": "288426296172756993",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000d0f7: 04b260f5bdfbe8e93cefadab09bcb566ed5c5de11b73f0b7c565a33e317128040b61e51c2a7a79eb95fd73946512017a25310cc38fe2829ec0a26904a6acb1fe6b",
+        "edit_history_tweet_ids": [
+          "288426296172756993"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:24:01.000Z",
+        "id": "288425789672787968",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000d0b6: 6f0d8ad66446b118c989f273b40c5d6c93815b9f56d04d4f3d662fbd1c6a153400d7478bc39c49b4c806edb8ea46f896233d4e75d74bbb390088e7e976b1713e8c",
+        "edit_history_tweet_ids": [
+          "288425789672787968"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:22:01.000Z",
+        "id": "288425287862067201",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 6,
+          "quote_count": 0
+        },
+        "text": "000d075: db3dce02bbab29de8c3495aadb93fee50037db405b760df26d6b4afb6d8fc64e282ccdbf368984df73aef7a52d6fffe5fc8e7d75cff5dbe979ad895c5ba183ea7d",
+        "edit_history_tweet_ids": [
+          "288425287862067201"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:20:02.000Z",
+        "id": "288424786097500161",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 7,
+          "quote_count": 0
+        },
+        "text": "000d034: bf9538e4d1359a0f1af1882cf6d5841d3712a0712c843d706453f49d1ba896d0ed567e7ad238c246a946d8944c27d80bf4efd4556fc7fa339a77677c64775a1e2f",
+        "edit_history_tweet_ids": [
+          "288424786097500161"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:18:01.000Z",
+        "id": "288424279782064130",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 6,
+          "quote_count": 0
+        },
+        "text": "000cff3: 2adcd42223be4f362168fe4b36ff17d2730020c2878d41ff2e382fc472f13af8f7d1cec9c56fcf5056e66a20e255bf897232f822555db28bef604cac39d900f614",
+        "edit_history_tweet_ids": [
+          "288424279782064130"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:16:01.000Z",
+        "id": "288423777904242688",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 6,
+          "quote_count": 0
+        },
+        "text": "000cfb2: f6a9ae79e382211a53bd61a431b4eb3c06b5385cb8a60e472f2d735f3bfd31b7a2edcfc8fdc674b1f0b41227e9bde156d15446a43cdf7567a997d1ee5c00860bf4",
+        "edit_history_tweet_ids": [
+          "288423777904242688"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:14:02.000Z",
+        "id": "288423276001230848",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 2,
+          "reply_count": 0,
+          "like_count": 11,
+          "quote_count": 0
+        },
+        "text": "000cf71: 8d19e100adbedb2875bd4a05b9479be9ca462a9694488c15543195d2fb52396882d5164ebaf7f9c40a21aa75ed1f3f7b21124ab40dceab83fac2072a72c3069b2a",
+        "edit_history_tweet_ids": [
+          "288423276001230848"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:12:01.000Z",
+        "id": "288422769782321152",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 7,
+          "quote_count": 0
+        },
+        "text": "000cf30: 5486bdcb9da575ade6fd29a07331f96caefe8ce35c29fee7b46128c8df7e54e2b14f8baa36a0c391df7343148d9cfb2c52c746e923c9661fd064e20c8de1f76d00",
+        "edit_history_tweet_ids": [
+          "288422769782321152"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:10:01.000Z",
+        "id": "288422267627651073",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 6,
+          "quote_count": 0
+        },
+        "text": "000ceef: f609c26fa541b16e44ff370edd32a1e5ae9689502fab3f7fa87cd88d1342527002e058251d5110486758331458f62e5856997a89d693e5c46d89cb3515f8e9b74d",
+        "edit_history_tweet_ids": [
+          "288422267627651073"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:08:02.000Z",
+        "id": "288421765443616768",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 7,
+          "quote_count": 0
+        },
+        "text": "000ceae: dd111bb5e9871fc4c4af5ee7dbc0b93b1514451a5a74175a6de7c7ae1639d256df4f29a20f1a14675c3bd27e96744b0d226c9190d85cad0f8c330130e373e26dee",
+        "edit_history_tweet_ids": [
+          "288421765443616768"
+        ],
+        "entities": {
+          "annotations": [
+            {
+              "start": 0,
+              "end": 6,
+              "probability": 0.5716,
+              "type": "Other",
+              "normalized_text": "000ceae"
+            }
+          ]
+        }
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:06:02.000Z",
+        "id": "288421263435771904",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 6,
+          "quote_count": 0
+        },
+        "text": "000ce6d: a5236fe87d7931c9a63bbae31f808da09377baa045021455cd842774f800eb973cfa2a36398df794cf29e037f26321dae82ec0d8f7e4b2f53c7f064007a84c394e",
+        "edit_history_tweet_ids": [
+          "288421263435771904"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:04:01.000Z",
+        "id": "288420757267161088",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 7,
+          "quote_count": 0
+        },
+        "text": "000ce2c: 5b027492a069ac5673bdffcb3a6e17c983905d4608a7e9af231680bf05f63d01d64fba14689418fd7c85151000fc67b8a202a54fffce906ab09af8d83de4d97f5a",
+        "edit_history_tweet_ids": [
+          "288420757267161088"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:02:02.000Z",
+        "id": "288420255515172864",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 8,
+          "quote_count": 0
+        },
+        "text": "000cdeb: 83060247a4181214b5b9bea8a5eed8db1d05e15b2f7096afe4bab3f1590b2ba37a6cd5c4e59df1e409ea68c0ebbb4bded04a48bf74580b161bdaedc60d32bd3546",
+        "edit_history_tweet_ids": [
+          "288420255515172864"
+        ],
+        "entities": {
+          "annotations": [
+            {
+              "start": 0,
+              "end": 6,
+              "probability": 0.6125,
+              "type": "Other",
+              "normalized_text": "000cdeb"
+            }
+          ]
+        }
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T23:00:02.000Z",
+        "id": "288419753742184450",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 7,
+          "quote_count": 0
+        },
+        "text": "000cdaa: 68dee11ed9460ea633df2eae8208a5aa03e8c8d0b0fb56fdc5b2caf9b3fe53191079147c9122a3145836f61a4d0c67f9477a83f404bdacef490cd70ad2c76b469f",
+        "edit_history_tweet_ids": [
+          "288419753742184450"
+        ],
+        "entities": {
+          "annotations": [
+            {
+              "start": 0,
+              "end": 6,
+              "probability": 0.4957,
+              "type": "Other",
+              "normalized_text": "000cdaa"
+            }
+          ]
+        }
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T22:58:01.000Z",
+        "id": "288419247019921408",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 6,
+          "quote_count": 0
+        },
+        "text": "000cd69: e9a4e5d79e88fcc1a7465a8f4fa62a1d6e48e7440051fe8cad1237e4d0c5ca363fbeba339df09c2634cbc3a7bf18fa0cdb2e38b8bbac5ed9d3e85a4a97ba0df0c5",
+        "edit_history_tweet_ids": [
+          "288419247019921408"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T22:56:01.000Z",
+        "id": "288418744701693952",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 6,
+          "quote_count": 0
+        },
+        "text": "000cd28: 02115b9e74aa99fda372a4468e10a7958e00468bdbda809f3cfee7fe20b13cae9814d65f2fc094299f0b5824c4371675ea7ea0c0a7883ce0216429361154c8d185",
+        "edit_history_tweet_ids": [
+          "288418744701693952"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T22:54:02.000Z",
+        "id": "288418242706407424",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 6,
+          "quote_count": 0
+        },
+        "text": "000cce7: dad07561eb07981e2c05dd651148fe84f2c4d31e328d1646850be476bb9fd0cb25aa364c64b8329f89dc2382d09f8ef2571a39fac5d6cde21fd00e1667db71f10c",
+        "edit_history_tweet_ids": [
+          "288418242706407424"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T22:52:01.000Z",
+        "id": "288417736596529152",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 6,
+          "quote_count": 0
+        },
+        "text": "000cca6: 4ca04088b9b1df4106ab0ca81d640c4bd8d5075c6a1baa20f1c27b9e04e01dc9d743eb9d8d71e5ed1ce61b09a782b90314c4fc00da04293a88207b7341a84a91f0",
+        "edit_history_tweet_ids": [
+          "288417736596529152"
+        ],
+        "entities": {
+          "annotations": [
+            {
+              "start": 0,
+              "end": 6,
+              "probability": 0.6268,
+              "type": "Other",
+              "normalized_text": "000cca6"
+            }
+          ]
+        }
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T22:50:01.000Z",
+        "id": "288417234446086144",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 6,
+          "quote_count": 0
+        },
+        "text": "000cc65: ef180b7eceec9a8a23d2fc2d6ece5303d0dc263d2b0131125c6bdbbfef7f89151386faee1ea3fe4e58a7701efb57807c9d6943753d08a0275ab80d5116e9973a58",
+        "edit_history_tweet_ids": [
+          "288417234446086144"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T22:48:02.000Z",
+        "id": "288416732522115072",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 6,
+          "quote_count": 0
+        },
+        "text": "000cc24: dffb6124e641c6a08ec1524f30b4c249dd8ccadbcfb9c706c1c2d4263f4ca46500f5ea82947a8a786512f254397f82a2deef42f0c0731afa188aa314322ab00d98",
+        "edit_history_tweet_ids": [
+          "288416732522115072"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T22:46:01.000Z",
+        "id": "288416226164764672",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 6,
+          "quote_count": 0
+        },
+        "text": "000cbe3: 39db6989d00464294ca5ab99d15ea2296f24267472ff13d17726937b9190af909c58a6e2dadee5ad69c2a88f7fcd1e203889622972fcbb8f944d912ba9caf991ed",
+        "edit_history_tweet_ids": [
+          "288416226164764672"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T22:44:01.000Z",
+        "id": "288415724458872832",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 6,
+          "quote_count": 0
+        },
+        "text": "000cba2: 51d64134c64cb0efc952fee3fb902557bf2cdb4b7bc381933cae9fdb1de7307e0fb8c08504386dcf390437818af99ec1dc8f9ec42776ef32d59491aefe82165762",
+        "edit_history_tweet_ids": [
+          "288415724458872832"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T22:42:02.000Z",
+        "id": "288415222618800130",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 6,
+          "quote_count": 0
+        },
+        "text": "000cb61: c76dd1a647f991ca51c5884eea92c7e6228795bb01ebebce20d8e9210c46d95c7f4d3d4ff2d6ac2c796bbe290d890a9fc66be94cafbfdeb16ad56cf4167db06715",
+        "edit_history_tweet_ids": [
+          "288415222618800130"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T22:40:02.000Z",
+        "id": "288414720564801536",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 5,
+          "quote_count": 0
+        },
+        "text": "000cb20: e8a421257401a28c6658bab9f4f9989329f86fd3043ce502ed915121b5472d84bdfd6e5ceccaafc9d269d4134d834af53ae5f30ed46cb2f7d62cd7b47c6178cca0",
+        "edit_history_tweet_ids": [
+          "288414720564801536"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T22:38:01.000Z",
+        "id": "288414214186479616",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 5,
+          "quote_count": 0
+        },
+        "text": "000cadf: 647cc2ce3eba304b13fa46b75b7cb2e72722aa28e5d57bcb8ad6dfc90240dce25dbfc9dc1556f89ab47624ea49efe6e7090c8183c0390cc095270e374f53341c82",
+        "edit_history_tweet_ids": [
+          "288414214186479616"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T22:36:02.000Z",
+        "id": "288413712493182976",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 6,
+          "quote_count": 0
+        },
+        "text": "000ca9e: 014169e7e0196bfdb7d49440466a4f82408f600ad8a9a6c0028ab489b69e34b0ba6f9a5698423994e28a682a8f2bfd3404cf8bac347ce0c2104ba12761c2d77c64",
+        "edit_history_tweet_ids": [
+          "288413712493182976"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T22:34:01.000Z",
+        "id": "288413206173589504",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 5,
+          "quote_count": 0
+        },
+        "text": "000ca5d: 15b9c69b875d4893624a70695120641bf6c5e39da323b6826f518c2b2397476bd398b6d80bce8540bec3bd5cb7279cf47ceda7058bf4d6b3df3dfdb1d3028209de",
+        "edit_history_tweet_ids": [
+          "288413206173589504"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T22:32:01.000Z",
+        "id": "288412704325111808",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 5,
+          "quote_count": 0
+        },
+        "text": "000ca1c: adde6fb19fbc7ac08ea3362a9c9267e64c624a508d6b4d8db862a02bd8bf0a7aa89c4d45d544110bb682fe5637ddf23502cf4dd7417559bf61a522ed2d9563c2ac",
+        "edit_history_tweet_ids": [
+          "288412704325111808"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T22:30:02.000Z",
+        "id": "288412202573127680",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 5,
+          "quote_count": 0
+        },
+        "text": "000c9db: 91969c11c494fa185908554407e4aafb617393e034b785e90b9a54fd7a1995ca12d02f47a2ceb8b26ed83a7879155544abe98da5a4413e5bd0d786a7a17c908c2c",
+        "edit_history_tweet_ids": [
+          "288412202573127680"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T22:28:02.000Z",
+        "id": "288411700280037376",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 7,
+          "quote_count": 0
+        },
+        "text": "000c99a: 721858fe5a59325eaf0238b82cb176011ebf4e505004c9adffa228ded0a7b586ecc5f6643a4436c93969453835b6166fe344060ead63685032266bc801a952e8a4",
+        "edit_history_tweet_ids": [
+          "288411700280037376"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T22:26:01.000Z",
+        "id": "288411194132418560",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 6,
+          "quote_count": 0
+        },
+        "text": "000c959: cda5668d37839e99dd728b7565602ff250e0eae900f64647b87c89b043b29bea085a4822c278f7378a49ca8b678a4057765d9f64c944b7cb9aff063d4641bd3965",
+        "edit_history_tweet_ids": [
+          "288411194132418560"
+        ]
+      },
+      {
+        "reply_settings": "everyone",
+        "source": "1033",
+        "created_at": "2013-01-07T22:24:01.000Z",
+        "id": "288410691306651649",
+        "author_id": "1051406972",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 6,
+          "quote_count": 0
+        },
+        "text": "000c918: a0278b11bf64fe6b1ddbbec593e1194b610b971fcd3984bcd05c5d8c45ebc967fc298e987ac31582226ae3f8b282be71177801b5695ad6404b315f25b5bab3165f",
+        "edit_history_tweet_ids": [
+          "288410691306651649"
+        ]
+      }
+    ],
+    "meta": {
+      "next_token": "zldjwdz3w6sba13n5ul16ye895watau8nn3bfhhmdrt",
+      "result_count": 100,
+      "newest_id": "288460521093619712",
+      "oldest_id": "288410691306651649",
+      "previous_token": "10iy0xk016rrqp9x9wo0pfw4heweyyxr8zrlqhjvl0ky"
+    }
+  }

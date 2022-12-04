@@ -1,6 +1,3 @@
-ALL:
-Create out-of-band keyring for the less technical savvy
-Add verification scripts
 Check for whitespace everywhere
 List books/art/whatever
 Timeline
@@ -9,27 +6,50 @@ Collect IRC logs, archives of forums, etc. #cicada3301srs #33012013
 Create loose ends
 Archive even potential leads
 Use all web.archive.com links
+Reference other pages
+Sanitization/link scripts
+Link numbers to puzzles
+Collect all numbers
+Run gematria across all puzzles
+Create loose ends pages
 
 2012:
+Factors of Valete saved to file after run with cado-nfs finishes
 Fix phone number. Are lines out of order?
 Combine key code for subreddit with full script
+Split the section that is a big multi-tool (can't remember)
+Move all txt to asc
 References
+Locate 2012 onion starting with e
 Figure out censored email/Nox correlation from here: https://discord.com/channels/572330844056715284/615334603049271322/935243326167318588
+How were RSA numbers "submitted" to onion?
 GPG decrypt RSA message twice
+Add verification scripts
+Document correct page
 Rename everywhere.jpg/copy the other to all the different filenames
 Other numbers found in IRC logs (either first onion or 8blahblah.com)
-Are there numbers around for retrieval of the RSA challenge available? (check IRC, are they the same as the QR codes?)
-Was the onion url on the second-chance message the same as on the first chance (apparently onion was proxy to same box)?
+Are there numbers around for retrieval of the RSA challenge available? (check IRC)
+Was the onion url on the second-chance message the same as on the first chance?
 Timeframe for when whitespace changed/sequencing of second-chance
-
-2012 - unlikely:
-Locate 2012 onion starting with e
-Locate .tk websites
-Document correct page???
+Document Valete in 003-subreddit
+Necrome
 
 2013:
+Leaving off at Gematria/whitespace
+Play with unused files from OS (data/ and /tmp). Try to solve it with the second method (half of twitter/full).
+Trace down the TRAILER!!! portion of the cpio image extraction and investigate.
+Align links to sections with the actual page in Twitter
+Reference pieces from OS in Twitter/vice versa
+Reference relevent files in puzzles
+Check for missing primes in OS output
+Clarification on sequencing of tweets
 
+Differentiate between bot/web client posts.
 
 2014:
 Train tesseract for runes - https://pretius.com/blog/ocr-tesseract-training-data/
+Follow up image on 1231507051321 Twitter (infotomb, now gone)
+
+2016:
+Infotomb message in folder from 1231507051321 Twitter
 
