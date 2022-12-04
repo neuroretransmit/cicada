@@ -1,0 +1,50 @@
+There's $325 in it for the first applicant to present a forged PGP-signed message from Cicada 3301, in a way that meets the requirements described below, to the #cicadasolvers IRC channel on Freenode. In sum:
+crashdemons will send you $75 by Paypal.
+onecool has also pledged $100 USD via applicant's preferred transfer method.
+marcusw has also pledged $100 USD in BTC.
+brotherBox has also pledged $50 USD in BTC (rip surtle).
+ 
+Qualifying requirements:
+ - Must generate *No Warnings* in a recent stable release of the standard GnuPG tool using the --verify option and the key (see below) imported as trusted.
+ - - For example: no "invalid clearsig header" messages
+ - - Only gpg (GnuPG) --verify output will be used as criteria for acceptance (no bringing your own PGP clone)
+ - - Kleopatra, GPGMail, Enigmail, and other frontends or third-party software displays will not be considered
+ - Must use a version of the GPG tool updated within the last year or so
+ - Must have a signature time within the past year
+ - Must return "Good Signature"/ GOODSIG
+ - The message must be in Clearsign text format and surrounded by the correct container lines (see Refer section)
+ - Must use KeyID 6D854CD7933322A601C3286D181F01E57A35090F (often displayed as "RSA key 181F01E57A35090F").
+ - Each bounty supplier plans to verify the solution personally before payment
+ - - We will judge soley on the output of GPG (GnuPG) on our own systems, as any prospective solver should.
+ - - We will import the 6D854CD7933322A601C3286D181F01E57A35090F key before verification and no others.
+ - - Multiple people will verify to ensure the results are consistent, fair, and documented.
+ 
+What to provide:
+ - - A message with sufficiently unique text that has not been published before in Clearsigned format (see Comments)
+ - - Some sort of contact information of your discretion so we can pay the correct person (must be included in signed message as proof you didn't steal it)
+ - - Your own --verify output (OPTIONAL - will not be used as criteria for acceptance)
+ - - Short explanation of what you did (OPTIONAL - will not be used as criteria for acceptance)
+ 
+Refer to:
+ - https://gnupg.org/download/index.html
+ - http://pgp.mit.edu/pks/lookup?op=get&search=0x181F01E57A35090F
+ - https://www.gnupg.org/gph/en/manual/x135.html#AEN152 (Clearsigned text)
+ - https://tools.ietf.org/html/rfc4880
+ 
+Contact:
+ - #cicadasolvers channel on Freenode IRC
+ - @crashdemons#0916 by Discord
+ 
+Comments:
+ - So-called "Duplicate Key" examples with the same keyid (see above) are preferred
+   since many have claimed these exist / can be created. (No 'duplicate keys' are known to exist)
+ - However, abusing new GPG exploits will be accepted (and immediately responsibly disclosed to GPG).
+ - Warnings related to the key being trusted during peer verification may be overlooked as they are dependent on individual gpg configuration
+ - The following text is recommended as your message (with newlines) but not necessarily required.
+"
+This is
+My Cicada Example
+Message
+for key 181F01E57A35090F <today's date> <name or username you prefer to go by>
+<btc address if inquiring about the second reward>
+"

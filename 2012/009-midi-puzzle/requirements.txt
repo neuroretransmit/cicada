@@ -1,0 +1,3 @@
+midi2audio==0.1.1
+mido==1.2.10
+wordninja==2.0.0
