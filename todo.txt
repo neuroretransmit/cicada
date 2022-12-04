@@ -1,3 +1,6 @@
+ALL:
+Create out-of-band keyring for the less technical savvy
+Add verification scripts
 Check for whitespace everywhere
 List books/art/whatever
 Timeline
@@ -33,6 +36,10 @@ Was the onion url on the second-chance message the same as on the first chance?
 Timeframe for when whitespace changed/sequencing of second-chance
 Document Valete in 003-subreddit
 Necrome
+
+2012 unlikely:
+Locate 2012 onion starting with e
+Locate .tk websites
 
 2013:
 Leaving off at Gematria/whitespace
