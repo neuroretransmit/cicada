@@ -15,6 +15,7 @@ Link numbers to puzzles
 Collect all numbers
 Run gematria across all puzzles
 Create loose ends pages
+Use all web.archive.com links
 
 2012:
 Fix phone number solve. Are lines out of order from API analysis?
@@ -40,8 +41,8 @@ Locate 2012 onion starting with e
 Locate .tk websites
 
 2013:
-Next portion after leaving off is the onion gained from TCP server
-Follow the offsets from twitter/OS and make sense of them
+Recreate ICMP pong messages
+Follow the offsets from twitter/OS and make sense of them (dataset was a big hint in SSSS)
 Play with unused files from OS (data/ and /tmp). Try to solve it with the second method (half of twitter/full).
 Trace down the TRAILER!!! portion of the cpio image extraction and investigate.
 Align links to sections with the actual page in Twitter
@@ -51,6 +52,8 @@ Check for missing primes in OS output
 Clarification on sequencing of tweets
 Run gematria for parable, create script and document
 Whitespace in message from first onion
+Phone recordings?
+Web page for SSSS codes?
 
 2014:
 Train tesseract for runes - https://pretius.com/blog/ocr-tesseract-training-data/
