@@ -28,7 +28,7 @@ This puzzle could be solved in two ways, one required the full text dump from th
 
 *Note: See [twitter.sh](twitter.sh) for single script to execute all that is below.*
 
-For each line in the code, the hex needs to be decoded to binary and written into a file at the specified offset. For this, I have written [decode.py](./decode.py). The output file is [twitter.bin](twitter.bin) - which is random garbage until we XOR with others to get something useful.
+For each line in the code, the hex needs to be decoded to binary and written into a file at the specified offset. For this, I have written [decode-tweets.py](./decode-tweets.py). The output file is [twitter.bin](twitter.bin) - which is random garbage until we XOR with others to get something useful.
 
 ```bash
 $ file twitter.bin
@@ -69,6 +69,12 @@ Extracting usable bits:   49750 bits
 Steg retrieve: seed: 17, len: 1443
 ```
 
+## Gematria
+
+A lookup table of Elder Futhark runes, English letter, and prime gematria value. Gematria is not a new subject, it has been used for Hebrew words for millenia. This is a unique gematria.
+
+Of note, this lookup table is missing lookups for the English letters `Q` and `V`.
+
 ![gematria.jpg](gematria.jpg)
 
 ```
@@ -101,5 +107,7 @@ iE8PVRkifCcJccw1bGq8TyCQF3a5ozeiBRngAUT7BwZhLa4bShtki7amR0ZZgbKk
 =ZeNf
 -----END PGP SIGNATURE-----
 ```
+
+This is not an empty message, there are long lines of tabs and spaces that need to be represented as binary and decoded to ASCII. See [decode-whitespace.py](./decode-whitespace.py)
 
 We have now completed the Twitter puzzle with the aid of [OS](../002-3301/README.md#3301) files.

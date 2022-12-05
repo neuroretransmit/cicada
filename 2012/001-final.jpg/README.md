@@ -1,6 +1,6 @@
 # final.jpg
 
-`final.jpg` was posted to 4chan's /x/ board on January 14, 2012.
+[`final.jpg`](final.jpg) was posted to 4chan's /x/ board on January 14, 2012.
 
 ![final.jpg](final.jpg)
 
@@ -12,17 +12,15 @@ The gibberish clearly looks like a URL, this can be decoded using a Caesar ciphe
 
 `cat appended.txt | sed 's/.*\"\(lxxt.*\)\"/\1/g' | perl -pne 'chomp;s{(.)}{chr(ord($1)-4)}sgex;$_.=chr(10)'`
 
-This results in an [imgur link](https://i.imgur.com/m9sYK.jpg).
-
-See my page on it [here](../002-m9sYK.jpg/README.md).
+This results in an [imgur link](https://i.imgur.com/m9sYK.jpg). Go [here](../002-m9sYK.jpg/README.md) for its page.
 
 ## Outguess
 
-To extract the message hinted at by `m9sYK.jpg` (decoys image), a steganography program called outguess must be used.
+To extract the message hinted at by [`m9sYK.jpg`](m9sYK.jpg) (decoys image), a steganography program called outguess must be used.
 
-`outguess -r final.jpg outguess.txt`
+`outguess -r final.jpg final.jpg.txt`
 
-Within the extracted text, there is a book code.
+Within the extracted text, there is a book code. See [final.jpg.txt](final.jpg.txt)
 
 ## Book code
 

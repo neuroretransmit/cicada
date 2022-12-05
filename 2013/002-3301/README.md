@@ -90,7 +90,7 @@ Of note, the interesting pieces here are:
 |Title|The Instar Emergence|
 |Artist|3301|
 
-Later, in the [twitter](../003-twitter/README.md#gematria) puzzle `1,595,277,641` and the poem will be given meaning and become clearer.
+Later, in the [twitter](../003-twitter/README.md#gematria) and [onion TCP server](../004-first-onion/README.md#tcp-server) puzzles `1,595,277,641` and the poem will be given meaning and become clearer. It is the product of the gematria value of the words.
 
 ### `data/`
 
