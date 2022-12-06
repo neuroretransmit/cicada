@@ -3,7 +3,6 @@
 import string
 
 ENGLISH_ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-GEMATRIA_ALPHABET = ENGLISH_ALPHABET.replace('Q', '')
 
 LOOKUP = {
     'F': 2,
@@ -14,6 +13,7 @@ LOOKUP = {
     'R': 11,
     'C': 13,
     'K': 13,
+    'Q': 13,
     'G': 17,
     'W': 19,
     'H': 23,
@@ -45,9 +45,8 @@ LOOKUP = {
 FIRST_LETTER_LOOKUP = {}
 
 lookup_keys = LOOKUP.keys()
-# TODO: Figure out mapping for V and Q and use them
-for letter in GEMATRIA_ALPHABET:
-        FIRST_LETTER_LOOKUP[letter] = [x for x in LOOKUP.keys() if x.startswith(letter)]
+for letter in ENGLISH_ALPHABET:
+    FIRST_LETTER_LOOKUP[letter] = [x for x in LOOKUP.keys() if x.startswith(letter)]
 
 def preprocess(txt, keep_tabs_breaks = True):
     preprocessed = txt.upper()
@@ -64,11 +63,8 @@ class Gematria:
         result = 0
         txt_iter = iter(txt)
         for c in txt_iter:
-            print(f"letter:\t\t{c}")
-            print(f"i:\t\t{i}")
             if c in FIRST_LETTER_LOOKUP.keys():
                 candidates = FIRST_LETTER_LOOKUP[c]
-                print(f"candidates:\t{candidates}")
 
                 # Peek forward in text to match larger possibilities
                 peek2 = None
@@ -80,21 +76,15 @@ class Gematria:
                     peek3 = peek2 + txt[i + 2]
 
                 if peek3 and peek3 in candidates:
-                    print(f"pick:\t\t{peek3}")
-                    print(f"value:\t\t{LOOKUP[peek3]}")
                     result += LOOKUP[peek3]
                     next(txt_iter, None)
                     next(txt_iter, None)
                     i += 2
                 elif peek2 and peek2 in candidates:
-                    print(f"pick:\t\t{peek2}")
-                    print(f"value:\t\t{LOOKUP[peek2]}")
                     result += LOOKUP[peek2]
                     next(txt_iter, None)
                     i += 1
                 elif c in candidates:
-                    print(f"pick:\t\t{c}")
-                    print(f"value:\t\t{LOOKUP[c]}")
                     result += LOOKUP[c]
                 else:
                     if c.isspace() or c in string.punctuation:
@@ -103,4 +93,7 @@ class Gematria:
             i += 1
         return result
 
-
+if __name__ == "__main__":
+    import sys
+    if len(sys.argv) == 2:
+        print(Gematria.english_to_value(sys.argv[1]))

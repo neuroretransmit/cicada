@@ -1,0 +1,9 @@
+﻿---
+BreakBeforeBraces: Linux
+ColumnLimit: '110'
+IndentWidth: '2'
+NamespaceIndentation: All
+PointerAlignment: Left
+SpaceAfterCStyleCast: 'true'
+SpaceAfterTemplateKeyword: 'false'
+...

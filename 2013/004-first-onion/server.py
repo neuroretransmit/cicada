@@ -92,7 +92,6 @@ But countless more do.
 ]
 
 ENGLISH_ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-GEMATRIA_ALPHABET = ENGLISH_ALPHABET.replace('Q', '')
 
 LOOKUP = {
     'F': 2,
@@ -103,6 +102,7 @@ LOOKUP = {
     'R': 11,
     'C': 13,
     'K': 13,
+    'Q': 13,
     'G': 17,
     'W': 19,
     'H': 23,
@@ -134,8 +134,7 @@ LOOKUP = {
 FIRST_LETTER_LOOKUP = {}
 
 lookup_keys = LOOKUP.keys()
-# TODO: Figure out mapping for V and Q and use them
-for letter in GEMATRIA_ALPHABET:
+for letter in ENGLISH_ALPHABET:
         FIRST_LETTER_LOOKUP[letter] = [x for x in LOOKUP.keys() if x.startswith(letter)]
 
 def preprocess(txt, keep_tabs_breaks = True):

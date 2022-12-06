@@ -16,6 +16,8 @@ Collect all numbers
 Run gematria across all puzzles
 Create loose ends pages
 Use all web.archive.com links
+Code cleanup - create universal scripts
+Attribution for sources
 
 2012:
 Fix phone number solve. Are lines out of order from API analysis?
@@ -41,6 +43,7 @@ Locate 2012 onion starting with e
 Locate .tk websites
 
 2013:
+Finish the TCP server implementation (next is broken and DH selecting 1 for base)
 Recreate ICMP pong messages
 Follow the offsets from twitter/OS and make sense of them (dataset was a big hint in SSSS)
 Play with unused files from OS (data/ and /tmp). Try to solve it with the second method (half of twitter/full).
@@ -54,6 +57,10 @@ Run gematria for parable, create script and document
 Whitespace in message from first onion
 Phone recordings?
 Web page for SSSS codes?
+Brute force valid decrypt for onion corrupted URL ending
+Fix QU/QW on browsers are useless server
+Implement HTTP 0.9 GET
+Modify names for telnet prompt
 
 2014:
 Train tesseract for runes - https://pretius.com/blog/ocr-tesseract-training-data/
