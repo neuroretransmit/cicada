@@ -18,6 +18,7 @@ Create loose ends pages
 Use all web.archive.com links
 Code cleanup - create universal scripts
 Attribution for sources
+Add onion statuses (I think all are down?)
 
 2012:
 Fix phone number solve. Are lines out of order from API analysis?
@@ -63,10 +64,15 @@ Implement HTTP 0.9 GET
 Modify names for telnet prompt
 Try XORing unused offsets
 Finish server/document DH in GOODBYE
+Create hidden service
 
 2014:
+Left off after XORing hex->binary from PGP in first 3 pages. Continue here (do the runes)
+Gematria tasks
 Train tesseract for runes - https://pretius.com/blog/ocr-tesseract-training-data/
 Follow up image on 1231507051321 Twitter (infotomb, now gone)
+What was the 512 character hex?
+
 
 2016:
 Infotomb message in folder from 1231507051321 Twitter

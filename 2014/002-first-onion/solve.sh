@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Skipping factorization or this script will take a whole day-ish
+
+./recreate-pk-decrypt.pl 97513779050322159297664671238670850085661086043266591739338007321 77506098606928780021829964781695212837195959082370473820509360759 "$(cat 1033.jpg.enc)"
+./recreate-armor.py > armored.pem
