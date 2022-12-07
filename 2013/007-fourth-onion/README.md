@@ -282,3 +282,29 @@ This server implementation is likely to weed out those who can program and those
 3. What if multiple clients connect and send data? You should like handle each client on a separate thread.
 4. One of the more question inducing pieces is recording in all data from an untrusted source. Since no one wants to miss a puzzle piece, I'm sure everyone wasn't sanitizing the next command in the event receiving the data was another piece and not ASCII.
     - Lets say they crash your code and are able to drop shellcode somewhere in memory. Even if they didn't get an execution the first pass or it is not a segfault, they could go for the eggdrop route. The same could be said as using it as a dropper to the filesystem and using another vulnerability to use it.
+
+### Cicada starts testing
+
+The following are logs from Cicada's testing. It is clear that a few commands are trying to spot flaws in implementation despite the terse nature/unthoroughness of testing. You may see a messier log [here](../008-invitation/Nj8gDqFG) which showed the [`invitation`](../../2012/010-invitation/invitation.asc) from 2012.
+
+```
+2013/02/25 14:32:01 server is running under address [::]:3307
+2013/03/03 10:57:48 got connection from 127.0.0.1:42483
+2013/03/03 10:58:05 executing 'rand 3' for 127.0.0.1:42483
+2013/03/03 10:58:09 executing 'rand 3' for 127.0.0.1:42483
+2013/03/03 10:58:18 executing 'rand 0' for 127.0.0.1:42483
+2013/03/03 10:58:29 executing 'rand 1' for 127.0.0.1:42483
+2013/03/03 10:58:56 executing 'quine' for 127.0.0.1:42483
+2013/03/03 10:59:10 executing 'base29 1033' for 127.0.0.1:42483
+2013/03/03 10:59:14 executing 'koan' for 127.0.0.1:42483
+2013/03/03 10:59:16 executing 'koan' for 127.0.0.1:42483
+2013/03/03 10:59:18 executing 'koan' for 127.0.0.1:42483
+2013/03/03 10:59:21 executing 'koan' for 127.0.0.1:42483
+2013/03/03 10:59:28 executing 'dh 3301' for 127.0.0.1:42483
+2013/03/03 10:59:56 executing 'dh 3301' for 127.0.0.1:42483
+2013/03/03 11:00:29 executing 'dh 3301' for 127.0.0.1:42483
+2013/03/03 11:00:58 executing 'next' for 127.0.0.1:42483
+2013/03/03 11:01:11 executing 'dh' for 127.0.0.1:42483
+2013/03/03 11:01:18 executing 'goodbye' for 127.0.0.1:42483
+2013/03/03 11:01:18 closing connection to 127.0.0.1:42483
+```

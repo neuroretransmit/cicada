@@ -1,73 +1,44 @@
 # Invitation
 
-An email was leaked that was sent to the winners of the final round.
+An email was leaked that was sent to the winners of the final round. Although the signature is dated in 2013, it verifies the [2012 leak](./stripped-signature-leak-02-06-2012.txt) with stripped headers is likely legit.
+
+See [2013's invitation](../../2013/008-invitation/invitation.asc) for a verifiable message with the same contents. They are identical.
+
+[source](https://pastebin.com/raw/RmqxWcnB)
 
 ```
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA1
 
+3301 cicada, this has been modified from your orriginal text in order to remove your uber sekret 0hd4y identifications signature.  If you think it belongs to any particular applicant it does not; and you DO know what I mean. u mad?
+
+---BEGIN FU ENCODING STRIPPED MESSAGE---
 DO NOT SHARE THIS INFORMATION!
 
-Congratulations.  Your testing has finally come to an end.  We hope you have enjoyed
-the "vacation" over the last few weeks.  You will be very busy now should you choose
-to join us.
+Congratulations your month of testing has come to an end out of the thousands who attempted it you are one of only a few who have succeeded.
 
-There are two final steps, although there won't be any hidden codes, or secret messages,
-or physical treasure hunts.  This first of these is only honesty.  We have always been
-honest with you, and we shall continue to be honest with you.  And we expect you to be
-honest with us in return.
+There is one last step although there will not be any hidden codes or secret messages or physical treasure hunts this last step is only honesty we have always been honest with you and we shall continue to be honest with you and we expect you to be honest with us in return.
 
-You have all wondered who we are, and so we shall now tell you : We are an international
-group.  We have no name.  We have no symbol.  We have no membership rosters.  We do not
-have a public website, and we do not advertise ourselves.  We are a group of individuals
-who have proven ourselves.  Much like you have by completing this recruitment contest.
-And we are drawn together by common beliefs.  A careful reading of the texts used in
-the contest would have revealed some of these beliefs : that tyranny and oppression
-of any kind must end; that censorship is wrong; and that privacy is an inalienable right.
+You have all wondered who we are and so we shall now tell you we are an international group we have no name we have no symbol we have no membership rosters we do not have a public website and we do not advertise ourselves we are a group of individuals who have proven ourselves much like you have by completing this recruitment contest and we are drawn together by common beliefs a careful reading of the texts used in the contest would have revealed some of these beliefs that tyranny and oppression of any kind must end that censorship is wrong and that privacy is an inalienable right.
 
-We are not a "hacker" group.  Nor are we a "warez" group.  We do not engage in illegal
-activity, nor do our members.  If you are engaged in illegal activity, we ask that you
-cease any and all illegal activities or decline membership at this time.  We will not
-ask questions if you decline; however, if you lie to us we will find out.
+We are not a *hacker* group nor are we a *warez* group we do not engage in illegal activity nor do our members if you are engaged in illegal activity we ask that you cease any and all illegal activities or decline membership at this time we will not ask questions if you decline however if you lie to us we will find out.
 
-You are undoubtedly wondering what it is that we do.  We are much like a "Think Tank" in
-that our primary focus is on researching and developing techniques to aid the ideas we
-advocate : liberty, privacy, security.  You have undoubtedly heard of a few of our past
-projects.  And if you choose to accept membership, we are happy to have you on board to
-help with future projects.
+You are undoubtedly wondering what it is that we do we are much like a *think tank* in that our primary focus is on researching and developing techniques to aid the ideas we advocate liberty privacy security you have undoubtedly heard of a few of our past projects and if you choose to accept membership we are happy to have you on-board to help with future projects.
 
-Please answer the next few questions, and send your encrypted responses to
-c1231507051321@gmail.com
+Please reply to this email with the answers to the next few questions to continue:
 
-* Do you believe that every human being has a right to privacy and anonymity, and is within
-  their rights to use tools which help obtain and maintain privacy : i.e., cash, strong
-  encryption, anonymity software, etc?
+* Do you believe that every human being has a right to privacy and anonymity and is within their rights to use tools which help obtain and maintain privacy cash strong encryption anonymity software etc?
 
 * Do you believe that information should be free?
 
 * Do you believe that censorship harms humanity?
 
-
 We look forward to hearing from you.
 
 3301
------BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.11 (GNU/Linux)
+---END FUUUUUUUUUUU---
 
-iQIcBAEBAgAGBQJRMuCKAAoJEBgfAeV6NQkPjCoQALzk/jfmJQbuGxu4jI++cR77
-hJiE9yOhTgNeDcKPNYv5xBbJJEKrvd35dZ2YhKG672Z7Zf2Y+1LkoNRtkqyFFHRX
-mKASfYYFMg7kyL5+kNxe5EZvgECAC2lADhmI0cFxsWgnWEXO/KE++raJDJ3jBzW5
-hwscmD0g/KpieZTONwLRmdOj6VRjKrBzVeQilxdaqXD9Np4/t3+SwoAjLvQeVmzK
-9etICCa1OcycnQhr+LgBLOTgAw7qMfLMIISxahAxKpCOxQSeN/rph9PAgm/oumy4
-5NOaomDlHTVwTx2jzeFnd+vvFU9xYatun3RyBwOpmwTukEjDG3ze/IsSEQ/OV/bP
-j8d19uPMX69Tg/TogJSDRv4R2o5ASq0pXoI/OcJ/mBTEsP0ks2A0t+jw6uuT0HAi
-k2EsQBBVZFAPxMPVUwLs8iZurqLCkSeXnGYOElspm8RVAY+9r1GSNjo3QkoTJSPy
-Yx9CHzVzD6z3RRHHAgkf2tQsadRS5qxijaBEV64J/JLl8qKzf4tqXVoL4rV4FkrN
-VAABvpAjbZTWtu7VJJkvJhPseL8HJjcvdCadMElKZ6paaIj45mfYeIov0mbbCDQH
-m7ZzOdWqmEOIXfMsCoAGlqd7wY0DAsLhxmH3ks/wkURf+/qboFuZO9y5mEoaj6xO
-vJB0iPO0eCsuOQCbn6rr
-=e3lt
------END PGP SIGNATURE-----
+We look forward to hearing from you.
+
+Anonymous
 ```
 
 ## Response
