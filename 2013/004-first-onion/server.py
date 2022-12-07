@@ -102,7 +102,6 @@ LOOKUP = {
     'R': 11,
     'C': 13,
     'K': 13,
-    'Q': 13,
     'G': 17,
     'W': 19,
     'H': 23,
@@ -141,6 +140,7 @@ def preprocess(txt, keep_tabs_breaks = True):
     preprocessed = txt.upper()
     if not keep_tabs_breaks:
         processed = txt.replace("\n", " ").replace("\r", " ").replace("\t", " ")
+    preprocessed = preprocessed.replace("QU", "CW").replace("Q", "K")
     return preprocessed
 
 

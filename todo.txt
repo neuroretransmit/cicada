@@ -62,6 +62,7 @@ Fix QU/QW on browsers are useless server
 Implement HTTP 0.9 GET
 Modify names for telnet prompt
 Try XORing unused offsets
+Finish server/document DH in GOODBYE
 
 2014:
 Train tesseract for runes - https://pretius.com/blog/ocr-tesseract-training-data/
