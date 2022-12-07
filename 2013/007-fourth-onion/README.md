@@ -242,8 +242,6 @@ Good luck.
 
 ## Didn't receive an e-mail
 
-
-
 ```
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
@@ -274,3 +272,13 @@ O1zUHySHV/spayzmkcz8
 =Qm21
 -----END PGP SIGNATURE-----
 ```
+
+## TCP server implementation
+
+This server implementation is likely to weed out those who can program and those who can't as well as assess their decisions to over-engineer or write secure code. Despite the protocol being fairly simple, there are many issues to be encountered in implementation. See my (mostly complete) implementation at [server.py](./server.py).
+
+1. You are taking in untrusted user input, you should be sanitizing it.
+2. You are taking in a prime that you should validate which could cause a denial of service attack on your server, the primality check should be put on a thread and killed via timeout.
+3. What if multiple clients connect and send data? You should like handle each client on a separate thread.
+4. One of the more question inducing pieces is recording in all data from an untrusted source. Since no one wants to miss a puzzle piece, I'm sure everyone wasn't sanitizing the next command in the event receiving the data was another piece and not ASCII.
+    - Lets say they crash your code and are able to drop shellcode somewhere in memory. Even if they didn't get an execution the first pass or it is not a segfault, they could go for the eggdrop route. The same could be said as using it as a dropper to the filesystem and using another vulnerability to use it.
