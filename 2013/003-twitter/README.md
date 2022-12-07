@@ -2,6 +2,10 @@
 
 In the 3301 [OS](../002-3301/README.md#usrlocalbin) there was a message pointing to a Twitter handle [@1231507051321](https://twitter.com/1231507051321).
 
+The following was their profile picture:
+
+![profile.png](profile/profile.png)
+
 ## Code
 
 The account was tweeting from a bot account using a different source, `1033` (client label, i.e. TweetDeck, Twitter Web Client, etc.). See [0.json](tweets/0.json) for clarity. At the time of writing this the Twitter API only provides 200 tweets at a time, even the search API bypass no longer works. For historical reference, I'm basing this only off of what I was able to acquire with the limitations.
