@@ -60,11 +60,13 @@ Phone recordings?
 Web page for SSSS codes?
 Brute force valid decrypt for onion corrupted URL ending
 Fix QU/QW on browsers are useless server
-Implement HTTP 0.9 GET
+Implement HTTP 0.9 GET and remove HTTP page for telnet server
 Modify names for telnet prompt
 Try XORing unused offsets
 Finish server/document DH in GOODBYE
 Create hidden service
+Add offsets to clue.txt and parse out in solve
+Add offset to hello.txt and parse out in solve
 
 2014:
 Left off after XORing hex->binary from PGP in first 3 pages. Continue here (do the runes)
