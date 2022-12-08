@@ -90,11 +90,15 @@ Of note, the interesting pieces here are:
 |Title|The Instar Emergence|
 |Artist|3301|
 
-Later, in the [twitter](../003-twitter/README.md#gematria) puzzle `1,595,277,641` and the poem will be given meaning and become clearer.
+Later, in the [twitter](../003-twitter/README.md#gematria) and [onion TCP server](../004-first-onion/README.md#tcp-server) puzzles `1,595,277,641` and the poem will be given meaning and become clearer. It is the product of the gematria value of the words.
 
 ### `data/`
 
-Within the `data/` directory, there are three files. Only one of which is ever made use of later in the [twitter](../003-twitter/README.md#xor) puzzle.
+Within the `data/` directory, there are three files. All three files are made use of later in the puzzle.
+
+1. [Twitter XOR](../003-twitter/README.md#xor) puzzle.
+2. [First onion XOR](../004-first-onion/README.md#solving).
+3. [Third onion XOR](../006-third-onion/README.md#xor).
 
 ```
 .

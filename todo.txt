@@ -15,10 +15,13 @@ Link numbers to puzzles
 Collect all numbers
 Run gematria across all puzzles
 Create loose ends pages
+Use all web.archive.com links
+Code cleanup - create universal scripts
+Attribution for sources
+Add onion statuses (I think all are down?)
 
 2012:
-Factors of Valete saved to file after run with cado-nfs finishes
-Fix phone number. Are lines out of order?
+Fix phone number solve. Are lines out of order from API analysis?
 Combine key code for subreddit with full script
 Split the section that is a big multi-tool (can't remember)
 Move all txt to asc
@@ -34,15 +37,16 @@ Other numbers found in IRC logs (either first onion or 8blahblah.com)
 Are there numbers around for retrieval of the RSA challenge available? (check IRC)
 Was the onion url on the second-chance message the same as on the first chance?
 Timeframe for when whitespace changed/sequencing of second-chance
-Document Valete in 003-subreddit
-Necrome
+Differentiate between bot/web client posts.
 
 2012 unlikely:
 Locate 2012 onion starting with e
 Locate .tk websites
 
 2013:
-Leaving off at Gematria/whitespace
+Finish the TCP server implementation (next is broken and DH selecting 1 for base)
+Recreate ICMP pong messages
+Follow the offsets from twitter/OS and make sense of them (dataset was a big hint in SSSS)
 Play with unused files from OS (data/ and /tmp). Try to solve it with the second method (half of twitter/full).
 Trace down the TRAILER!!! portion of the cpio image extraction and investigate.
 Align links to sections with the actual page in Twitter
@@ -50,12 +54,27 @@ Reference pieces from OS in Twitter/vice versa
 Reference relevent files in puzzles
 Check for missing primes in OS output
 Clarification on sequencing of tweets
-
-Differentiate between bot/web client posts.
+Run gematria for parable, create script and document
+Whitespace in message from first onion
+Phone recordings?
+Web page for SSSS codes?
+Brute force valid decrypt for onion corrupted URL ending
+Fix QU/QW on browsers are useless server
+Implement HTTP 0.9 GET and remove HTTP page for telnet server
+Modify names for telnet prompt
+Try XORing unused offsets
+Finish server/document DH in GOODBYE
+Create hidden service
+Add offsets to clue.txt and parse out in solve
+Add offset to hello.txt and parse out in solve
 
 2014:
+Left off after XORing hex->binary from PGP in first 3 pages. Continue here (do the runes)
+Gematria tasks
 Train tesseract for runes - https://pretius.com/blog/ocr-tesseract-training-data/
 Follow up image on 1231507051321 Twitter (infotomb, now gone)
+What was the 512 character hex?
+
 
 2016:
 Infotomb message in folder from 1231507051321 Twitter
