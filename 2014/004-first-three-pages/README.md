@@ -2,9 +2,56 @@
 
 In the [second onion](../003-second-onion/) we decoded three JPGs from the hex blob posted to the hidden service.
 
-## Outguess (see [outguess from second onion](../003-second-onion/README.md#outguess))
+## Runes
 
-To decode the outguess messages in the three pictures, we again are using 3301's favorite method - XOR. See [xor.py](xor.py)
+![02.jpg](../003-second-onion/02.jpg)
+
+
+```
+ᚱ-ᛝᚱᚪᛗᚹ.ᛄᛁᚻᛖᛁᛯᛁ-ᛗᚫᚥᚹ-ᛠᚪᚫᚾ-/
+ᚥᛖᛈ-ᛄᚫᚫᛞ.ᛁᛉᛞᛁᛋᛇ-ᛝᛚᚱᛇ-ᚦᚫᛯ/
+-ᛞᛗᚫᛝ-ᛇᚫ-ᛄᛁ-ᛇᚪᛯᛁ.ᛇᛁᛈᛇ-ᚥᛁ-ᛞ/
+ᛗᚫᛝᚻᛁᚳᛟᛁ.ᛠᛖᛗᚳ-ᚦᚫᛯᚪ-ᛇᚪᛯᚥ.ᛁᛉ/
+ᛋᛁᚪᛖᛁᛗᛞᛁ-ᚦᚫᛯᚪ-ᚳᚠᚥ.ᚳᚫ-ᛗᚫᛇ-ᛁᚳᛖᛇ-ᚫ/
+ᚪ-ᛞᛚᚱᚹᛁ-ᚥᛖᛈ-ᛄᚫᚫᛞ.ᚫᚪ-ᚥᛁ-ᚾᛁᛈᛈᚱᛟᛁ-/
+ᛞᚫᛗᛇᚱᛖᛗᛁᚳ-ᛝᛖᚥᛖᛗ.ᛁᛖᚥᛁᚪ-ᚥᛁ-ᛝᚫ/
+ᚪᚳᛈ-ᚫᚪ-ᚥᛁᛖᚪ-ᛗᛯᚾᛄᛁᚪᛈ.ᛠᚫᚪ-ᚱᚻᚻ-ᛖ/
+ᛈ-ᛈᚱᛞᚪᛁᚳ./
+```
+
+Using the [gematria primus](../../2013/003-twitter/gematria.jpg) to solve the runes produces ciphertext. The runes are encrypted with a different key. Reversing the runes mapping to letters is the key for this puzzle. See [gematriaprimus.py](02.jpg.runes/gematriaprimus.py) to solve. 
+
+Since the letters can have multiple values, the exhaustive result list can be huge. I've limited this by disallowing bigrams that do not occur in the English language. A valid decrypt will look something like this, with some minor adjustments still needing to be made.
+
+```
+A-WARNING.BELIEUE-NOTHING-FROM-/
+THIS-BOOK.EXKEPT-WHAT-YOU/
+-KNOW-TO-BE-TRUE.TEST-THE-K/
+NOWLEDGE.FIND-YOUR-TRUTH.EX/
+PERIENKE-YOUR-DEATH.DO-NOT-EDIT-O/
+R-KHAINGE-THIS-BOOK.OR-THE-MESSAGE-/
+KONTAINED-WITHIN.EITHER-THE-WO/
+RDS-OR-THEIR-NUMBERS.FOR-ALL-I/
+S-SAKRED./
+```
+
+And corrected:
+
+```
+A-WARNING.BELIEVE-NOTHING-FROM-/
+THIS-BOOK.EXCEPT-WHAT-YOU/
+-KNOW-TO-BE-TRUE.TEST-THE-K/
+NOWLEDGE.FIND-YOUR-TRUTH.EX/
+PERIENCE-YOUR-DEATH.DO-NOT-EDIT-O/
+R-CHANGE-THIS-BOOK.OR-THE-MESSAGE-/
+CONTAINED-WITHIN.EITHER-THE-WO/
+RDS-OR-THEIR-NUMBERS.FOR-ALL-I/
+S-SACRED./
+```
+
+## Outguess hex (see [outguess from second onion](../003-second-onion/README.md#outguess))
+
+To decode the outguess messages in the three pictures, we again are using 3301's favorite method - XOR. See [xor.py](xor.py).
 
 ```bash
 $ gpg -d ../003-second-onion/00.jpg.asc > 00.asc.hex
@@ -18,9 +65,7 @@ $ ./xor.py 00^01.bin 02.asc.bin 00^01^02.asc
 $ gpg --verify 00^01^02.asc
 ```
 
-## Runes TODO
-
-## PGP message from XOR of PGP message in 3 first pages
+## PGP message from [XOR of PGP messages](#outguess-hex-see-outguess-from-second-onion) in 3 first pages
 
 ```
 -----BEGIN PGP SIGNED MESSAGE-----
