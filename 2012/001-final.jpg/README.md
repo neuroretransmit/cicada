@@ -8,7 +8,7 @@
 
 Appended to the end of the image was plaintext `TIBERIVS CLAVDIVS CAESAR says "lxxt>33m2mqkyv2gsq3q=w]O2ntk"`.
 
-The gibberish clearly looks like a URL, this can be decoded using a Caesar cipher on the ASCII table with a shift of -4.
+The gibberish clearly looks like a URL, this can be decoded using a ROT cipher a shift of -4.
 
 `cat appended.txt | sed 's/.*\"\(lxxt.*\)\"/\1/g' | perl -pne 'chomp;s{(.)}{chr(ord($1)-4)}sgex;$_.=chr(10)'`
 
