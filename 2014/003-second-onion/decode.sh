@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Convert hex (512 char)
-xxd -r -p 512.txt > VHRH.bin
+xxd -r -p 512.txt > VHRH.txt
 # Convert hex (large)
 tail -n +2 VHRH.txt | xxd -r -p > VHRH.bin
 # Flip all bits

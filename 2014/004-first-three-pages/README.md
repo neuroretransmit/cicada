@@ -99,3 +99,25 @@ tuBhMYWo/TDz+4UzLB+I
 =57tj
 -----END PGP SIGNATURE-----
 ```
+
+This message is a columnar transposition. First you must re-arrange the rows into lengths of 14 and re-order the columns until you get a valid message. The valid key winds up being `2 8 9 1 12 13 11 4 5 7 3 0 6 10`. See [columnar.py](columnar.py).
+
+```
+IDGTKUMLOOARWO
+ERTHISUTETLHUT
+IATSLLOUIMNITE
+LNJ7TFYVOIUAUS
+NOCO5JI4MEODZZ 
+```
+
+Becomes
+
+```
+GOODWORKULTIMA
+TETRUTHISTHEUL
+TIMATEILLUSION
+JOINUSATFV7LYU
+CMEOZZD5J4ONIO 
+```
+
+`GOOD WORK ULTIMATE TRUTH IS THE ULTIMATE ILLUSION JOIN US AT fv7lyucmeozzd5j4.onion`

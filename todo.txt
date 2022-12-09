@@ -69,11 +69,13 @@ Add offsets to clue.txt and parse out in solve
 Add offset to hello.txt and parse out in solve
 
 2014:
-Left off after XORing hex->binary from PGP in first 3 pages. Continue here (do the runes)
-Gematria tasks
+Fix gematriaprimus to work with values again after lookup changes
+Gematria tasks (values)
 Train tesseract for runes - https://pretius.com/blog/ocr-tesseract-training-data/
 Follow up image on 1231507051321 Twitter (infotomb, now gone)
 What was the 512 character hex?
+HTML for second onion
+HTML for third onion
 
 
 2016:
