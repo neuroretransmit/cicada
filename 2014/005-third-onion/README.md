@@ -13,6 +13,8 @@ Logs over time are unavailable, what we do have is the final string. It is a 512
 
 Status page leaks (showing the linode address (see [here](ZRJhYgGP) and [here](je6Yudvh)). From [reports](5iRnfLkm) it sounds like the original status page was static, after it was found it sounds like it tripped an update on the new status page. the The original HTML can be found [here](li676-224_server-status_new.txt) with the huge block of hex. This hex grew over time, [see hex-growth-over-time.json](hex-growth-over-time.json) for a list of JSON objects describing this growth (taken from numinit's GitHub).
 
+The HTML for the completed status page is [here](./li676-224_server-status_new.html).
+
 ## Hex
 
 See [decode.sh](decode.sh) for the full process.
