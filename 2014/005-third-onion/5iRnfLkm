@@ -1,0 +1,21 @@
+regarding the server-status page not changing - it is static. all the times and dates etc do not change. it's a mock-up of a real page. BUT - there are things to note about the mock-up
+
+==========================================================
+Current time is "Thursday, 06-Jan-2014 00:13:17"
+Restart time is "Tuesday, 06-Jan-2014 00:13:17"
+13 is a prime
+17 is a prime
+06 Jan was not a Thursday or a Tuesday! It was a Monday.
+Current and Restart time should not be the same!
+06-Jan-2014 00:13:17 was just under 7 hours before the first picture was tweeted
+==========================================================
+Server uptime: 1 days 0 hours 33 minutes 14 seconds
+               ^      ^       ^^
+= "1033"
+==========================================================
+(Current time) minus (Server uptime) gives a Restart time and date of 04/01/2014 23:40:03
+
+* question - why fabricate the page and not get the numbers to match up? they've put so much care into other things they have produced
+* what relevance are we to infer from the other details on the page, such as server build time, total accesses, total traffic etc etc?
+* to note: Apache 2.2.22 was not the current version when this server was built (Jul 12 2013 13:37:15) perhaps the version number or date are significant
+* Apache version is given as "Apache/2.2.22 (Ubuntu)" at the top of the document, but "Apache Server" at the bottom of the page. This is not the same as http://www.apache.org/server-status where it's the same. can anyone with more knowledge of Apache comment if this is unusual?
