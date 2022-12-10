@@ -1,0 +1,232 @@
+#!/opt/local/bin/perl
+
+
+use lyuktools qw(:all);
+
+my(%x); my($w);
+$x{F} = 0 ;  $w[0]  = 'f';
+$x{U} = 1 ;  $w[1]  = 'u'; #u/v
+$x{t} = 2 ;  $w[2]  = 'th';
+$x{O} = 3 ;  $w[3]  = 'o';
+$x{R} = 4 ;  $w[4]  = 'r';
+$x{c} = 5 ;  $w[5]  = 'c'; #c/k
+$x{G} = 6 ;  $w[6]  = 'g';
+$x{W} = 7 ;  $w[7]  = 'w';
+$x{H} = 8 ;  $w[8]  = 'h';
+$x{N} = 9 ;  $w[9]  = 'n';
+$x{I} = 10 ; $w[10] = 'i';
+$x{J} = 11 ; $w[11] = 'j';
+$x{o} = 12 ; $w[12] = 'eo';
+$x{P} = 13 ; $w[13] = 'p';
+$x{X} = 14 ; $w[14] = 'x';
+$x{s} = 15 ; $w[15] = 's'; #s/z
+$x{T} = 16 ; $w[16] = 't';
+$x{B} = 17 ; $w[17] = 'b';
+$x{E} = 18 ; $w[18] = 'e';
+$x{M} = 19 ; $w[19] = 'm';
+$x{L} = 20 ; $w[20] = 'l';
+$x{g} = 21 ; $w[21] = 'ng'; #ng/ing
+$x{q} = 22 ; $w[22] = 'oe';
+$x{D} = 23 ; $w[23] = 'd';
+$x{A} = 24 ; $w[24] = 'a';
+$x{w} = 25 ; $w[25] = 'ae';
+$x{Y} = 26 ; $w[26] = 'y';
+$x{i} = 27 ; $w[27] = 'ia'; #ia/io
+$x{a} = 28 ; $w[28] = 'ea';
+
+
+my(%rune2en);
+$rune2en{F} = 'f';
+$rune2en{U} = 'u'; #u/v
+$rune2en{t} = 'th';
+$rune2en{O} = 'o';
+$rune2en{R} = 'r';
+$rune2en{c} = 'c'; #c/k
+$rune2en{G} = 'g';
+$rune2en{W} = 'w';
+$rune2en{H} = 'h';
+$rune2en{N} = 'n';
+$rune2en{I} = 'i';
+$rune2en{J} = 'j';
+$rune2en{o} = 'eo';
+$rune2en{P} = 'p';
+$rune2en{X} = 'x';
+$rune2en{s} = 's'; #s/z
+$rune2en{T} = 't';
+$rune2en{B} = 'b';
+$rune2en{E} = 'e';
+$rune2en{M} = 'm';
+$rune2en{L} = 'l';
+$rune2en{g} = 'ng'; #ng/ing
+$rune2en{q} = 'oe';
+$rune2en{D} = 'd';
+$rune2en{A} = 'a';
+$rune2en{w} = 'ae';
+$rune2en{Y} = 'y';
+$rune2en{i} = 'ia'; #ia/io
+$rune2en{a} = 'ea';
+
+
+my($alphabet) = "FUtORcGWHNIJoPXsTBEMLgqDAwYia";
+my($alphalength) = length($alphabet);
+
+sub _isChar {
+    my($c) = @_;
+    if (index($alphabet,$c) > -1) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
+sub _atoi {
+    my($c) = @_;
+    return index($alphabet,$c);
+}
+sub _itoa {
+    my($i) = @_;
+    if ($idx < 0) { return " "; }
+    $i = $i % $alphalength;
+    return substr($alphabet,$i,1);
+}
+sub _getKey {
+    my($key) = @_;
+    my($klen) = length($key);
+    my(@k);
+    foreach my $c (split(//,$key)) {
+        my($i) = &_atoi($c);
+        #print "$i ";
+        push (@k, &_atoi($c));
+    }
+    return ($klen,@k);
+}
+
+sub _encodeChar {
+    my($c, $shift) = @_;
+    my($i) = &_atoi($c);
+    if ($i < 0) {
+        return " ";
+    }
+    $i = ($i + $shift) % $alphalength;
+    return &_itoa($i);
+}
+sub _decodeChar {
+    my($c, $shift) = @_;
+    my($i) = &_atoi($c);
+    #printf "{$c} = %d + $shift\n",&_atoi($c);
+    if ($i < 0) {
+        return " ";
+    }
+    $i = ($i - $shift) % $alphalength;
+    return &_itoa($i);
+}
+
+sub encodeMsg {
+    my($msg, $key) = @_;
+    my($klen, @k) = &_getKey($key);
+    my($i) = 0;
+    my(@enctxt,@kstr);
+    foreach my $c (split(//,$msg)) {
+        my($ec) = &_encodeChar($c, $k[$i % $klen]);
+        if (&_isChar($c)) {
+            push(@enctxt, $ec);
+            push(@kstr, substr($key,$i % $klen,1));
+            $i++;
+        } else {
+            push(@enctxt, $c);
+            push(@kstr, "*");
+        }
+    }
+    my($encmsg) = join("",@enctxt);
+    my($enckey) = join("",@kstr);
+    return ($encmsg,$enckey);
+}
+sub decodeMsg {
+    my($enc, $key) = @_;
+    my($klen, @k) = &_getKey($key);
+    my($i) = 0;
+    my(@msgtxt,@kstr);
+    foreach my $c (split(//,$enc)) {
+        my($dc) = &_decodeChar($c, $k[$i % $klen]);
+        if (&_isChar($c)) {
+            push(@msgtxt, $dc);
+            push(@kstr, substr($key,$i % $klen,1));
+            $i++;
+        } else {
+            push(@msgtxt, $c);
+            push(@kstr, "*");
+        }
+    }
+    my($decmsg) = join("",@msgtxt);
+    my($deckey) = join("",@kstr);
+    return ($decmsg,$deckey);
+}
+
+
+sub xlatRune2En {
+    my($runestr) = @_;
+    my(@s) = split(//,$runestr);
+    my(@e);
+    foreach my $c (@s) {
+        if ($rune2en{$c}) {
+            push(@e,$rune2en{$c});
+        } else {
+            push(@e,$c);
+        }
+    }
+    return join("",@e);
+}
+
+
+
+
+my($dm, $ks) = &decodeMsg("UagsoFc\@RoUGPaa:FWXTcLa:YM.ao.TcNw.gMiiMMW.wPDgiR.Oa.iMI.F*.EUg.oUw-", "DIUINITY");
+printf "%s\n\n", $dm;
+printf "%s\n\n",&xlatRune2En($dm);
+
+my($dm,$ks) = &decodeMsg("YP","TY");
+printf "%s\n\n", $dm;
+printf "%s\n\n",&xlatRune2En($dm);
+
+my($dm,$ks) = &decodeMsg(".Rw.IPw.cw.wNW.BXMD:RiI.","DIUINITY");
+printf "%s\n\n", $dm;
+printf "%s\n\n",&xlatRune2En($dm);
+
+my($dm,$ks) =
+&decodeMsg(
+    "FPc.oowc.RtP.*JMO.ocWi.BwW.BaLs.RY.Jw.R.MctowTcPW.MGo-" .
+    "cgPU.oc.REW.iPI.BYBX.*LIR.RM.cGB.YR.cFU.tPiJWTFa.JGB.wt**aPt:PFAX.JMEPgsOsM:" .
+    "WoJL.WXUtwWMt:DYJc.siXOgRMBW:RMI.DYJc.XHUYPL-" .
+    "JgYMFJPoUi:WoJ.DWXU.OLOsMisX.wM.iMI.PY.wMU*-" .
+    "MY.Yo.wXRJsE.EWN.DJUsXYTETM.oRY.Ds.NEwDi.PBUNagJiw.JGB.PtX.PNWWILMw-" .
+    "LPBUOai.RiaF.RRoJM.RMI.DYJ.HLFU.JUiLta.oJOoRRM-" .
+    "UMsc.ao.LIwwcL:WI.LT.PEUP.aiPtTB.TME.ULOLE.oJP.Ua.LcG.aGsiTM\@" .
+    "BMRtFP\@WRJ.RXc.g.Jaq.JEYM.DYJcwiU*-" .
+    "PFA.cca.R.UJR.AMBP.GPBUNag*-" .
+    "NXE.YGIagUMTcGaa.Jw.BPWD-" .
+    "*YX.wUF.oJ" .
+    "P.XLtaA.Lt.cYUi\@" .
+    "\@cE.LwoIXtswHw\@tYFLcER.PFAX.RBE.wcB*\@"
+    ,"DIUINITY");
+printf "\n";
+printf "%s\n\n", $dm;
+printf "%s\n\n",&xlatRune2En($dm);
+
+my($dm,$ks) = &decodeMsg("tMDoFMAR5UwgRg3aMoFi", "WELcOMEPILGRIMTOtE");
+printf "\n";
+printf "%s\n\n", $dm;
+printf "%s\n\n",&xlatRune2En($dm);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
