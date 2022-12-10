@@ -3,6 +3,7 @@
 import string
 from pprint import pprint as pp
 
+# Formatted in atbash per the Warning page
 RUNE_LOOKUP = {
     'ᛠ': 'F',
     'ᛯ': 'U',
@@ -36,19 +37,23 @@ RUNE_LOOKUP = {
 }
 
 class Gematria:
+
     @staticmethod
-    def substitution(year=2013):
-        print("YEAR:", year)
+    def substitution(mode=None, key=None):
+        print("MODE:", mode)
         s = {}
-        if year == 2013:
-            pp(RUNE_LOOKUP)
-            return RUNE_LOOKUP
-        elif year == 2014:
+        if mode == None:
             lookup = {}
             for k, v in zip(reversed(RUNE_LOOKUP.keys()), RUNE_LOOKUP.values()):
                 lookup[k] = v
             pp(lookup)
             return lookup
+        elif mode == "atbash":
+            pp(RUNE_LOOKUP)
+            return RUNE_LOOKUP
+            return lookup
+        elif mode == "vigenere":
+            raise NotImplementedError
         else:
             raise NotImplementedError
 
@@ -75,9 +80,9 @@ class Gematria:
                this will limit the number of results.
     """
     @staticmethod
-    def rune_to_english(txt, mode=2014, fast=True, overrides = {}):
+    def rune_to_english(txt, mode=None, fast=True, overrides = {}, key=None):
         txt = Gematria.preprocess_runes(txt, keep_tabs_breaks=True)
-        lookup = Gematria.substitution(year=mode)
+        lookup = Gematria.substitution(mode=mode, key=key)
         results = ['']
         impossible_bigrams = ["JQ", "QG", "QK", "QY", "QZ", "WQ", "WZ"]
         for c in txt:
@@ -88,31 +93,35 @@ class Gematria:
                         results[i] += lookup[c]
                 # Multi-letter runes
                 else:
-                    candidates = lookup[c]
-                    stash = []
-                    if len(candidates) > 1:
-                        stash += stash
-                    # Already figured out from list of results, explicitly set and skip O(scary)
-                    if c in overrides:
+                    if fast:
                         for i in range(len(results)):
-                            results[i] += overrides[c]
-                        continue
-                    for candidate in candidates:
-                        working = results
-                        queued_deletion = []
-                        for i in range(len(working)):
-                            # filter impossible bigrams
-                            # see if if previous letter + candidate are in impossible bigrams
-                            if working[i] and working[i][-1] + candidate[0] in impossible_bigrams:
-                                queued_deletion.appened(i)
-                                continue
-                            if c in lookup:
-                                working[i] += candidate
-                                break
-                        for i in queued_deletion:
-                            working.pop(i)
-                        stash += working
-                    results = stash
+                            results[i] += lookup[c][0]
+                    else:
+                        candidates = lookup[c]
+                        stash = []
+                        if len(candidates) > 1:
+                            stash += stash
+                        # Already figured out from list of results, explicitly set and skip O(scary)
+                        if c in overrides:
+                            for i in range(len(results)):
+                                results[i] += overrides[c]
+                            continue
+                        for candidate in candidates:
+                            working = results
+                            queued_deletion = []
+                            for i in range(len(working)):
+                                # filter impossible bigrams
+                                # see if if previous letter + candidate are in impossible bigrams
+                                if working[i] and working[i][-1] + candidate[0] in impossible_bigrams:
+                                    queued_deletion.appened(i)
+                                    continue
+                                if c in lookup:
+                                    working[i] += candidate
+                                    break
+                            for i in queued_deletion:
+                                working.pop(i)
+                            stash += working
+                        results = stash
             else:
                 for i, result in enumerate(results):
                     # Only let whitespace, punctuation and digits through - print others
@@ -124,8 +133,14 @@ class Gematria:
 
 if __name__ == "__main__":
     import sys
-    with open("runes.txt", "r") as runes, open("possibilities.txt", "w") as possibilities:
+    with open("03.jpg.runes.txt", "r") as runes, open("03.jpg.runes-possibilities.txt", "w") as three:
         data = runes.read()
-        results = Gematria.rune_to_english(data, mode=2014, fast=True, overrides={'ᛝ': 'ING'})
+        results = Gematria.rune_to_english(data, mode="vigenere", key="DIUINITY", fast=True)
         for result in results:
-            possibilities.write(result + "\n")
+            three.write(result + "\n")
+    with open("04.jpg.runes.txt", "r") as runes, open("04.jpg.runes-possibilities.txt", "w") as four:
+        data = runes.read()
+        results = Gematria.rune_to_english(data, fast=True, overrides={'ᛝ': 'ING'})
+        for result in results:
+            four.write(result + "\n")
+    
