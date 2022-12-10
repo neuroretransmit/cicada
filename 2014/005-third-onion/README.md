@@ -34,6 +34,8 @@ There are some bytes between the image end bytes and the image start bytes. Both
 $ dd if=server-status.jpg bs=1 skip=$((0x00521e4)) count=357 status=noxfer | rev | xxd -p -r > square.txt
 ```
 
+See [square.txt](square.txt). The result is a magic square that sums to `1033` in all directions.
+
 ```
 272     138     341     131     151
 366     199     130     320     18
@@ -42,6 +44,40 @@ $ dd if=server-status.jpg bs=1 skip=$((0x00521e4)) count=357 status=noxfer | rev
 151     131     341     138     272
 ```
 
-## Outguess
 
-There is no outguess in this image.
+
+## Runes
+
+![03.jpg](03.jpg)
+
+The runes are unencrypted using the ordering from the Gematria Primus discovered in 2013. A valid decrypt will look something like this, see [gematriaprimus.py](gematriaprimus.py).
+
+```
+SOME-WISDOM.THE-PRIMES-ARE-SAC/
+RED.THE-TOTIENT-FUNCTION-IS-SA/
+CRED.ALL-THINGS-SHOULD-BE-ENCRY/
+PTED./
+&
+CNOW-THIS./
+272 138 SHADOWS 131 151/
+AETHEREAL BUFFERS UOID CARNAL 18/
+226 OBSCURA FORM 245 MOBIUS/
+18 ANALOG UOID MOURNFUL AETHEREAL/
+151 131 CABAL 138 272/
+```
+
+With corrections:
+
+```
+SOME-WISDOM.THE-PRIMES-ARE-SAC/
+RED.THE-TOTIENT-FUNCTION-IS-SA/
+CRED.ALL-THINGS-SHOULD-BE-ENCRY/
+PTED./
+&
+KNOW-THIS./
+272 138 SHADOWS 131 151/
+AETHEREAL BUFFERS VOID CARNAL 18/
+226 OBSCURA FORM 245 MOBIUS/
+18 ANALOG VOID MOURNFUL AETHEREAL/
+151 131 CABAL 138 272/
+```

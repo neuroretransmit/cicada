@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
 import string
+from pprint import pprint as pp
 
 RUNE_LOOKUP = {
-    'ᚠ': 'F',
+    'ᛠ': 'F',
     'ᛯ': 'U',
     'ᚣ': 'TH',
     'ᚫ': 'O',
@@ -31,21 +32,23 @@ RUNE_LOOKUP = {
     'ᚩ': 'AE',
     'ᚦ': 'Y',
     'ᚢ': ['IO', 'IA'],
-    'ᛠ': 'F'
+    'ᚠ': 'EA',
 }
 
 class Gematria:
     @staticmethod
-    def substitution(year=2014):
+    def substitution(year=2013):
+        print("YEAR:", year)
         s = {}
-        if year == 2014:
+        if year == 2013:
+            pp(RUNE_LOOKUP)
             return RUNE_LOOKUP
-        elif year == 2013:
+        elif year == 2014:
             lookup = {}
-            keys = RUNE_LOOKUP.keys()
-            for k, v in zip(keys, reversed(RUNE_LOOKUP.values())):
+            for k, v in zip(reversed(RUNE_LOOKUP.keys()), RUNE_LOOKUP.values()):
                 lookup[k] = v
-            return RUNE_LOOKUP
+            pp(lookup)
+            return lookup
         else:
             raise NotImplementedError
 
@@ -59,6 +62,18 @@ class Gematria:
         return preprocessed
 
     # TODO: Optimize out of O(scary) using tiered map lookups
+    # TODO: Thread/yield and massive join for permutations
+    """
+    Convert runes to english text and filters results with impossible bigrams
+
+    @txt  Runes to decrypt
+    @mode Mode specifies the year i.e. 2013 is exactly as the Gematria Appears 
+          in the picture, 2014 is with reversed keys (decryption fro warning page).
+    @fast Flag to only use the first of multi-character entries and generate one
+          result (TODO: change to int and specify the number of permutations)
+    @overrides Overrides for multi-characters if better plaintext is seen in permutations
+               this will limit the number of results.
+    """
     @staticmethod
     def rune_to_english(txt, mode=2014, fast=True, overrides = {}):
         txt = Gematria.preprocess_runes(txt, keep_tabs_breaks=True)
@@ -67,9 +82,11 @@ class Gematria:
         impossible_bigrams = ["JQ", "QG", "QK", "QY", "QZ", "WQ", "WZ"]
         for c in txt:
             if c in lookup:
+                # Single-letter runes
                 if not isinstance(lookup[c], list):
                     for i in range(len(results)):
                         results[i] += lookup[c]
+                # Multi-letter runes
                 else:
                     candidates = lookup[c]
                     stash = []
@@ -86,7 +103,7 @@ class Gematria:
                         for i in range(len(working)):
                             # filter impossible bigrams
                             # see if if previous letter + candidate are in impossible bigrams
-                            if working[i][-1] + candidate[0] in impossible_bigrams:
+                            if working[i] and working[i][-1] + candidate[0] in impossible_bigrams:
                                 queued_deletion.appened(i)
                                 continue
                             if c in lookup:
@@ -98,7 +115,8 @@ class Gematria:
                     results = stash
             else:
                 for i, result in enumerate(results):
-                    if c in " \n" or c in string.punctuation:
+                    # Only let whitespace, punctuation and digits through - print others
+                    if c in " \t\n" or c in string.punctuation or c in string.digits:
                         results[i] += c
                     else:
                         print(c)
@@ -108,7 +126,6 @@ if __name__ == "__main__":
     import sys
     with open("runes.txt", "r") as runes, open("possibilities.txt", "w") as possibilities:
         data = runes.read()
-        results = Gematria.rune_to_english(data, mode=2013)
-        print("results:", len(results))
-        for r in results:
-            possibilities.write(r)
+        results = Gematria.rune_to_english(data, mode=2014, fast=True, overrides={'ᛝ': 'ING'})
+        for result in results:
+            possibilities.write(result + "\n")
