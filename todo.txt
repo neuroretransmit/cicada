@@ -17,15 +17,10 @@ Run gematria across all puzzles
 Create loose ends pages
 Use all web.archive.com links
 Code cleanup - create universal scripts
-Attribution for sources
+Attribution for sources/references
 Add onion statuses (I think all are down?)
 
 2012:
-Fix phone number solve. Are lines out of order from API analysis?
-Combine key code for subreddit with full script
-Split the section that is a big multi-tool (can't remember)
-Move all txt to asc
-References
 Locate 2012 onion starting with e
 Figure out censored email/Nox correlation from here: https://discord.com/channels/572330844056715284/615334603049271322/935243326167318588
 How were RSA numbers "submitted" to onion?
