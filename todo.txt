@@ -62,6 +62,7 @@ Finish server/document DH in GOODBYE
 Create hidden service
 Add offsets to clue.txt and parse out in solve
 Add offset to hello.txt and parse out in solve
+Rename onion3 to server-status after confirming all hex took place on the server status
 
 2014:
 Fix gematriaprimus to work with values again after lookup changes

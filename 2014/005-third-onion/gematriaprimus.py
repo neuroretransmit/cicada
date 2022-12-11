@@ -1,49 +1,56 @@
 #!/usr/bin/env python3
 
+""" 
+SPECIAL SYMBOLS IN RUNES
+:  == trip reset of supplied key (Welcome page has hard resets on F while skipping most of the first three lines)
+.  == period
+-  == word separator
+-/ == word continuation on next line
+&  == section separator
+"""
+
 import string
 from pprint import pprint as pp
 
 # Formatted in atbash per the Warning page
 RUNE_LOOKUP = {
-    'ᛠ': 'F',
-    'ᛯ': 'U',
-    'ᚣ': 'TH',
-    'ᚫ': 'O',
-    'ᚪ': 'R',
+    'ᛠ': ['F'],
+    'ᛯ': ['U'],
+    'ᚣ': ['TH'],
+    'ᚫ': ['O'],
+    'ᚪ': ['R'],
     'ᛞ': ['C', 'K'],
-    'ᛟ': 'G',
-    'ᛝ': 'W',
-    'ᛚ': 'H',
-    'ᛗ': 'N',
-    'ᛖ': 'I',
-    'ᛒ': 'J',
-    'ᛏ': 'EO', 
-    'ᛋ': 'P', 
-    'ᛉ': 'X', 
+    'ᛟ': ['G'],
+    'ᛝ': ['W'],
+    'ᛚ': ['H'],
+    'ᛗ': ['N'],
+    'ᛖ': ['I'],
+    'ᛒ': ['J'],
+    'ᛏ': ['EO'], 
+    'ᛋ': ['P'], 
+    'ᛉ': ['X'], 
     'ᛈ': ['S', 'Z'],
-    'ᛇ': 'T', 
-    'ᛄ': 'B', 
-    'ᛁ': 'E', 
-    'ᚾ': 'M', 
-    'ᚻ': 'L', 
+    'ᛇ': ['T'], 
+    'ᛄ': ['B'], 
+    'ᛁ': ['E'], 
+    'ᚾ': ['M'], 
+    'ᚻ': ['L'], 
     'ᚹ': ['NG', 'ING'], 
-    'ᚷ': 'OE', 
-    'ᚳ': 'D', 
-    'ᚱ': 'A',
-    'ᚩ': 'AE',
-    'ᚦ': 'Y',
+    'ᚷ': ['OE'], 
+    'ᚳ': ['D'], 
+    'ᚱ': ['A'],
+    'ᚩ': ['AE'],
+    'ᚦ': ['Y'],
     'ᚢ': ['IO', 'IA'],
-    'ᚠ': 'EA',
+    'ᚠ': ['EA'],
 }
 
 class Gematria:
-
     @staticmethod
     def substitution(mode=None, key=None):
         print("MODE:", mode)
-        s = {}
+        lookup = {}
         if mode == None:
-            lookup = {}
             for k, v in zip(reversed(RUNE_LOOKUP.keys()), RUNE_LOOKUP.values()):
                 lookup[k] = v
             pp(lookup)
@@ -53,7 +60,9 @@ class Gematria:
             return RUNE_LOOKUP
             return lookup
         elif mode == "vigenere":
-            raise NotImplementedError
+            for k, v in zip(reversed(RUNE_LOOKUP.keys()), RUNE_LOOKUP.values()):
+                lookup[k] = v
+            return lookup
         else:
             raise NotImplementedError
 
@@ -85,47 +94,57 @@ class Gematria:
         lookup = Gematria.substitution(mode=mode, key=key)
         results = ['']
         impossible_bigrams = ["JQ", "QG", "QK", "QY", "QZ", "WQ", "WZ"]
-        for c in txt:
+        txt = Gematria.preprocess_runes(txt, keep_tabs_breaks=True)
+        lookup_keys = list(lookup.keys())
+        print(lookup)
+        ki = 0 # key index
+        kd = 0
+        for n, c in enumerate(txt):
             if c in lookup:
-                # Single-letter runes
-                if not isinstance(lookup[c], list):
+                shift = 0
+                if key:
+                    shift = key[ki % len(key)]
+                if fast:
                     for i in range(len(results)):
-                        results[i] += lookup[c]
-                # Multi-letter runes
+                        if c in overrides and n > 0 and txt[n-1] == ':':
+                            shift = 0
+                            ki -= 1
+                        results[i] += lookup[lookup_keys[(lookup_keys.index(c) + shift) % len(lookup_keys)]][0]
                 else:
-                    if fast:
+                    candidates = lookup[lookup_keys[(lookup_keys.index(c) + shift) % len(lookup_keys)]]
+                    stash = []
+                    if len(candidates) > 1:
+                        stash += stash
+                    # Already figured out from list of results, explicitly set and skip O(scary)
+                    if c in overrides:
+                        if n > 0 and txt[n-1] == ':':
+                            shift = 0
+                            ki -= 1
                         for i in range(len(results)):
-                            results[i] += lookup[c][0]
-                    else:
-                        candidates = lookup[c]
-                        stash = []
-                        if len(candidates) > 1:
-                            stash += stash
-                        # Already figured out from list of results, explicitly set and skip O(scary)
-                        if c in overrides:
-                            for i in range(len(results)):
-                                results[i] += overrides[c]
-                            continue
-                        for candidate in candidates:
-                            working = results
-                            queued_deletion = []
-                            for i in range(len(working)):
-                                # filter impossible bigrams
-                                # see if if previous letter + candidate are in impossible bigrams
-                                if working[i] and working[i][-1] + candidate[0] in impossible_bigrams:
-                                    queued_deletion.appened(i)
-                                    continue
-                                if c in lookup:
-                                    working[i] += candidate
-                                    break
-                            for i in queued_deletion:
-                                working.pop(i)
-                            stash += working
-                        results = stash
+                            results[i] += overrides[c]
+                        continue
+                    for candidate in candidates:
+                        working = results
+                        queued_deletion = []
+                        for i in range(len(working)):
+                            # filter impossible bigrams
+                            # see if if previous letter + candidate are in impossible bigrams
+                            if working[i] and working[i][-1] + candidate[0] in impossible_bigrams:
+                                queued_deletion.appened(i)
+                                continue
+                            if c in lookup: # FIXME: redundant yet necessary - give better check
+                                
+                                working[i] += candidate
+                                break
+                        for i in queued_deletion:
+                            working.pop(i)
+                        stash += working
+                    results = stash
+                ki += 1
             else:
                 for i, result in enumerate(results):
                     # Only let whitespace, punctuation and digits through - print others
-                    if c in " \t\n" or c in string.punctuation or c in string.digits:
+                    if c in " \t\n" or c in string.punctuation.replace(":", "") or c in string.digits:
                         results[i] += c
                     else:
                         print(c)
@@ -135,7 +154,7 @@ if __name__ == "__main__":
     import sys
     with open("03.jpg.runes.txt", "r") as runes, open("03.jpg.runes-possibilities.txt", "w") as three:
         data = runes.read()
-        results = Gematria.rune_to_english(data, mode="vigenere", key="DIUINITY", fast=True)
+        results = Gematria.rune_to_english(data, mode="vigenere", key=[6, 19, 28, 19, 20, 19, 13, 3], fast=True, overrides={'ᚠ': 'F'})
         for result in results:
             three.write(result + "\n")
     with open("04.jpg.runes.txt", "r") as runes, open("04.jpg.runes-possibilities.txt", "w") as four:
