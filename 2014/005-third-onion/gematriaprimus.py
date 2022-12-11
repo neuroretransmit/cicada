@@ -162,4 +162,9 @@ if __name__ == "__main__":
         results = Gematria.rune_to_english(data, fast=True, overrides={'ᛝ': 'ING'})
         for result in results:
             four.write(result + "\n")
+    with open("03.jpg.asc.jpg.runes.txt", "r") as runes, open("03.jpg.asc.jpg.runes-possibilities.txt", "w") as tiny:
+        data = runes.read()
+        results = Gematria.rune_to_english(data, mode="atbash", fast=True)
+        for result in results:
+            tiny.write(result + "\n")
     
