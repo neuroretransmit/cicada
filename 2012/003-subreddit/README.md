@@ -555,7 +555,7 @@ Delete here: http://www.reddit.com/r/a2e7j6ic78h0j/comments/o4e2a/rcbkfgaplvj_am
 
 ### Problems?
 
-Another delete on Problems? where it looks like the original admin forgot to steg the image with outguess (also a different size).
+Another delete on Problems? where it looks like the original admin forgot to steg the image with outguess (also a different size). The size is the exact size easystereogram spits out, but converted to a JPG. XORing the raw pixel values of the recreation gives you the exact image, so it can be confirmed that there is nothing special about this. See [recreated^deleted.png](posts/recreation%5Edeleted.png) for the output of the XOR.
 
 ```
         updated:

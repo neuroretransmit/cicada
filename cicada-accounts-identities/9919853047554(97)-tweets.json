@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "text": "2, 3, 5, 13, 89, 233, 1597, 28657, 514229, 433494437, 2971215073, 99194853094755497...",
+      "source": "Twitter Web Client",
+      "public_metrics": {
+        "retweet_count": 3,
+        "reply_count": 0,
+        "like_count": 3,
+        "quote_count": 0
+      },
+      "created_at": "2014-07-11T11:06:58.000Z",
+      "edit_history_tweet_ids": [
+        "487553631718490112"
+      ],
+      "author_id": "2617098684",
+      "id": "487553631718490112",
+      "possibly_sensitive": false
+    }
+  ],
+  "meta": {
+    "result_count": 1,
+    "newest_id": "487553631718490112",
+    "oldest_id": "487553631718490112"
+  }
+}
