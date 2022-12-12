@@ -39,7 +39,7 @@ $ dd if=server-status.bin bs=1 count=$(./findendofjpg.py server-status.bin) stat
 
 ## Runes
 
-There are two pages of runes to unfold.
+There are two pages of runes to unfold and a small segment for the next onion.
 
 ### 03.jpg or "Welcome"
 
@@ -68,12 +68,30 @@ The hex in the PGP message contained the following:
 
 ![03.jpg.asc.jpg](03.jpg.asc.jpg)
 
+These runes are encrypted with a Vigenere using the key `WELCOMEPILGRIMTOTHE`... ish (see [gematriaprimus.py](gematriaprimus.py)). There are key inconsistencies with what was said in IRC by `_BoB`. Still working out the accurate key, but permutations come out to the following (X denotes incorrect):
+
+```
+   X             XXXX
+AUOIYFGL5LCSFJ3NOEOPM
+AUOIYFGL5LKSFJ3NOEOPM
+AUOIYFGL5LCZFJ3NOEOPM
+AUOIYFGL5LKZFJ3NOEOPM
+```
+
+The correct result is `auowyfgl5lkzfj3n.onion`.
+
+Something very suspect to me... who is `_BoB_` from the IRC logs?
+
+```
+<_BoB_> Using the key "welcome pilgrim to the" I decode the small rune picture as: A U O W Y F X L 5 L C S F J 3 N O N IO N
+<dynomite27> so... an hour ish ago from now. 
+```
 
 ### 04.jpg or "Wisdom"/magic square
 
 ![04.jpg](04.jpg)
 
-The runes are unencrypted using the ordering from the Gematria Primus discovered in 2013. 
+The runes are unencrypted using the ordering from the Gematria Primus discovered in 2013.
 
 A valid decrypt will look something like this, see [gematriaprimus.py](gematriaprimus.py).
 
