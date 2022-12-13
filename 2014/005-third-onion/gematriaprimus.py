@@ -197,7 +197,7 @@ if __name__ == "__main__":
             three.write(result + "\n")
     with open("03.jpg.asc.jpg.runes.txt", "r") as runes, open("03.jpg.asc.jpg.runes-possibilities.txt", "w") as tiny:
         data = runes.read()
-        results = Gematria.rune_to_english(data, mode="vigenere", key=Gematria.key_to_shifts("WELCOMEPILGRIMTOTHE", doubles=True), fast=False, filter_impossible=False) # [ 22, 11, 9, 24, 26, 10, 11, 16, 19, 9, 23, 25, 19, 10, 13, 26, 27, 11 ]
+        results = Gematria.rune_to_english(data, mode="vigenere", key=Gematria.key_to_shifts("WELCOMEPILGRIMTOTHE", doubles=True), fast=False, filter_impossible=False)
         for result in results:
             tiny.write(result + "\n")
     with open("04.jpg.runes.txt", "r") as runes, open("04.jpg.runes-possibilities.txt", "w") as four:
