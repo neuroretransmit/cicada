@@ -23,4 +23,4 @@ cmp -l server-status.bin server-status-reversed.bin > server-status-cmp.txt
 dd if=server-status.bin bs=1 skip=$((0x00521e4)) count=357 status=noxfer | rev | xxd -p -r > square.txt
 # Extract ONLY the first image - no extra garbage
 dd if=server-status.bin bs=1 count=$(./findendofjpg.py server-status.bin) status=noxfer > 04.jpg
-
+./gematriaprimus.py

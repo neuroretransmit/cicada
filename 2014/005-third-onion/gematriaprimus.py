@@ -2,7 +2,8 @@
 
 """ 
 SPECIAL SYMBOLS IN RUNES
-:  == trip reset of supplied key (Welcome page has hard resets on F while skipping most of the first three lines)
+:  == trip skip of supplied key (Welcome page has hard skips on F and continuing on next char,
+      while skipping most of the first three lines)
 .  == period
 -  == word separator
 -/ == word continuation on next line
@@ -15,7 +16,7 @@ from pprint import pprint as pp
 # Formatted in atbash per the Warning page
 RUNE_LOOKUP = {
     'ᛠ': ['F'],
-    'ᛯ': ['U'],
+    'ᛡ': ['U'],
     'ᚣ': ['TH'],
     'ᚫ': ['O'],
     'ᚪ': ['R'],
@@ -109,8 +110,6 @@ class Gematria:
         preprocessed = txt.upper()
         if not keep_tabs_breaks:
             processed = txt.replace("\n", " ").replace("\r", " ").replace("\t", " ")
-        # Repos like idkfa use the right rune, i opted for the left
-        preprocessed = preprocessed.replace("ᛡ", "ᛯ")
         return preprocessed
 
     # TODO: Optimize out of O(scary) using tiered map lookups
@@ -163,7 +162,6 @@ class Gematria:
                         for i in range(len(results)):
                             results[i] += overrides[c]
                         continue
-                    # FIXME: Double char candidates are being put next to each other in stash
                     for candidate in candidates:
                         # Shallow copy, that was a fucking annoying bug
                         working = results[:]
