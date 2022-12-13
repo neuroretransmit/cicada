@@ -68,23 +68,22 @@ The hex in the PGP message contained the following:
 
 ![03.jpg.asc.jpg](03.jpg.asc.jpg)
 
-These runes are encrypted with a Vigenere using the key `WELCOMEPILGRIMTOTHE`... ish (see [gematriaprimus.py](gematriaprimus.py)). There are key inconsistencies with what was said in IRC by `_BoB`. Still working out the accurate key, but permutations come out to the following (X denotes incorrect):
+These runes are encrypted with a Vigenere using the key `WELHOMEPILGRIM????` (see [gematriaprimus.py](gematriaprimus.py) and [ga.py](ga.py)). The GA is used to evolve to a key that properly decrypt to the URL provided in the IRC conversation below. There are key inconsistencies with what was said in IRC by `_BoB_` to find the fourth onion. This, in my opinion is highly suspect - he had stated the following:
+
+> <_BoB_> Using the key "welcome pilgrim to the" I decode the small rune picture as: A U O W Y F X L 5 L C S F J 3 N O N IO N
+>
+> \<dynomite27\> so... an hour ish ago from now. 
+
+The correct result is `avowyfgl5lkzfj3n.onion`. Using his key, the `w` comes out to an `i` and `onion` never decrypts properly (ignore the `u` below, there is no `v` in the Gematria Primus, `u = v`). Below are the results of evolving the key with a genetic algorithm to attemp to obtain the proper key. We can see clearly that `WELHOME` is the propery start and that `onion` never converges.
+
+The following results are in the format of `decrypt levenshtein distance from target:key:decrypt`
 
 ```
-   X             XXXX
-AUOIYFGL5LCSFJ3NOEOPM
-AUOIYFGL5LKSFJ3NOEOPM
-AUOIYFGL5LCZFJ3NOEOPM
-AUOIYFGL5LKZFJ3NOEOPM
-```
-
-The correct result is `auowyfgl5lkzfj3n.onion`.
-
-Something very suspect to me... who is `_BoB_` from the IRC logs?
-
-```
-<_BoB_> Using the key "welcome pilgrim to the" I decode the small rune picture as: A U O W Y F X L 5 L C S F J 3 N O N IO N
-<dynomite27> so... an hour ish ago from now. 
+# Double char lookups
+BEST: (3, 'WELHOMEPILGRIMTGME', 'AUOWYFGL5LKZFJ3NONIN') (3, 'WELHOMEPILGRIMTGMER', 'AUOWYFGL5LKZFJ3NONIN')
+...
+# Single char lookups
+BEST: (3, 'WELHOMEPILGRIMTCYEL', 'AUOWYFGL5LKZFJ3NOION') (3, 'WELHOMEPILGRIMTCYED', 'AUOWYFGL5LKZFJ3NOION')
 ```
 
 ### 04.jpg or "Wisdom"/magic square
