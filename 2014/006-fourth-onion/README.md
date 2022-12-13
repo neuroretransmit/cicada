@@ -160,3 +160,13 @@ Good luck.
 
 
 ```
+
+This is a columnar transposition cipher where the text needs to be arranged in rows of length 7. The column key (zero indexed) is `0,6,2,5,1,4,3`. The resulting message is:
+
+`TOBELIEVETRUTHISTODESTROYPOSSIBILITYQ4UTGDI2N4M4UIM59133`
+
+or 
+
+``TO BELIEVE TRUTH IS TO DESTROY POSSIBILITY Q4UTGDI2N4M4UIM5 9133``
+
+The 9133 is a loose end, experiments with port numbers on the onion resulted in very little and the token preceding it is the next onion URL.
