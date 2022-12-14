@@ -44,7 +44,7 @@ Using a steganography tool called OpenPuff (v4.00 ONLY, v4.01 will not retrieve 
 
 ## magicsquares.txt
 
-See [magicsquares.txt](magicsquares.txt).
+See [magicsquares.txt](magicsquares.txt). The use of this is currently unknown.
 
 ```
 
@@ -173,4 +173,26 @@ Your browser does not support the audio element.
 
 ## Book code
 
-Using the clues from the 3 files extracted in the [outguess hex](#outguess-hex), it directs us toward *Gödel, Escher, Bach: An Eternal Golden Braid* by Douglas Hofstadter. Using the book code in the [outguess](#outguess) data, we can solve for an onion URL where the format is `chapter:line:word:letter`
+Using the clues from the 3 files extracted in the [outguess hex](#outguess-hex), it directs us toward *Gödel, Escher, Bach: An Eternal Golden Braid* by Douglas Hofstadter (see [eternal-golden-braid.txt](eternal-golden-braid.txt)). Using the book code in the [outguess](#outguess) data, we can solve for an onion URL where the format is `<chapter title>:<dialogue exchange>:<word>:<letter>`
+
+```
+3PI:6:1:3       u # Three-part invention, 6th dialogue exchange (Tortoise), "Your"
+LML:1:1:1       t # Little Harmonic Labyrinth, 1st dialogue exchange (Tortoise), "This"
+3               3
+ETOATS:19:9:1   q # Edifying Thoughts of a Tobacco Smoker, 19th dialogue exchange (Achiles), "quite"
+...AF:5:3:1     t # ...Ant Fugue, 5th dialogue exchange (Anteater), "the"
+AMO:13:10:1     z # A Mu Offering, 13th dialogue exchange (Achilles), "Zen"
+CC:8:6:1        b # Crab Cannon, 8th dialogue exchange (Tortoise), "But"
+CBIA:3:7:2      r # Canon by Intervallic Augmentation, 3rd dialogue exchange (Tortoise), "drink"
+CFAF:5:23:6     v # Chromatic Fantasy, And Feud, 5th dialogue exchange (Tortoise), "herbivorous"
+SPR:1:8:1       s # Six-Part Ricercar, 1st dialogue exchange (Achilles), "such"
+7               7
+C[1]:4:5:3      d # Contracrostipunctus, 4th dialogue exchange (Tortoise), "bad"
+AWDV:6:2:1      t # Aria with Diverse Variations, 6th dialogue exchange (Achilles), "that"
+C[2]:2:17:5     v # Contrafactus, 2nd dialogue exchange (Crab), "beloved"
+SC:3:17:1       z # Sloth Canon, 3rd dialogue exchange (Achilles), "Zeno"
+AOGS:2:8:1      p # Air on G's String, 2nd dialogue exchange (Achilles), "phone"
+ONION
+```
+
+Giving us, `ut3qtzbrvs7dtvzp.onion`.
