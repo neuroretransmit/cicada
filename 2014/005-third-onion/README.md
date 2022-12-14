@@ -79,10 +79,10 @@ The correct result is `avowyfgl5lkzfj3n.onion`. Using his key, the `w` comes out
 The following results are in the format of `decrypt levenshtein distance from target:key:decrypt`
 
 ```
-AUOWYFGL5LCSFJ3NONPN
-AUOWYFGL5LKSFJ3NONPN
-AUOWYFGL5LCZFJ3NONPN
-AUOWYFGL5LKZFJ3NONPN
+AUOWYFGL5LCSFJ3NONPM
+AUOWYFGL5LKSFJ3NONPM
+AUOWYFGL5LCZFJ3NONPM
+AUOWYFGL5LKZFJ3NONPM
 ```
 
 ### 04.jpg or "Wisdom"/magic square
