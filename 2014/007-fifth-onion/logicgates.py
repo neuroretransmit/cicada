@@ -17,7 +17,7 @@ def get_modified_bits(cicada, original, operation="xor"):
     cicada.save(f"{operation}.png", format="png")
 
 
-cicada = Image.open("./q4utgdi2n4m4uim5.onion.jpg")
+cicada = Image.open("./q4utgdi2n4m4uim5.onion.jpeg")
 original = Image.open("Francisco_de_Goya_y_Lucientes_-_Portrait_of_Andrés_del_Peral_-_WGA10031.jpg")
 for op in ["xor", "nand"]:
     get_modified_bits(cicada, original, operation=op)

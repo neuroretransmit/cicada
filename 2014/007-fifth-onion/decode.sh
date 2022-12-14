@@ -13,5 +13,5 @@ rm ./q4utgdi2n4m4uim5.onion.jpg
 bzip2 -f -k -d ./q4utgdi2n4m4uim5.onion.asc.bz2
 xxd -r -p 01.hex > 01.jpg
 xxd -r -p 02.hex > 02.jpg
-xxd -r -p 03.mp3 > 03.mp3
+xxd -r -p 03.hex > 03.mp3
 
