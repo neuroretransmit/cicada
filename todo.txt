@@ -73,9 +73,10 @@ Follow up image on 1231507051321 Twitter (infotomb, now gone)
 What was the 512 character hex?
 HTML for second onion
 HTML for third onion
-Find out who _BoB_ is.
 Play with 256 byte XORs
-Solve transposition cipher for onion 4
+Follow up on magicsquares.txt
+Play with openpuff across files
+Since openpuff worked... run across my suite of stego tools
 
 
 2016:

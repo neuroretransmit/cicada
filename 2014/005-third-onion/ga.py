@@ -63,7 +63,7 @@ class GA:
 if __name__ == "__main__":
     with open("./03.jpg.asc.jpg.runes.txt", "r") as runes:
         data = runes.read()
-        p1_key = 'WELHOMEPILGRIMTOTHEEND'
+        p1_key = 'WELCOMEPILGRIMTOTHE'
         p1_dists = []
         p1_decrypts = Gematria.rune_to_english(data, mode="vigenere", key=Gematria.key_to_shifts(p1_key, doubles=DOUBLES), fast=False, filter_impossible=False)
         for d in p1_decrypts:
@@ -71,7 +71,7 @@ if __name__ == "__main__":
         p1_dist = min(p1_dists)
         p1_decrypt = [p1_decrypts[i] for i, d in enumerate(p1_dists) if d == p1_dist][0]
         p1 = (p1_dist, p1_key, p1_decrypt)
-        p2_key = 'WELCOMEPILGRIMTOTHEEND'
+        p2_key = 'WELHOMEPILGRIMTOTE'
         p2_dists = []
         p2_decrypts = Gematria.rune_to_english(data, mode="vigenere", key=Gematria.key_to_shifts(p2_key, doubles=DOUBLES), fast=False, filter_impossible=False)
         for d in p2_decrypts:
