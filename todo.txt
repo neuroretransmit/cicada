@@ -77,6 +77,9 @@ Play with 256 byte XORs
 Follow up on magicsquares.txt
 Play with openpuff across files
 Since openpuff worked... run across my suite of stego tools
+Get V2 of onion 6 (magic square uploads)
+Write CGI service
+Obtain images given as a result/messages
 
 
 2016:

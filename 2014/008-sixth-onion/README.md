@@ -1,6 +1,21 @@
 # ut3qtzbrvs7dtvzp.onion
 
-After solving the [book code from the 5th onion](../007-fifth-onion/README.md#book-code), solvers navigated to this onion. It contained a numbered comment with hex as usual. See [ut3qtzbrvs7dtvzp.html](./ut3qtzbrvs7dtvzp.html).
+After solving the [book code from the 5th onion](../007-fifth-onion/README.md#book-code), solvers navigated to this onion. It contained a numbered comment with hex as usual. See [ut3qtzbrvs7dtvzp.onion.html](./ut3qtzbrvs7dtvzp.onion.html).
+
+Headers:
+
+```
+HTTP/1.0 200 (OK)
+Cache-Control: max-age=0, no-cache
+Connection: close
+Date: Fri, 31 Jan 2014 06:57:04 GMT
+Accept-Ranges: bytes
+Server: Apache
+Vary: Accept-Encoding
+Content-Length: 8623291
+Content-Type: text/plain
+X-Cicada: 1033
+```
 
 ## Hex
 
