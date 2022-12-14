@@ -74,7 +74,9 @@ What was the 512 character hex?
 HTML for second onion
 HTML for third onion
 Play with 256 byte XORs
-Play with mp3 stego tools and extract raw PCM stream for LSB
+Follow up on magicsquares.txt
+Play with openpuff across files
+Since openpuff worked... run across my suite of stego tools
 
 
 2016:
