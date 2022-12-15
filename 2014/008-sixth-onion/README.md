@@ -416,5 +416,3 @@ See [cgi.py](./cgi/cgi.py) and [index.html](cgi/index.html) for completeness, th
 After successfully submitting the squares (Cicada wanted the specific squares, not a calculation of new squares) and your hidden service URL - you were greeted with this page [ut3qtzbrvs7dtvzp.onion.v2-submitted.html](ut3qtzbrvs7dtvzp.onion.v2-submitted.html) and three more pages of Liber Primus.
 
 ![submitted.jpg](submitted.jpg)
-
-## 
