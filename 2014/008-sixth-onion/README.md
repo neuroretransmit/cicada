@@ -164,7 +164,10 @@ R-MIND.PROGRAM-REALITY./
 
 ## Outguess
 
-This is the lead up to a private round, there are 4 outguess messages within. The first two have the same squares. Below is all four messages.
+There are 4 outguess messages within the new pages. The first two have the same frame for the squares. Below is all four messages. The frames are `3`, `3`, `0`, `1`. None of the squares are magic squares, so this is requesting three from past puzzles.
+
+1. There are 3 in [magicsquares.txt](../007-fifth-onion/magicsquares.txt) (obtained through OpenPuff)
+2. There is also [square.txt](../005-third-onion/square.txt) (data wedged between the pages in the third onion/same square from Liber Primus page with "void", etc. in it), it is the last square in the 3 from [magicsquares.txt](../007-fifth-onion/magicsquares.txt).
 
 See [09.jpg.asc](./09.jpg.asc)
 
@@ -357,3 +360,61 @@ a+QzPmj23nt6+gfPGD0C
 =4CVy
 -----END PGP SIGNATURE-----
 ```
+
+## Hidden service returns
+
+When the hidden service came back up, it had a signed message (see [ut3qtzbrvs7dtvzp.onion.v2-form.html](ut3qtzbrvs7dtvzp.onion.v2-form.html.asc)) detailing your CGI service implementation and forms for the upload. See [ut3qtzbrvs7dtvzp.onion.v2-form.html](ut3qtzbrvs7dtvzp.onion.v2-form.html) for the HTML.
+
+```
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+Hello.  You have done well to come this far.
+
+Please paste the magic squares into the appropriate textareas below, then
+provide the URL to your Tor hidden service.
+
+The path to your CGI script which accepts uploads should be '/cgi-bin/upload'
+and the HTML form input which accepts file uploads should be named 'file'.
+
+Additionally, please generate a GnuPG key pair, and place the public key
+in the location '/key.asc'.
+
+We will contact you soon.
+
+Good luck.
+
+3301
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQIcBAEBAgAGBQJS43VRAAoJEBgfAeV6NQkPVcQP/Rnli3AdTLAj28W1SMHTD6v0
+Q67n89uGF6ZeD4U+dD2FHULAL9upNBRdzF7golqcfJCpeIKN0JYyilpGgSyTQmx+
+yJXinlq4ZY+NNN45t8FtULvpVVO+L1ztF6dcohK+ZhAWWFj5u5WwEINx0mo+TE35
+S7imfprBdk2C5B/E8ds7m35s74oWfdys8oY+vUHzOT4KB0SYFbankH6aLIe7fiTa
+STB1Effelhg9F8YjDsopFHyF/kozI+eYk9yJcDEhlO4aiIkfZdNdLhXz80SIKw9v
+ryjTCPUJfFrVpaelHxBefTOQHPfQEWnua7h6V6bx8Wiem7eiNyfXMAk1uoiu9zWW
+FbA+MIFZ711kLvzD9Sg/0YGY97Gzzt0M1e8Pl/JYYzjOzFOH5pqmgMoOTBO0bvV+
+d+QaLLiKmH0cYdTKmLv2xJ/1y7z0pakmgXCOhzIVQCDwoMxfGELLi9MNroaZFK3e
+JzeDy828EfafrWpQ/LNzovb0XHyR1p4RRLq9vqMTFo0U0U7lLDKfWJvs4Y73o2Pn
+QRNzn2+2GPQPj1CRMp5gxDFzwAMT0RBAfagkDiQu2uDxk8NZfSWkJVmsAUlLQLA9
+7Wa5zuxPNvBf8Bws6y1C241FVfyttC4tNZEp2ShtbnHkZj1gFZf5v4rbq8wsxPrJ
+Jp8kkuLi0PWCITmtfTsb
+=TwC1
+-----END PGP SIGNATURE-----
+```
+
+### Mock CGI service
+
+See [cgi.py](./cgi/cgi.py) and [index.html](cgi/index.html) for completeness, this was never used in the real puzzle and is just my example. You'd have to set up the hidden service and configure Apache to use CGI, etc. The upload script would need to be at `/cgi-bin/upload` and your public key would need to be available at `/key.asc`.
+
+### Submission
+
+After successfully submitting the squares (Cicada wanted the specific squares, not a calculation of new squares) and your hidden service URL - you were greeted with this page [ut3qtzbrvs7dtvzp.onion.v2-submitted.html](ut3qtzbrvs7dtvzp.onion.v2-submitted.html) and three more pages of Liber Primus.
+
+![submitted.jpg](submitted.jpg)
+
+## 
