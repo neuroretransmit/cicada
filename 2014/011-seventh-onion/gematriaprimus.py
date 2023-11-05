@@ -131,11 +131,20 @@ class Gematria:
         lookup = Gematria.substitution(mode=mode)
         results = ['']
         impossible_bigrams = ["JQ", "QG", "QK", "QY", "QZ", "WQ", "WZ"]
-        txt = Gematria.preprocess_runes(txt, keep_tabs_breaks=True)
-        lookup_keys = list(lookup.keys())
+        #txt = Gematria.preprocess_runes(txt, keep_tabs_breaks=True)
+        lookup_keys = [k for k, v in lookup.items()]
+        print(lookup_keys)
         print("shift key:", key)
         ki = 0 # key index
+        skip_encountered = False # Encountered & symbol (plaintext)
         for n, c in enumerate(txt):
+            if c == '&':
+                skip_encountered = not skip_encountered
+                results[i] += c
+                continue
+            if skip_encountered:
+                results[i] += c
+                continue
             if c in lookup:
                 shift = 0
                 # Set shifts for ROT/Vigenere
@@ -145,9 +154,12 @@ class Gematria:
                 if rot:
                     shift = rot
                 if mode == "totient":
-                    ri = lookup_keys.index(c)
-                    shift = (ri - key[ri]) % 29
-                    print(ri, key[ri], shift)
+                    # Totients are calculated in __main__ (key contents).
+                    # Skip index 221 and move key index back one
+                    shift = -key[ki] if n != 221 else 0
+                    if shift == 0:
+                        ki -= 1
+                    print(f"{ki:03d}", f"ciphertext: {c}\t", f"totient: {key[ki]}\t", f"shift: {shift}\t")
                 if fast:
                     for i in range(len(results)): # Always 1, rewrite
                         # In Vigenere for page 3 "Welcome", plaintext F doesn't use the key and 
@@ -198,6 +210,40 @@ class Gematria:
                             print(c)
         return results
 
+def gen_primes():
+    """ Generate an infinite sequence of prime numbers.
+    """
+    # Maps composites to primes witnessing their compositeness.
+    # This is memory efficient, as the sieve is not "run forward"
+    # indefinitely, but only as long as required by the current
+    # number being tested.
+    #
+    D = {}
+    
+    # The running integer that's checked for primeness
+    q = 2
+    
+    while True:
+        if q not in D:
+            # q is a new prime.
+            # Yield it and mark its first multiple that isn't
+            # already marked in previous iterations
+            # 
+            yield q
+            D[q * q] = [q]
+        else:
+            # q is composite. D[q] is the list of primes that
+            # divide it. Since we've reached q, we no longer
+            # need it in the map, but we'll mark the next 
+            # multiples of its witnesses to prepare for larger
+            # numbers
+            # 
+            for p in D[q]:
+                D.setdefault(p + q, []).append(p)
+            del D[q]
+        
+        q += 1
+
 if __name__ == "__main__":
     import sys
     # for i in range(0, len(RUNE_LOOKUP.keys)):
@@ -208,7 +254,7 @@ if __name__ == "__main__":
             pages.write(result + "\n")
     with open("56.jpg.runes.txt", "r") as runes, open("56.jpg.runes-possibilities.txt", "w") as page:
         data = runes.read()
-        totients = [x - 1 for x in range(2, len(data)) if x not in set(j for i in range(2, 8) for j in range(i*2, len(data), i))]
+        totients = [p - 1 for i, p in zip(range(len(data)), gen_primes())]
         results = Gematria.rune_to_english(data, mode="totient", key=totients, fast=True)
         for result in results:
             page.write(result + "\n")
