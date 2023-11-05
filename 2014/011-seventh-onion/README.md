@@ -61,9 +61,42 @@ See [ky2khlqdf7qdznac.onion.html](ky2khlqdf7qdznac.onion.html).
 ![54.jpg](54.jpg)
 ![55.jpg](55.jpg)
 
-Page 56 is encrypted using a totient shift on the gematria. TODO: fix implementation
+Page 56 is encrypted using a totient shift on the Gematria in standard (non-atbash) order.
+
+`shift = -totients[rune_index]`
+`plaintext = gematria_lookup[gematria_lookup.index(rune) + shift]`
 
 ![56.jpg](56.jpg)
+
+```
+AN-END.WITHIN-THE-DEEP-WEB-TH/
+ERE-EXISTS-A-PAGE-THAT-HA/
+SHES-TO./
+&
+36367763AB73783C7AF284446C/
+59466B4CD653239A311CB7116/
+D4618DEE09A8425893DC7500B/
+464FDAF1672D7BEF5E891C6E227/
+4568926A49FB4F45132C2A8B4/
+&
+IT-IS-THE-DUTY-OF-EUERY-PILGR/
+IM-TO-SEEC-OUT-THIS-PAGE./
+```
+
+```
+AN-END.WITHIN-THE-DEEP-WEB-TH/
+ERE-EXISTS-A-PAGE-THAT-HA/
+SHES-TO./
+&
+36367763AB73783C7AF284446C/
+59466B4CD653239A311CB7116/
+D4618DEE09A8425893DC7500B/
+464FDAF1672D7BEF5E891C6E227/
+4568926A49FB4F45132C2A8B4/
+&
+IT-IS-THE-DUTY-OF-EVERY-PILGR/
+IM-TO-SEEK-OUT-THIS-PAGE./
+```
 
 Page 57 is unencrypted.
 
