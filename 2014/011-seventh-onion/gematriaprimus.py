@@ -117,7 +117,7 @@ class Gematria:
     # TODO: Thread/yield and massive join for permutations
     # TODO: Work out of file or database to reduce RAM usage. Page 03.jpg eats all 32GB :(
     @staticmethod
-    def rune_to_english(txt, mode=None, fast=True, overrides = {}, key=None, filter_impossible=True, rot=None):
+    def rune_to_english(txt, mode=None, fast=True, overrides = {}, key=None, filter_impossible=True, rot=None, bulk=False):
         """ Convert runes to english text and filters results with impossible bigrams
         @txt               Runes to decrypt
         @mode              Encryption mode (specifies ordering of rune lookups: atbash, vigenere (same as None))
@@ -138,7 +138,7 @@ class Gematria:
         ki = 0 # key index
         skip_encountered = False # Encountered & symbol (plaintext)
         for n, c in enumerate(txt):
-            if c == '&':
+            if c == '&' and not bulk:
                 skip_encountered = not skip_encountered
                 results[i] += c
                 continue
@@ -246,12 +246,6 @@ def gen_primes():
 
 if __name__ == "__main__":
     import sys
-    # for i in range(0, len(RUNE_LOOKUP.keys)):
-    with open("0-55.jpg.runes.txt", "r") as runes, open("0-55.jpg.runes-possibilities.txt", "w") as pages:
-        data = runes.read()
-        results = Gematria.rune_to_english(data, fast=True)
-        for result in results:
-            pages.write(result + "\n")
     with open("56.jpg.runes.txt", "r") as runes, open("56.jpg.runes-possibilities.txt", "w") as page:
         data = runes.read()
         totients = [p - 1 for i, p in zip(range(len(data)), gen_primes())]
