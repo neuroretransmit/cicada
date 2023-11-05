@@ -15,15 +15,21 @@
 **Verifications (attempting password resets on Twitter):**
 
 c3301@safe-mail.net/@1231507051321 (no longer primary, links to c1231507051321@gmail.com on password reset)
+
 ![c3301@safe-mail.net](cicada-accounts-identities/c3301@safe-mail.net-1231507051321-verification.png)
+
 c1231507051321@gmail.com/@991948530947554
+
 ![c1231507051321@gmail.com](cicada-accounts-identities/c1231507051321@gmail.com-991948530947554-verification.png)
+
 c99194853094755497@gmail.com/@3409933
+
 ![c99194853094755497@gmail.com](cicada-accounts-identities/c99194853094755497@gmail.com-3409933-verification.png)
 
 ## Timeline
 
 **2012**
+
 - [4chan final.jpg](./2012/001-final.jpg/README.md)
 - [Imgur m9sYK.jpg (Decoy/Duck)](./2012/002-m9sYK.jpg/README.md)
 - [Subreddit](./2012/003-subreddit/README.md)
@@ -37,7 +43,9 @@ c99194853094755497@gmail.com/@3409933
 - [Invitation](./2012/010-invitation/README.md)
 - [Valete](./2012/011-valete/README.md)
 - [Necrome](./2012/012-necrome/README.md)
+
 **2013**
+
 - [4chan 232.jpg](./2013/001-232.jpg/README.md)
 - [Dropbox 3301 ISO](./2013/002-3301/README.md)
 - [Twitter](./2013/003-twitter/README.md)
@@ -46,7 +54,9 @@ c99194853094755497@gmail.com/@3409933
 - [Third Onion](./2013/006-third-onion/README.md)
 - [Fourth Onion](./2013/007-fourth-onion/README.md)
 - [Invitation](./2013/008-invitation/README.md)
+
 **2014**
+
 - [Twitter](./2014/001-twitter/README.md)
 - [First Onion](./2014/002-first-onion/README.md)
 - [Second Onion](./2014/003-second-onion/README.md)
@@ -58,9 +68,15 @@ c99194853094755497@gmail.com/@3409933
 - [Squares Submission Page](./2014/009-squares-submission-pages/README.md)
 - [Hidden Service Reply](./2014/010-hidden-service-reply/README.md)
 - [Seventh Onion](./2014/011-seventh-onion/README.md)
+
 **2015**
+
 - [Planned Parenthood Message](./2015/planned-parenthood.txt.asc)
+
 **2016**
+
 - [4gq25.jpg (Path lies empty)](./2016/README.md)
+
 **2017**
+
 - [Paste with valid signature (Beware false paths)](./2017/yEiTHhvF)
