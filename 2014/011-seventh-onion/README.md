@@ -4,66 +4,242 @@ See [ky2khlqdf7qdznac.onion.html](ky2khlqdf7qdznac.onion.html).
 
 ## Runes
 
+All solved pages were solved using [gematriaprimus.py](./gematriaprimus.py). You can see their transcription at **(page number).jpg.runes.txt** and the output of the run at **(page number).jpg.runes-possibilities.txt**. Currently these only exist for 56 (totient shift) and 57 (unencrypted).
+
+There are several files that have a `.check` file which runs strings, stegoveritas, and other tools over the file to check for steganography. Feel free to browse the results. It is how I found the (likely unimportant) COM executable in 8.jpg.
+
+### 0.jpg
+
 ![0.jpg](0.jpg)
+
+### 1.jpg
+
 ![1.jpg](1.jpg)
+
+### 2.jpg
+
 ![2.jpg](2.jpg)
+
+### 3.jpg
+
 ![3.jpg](3.jpg)
+
+### 4.jpg
+
 ![4.jpg](4.jpg)
+
+### 5.jpg
+
 ![5.jpg](5.jpg)
+
+### 6.jpg
+
 ![6.jpg](6.jpg)
+
+### 7.jpg
+
 ![7.jpg](7.jpg)
+
+### 8.jpg
+
+Note on page 8: Using outguess 0.13, a COM executable falls out with outguess (more than likely garbage). [8.jpg.bin](./8.jpg.bin).
+
 ![8.jpg](8.jpg)
+
+### 9.jpg
+
 ![9.jpg](9.jpg)
+
+### 10.jpg
+
 ![10.jpg](10.jpg)
+
+### 11.jpg
+
 ![11.jpg](11.jpg)
+
+### 12.jpg
+
 ![12.jpg](12.jpg)
+
+### 13.jpg
+
 ![13.jpg](13.jpg)
+
+### 14.jpg
+
 ![14.jpg](14.jpg)
+
+### 15.jpg
+
 ![15.jpg](15.jpg)
+
+### 16.jpg
+
 ![16.jpg](16.jpg)
+
+### 17.jpg
+
 ![17.jpg](17.jpg)
+
+### 18.jpg
+
 ![18.jpg](18.jpg)
+
+### 19.jpg
+
 ![19.jpg](19.jpg)
+
+### 20.jpg
+
 ![20.jpg](20.jpg)
+
+### 21.jpg
+
 ![21.jpg](21.jpg)
+
+### 22.jpg
+
 ![22.jpg](22.jpg)
+
+### 23.jpg
+
 ![23.jpg](23.jpg)
+
+### 24.jpg
+
 ![24.jpg](24.jpg)
+
+### 25.jpg
+
 ![25.jpg](25.jpg)
+
+### 26.jpg
+
 ![26.jpg](26.jpg)
+
+### 27.jpg
+
 ![27.jpg](27.jpg)
+
+### 28.jpg
+
 ![28.jpg](28.jpg)
+
+### 29.jpg
+
 ![29.jpg](29.jpg)
+
+### 30.jpg
+
 ![30.jpg](30.jpg)
+
+### 31.jpg
+
 ![31.jpg](31.jpg)
+
+### 32.jpg
+
 ![32.jpg](32.jpg)
+
+### 33.jpg
+
 ![33.jpg](33.jpg)
+
+### 34.jpg
+
 ![34.jpg](34.jpg)
+
+### 35.jpg
+
 ![35.jpg](35.jpg)
+
+### 36.jpg
+
 ![36.jpg](36.jpg)
+
+### 37.jpg
+
 ![37.jpg](37.jpg)
+
+### 38.jpg
+
 ![38.jpg](38.jpg)
+
+### 39.jpg
+
 ![39.jpg](39.jpg)
+
+### 40.jpg
+
 ![40.jpg](40.jpg)
+
+### 41.jpg
+
 ![41.jpg](41.jpg)
+
+### 42.jpg
+
 ![42.jpg](42.jpg)
+
+### 43.jpg
+
 ![43.jpg](43.jpg)
+
+### 44.jpg
+
 ![44.jpg](44.jpg)
+
+### 45.jpg
+
 ![45.jpg](45.jpg)
+
+### 46.jpg
+
 ![46.jpg](46.jpg)
+
+### 47.jpg
+
 ![47.jpg](47.jpg)
+
+### 48.jpg
+
 ![48.jpg](48.jpg)
+
+### 49.jpg
+
 ![49.jpg](49.jpg)
+
+### 50.jpg
+
 ![50.jpg](50.jpg)
+
+### 51.jpg
+
 ![51.jpg](51.jpg)
+
+### 52.jpg
+
 ![52.jpg](52.jpg)
+
+### 53.jpg
+
 ![53.jpg](53.jpg)
+
+### 54.jpg
+
 ![54.jpg](54.jpg)
+
+### 55.jpg
+
 ![55.jpg](55.jpg)
+
+### 56.jpg
 
 Page 56 is encrypted using a totient shift on the Gematria in standard (non-atbash) order.
 
 `shift = -totients[rune_index]`
+
 `plaintext = gematria_lookup[gematria_lookup.index(rune) + shift]`
 
 ![56.jpg](56.jpg)
@@ -97,6 +273,8 @@ D4618DEE09A8425893DC7500B/
 IT-IS-THE-DUTY-OF-EVERY-PILGR/
 IM-TO-SEEK-OUT-THIS-PAGE./
 ```
+
+### 57.jpg
 
 Page 57 is unencrypted.
 
