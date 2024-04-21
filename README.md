@@ -28,6 +28,10 @@ c99194853094755497@gmail.com/@3409933
 
 ## Timeline
 
+**2006 (Possibly not Cicada but similar style with claims from other solvers)**
+
+- [4chan_before_cicada](./leads/4chan_before_cicada/README.md)
+
 **2012**
 
 - [4chan final.jpg](./2012/001-final.jpg/README.md)
@@ -80,3 +84,5 @@ c99194853094755497@gmail.com/@3409933
 **2017**
 
 - [Paste with valid signature (Beware false paths)](./2017/yEiTHhvF)
+
+
