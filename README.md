@@ -10,7 +10,8 @@
 **Twitters**
 - @1231507051321 - belongs to c3301@safe-mail.net
 - @3409933 - belongs to c99194853094755497@gmail.com
-- @991948530947554 - belongs to c1231507051321@gmail.com
+- @991948530947554 - belongs to c1231507051321@gmail.com [See Fibonacci Primes Twitter](./leads/twitter/README.md)
+
 
 **Verifications (attempting password resets on Twitter):**
 
@@ -88,5 +89,3 @@ See [Structure/Beliefs](./structure-beliefs/README.md)
 **2017**
 
 - [Paste with valid signature (Beware false paths)](./2017/yEiTHhvF)
-
-
