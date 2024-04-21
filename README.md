@@ -26,6 +26,10 @@ c99194853094755497@gmail.com/@3409933
 
 ![c99194853094755497@gmail.com](cicada-accounts-identities/c99194853094755497@gmail.com-3409933-verification.png)
 
+## Structure/Beliefs
+
+See [Structure/Beliefs](./structure-beliefs/README.md)
+
 ## Timeline
 
 **2006 (Possibly not Cicada but similar style with claims from other solvers)**
