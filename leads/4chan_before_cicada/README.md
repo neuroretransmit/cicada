@@ -1,6 +1,6 @@
 # 4chan post before Cicada
 
-This is a summary of a post that is largely believed to be the first 3301 post prior to Cicada 3301 puzzle launch in 2012. The password is unknown but a solver in the cicadasolvers Discord said they solved it long ago by getting  password from the zlib upon binwalk extraction. I have been unable to reproduce this. The key for Cicada was created outside of this time frame so don't let that deter the possibility of this in your mind.
+This is a summary of a post that is largely believed to be the first 3301 post prior to Cicada 3301 puzzle launch in 2012. The password is unknown but a solver in the cicadasolvers Discord said they solved it long ago by getting  password from the zlib upon binwalk extraction. I haven't been unable to reproduce this. The key for Cicada was created outside of this time frame so don't let that deter the possibility of this in your mind.
 
 ## Image
 
