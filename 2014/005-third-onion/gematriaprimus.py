@@ -116,7 +116,7 @@ class Gematria:
     # TODO: Thread/yield and massive join for permutations
     # TODO: Work out of file or database to reduce RAM usage. Page 03.jpg eats all 32GB :(
     @staticmethod
-    def rune_to_english(txt, mode=None, fast=True, overrides = {}, key=None, filter_impossible=True):
+    def rune_to_english(txt, mode=None, fast=True, overrides = {}, key=None, filter_impossible=True, key_index=0):
         """ Convert runes to english text and filters results with impossible bigrams
         @txt               Runes to decrypt
         @mode              Encryption mode (specifies ordering of rune lookups: atbash, vigenere (same as None))
@@ -133,7 +133,7 @@ class Gematria:
         txt = Gematria.preprocess_runes(txt, keep_tabs_breaks=True)
         lookup_keys = list(lookup.keys())
         print("shift key:", key)
-        ki = 0 # key index
+        ki = key_index
         for n, c in enumerate(txt):
             if c in lookup:
                 shift = 0
@@ -186,23 +186,28 @@ class Gematria:
                     else:
                         if c != ":":
                             print(c)
-        return results
+        return results, ki
 
 if __name__ == "__main__":
     import sys
     with open("03.jpg.runes.txt", "r") as runes, open("03.jpg.runes-possibilities.txt", "w") as three:
         data = runes.read()
-        results = Gematria.rune_to_english(data, mode="vigenere", key=Gematria.key_to_shifts("DIUINITY"), fast=True, overrides={'ᚠ': 'F'})
+        results, ki = Gematria.rune_to_english(data, mode="vigenere", key=Gematria.key_to_shifts("DIUINITY"), fast=True, overrides={'ᚠ': 'F'})
         for result in results:
             three.write(result + "\n")
-    with open("03.jpg.asc.jpg.runes.txt", "r") as runes, open("03.jpg.asc.jpg.runes-possibilities.txt", "w") as tiny:
-        data = runes.read()
-        results = Gematria.rune_to_english(data, mode="vigenere", key=Gematria.key_to_shifts("WELCOMEPILGRIMTOTHE", doubles=True), fast=False, filter_impossible=False)
-        for result in results:
-            tiny.write(result + "\n")
     with open("04.jpg.runes.txt", "r") as runes, open("04.jpg.runes-possibilities.txt", "w") as four:
         data = runes.read()
-        results = Gematria.rune_to_english(data, fast=True, overrides={'ᛝ': 'ING'})
+        results, ki = Gematria.rune_to_english(data, mode="vigenere", key=Gematria.key_to_shifts("DIUINITY"), fast=True, overrides={'ᚠ': 'F'}, key_index=ki)
         for result in results:
             four.write(result + "\n")
+    with open("03.jpg.asc.jpg.runes.txt", "r") as runes, open("03.jpg.asc.jpg.runes-possibilities.txt", "w") as tiny:
+        data = runes.read()
+        results, ki = Gematria.rune_to_english(data, mode="vigenere", key=Gematria.key_to_shifts("WELCOMEPILGRIMTOTHE", doubles=True), fast=False, filter_impossible=False)
+        for result in results:
+            tiny.write(result + "\n")
+    with open("05.jpg.runes.txt", "r") as runes, open("05.jpg.runes-possibilities.txt", "w") as five:
+        data = runes.read()
+        results, ki = Gematria.rune_to_english(data, fast=True, overrides={'ᛝ': 'ING'})
+        for result in results:
+            five.write(result + "\n")
     

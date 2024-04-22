@@ -24,22 +24,42 @@ The HTML for the completed status page is [here](./li676-224_server-status_new.h
 See [decode.sh](decode.sh) for the full process. This is all the steps to extract all components from the hex on the onion/status page.
 
 ```bash
-$ xxd -r -p onion3.hex > onion3.bin # convert <!--3301--> hex to data
-$ ./reversebytes.py onion3.bin onion3-reversed.bin # reverse bytes for the reversed image on the end
-$ cmp -l onion3.bin onion3-reversed.bin > onion3-cmp.txt # generate comparison of byte values and save it
-$ dd if=onion3.bin bs=1 count=$(./findendofjpg.py onion3.bin) status=noxfer > 03.jpg # Extract ONLY the first image - no extra garbage
-$ outguess -r 03.jpg 03.jpg.asc # get outguess message
-$ gpg -d 03.jpg.asc | tail -n +6 | xxd -r -p > 03.jpg.asc.jpg # decrypt message, remove message from Cicada for hex, and convert to binary small image
-$ xxd -r -p server-status.hex > server-status.bin # convert server status hex to data
-$ ./reversebytes.py server-status.bin server-status-reversed.bin # reverse byte for reversed/appended image
-$ cmp -l server-status.bin server-status-reversed.bin > server-status-cmp.txt # compare files byte-by-byte
-$ dd if=server-status.bin bs=1 skip=$((0x00521e4)) count=357 status=noxfer | rev | xxd -p -r > square.txt # extract the magic square between mirrored images
-$ dd if=server-status.bin bs=1 count=$(./findendofjpg.py server-status.bin) status=noxfer > 04.jpg # Extract ONLY the first image - no extra garbage
+#!/bin/sh
+
+# convert <!--3301--> hex to data
+xxd -r -p onion3.hex > onion3.bin
+# reverse bytes for the reversed image on the end
+./reversebytes.py onion3.bin onion3-reversed.bin
+# generate comparison of byte values and save it
+cmp -l onion3.bin onion3-reversed.bin > onion3-cmp.txt
+# Extract ONLY the first image - no extra garbage
+dd if=onion3.bin bs=1 count=$(./findendofjpg.py onion3.bin) status=noxfer > 03.jpg
+# get outguess message
+outguess -r 03.jpg 03.jpg.asc
+# decrypt message, remove not from Cicada for hex, and convert to binary for hint image
+gpg -d 03.jpg.asc | tail -n +6 | xxd -r -p > 03.jpg.asc.jpg
+
+# use infotomb server status to extract next two pages
+xxd -r -p infotomb-server-status.hex > infotomb-server-status.bin
+# reverse
+./reversebytes.py infotomb-server-status.bin infotomb-server-status-reversed.bin
+# compare reversed/forward
+cmp -l infotomb-server-status.bin infotomb-server-status-reversed.bin
+# extract page 4
+dd if=infotomb-server-status-reversed.bin bs=1 count=$(./findendofjpg.py infotomb-server-status-reversed.bin) status=noxfer > 04.jpg
+outguess -r 04.jpg 04.jpg.asc
+
+# convert server status hex to data
+xxd -r -p server-status.hex > server-status.bin
+# Extract ONLY the first image - page 5 - no extra garbage
+dd if=server-status.bin bs=1 count=$(./findendofjpg.py server-status.bin) status=noxfer > 05.jpg
+# extract magic square text file
+dd if=server-status.bin bs=1 skip=$((0x00521e4)) count=357 status=noxfer | rev | xxd -p -r > square.txt
 ```
 
 ## Runes
 
-There are two pages of runes to unfold and a small segment for the next onion.
+There are three pages of runes to unfold and a small segment for the next onion.
 
 ### 03.jpg or "Welcome"
 
@@ -85,9 +105,32 @@ AUOWYFGL5LCZFJ3NONPM
 AUOWYFGL5LKZFJ3NONPM
 ```
 
-### 04.jpg or "Wisdom"/magic square
+### 04.jpg
 
-![04.jpg](04.jpg)
+The runes are encrypted with same cipher/key continuing on the key index and skipping on the same runes. 
+
+A valid decrypt will look something like this, see [gematriaprimus.py](gematriaprimus.py).
+
+```
+.IT-IS-THROUGH-THIS-PILGRIM/
+AGE-THAT-WE-SHAPE-OURSELUE/
+S-AND-OUR-REALITIES.JOURNEY-D/
+EEP-WITHIN-AND-YOU-WILL-ARRIU/
+E-OUTSIDE.LICE-THE-INSTAR-IT-I/
+S-ONLY-THROUGH-GONG-WITHIN-THA/
+T-WE-MAY-EMERGE./
+&
+WIDSOM.YOU-ARE-A-BENG-UN/
+TO-YOURSELF.YOU-ARE-A-/
+LAW-UNTO-YOURSELF.EACH-/
+INTELLIGENCE-IS-HOLY.FO/
+R-ALL-THAT-LIUES-IS-HOLY./
+AN-INSTRUCTION-COMMAND-YOUR-OWN-SELF./
+```
+
+### 05.jpg or "Wisdom"/magic square
+
+![05.jpg](05.jpg)
 
 The runes are unencrypted using the ordering from the Gematria Primus discovered in 2013.
 
