@@ -107,6 +107,8 @@ AUOWYFGL5LKZFJ3NONPM
 
 ### 04.jpg
 
+![04.jpg](04.jpg)
+
 The runes are encrypted with same cipher/key continuing on the key index and skipping on the same runes. 
 
 A valid decrypt will look something like this, see [gematriaprimus.py](gematriaprimus.py).
