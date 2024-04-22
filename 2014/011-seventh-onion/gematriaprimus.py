@@ -13,6 +13,38 @@ SPECIAL SYMBOLS IN RUNES
 import string
 from pprint import pprint as pp
 
+GEMATRIA_VALUES = {
+    'ᛠ': 109, 
+    'ᛡ': 107,
+    'ᚣ': 103,
+    'ᚫ': 101,
+    'ᚪ': 97,
+    'ᛞ': 89,
+    'ᛟ': 83,
+    'ᛝ': 79,
+    'ᛚ': 73,
+    'ᛗ': 71,
+    'ᛖ': 67,
+    'ᛒ': 61,
+    'ᛏ': 59,
+    'ᛋ': 53,
+    'ᛉ': 47,
+    'ᛈ': 43,
+    'ᛇ': 41,
+    'ᛄ': 37,
+    'ᛁ': 31,
+    'ᚾ': 29,
+    'ᚻ': 23,
+    'ᚹ': 19,
+    'ᚷ': 17,
+    'ᚳ': 13,
+    'ᚱ': 11,
+    'ᚩ': 7,
+    'ᚦ': 5,
+    'ᚢ': 3,
+    'ᚠ': 2
+}
+
 # Formatted in atbash per the Warning page
 RUNE_LOOKUP = {
     'ᛠ': ['F'],
