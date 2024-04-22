@@ -192,22 +192,22 @@ class Gematria:
 
 if __name__ == "__main__":
     import sys
-    with open("05.jpg.runes.txt", "r") as runes, open("05.jpg.runes-possibilities.txt", "w") as three:
+    with open("06.jpg.runes.txt", "r") as runes, open("06.jpg.runes-possibilities.txt", "w") as three:
         data = runes.read()
         results = Gematria.rune_to_english(data, fast=True, mode="atbash", rot=3)
         for result in results:
             three.write(result + "\n")
-    with open("06.jpg.runes.txt", "r") as runes, open("06.jpg.runes-possibilities.txt", "w") as tiny:
+    with open("07.jpg.runes.txt", "r") as runes, open("07.jpg.runes-possibilities.txt", "w") as tiny:
         data = runes.read()
         results = Gematria.rune_to_english(data, fast=True, mode="atbash", rot=3)
         for result in results:
             tiny.write(result + "\n")
-    with open("07.jpg.runes.txt", "r") as runes, open("07.jpg.runes-possibilities.txt", "w") as four:
+    with open("08.jpg.runes.txt", "r") as runes, open("08.jpg.runes-possibilities.txt", "w") as four:
         data = runes.read()
         results = Gematria.rune_to_english(data, fast=True, mode="atbash", rot=3)
         for result in results:
             four.write(result + "\n")
-    with open("08.jpg.runes.txt", "r") as runes, open("08.jpg.runes-possibilities.txt", "w") as four:
+    with open("09.jpg.runes.txt", "r") as runes, open("09.jpg.runes-possibilities.txt", "w") as four:
         data = runes.read()
         results = Gematria.rune_to_english(data, fast=True, mode="atbash", rot=3)
         for result in results:

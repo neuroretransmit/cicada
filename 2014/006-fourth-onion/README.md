@@ -26,23 +26,23 @@ See [decode.sh](./decode.sh)
 ```
 $ xxd -r -p avowyfg151kzfj3n_update_after_downtime.html > decoded.gz
 $ gunzip -k decoded.gz
-$ dd if=decoded bs=1 count=$(./findendofjpg.py decoded) status=noxfer > 05.jpg
-$ dd if=decoded bs=1 skip=$(./findendofjpg.py decoded) status=noxfer > 05-trimmed.bin
-$ dd if=05-trimmed.bin bs=1 count=$(./findendofjpg.py 05-trimmed.bin) > 06.jpg
-$ dd if=05-trimmed.bin bs=1 skip=$(./findendofjpg.py 05-trimmed.bin) status=noxfer > "05,06-trimmed.bin"
-$ ./reversebytes.py "05,06-trimmed.bin" "05,06-trimmed-reversed.bin"
-$ dd if="05,06-trimmed-reversed.bin" bs=1 count=$(./findendofjpg.py "05,06-trimmed-reversed.bin") status=noxfer > 07.jpg
-$ dd if="05,06-trimmed-reversed.bin" bs=1 skip=$(./findendofjpg.py "05,06-trimmed-reversed.bin") status=noxfer > "05,06,07-trimmed.bin"
-$ dd if="05,06,07-trimmed.bin" bs=1 count=$(./findendofjpg.py "05,06,07-trimmed.bin") > 08.jpg
+$ dd if=decoded bs=1 count=$(./findendofjpg.py decoded) status=noxfer > 06.jpg
+$ dd if=decoded bs=1 skip=$(./findendofjpg.py decoded) status=noxfer > 06-trimmed.bin
+$ dd if=06-trimmed.bin bs=1 count=$(./findendofjpg.py 06-trimmed.bin) > 07.jpg
+$ dd if=06-trimmed.bin bs=1 skip=$(./findendofjpg.py 06-trimmed.bin) status=noxfer > "06,07-trimmed.bin"
+$ ./reversebytes.py "06,07-trimmed.bin" "06,07-trimmed-reversed.bin"
+$ dd if="06,07-trimmed-reversed.bin" bs=1 count=$(./findendofjpg.py "06,07-trimmed-reversed.bin") status=noxfer > 08.jpg
+$ dd if="06,07-trimmed-reversed.bin" bs=1 skip=$(./findendofjpg.py "06,07-trimmed-reversed.bin") status=noxfer > "06,07,08-trimmed.bin"
+$ dd if="06,07,08-trimmed.bin" bs=1 count=$(./findendofjpg.py "06,07,08-trimmed.bin") > 09.jpg
 ```
 
 ## Runes
 
 All runes were encoded with a ROT cipher on the Gematria Primus lookup in atbash ordering. That is - the ordering of runes were reversed (atbash) and the index of the rune was shifted by 3.
 
-### 05.jpg
+### 06.jpg
 
-![05.jpg](./05.jpg)
+![06.jpg](./06.jpg)
 
 ```
 A-COAN.A-MAN-DECIDED-TO-/
@@ -74,9 +74,9 @@ LED.WHO-ARE-YOU-WHO-WISH/
 ES-TO-STUDY-HERE-HE-ASKE/
 ```
 
-### 06.jpg
+### 07.jpg
 
-![06.jpg](./06.jpg)
+![07.jpg](./07.jpg)
 
 ```
 D-AGAIN.THE-MAN-THOUGHT-FOR-A-/
@@ -92,9 +92,9 @@ ENG.THAT-IS-ONLY-YOUR-SPE/
 CIES-NOT-WHO-YOU-ARE.WH/
 ```
 
-### 07.jpg
+### 08.jpg
 
-![07.jpg](./07.jpg)
+![08.jpg](./08.jpg)
 
 ```
 O-ARE-YOU-WHO-WISHES-TO-/
@@ -110,9 +110,9 @@ DY-HERE.THE-MAN-WAS-GETTNG-IR/
 RITATED.I-AM-HE-STARTED-/
 ```
 
-### 08.jpg
+### 09.jpg
 
-![08.jpg](./08.jpg)
+![09.jpg](./09.jpg)
 
 ```
 BUT-HE-COULD-NOT-THINC-OF-/
@@ -145,7 +145,7 @@ Y./
 
 ## Outguess
 
-Only [07.jpg](07.jpg) had an outguess message, see [07.jpg.asc](07.jpg.asc). It is *NOT* signed - which is quite odd, especially after the URL for the fourth onion. It reads:
+Only [08.jpg](08.jpg) had an outguess message, see [08.jpg.asc](08.jpg.asc). It is *NOT* signed - which is quite odd, especially after the URL for the fourth onion. It reads:
 
 ```
 
