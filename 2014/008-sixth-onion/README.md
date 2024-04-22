@@ -25,20 +25,20 @@ See [decode.sh](decode.sh) and [findendofjpg.py](./findendofjpg.py)
 
 ```bash
 $ xxd -r -p ./ut3qtzbrvs7dtvzp.hex > ./ut3qtzbrvs7dtvzp.bin
-$ dd if=./ut3qtzbrvs7dtvzp.bin bs=1 count=$(./findendofjpg.py ./ut3qtzbrvs7dtvzp.bin) status=noxfer > 09.jpg
-$ dd if=./ut3qtzbrvs7dtvzp.bin bs=1 skip=$(./findendofjpg.py ./ut3qtzbrvs7dtvzp.bin) status=noxfer > 09-trimmed.bin
-$ dd if="09-trimmed.bin" bs=1 count=$(./findendofjpg.py 09-trimmed.bin) > 10.jpg
-$ dd if="09-trimmed.bin" bs=1 skip=$(./findendofjpg.py 09-trimmed.bin) status=noxfer > "09,10-trimmed.bin"
-$ dd if="09,10-trimmed.bin" bs=1 count=$(./findendofjpg.py "09,10-trimmed.bin") > 11.jpg
-$ dd if="09,10-trimmed.bin" bs=1 skip=$(./findendofjpg.py "09,10-trimmed.bin") status=noxfer > "09,10,11-trimmed.bin"
-$ dd if="09,10,11-trimmed.bin" bs=1 count=$(./findendofjpg.py "09,10,11-trimmed.bin") > 12.jpg
+$ dd if=./ut3qtzbrvs7dtvzp.bin bs=1 count=$(./findendofjpg.py ./ut3qtzbrvs7dtvzp.bin) status=noxfer > 10.jpg
+$ dd if=./ut3qtzbrvs7dtvzp.bin bs=1 skip=$(./findendofjpg.py ./ut3qtzbrvs7dtvzp.bin) status=noxfer > 10-trimmed.bin
+$ dd if="10-trimmed.bin" bs=1 count=$(./findendofjpg.py 10-trimmed.bin) > 11.jpg
+$ dd if="10-trimmed.bin" bs=1 skip=$(./findendofjpg.py 10-trimmed.bin) status=noxfer > "10,11-trimmed.bin"
+$ dd if="10,11-trimmed.bin" bs=1 count=$(./findendofjpg.py "10,11-trimmed.bin") > 12.jpg
+$ dd if="10,11-trimmed.bin" bs=1 skip=$(./findendofjpg.py "10,11-trimmed.bin") status=noxfer > "10,11,12-trimmed.bin"
+$ dd if="10,11,12-trimmed.bin" bs=1 count=$(./findendofjpg.py "10,11,12-trimmed.bin") > 13.jpg
 ```
 
 ## Runes
 
 All four new pages of Liber Primus are unencrypted. See [gematriaprimus.py](./gematriaprimus.py).
 
-![09.jpg](09.jpg)
+![10.jpg](10.jpg)
 
 ```
 THE-LOSS-OF-DIUINITY.THE-CIRCU/
@@ -68,7 +68,7 @@ EPTION./
 OR-THERE-IS-NOT-ENOUGH./
 ```
 
-![10.jpg](10.jpg)
+![11.jpg](11.jpg)
 
 ```
 2-WE-HAUE-WHAT-WE-HAUE-N/
@@ -100,7 +100,7 @@ T-BE-STRONG-ENOUGH-TO-GAIN-THEM-/
 AGAIN.THIS-IS-THE-DECEPTION./
 ```
 
-![11.jpg](11.jpg)
+![12.jpg](12.jpg)
 
 ```
 MOST-THNGS-ARE-NOT-WORTH-PRESERU/
@@ -130,7 +130,7 @@ IT-IS-THE-BEHAVIORS-OF-CONSUMPT/
 ION-PRESERVATION-AND-ADHEREN/
 ```
 
-![12.jpg](12.jpg)
+![13.jpg](13.jpg)
 
 ```
 CE-THAT-HAUE-US-LOSE-OUR-PRIMAL/
@@ -169,7 +169,7 @@ There are 4 outguess messages within the new pages. The first two have the same 
 1. There are 3 in [magicsquares.txt](../007-fifth-onion/magicsquares.txt) (obtained through OpenPuff)
 2. There is also [square.txt](../005-third-onion/square.txt) (data wedged between the pages in the third onion/same square from Liber Primus page with "void", etc. in it), it is the last square in the 3 from [magicsquares.txt](../007-fifth-onion/magicsquares.txt).
 
-See [09.jpg.asc](./09.jpg.asc)
+See [10.jpg.asc](./10.jpg.asc)
 
 ```
 -----BEGIN PGP SIGNED MESSAGE-----
@@ -217,7 +217,7 @@ kY3+nCV1PPLtiOu1CCP1
 -----END PGP SIGNATURE-----
 ```
 
-See [10.jpg.asc](./10.jpg.asc)
+See [11.jpg.asc](./11.jpg.asc)
 
 ```
 -----BEGIN PGP SIGNED MESSAGE-----
@@ -265,7 +265,7 @@ JKQ6RQ9NbHJA6rxCX6UV
 -----END PGP SIGNATURE-----
 ```
 
-See [11.jpg.asc](./11.jpg.asc)
+See [12.jpg.asc](./12.jpg.asc)
 
 ```
 -----BEGIN PGP SIGNED MESSAGE-----
@@ -313,7 +313,7 @@ wFBHJbC8oUgkS3JeJgE5
 -----END PGP SIGNATURE-----
 ```
 
-See [12.jpg.asc](./12.jpg.asc)
+See [13.jpg.asc](./13.jpg.asc)
 
 ```
 -----BEGIN PGP SIGNED MESSAGE-----

@@ -192,22 +192,22 @@ class Gematria:
 
 if __name__ == "__main__":
     import sys
-    with open("09.jpg.runes.txt", "r") as runes, open("09.jpg.runes-possibilities.txt", "w") as nine:
+    with open("10.jpg.runes.txt", "r") as runes, open("10.jpg.runes-possibilities.txt", "w") as nine:
         data = runes.read()
         results = Gematria.rune_to_english(data, fast=True)
         for result in results:
             nine.write(result + "\n")
-    with open("10.jpg.runes.txt", "r") as runes, open("10.jpg.runes-possibilities.txt", "w") as ten:
+    with open("11.jpg.runes.txt", "r") as runes, open("11.jpg.runes-possibilities.txt", "w") as ten:
         data = runes.read()
         results = Gematria.rune_to_english(data, fast=True)
         for result in results:
             ten.write(result + "\n")
-    with open("11.jpg.runes.txt", "r") as runes, open("11.jpg.runes-possibilities.txt", "w") as eleven:
+    with open("12.jpg.runes.txt", "r") as runes, open("12.jpg.runes-possibilities.txt", "w") as eleven:
         data = runes.read()
         results = Gematria.rune_to_english(data, fast=True)
         for result in results:
             eleven.write(result + "\n")
-    with open("12.jpg.runes.txt", "r") as runes, open("12.jpg.runes-possibilities.txt", "w") as twelve:
+    with open("13.jpg.runes.txt", "r") as runes, open("13.jpg.runes-possibilities.txt", "w") as twelve:
         data = runes.read()
         results = Gematria.rune_to_english(data, fast=True)
         for result in results:
