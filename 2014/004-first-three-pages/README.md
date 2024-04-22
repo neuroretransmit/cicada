@@ -4,7 +4,7 @@ In the [second onion](../003-second-onion/) we decoded three JPGs from the hex b
 
 ## Runes
 
-![02.jpg](../003-second-onion/02.jpg)
+![01.jpg](../003-second-onion/01.jpg)
 
 
 ```
