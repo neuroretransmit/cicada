@@ -1,7 +1,7 @@
 # Invitation
 
 Based on the [log](Nj8gDqFG) from an applicant's TCP server, it appears the same invitation message from 2012 was sent. This could be the user's own testing, so that is speculation - however, here is the verifiable
-message in the logs.
+message in the logs. And [another](rn4gTF1Z) shared by another solver. They are formatted differently to likely identify and mitigate leaks.
 
 See [2012's invitation](../../2012/010-invitation/README.md#invitation) for the identical message leaked in February of 2012.
 
