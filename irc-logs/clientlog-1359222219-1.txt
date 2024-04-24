@@ -1,0 +1,4 @@
+2013-01-26 17:43:39.407 Sending line: '00 WELCOME Python'
+2013-01-26 17:43:45.669 Received line: 'goodbye\r\n'
+2013-01-26 17:43:45.669 Sending line: '99 GOODBYE'
+2013-01-26 17:43:45.669 Closing connection and exiting
