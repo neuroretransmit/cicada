@@ -1,0 +1,94 @@
+
+Session Start: Mon Jan 07 23:18:10 2013
+Session Ident: #3301vanguard
+2013 Jan 07 23:18 * Now talking in #3301vanguard
+2013 Jan 07 23:18 <Ymgve> so
+2013 Jan 07 23:19 <lulzorz> https://pastee.org/37fqj <-- paste of logs until you came in
+2013 Jan 07 23:19 <lulzorz> this is where we talk without bullshit hitting the walls every 4 seconds
+2013 Jan 07 23:20 <lulzorz> feel free to invite non-dumbasses
+2013 Jan 07 23:20 <Ymgve> one thing that bothers me is that the "hello" message says offset 3301
+2013 Jan 07 23:20 * lulzorz sets mode: +o Ymgve
+2013 Jan 07 23:21 <lulzorz> yeah...I've been xoring it with random stuff at that offset and haven't found anything
+2013 Jan 07 23:21 <lulzorz> I was really surprised when it was plaintext
+2013 Jan 07 23:21 <Ymgve> btw, funny thing
+2013 Jan 07 23:22 <Ymgve> trailing whitespace doesn't appear to count when calculating signatures
+2013 Jan 07 23:22 <Ymgve> so anything in whitespace that doesn't come directly from a known 3301 source might be suspect
+2013 Jan 07 23:23 <lulzorz> ooooh
+2013 Jan 07 23:23 <lulzorz> I need to check this
+2013 Jan 07 23:23 <lulzorz> you're right!
+2013 Jan 07 23:24 <lulzorz> we could troll the shit out of people
+Session Time: Tue Jan 08 00:00:00 2013
+2013 Jan 08 00:01 <lulzorz> oh, figured it out
+2013 Jan 08 00:01 <lulzorz> offset 3301 of 3301[.iso] is all 0s
+2013 Jan 08 00:01 <lulzorz> so XOR that is plaintext
+2013 Jan 08 00:04 <lulzorz> so we have two different messages with two different keys
+2013 Jan 08 00:04 <lulzorz> wonderful, 3301
+2013 Jan 08 00:05 <Ymgve> that's kinda stupid
+2013 Jan 08 00:05 <Ymgve> don't think that's their intention
+2013 Jan 08 00:05 <lulzorz> I'm still pissed that I missed xoring with the mp3
+2013 Jan 08 00:05 <Ymgve> haha
+2013 Jan 08 00:05 <soulseekah> root:x:0:0:root:/root:/usr/local/bin/cicada
+2013 Jan 08 00:05 <soulseekah> lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+2013 Jan 08 00:05 <soulseekah> nobody:x:65534:65534:nobody:/nonexistent:/bin/false
+2013 Jan 08 00:05 <soulseekah> tc:x:1001:50:Linux User,,,:/home/tc:/bin/s
+2013 Jan 08 00:05 <lulzorz> I literally did the twitter against every other file
+2013 Jan 08 00:05 <Ymgve> there's probably lots of xoring left to do
+2013 Jan 08 00:05 <lulzorz> soulseekah: check out root's shell...trippy, huh?
+2013 Jan 08 00:06 <lulzorz> Ymgve: hence my script
+2013 Jan 08 00:06 <soulseekah> yes
+2013 Jan 08 00:07 <Ymgve> I'm more interested in wisdom and folly
+2013 Jan 08 00:07 <Ymgve> two differently named files with the same content
+2013 Jan 08 00:07 <lulzorz> oooh, forgot about them :/
+2013 Jan 08 00:12 <soulseekah> was folly and wisdom decrypted/used?
+2013 Jan 08 00:12 <soulseekah> bf53 I seen that somewhere
+2013 Jan 08 00:13 <Ymgve> no
+2013 Jan 08 00:13 <Ymgve> only things used so far is the first part of two of the data files
+2013 Jan 08 00:13 <Ymgve> oh, and mp3
+2013 Jan 08 00:13 <soulseekah> if it's one of the signed messages, then we can safely assume ----- at the beginning
+2013 Jan 08 00:13 <soulseekah> and xoring ----- with the beginning will give us the first bytes of some other file
+2013 Jan 08 00:14 <soulseekah> sorry for being evident, thinking out loud
+2013 Jan 08 00:14 <soulseekah> and aberr
+2013 Jan 08 00:15 <Ymgve> I got the feeling we are supposed to make onion 1 dump data somehow
+2013 Jan 08 00:15 <soulseekah> I'm throwing all sorts of stuff at it
+2013 Jan 08 00:16 <soulseekah> but nothing hidden beyond "get", "quit", "bye", "number" and "hint"
+2013 Jan 08 00:16 <soulseekah> and "cicada" and "adacic"
+2013 Jan 08 00:16 <soulseekah> those are the ones not listed but effective so far
+2013 Jan 08 00:18 <soulseekah> 927e ede1 b24b bea3 look familiar?
+2013 Jan 08 00:18 <soulseekah> seen anywhere?
+2013 Jan 08 00:18 <Ymgve> what are those
+2013 Jan 08 00:19 <soulseekah> well as above I assumed folly/wisdom are singed messages
+2013 Jan 08 00:19 <soulseekah> and start with ------- so plaintext is
+2013 Jan 08 00:19 <soulseekah> xor with ------ I get 927e ede1 b24b bea would potentially be the xor part
+2013 Jan 08 00:20 <soulseekah> maybe you noticed those bytes somewhere in the middle of one of hte DATA files or something
+2013 Jan 08 00:20 <soulseekah> if those are signed messages
+2013 Jan 08 00:20 <Ymgve> it might also be base64 encoded
+2013 Jan 08 00:21 <Ymgve> just to fuck with us
+2013 Jan 08 00:21 <soulseekah> could be true
+2013 Jan 08 00:22 <soulseekah> in that case LS0tL... would be required to get ----
+2013 Jan 08 00:23 <soulseekah> f300 f0b8 d36c
+2013 Jan 08 00:23 <soulseekah> any of our files contain that
+2013 Jan 08 00:23 <soulseekah> then again it's progagly a pic
+2013 Jan 08 00:23 <soulseekah> no way to tell
+2013 Jan 08 00:24 <Ymgve> well if it's a picture we know the header
+2013 Jan 08 00:24 <Ymgve> but 4k is small
+2013 Jan 08 00:25 <soulseekah> probably a signed message
+2013 Jan 08 00:25 <soulseekah> or a key to something else
+2013 Jan 08 00:25 <lulzorz> we can actually predict all the way through "SHA1\n", fwiw
+2013 Jan 08 00:25 <soulseekah> we use them to xor data out of something else
+2013 Jan 08 00:26 <Ymgve> but I gotta wonder what the trees are and what the forest is supposed to be
+2013 Jan 08 00:26 <Ymgve> probably connected to "key is all around you"
+2013 Jan 08 00:26 <Ymgve> but key to what
+2013 Jan 08 00:26 <soulseekah> all too vague
+2013 Jan 08 00:27 <soulseekah> no codes, too few hints here and there
+2013 Jan 08 00:27 <Ymgve> maybe things will become clear once the twitter is done with the data
+2013 Jan 08 00:27 <lulzorz> I always thought it meant the data files and mp3
+2013 Jan 08 00:27 <lulzorz> and we now see that's correct, at least partially
+2013 Jan 08 00:28 <lulzorz> Ymgve: we're waiting for the second onion to come back up I think
+2013 Jan 08 00:28 <lulzorz> the twitter is pretty much entirely predictable
+2013 Jan 08 00:28 <soulseekah> if it's meant to be back up
+2013 Jan 08 00:28 <lulzorz> yeah...I think that server deserves more prodding
+2013 Jan 08 00:28 <lulzorz> afk for a few hours, don't win without me
+2013 Jan 08 00:29 <soulseekah> I have to go to bed
+2013 Jan 08 00:29 <Ymgve> I'll go afk for a bit more than a few hours 
+2013 Jan 08 00:29 <soulseekah> 5-30 AM here
+Session Close: Tue Jan 08 01:16:59 2013

@@ -278,12 +278,11 @@ def gen_primes():
 
 if __name__ == "__main__":
     import sys
-    for i in range(len(RUNE_LOOKUP.keys())):
-        with open("0-55.jpg.runes.txt", "r") as runes, open(f"0-55.jpg.runes-possibilities.rot{i}txt", "w") as page:
-            data = runes.read()
-            results = Gematria.rune_to_english(data, mode="atbash", rot=i, fast=True, bulk=True)
-            for result in results:
-                page.write(result + "\n")
+    with open("0-55.jpg.runes.txt", "r") as runes, open(f"0-55.jpg.runes-possibilities.txt", "w") as page:
+        data = runes.read()
+        results = Gematria.rune_to_english(data, mode="atbash", bulk=True)
+        for result in results:
+            page.write(result + "\n")
     with open("56.jpg.runes.txt", "r") as runes, open("56.jpg.runes-possibilities.txt", "w") as page:
         data = runes.read()
         totients = [p - 1 for i, p in zip(range(len(data)), gen_primes())]

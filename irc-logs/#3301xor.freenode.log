@@ -1,0 +1,474 @@
+
+Session Start: Tue Jan 07 23:52:10 2014
+Session Ident: #3301xor
+2014 Jan 07 23:52 * Now talking in #3301xor
+2014 Jan 07 23:52 <Ymgve> so what's this about
+2014 Jan 07 23:52 * Vovsfs sets mode: +o iQewe
+2014 Jan 07 23:52 * Vovsfs sets mode: +o Ymgve
+2014 Jan 07 23:52 * Joins: SheCalledMePaul (~SheCalled@69.177.224.118)
+2014 Jan 07 23:52 <Vovsfs> I guess this hipothesis is as good as any other
+2014 Jan 07 23:52 <iQewe> :)
+2014 Jan 07 23:52 <iDanoo> Yeah, it's worth a shot
+2014 Jan 07 23:52 <Vovsfs> it can be checked easily withouth a full blown bruteforce
+2014 Jan 07 23:52 <SheCalledMePaul> might as well try everything while waiting for string
+2014 Jan 07 23:52 * Joins: Durazell (554c57ef@gateway/web/freenode/ip.85.76.87.239)
+2014 Jan 07 23:52 <Vovsfs> assuming the plaintext is ascii
+2014 Jan 07 23:52 * Joins: Reti (5c206b15@gateway/web/freenode/ip.92.32.107.21)
+2014 Jan 07 23:53 <Vovsfs> we can just start with a keylength of 8 for instance
+2014 Jan 07 23:53 * Joins: Silic0ne (~Silic0ne@94.54.230.216)
+2014 Jan 07 23:53 <Vovsfs> and we check that there is a value of K1 (being K1 the first byte of the key, which can take 256 values)
+2014 Jan 07 23:53 <Reti> I did write a script
+2014 Jan 07 23:53 * Joins: blackpit (8603b075@gateway/web/freenode/ip.134.3.176.117)
+2014 Jan 07 23:53 <Reti> For xoring with blocks
+2014 Jan 07 23:53 <Vovsfs> such as C[0] is ascii and C[0+8] is ascii and C[0+16] is ascii
+2014 Jan 07 23:53 <blackpit> hi
+2014 Jan 07 23:53 <Vovsfs> and so on
+2014 Jan 07 23:54 * Joins: again3301 (80c2d35e@gateway/web/freenode/ip.128.194.211.94)
+2014 Jan 07 23:54 <iQewe> Is 256 values the highest?
+2014 Jan 07 23:54 * Joins: DATABitz (416fa634@gateway/web/freenode/ip.65.111.166.52)
+2014 Jan 07 23:54 <DATABitz> lol
+2014 Jan 07 23:54 * Joins: hawker (9fcd191c@gateway/web/freenode/ip.159.205.25.28)
+2014 Jan 07 23:54 <Vovsfs> if there is no value of K1 which satisfies this condition, then the hypotesis is wrong (for the first value of key)
+2014 Jan 07 23:54 <blackpit> iQewe: we're talking about bytes...
+2014 Jan 07 23:54 <Vovsfs> iQewe: 0xff
+2014 Jan 07 23:54 <Vovsfs> 255
+2014 Jan 07 23:54 <iQewe> Thanks
+2014 Jan 07 23:54 <DATABitz> heys
+2014 Jan 07 23:54 * Vovsfs sets mode: +o blackpit
+2014 Jan 07 23:54 <DATABitz> thats the same thing on buddys twitter 
+2014 Jan 07 23:54 * Joins: ubleblot (4cda6a1e@gateway/web/freenode/ip.76.218.106.30)
+2014 Jan 07 23:55 * Vovsfs sets mode: +o SheCalledMePaul
+2014 Jan 07 23:55 <Vovsfs> so... anyone feels like programming it? :)
+2014 Jan 07 23:55 <blackpit> Vovsfs, I came in late, what did you start with?
+2014 Jan 07 23:55 <Vovsfs> blackpit: I repeat
+2014 Jan 07 23:55 <blackpit> first I got was: such as C[0] is ascii and C[0+8] is ascii and C[0+16] is ascii
+2014 Jan 07 23:55 <Vovsfs> assuming the plaintext is ascii
+2014 Jan 07 23:55 <Vovsfs> we can just start with a keylength of 8 for instance
+2014 Jan 07 23:55 <Vovsfs> and we check that there is a value of K1 (being K1 the first byte of the key, which can take 256 values)
+2014 Jan 07 23:55 <Vovsfs> such as C[0] is ascii and C[0+8] is ascii and C[0+16] is ascii
+2014 Jan 07 23:55 <DATABitz> Offset: 0, Skip: 0, Col: 65, Line: 988 !!!!
+2014 Jan 07 23:55 <DATABitz> ?
+2014 Jan 07 23:55 <blackpit> DATABitz: that's 2013..
+2014 Jan 07 23:56 <Vovsfs> DATABitz: if you do not stick to the topic of the channel please go elsewhere
+2014 Jan 07 23:56 <SheCalledMePaul> ^
+2014 Jan 07 23:56 <SheCalledMePaul> 1 more offtopic message and it's kicksies for you
+2014 Jan 07 23:56 <DATABitz> jan 7 2014 posted :/
+2014 Jan 07 23:56 <DATABitz> from the twitter account
+2014 Jan 07 23:56 <SheCalledMePaul> it says 2013 on it
+2014 Jan 07 23:56 <SheCalledMePaul> so learn to read or get kicked lol
+2014 Jan 07 23:56 <blackpit> 8.1.2013..
+2014 Jan 07 23:56 <Vovsfs> blackpit: would you like to try program it... since you where already programming the xor...
+2014 Jan 07 23:57 <blackpit> I can program it, but first I need to understand what you mean
+2014 Jan 07 23:57 <Vovsfs> ok
+2014 Jan 07 23:57 <DATABitz> DUDE he posted that at 945 jan 7 why you keep saiyng its 2013 ?
+2014 Jan 07 23:57 <Vovsfs> lets review how xor encryption works
+2014 Jan 07 23:57 * DATABitz was kicked by Vovsfs (DATABitz)
+2014 Jan 07 23:57 <Vovsfs> you have PLAINTEXT
+2014 Jan 07 23:57 <Vovsfs> and KEY=AB
+2014 Jan 07 23:57 * Joins: DATABitz (416fa634@gateway/web/freenode/ip.65.111.166.52)
+2014 Jan 07 23:58 <DATABitz> y you be like that can you show me where it says 2013 ?
+2014 Jan 07 23:58 <Vovsfs> so you get the encrypted string as XOR(P,A) + XOR (L,B) + XOR(A,A) + XOR(I,B)...
+2014 Jan 07 23:58 * Vovsfs sets mode: +b DATABitz!*@*
+2014 Jan 07 23:58 <blackpit> ah, you mean assuming keylen l, then checking key[0] xor plaintext[l*n] for ASCII values
+2014 Jan 07 23:58 * DATABitz was kicked by Vovsfs (DATABitz)
+2014 Jan 07 23:58 <Vovsfs> blackpit: sure
+2014 Jan 07 23:58 <Vovsfs> :)
+2014 Jan 07 23:58 <Vovsfs> you expressed it better than I 
+2014 Jan 07 23:59 <blackpit> ok that's no big thing to implement..
+2014 Jan 07 23:59 <iQewe> blackpit How will long do you think it will take you?
+2014 Jan 07 23:59 <blackpit> 5min
+2014 Jan 07 23:59 <iQewe> okau
+2014 Jan 07 23:59 <iQewe> okay
+Session Time: Wed Jan 08 00:00:00 2014
+2014 Jan 08 00:01 <Vovsfs> blackpit: perhaps you can put the code in some etherpad alike website
+2014 Jan 08 00:01 <Vovsfs> once done
+2014 Jan 08 00:02 <blackpit> yes
+2014 Jan 08 00:04 <iQewe> what will xor the string against
+2014 Jan 08 00:05 <Vovsfs> against a key that blackpit will craft bruteforcing it incrementally
+2014 Jan 08 00:05 <iQewe> okay
+2014 Jan 08 00:05 <Vovsfs> looking at the 1st byte of an 8 bytes key
+2014 Jan 08 00:05 <SheCalledMePaul> new bytes
+2014 Jan 08 00:05 <SheCalledMePaul> if noone saw
+2014 Jan 08 00:06 <iQewe> yup you added 9d2c9de6b0 
+2014 Jan 08 00:07 <iQewe> do you have one that is separated?  
+2014 Jan 08 00:07 <blackpit> ok, generator is running, now implementing ASCII check..
+2014 Jan 08 00:07 <iQewe> okay 
+2014 Jan 08 00:07 <Vovsfs> cool blackpit!
+2014 Jan 08 00:07 <SheCalledMePaul> here: http://shrib.com/CicadaString
+2014 Jan 08 00:07 <SheCalledMePaul> i keep it live updated
+2014 Jan 08 00:08 <iQewe> okay
+2014 Jan 08 00:08 <SheCalledMePaul> if you want i can put a line then seperate then line seperate by whatever
+2014 Jan 08 00:08 <SheCalledMePaul> so if anyone needs it seperated by a certain amount ill do that on here
+2014 Jan 08 00:08 <iQewe> no it is okay 
+2014 Jan 08 00:09 <Vovsfs> https://pad.riseup.net/p/3301xor
+2014 Jan 08 00:09 <Vovsfs> we can use this etherpad to collaborate in the sourcecode
+2014 Jan 08 00:10 <iQewe> okay thanks
+2014 Jan 08 00:12 <blackpit> can anyone check the first results (on etherpad), if my calculations are correct?
+2014 Jan 08 00:12 * Joins: brotherBox (~brotherBo@ip-178-203-85-56.unitymediagroup.de)
+2014 Jan 08 00:13 <brotherBox> What is happening in here exactly?
+2014 Jan 08 00:14 <Vovsfs> blackpit: sorry the pad doesn't load for me now...
+2014 Jan 08 00:14 <Vovsfs> brotherBox: we are exploring the possibility the string of onion2 is xor encrypted
+2014 Jan 08 00:14 <iQewe> they look correct but we have to be sure
+2014 Jan 08 00:15 <brotherBox> Well
+2014 Jan 08 00:15 <brotherBox> Did you calculate its IC?
+2014 Jan 08 00:15 * Quits: ubleblot (4cda6a1e@gateway/web/freenode/ip.76.218.106.30) (Ping timeout: 272 seconds)
+2014 Jan 08 00:15 <brotherBox> Or do you want me to? I have a program that does that
+2014 Jan 08 00:15 <Vovsfs> blackpit: feel free to post the source code as well
+2014 Jan 08 00:15 <Vovsfs> what do you mean by IC?
+2014 Jan 08 00:16 <brotherBox> Index of Coincidence
+2014 Jan 08 00:16 <Vovsfs> ah yes
+2014 Jan 08 00:16 <blackpit> brotherBox: of course, anyone can contribute
+2014 Jan 08 00:16 <Vovsfs> did that
+2014 Jan 08 00:16 <blackpit> go ahead
+2014 Jan 08 00:16 <Vovsfs> autocorrelation you mean?
+2014 Jan 08 00:16 <brotherBox> I am not sure if it has that name
+2014 Jan 08 00:16 <Vovsfs> but please do it
+2014 Jan 08 00:16 <Vovsfs> blackpit: it looks good, so there are several values with all ascii
+2014 Jan 08 00:16 <Vovsfs> blackpit: now lets go for the second byte
+2014 Jan 08 00:16 <Vovsfs> of the key
+2014 Jan 08 00:17 <Vovsfs> but if you don't post the sourcecode no one can double check things :(
+2014 Jan 08 00:17 <iQewe> it all looks correct but we have to be sure and yes please post the source code
+2014 Jan 08 00:17 <brotherBox> Can we get a link to the hex dump in the topic?
+2014 Jan 08 00:17 <SheCalledMePaul> http://shrib.com/CicadaString
+2014 Jan 08 00:17 <blackpit> here you go..
+2014 Jan 08 00:17 <brotherBox> Put it in the topic
+2014 Jan 08 00:17 <iQewe> Thanks
+2014 Jan 08 00:18 <blackpit> I'll generate full dump now
+2014 Jan 08 00:18 <brotherBox> Ymgve maybe?
+2014 Jan 08 00:18 * SheCalledMePaul changes topic to 'http://shrib.com/CicadaString'
+2014 Jan 08 00:18 <Vovsfs> perl... i am fucked
+2014 Jan 08 00:18 <brotherBox> Good
+2014 Jan 08 00:18 <brotherBox> Vovsfs, I know perl
+2014 Jan 08 00:18 <Vovsfs> i was expecting python lol
+2014 Jan 08 00:18 <blackpit> sorry, I'm too old ;-)
+2014 Jan 08 00:18 * iQewe changes topic to 'http://shrib.com/CicadaString | https://pad.riseup.net/p/3301xor'
+2014 Jan 08 00:19 <iQewe> hehe
+2014 Jan 08 00:19 <blackpit> used to programming in perl since '94, so when things have to go quick, I'll use perl ;-)
+2014 Jan 08 00:19 <iQewe> :)
+2014 Jan 08 00:19 <Vovsfs> sure thing, perl is great I don't disagree
+2014 Jan 08 00:19 <iQewe> i know a little perl 
+2014 Jan 08 00:19 <brotherBox> I am never really comfortable with doing shift
+2014 Jan 08 00:20 <brotherBox> I like the stack as it is
+2014 Jan 08 00:20 <Vovsfs> btw, the longer the string becomes on the website the less "false positives" we will have with this method
+2014 Jan 08 00:20 <blackpit> (well python is more clean, no question. but simply I am much faster with perl)
+2014 Jan 08 00:20 <Vovsfs> right now the list of candidates is big
+2014 Jan 08 00:20 <brotherBox> I rather do my ($foo, $bar) = @_
+2014 Jan 08 00:20 <Vovsfs> let's do second byte of the key... perhaps you can integrate it in the program with a loop
+2014 Jan 08 00:20 <iQewe> re-check line 18 it is correct?
+2014 Jan 08 00:20 <Vovsfs> because then we have to try composse a sentence using the candidates
+2014 Jan 08 00:21 <Vovsfs> add comas and such there please
+2014 Jan 08 00:21 <iQewe> nevermind  line 18 is correct
+2014 Jan 08 00:21 <brotherBox> What do you want to check in line 18 exactly?
+2014 Jan 08 00:22 <blackpit> if you enable "strict", then you have to define the vars as well ;-)
+2014 Jan 08 00:22 <Vovsfs> but the regex does not include puntuation symbols
+2014 Jan 08 00:22 <iQewe> nevermind bro it is correct :) 
+2014 Jan 08 00:22 <brotherBox> Yes, it helps
+2014 Jan 08 00:22 <SheCalledMePaul> http://pastebin.com/raw.php?i=QYGBFbVy
+2014 Jan 08 00:22 <iQewe> Yes it does 
+2014 Jan 08 00:22 <SheCalledMePaul> idk if this helps
+2014 Jan 08 00:22 <brotherBox> iQewe, it doesnt
+2014 Jan 08 00:22 <brotherBox> Lets rather try \w
+2014 Jan 08 00:22 <blackpit> line 18??
+2014 Jan 08 00:22 <brotherBox> Word characters
+2014 Jan 08 00:22 <iQewe> brotherBox?
+2014 Jan 08 00:22 <Vovsfs> whoau SheCalledMePaul nice shellscripting kungfu
+2014 Jan 08 00:22 <iQewe> oops 
+2014 Jan 08 00:22 <SheCalledMePaul> sooo not mine
+2014 Jan 08 00:23 <iQewe> line 18 got moved down 
+2014 Jan 08 00:23 <blackpit> ah, you mean      next if chr($outbyte)!~m/[A-Za-z0-9]/;
+2014 Jan 08 00:23 <brotherBox> iQewe, [A-Za-z0-9] doesn't include full stops
+2014 Jan 08 00:23 <SheCalledMePaul> nsh linked in 33012014 maybe should grab him in here =p
+2014 Jan 08 00:23 <iQewe> yes blackpit 
+2014 Jan 08 00:23 <Vovsfs> espaces as well
+2014 Jan 08 00:23 <Vovsfs> should be added
+2014 Jan 08 00:23 <Vovsfs> commas
+2014 Jan 08 00:23 <iQewe> it is correct in my view 
+2014 Jan 08 00:23 <Vovsfs> dots and so on
+2014 Jan 08 00:23 * Joins: nsh (~nsh@wikipedia/nsh)
+2014 Jan 08 00:23 <blackpit> SheCalledMePaul: what does that calc?
+2014 Jan 08 00:23 <iQewe> but i do not know a lot of perl 
+2014 Jan 08 00:23 <SheCalledMePaul> ask nsh he did it blackpit
+2014 Jan 08 00:23 <iQewe> just somewhat 
+2014 Jan 08 00:23 <Vovsfs> SheCalledMePaul: please
+2014 Jan 08 00:24 <nsh> sup?
+2014 Jan 08 00:24 <Vovsfs> updates right?
+2014 Jan 08 00:24 <brotherBox> Actually nevermind my suggestion
+2014 Jan 08 00:24 <blackpit> any changes wanted to the script??
+2014 Jan 08 00:24 <SheCalledMePaul> nsh they were commening on yuour nice script
+2014 Jan 08 00:24 <SheCalledMePaul> your*
+2014 Jan 08 00:24 <Vovsfs> blackpit: add to the regex other possible chars in a text such as :.,?!
+2014 Jan 08 00:25 <nsh> blackpit, i've kept the http responses for every minute since 720 minutes ago and use them to calculate the times and added bytes, etc.
+2014 Jan 08 00:25 <nsh> thanks :)
+2014 Jan 08 00:25 <blackpit> ah, I see. thanks for answering!
+2014 Jan 08 00:25 <iQewe> :)
+2014 Jan 08 00:25 <SheCalledMePaul> new bytes e8
+2014 Jan 08 00:25 <iQewe> thanks
+2014 Jan 08 00:26 <Vovsfs> blackpit: do the other bytes of the key up to 8 (assuming 8, we shall repeat for other key lenghts >= 6)
+2014 Jan 08 00:26 <Vovsfs> in the same script in a loop
+2014 Jan 08 00:26 <Vovsfs> and then we try to make a sentence with the candidates
+2014 Jan 08 00:27 <blackpit> ok we can check with      next if chr($outbyte)!~m/[[:print:]]/;
+2014 Jan 08 00:27 <Vovsfs> yeah
+2014 Jan 08 00:27 <iQewe> yup
+2014 Jan 08 00:28 <brotherBox> blackpit, thats a good idea
+2014 Jan 08 00:28 <brotherBox> I was thinking about trying the printable range
+2014 Jan 08 00:28 <blackpit> the etherpad is too slow for the large xor2.txt result file
+2014 Jan 08 00:29 <Vovsfs> pasteit somewhere
+2014 Jan 08 00:29 <iQewe> pastebin
+2014 Jan 08 00:29 <Vovsfs> one it will be quite funny to try make a sentence manually
+2014 Jan 08 00:29 <brotherBox> tar.gz it maybe and then do infotomb
+2014 Jan 08 00:29 <Vovsfs> s/one/now/g
+2014 Jan 08 00:30 <blackpit> now in :print: all printable chars are valid
+2014 Jan 08 00:31 <iQewe> nice
+2014 Jan 08 00:31 <blackpit> any tool where I can upload files? the http://shrib.com/ needs pasting as well...
+2014 Jan 08 00:31 <brotherBox> blackpit, infotomb.org
+2014 Jan 08 00:31 <blackpit> ah, finally it finished http://shrib.com/XbugokEx
+2014 Jan 08 00:32 <blackpit> brotherBox: thankx
+2014 Jan 08 00:32 <Vovsfs> cant see anything in there
+2014 Jan 08 00:32 <iQewe> me too
+2014 Jan 08 00:32 <SheCalledMePaul> you have to press save blackpit
+2014 Jan 08 00:32 <SheCalledMePaul> -o
+2014 Jan 08 00:32 <SheCalledMePaul> =p*
+2014 Jan 08 00:32 <blackpit> oopps, sorry :-)
+2014 Jan 08 00:32 <SheCalledMePaul> lol
+2014 Jan 08 00:33 * Quits: Silic0ne (~Silic0ne@94.54.230.216) (Quit: Silic0ne)
+2014 Jan 08 00:33 <blackpit> not used to work with such web tools
+2014 Jan 08 00:33 <Vovsfs> still cant see anything
+2014 Jan 08 00:33 <blackpit> should be saved now
+2014 Jan 08 00:33 <SheCalledMePaul> f5 vosfs
+2014 Jan 08 00:33 <iQewe> nope
+2014 Jan 08 00:34 <SheCalledMePaul> oh yea nothing either
+2014 Jan 08 00:34 <SheCalledMePaul> ill test the link
+2014 Jan 08 00:34 <blackpit> http://shrib.com/XbugokEx
+2014 Jan 08 00:34 <SheCalledMePaul> i wrote test
+2014 Jan 08 00:34 <iQewe> lol
+2014 Jan 08 00:34 <Vovsfs> I see your test SheCalledMePaul
+2014 Jan 08 00:34 <iQewe> i can see test
+2014 Jan 08 00:34 <Vovsfs> but not blackpit's paste
+2014 Jan 08 00:34 <SheCalledMePaul> yea blackpit just paste over test and press save
+2014 Jan 08 00:34 <SheCalledMePaul> then it should say like "saved"
+2014 Jan 08 00:34 <SheCalledMePaul> then everyone f5
+2014 Jan 08 00:34 <iQewe> okay
+2014 Jan 08 00:35 <iQewe> herp derp
+2014 Jan 08 00:35 <iQewe> lol
+2014 Jan 08 00:35 <blackpit> now third time I save it.. maybe those >50k lines are too much?
+2014 Jan 08 00:35 <SheCalledMePaul> pastebin?
+2014 Jan 08 00:35 <Vovsfs> yeah, lets do pastebin
+2014 Jan 08 00:35 <iQewe> yeah use pastebin
+2014 Jan 08 00:35 <SheCalledMePaul> gdoc?
+2014 Jan 08 00:36 <iQewe> pastebin is better 
+2014 Jan 08 00:36 * Joins: Silic0n (~Silic0n@94.54.230.216)
+2014 Jan 08 00:36 <SheCalledMePaul> new bytes c6
+2014 Jan 08 00:36 <iQewe> nice
+2014 Jan 08 00:36 * Quits: Silic0n (~Silic0n@94.54.230.216) (Client Quit)
+2014 Jan 08 00:36 <Vovsfs> http://piratepad.net/kGpx8zoS6K
+2014 Jan 08 00:36 <Vovsfs> this is another pad which seems to be faster
+2014 Jan 08 00:36 <blackpit> https://infotomb.com/pxtlj
+2014 Jan 08 00:36 <iQewe> okay
+2014 Jan 08 00:37 <blackpit> can you read it now?
+2014 Jan 08 00:37 <iQewe> yes the keys are readable
+2014 Jan 08 00:37 <Vovsfs> too many false positives... string (C) is too short for this approach (all printable chars)
+2014 Jan 08 00:38 <iQewe> on what>
+2014 Jan 08 00:38 <iQewe> ?
+2014 Jan 08 00:38 <Vovsfs> I mean that you can see that each value for the first byte of the key is a candidate value
+2014 Jan 08 00:38 <Vovsfs> almost each
+2014 Jan 08 00:38 <blackpit> now that the program is confirmed, I can remove the debug info so that each line is one key set
+2014 Jan 08 00:38 <blackpit> will be much better to check for results then
+2014 Jan 08 00:39 <Vovsfs> no wait...
+2014 Jan 08 00:39 <Vovsfs> there is something wrong
+2014 Jan 08 00:39 <SheCalledMePaul> [18:38:33] <zoanthal> Statistics on each of the bit positions for the hex pairs being '1':
+2014 Jan 08 00:39 <SheCalledMePaul> [18:38:33] <zoanthal> 2^7:48.6%
+2014 Jan 08 00:39 <SheCalledMePaul> [18:38:33] <zoanthal> 2^6:51.8%
+2014 Jan 08 00:39 <SheCalledMePaul> [18:38:33] <zoanthal> 2^5:46.8%
+2014 Jan 08 00:39 <SheCalledMePaul> [18:38:33] <zoanthal> 2^4:59.0% (!)
+2014 Jan 08 00:39 <SheCalledMePaul> [18:38:34] <zoanthal> 2^3:56.3% (!)
+2014 Jan 08 00:39 <SheCalledMePaul> [18:38:34] <zoanthal> 2^2:50.9%
+2014 Jan 08 00:39 <SheCalledMePaul> [18:38:35] <zoanthal> 2^1:51.8%
+2014 Jan 08 00:39 <SheCalledMePaul> [18:38:35] <zoanthal> 2^0:50%
+2014 Jan 08 00:39 <Vovsfs> keylen=016 key0=ff pos=032 in=bf out=40=@ keylen=016 key0=ff pos=048 in=ab out=54=T keylen=016 key0=ff pos=064 in=b2 out=4d=M keylen=016 key0=ff pos=080 in=df out=20= 
+2014 Jan 08 00:39 <Vovsfs> blackpit: there might be something wrong with the program
+2014 Jan 08 00:40 <Vovsfs> if you go to key0=fd
+2014 Jan 08 00:40 <Vovsfs> in the paste
+2014 Jan 08 00:40 <Vovsfs> why do you have 4 lines?
+2014 Jan 08 00:40 <SheCalledMePaul> new byte 15
+2014 Jan 08 00:40 <Vovsfs> I mean... for a value of key to be a valid candidate it should be able to xor all the positions (length of string / 8) in printable chars
+2014 Jan 08 00:40 <Vovsfs> blackpit: ?
+2014 Jan 08 00:40 <blackpit> where?
+2014 Jan 08 00:41 * Joins: s1l1c0n (~s1l1c0n@94.54.230.216)
+2014 Jan 08 00:41 <Vovsfs> you have values of key (limited by -------)
+2014 Jan 08 00:41 <Vovsfs> of just 2 lines
+2014 Jan 08 00:41 <Vovsfs> this is wrong
+2014 Jan 08 00:41 <Vovsfs> every candidate value for the byte of the key
+2014 Jan 08 00:41 <blackpit> @   is printable
+2014 Jan 08 00:41 <Vovsfs> should have as many lines
+2014 Jan 08 00:41 <Vovsfs> ok
+2014 Jan 08 00:41 <Vovsfs> let me pick up one example
+2014 Jan 08 00:41 <Vovsfs> keylen=016 key0=ce pos=032 in=bf out=71=q
+2014 Jan 08 00:41 <Vovsfs> keylen=016 key0=ce pos=048 in=ab out=65=e
+2014 Jan 08 00:42 <blackpit> I do not check if all chars are printable now!! you can see that by skips in the pos
+2014 Jan 08 00:42 <Vovsfs> keylen=016 key0=ce pos=064 in=b2 out=7c=|
+2014 Jan 08 00:42 <Vovsfs> ahhhh but you should blackpit
+2014 Jan 08 00:42 <Vovsfs> for instance 0xCE cannot be a valid value as byte of the key
+2014 Jan 08 00:42 <Vovsfs> because not all the decryptions are ascii
+2014 Jan 08 00:42 <blackpit> you do not program, right?? you have to confirm that a program is correct before removing outputs...
+2014 Jan 08 00:42 <Vovsfs> I can implement it in python
+2014 Jan 08 00:43 <Vovsfs> give me 5 min
+2014 Jan 08 00:43 <blackpit> "|" is a valid printable char
+2014 Jan 08 00:43 <iQewe> okay try it python
+2014 Jan 08 00:43 <blackpit> are there any ERRORS? if so, we have to fix them. otherwise I'll make the output better
+2014 Jan 08 00:44 <Vovsfs> blackpit: the idea is to dischard values of key that lead to any NON printable chars
+2014 Jan 08 00:44 <Vovsfs> so that we know this value of key is not possible
+2014 Jan 08 00:45 * Joins: L0j1k (~l0j1k@unaffiliated/l0j1k)
+2014 Jan 08 00:45 <iQewe> did you try it yet Vobsfs
+2014 Jan 08 00:46 <iQewe> Vovsfs
+2014 Jan 08 00:46 <Vovsfs> I am on it
+2014 Jan 08 00:46 <iQewe> okay
+2014 Jan 08 00:46 <blackpit> now output here: http://shrib.com/XbugokEx
+2014 Jan 08 00:46 <iQewe> thanks
+2014 Jan 08 00:47 <blackpit> Vovsfs: yes, that is clear, but we had to check if the program is calculating the xor stuff right first... now as that is proved, I filtered the output.
+2014 Jan 08 00:47 <Vovsfs> ahhh ok
+2014 Jan 08 00:47 * iQewe changes topic to 'http://shrib.com/CicadaString | http://shrib.com/XbugokEx | https://pad.riseup.net/p/3301xor'
+2014 Jan 08 00:47 <Vovsfs> sorry
+2014 Jan 08 00:47 <Vovsfs> lets do it
+2014 Jan 08 00:48 <Vovsfs> I will do my python implementation just to double check the output of both
+2014 Jan 08 00:48 <iQewe> okay 
+2014 Jan 08 00:48 <blackpit> yes, ok
+2014 Jan 08 00:49 * Joins: Lurker69 (~quassel@unaffiliated/lurker69)
+2014 Jan 08 00:49 <Lurker69> hi
+2014 Jan 08 00:49 <iQewe> Hi
+2014 Jan 08 00:49 * Joins: scelsi (44ad917c@gateway/web/freenode/ip.68.173.145.124)
+2014 Jan 08 00:49 <Lurker69> if you dont want me top post your progress in wiki i wont
+2014 Jan 08 00:49 * Joins: ubleblot (4cda6a1e@gateway/web/freenode/ip.76.218.106.30)
+2014 Jan 08 00:49 <Lurker69> just say when thigs are ready for releasing
+2014 Jan 08 00:49 <blackpit> btw, updated the script, so anyone can check it
+2014 Jan 08 00:49 <iQewe> Okay and check the topic guys http://shrib.com/XbugokEx
+2014 Jan 08 00:50 * Joins: d3adb3ef_ (42a81229@gateway/web/freenode/ip.66.168.18.41)
+2014 Jan 08 00:50 <Lurker69> keep in minf that #33012014 community was created with sharing and careing in mind, but that is not neccessay if you dont want to follow that
+2014 Jan 08 00:51 * Lurker69 is happy to see riseup.net links in topic
+2014 Jan 08 00:51 * Quits: Durazell (554c57ef@gateway/web/freenode/ip.85.76.87.239) (Ping timeout: 272 seconds)
+2014 Jan 08 00:52 <iQewe> okay
+2014 Jan 08 00:52 <blackpit> ok, if I filter for ONLY_PRINTABLE chars, then there is not a single result
+2014 Jan 08 00:52 <blackpit> new code: https://pad.riseup.net/p/3301xor
+2014 Jan 08 00:52 <iQewe> okay
+2014 Jan 08 00:52 <blackpit> so I guess this is leading to nowhere
+2014 Jan 08 00:52 <hawker> i would make that before printing it would check most common pairs of letters
+2014 Jan 08 00:52 <blackpit> I guess the assumption that the plaintext is ASCII only, must be wrong then
+2014 Jan 08 00:53 <hawker> i could totally do that
+2014 Jan 08 00:53 <blackpit> but I'd be happy to have anyone confirm the result
+2014 Jan 08 00:53 <hawker> but i'm just going to paint my fingernails 
+2014 Jan 08 00:53 <hawker> :# 
+2014 Jan 08 00:53 <hawker> * :3
+2014 Jan 08 00:53 <iQewe> Vovsfs is checking it in python 
+2014 Jan 08 00:53 <blackpit> good
+2014 Jan 08 00:56 * Joins: iDanooweb (79631eac@gateway/web/freenode/ip.121.99.30.172)
+2014 Jan 08 00:56 <Vovsfs> why do you way is going nowhere?
+2014 Jan 08 00:57 <Vovsfs> you get no candidates?
+2014 Jan 08 00:57 <blackpit> yes, I get NO candidates
+2014 Jan 08 00:58 <Vovsfs> yes... me too
+2014 Jan 08 00:58 <Vovsfs> no candidates for byte 1 of the key right?
+2014 Jan 08 00:58 <blackpit> I did 1byte xor checks before..
+2014 Jan 08 00:58 <blackpit> no hit
+2014 Jan 08 00:58 <blackpit> now I am modifying to check for JPEG header
+2014 Jan 08 00:58 <Vovsfs> that means the hypothesis is wrong (it is not xor or any kind) or the assumption is wrong (it is not ascii)
+2014 Jan 08 00:58 <blackpit>  the assumption is wrong (it is not ascii)
+2014 Jan 08 00:58 <blackpit> xor is still possivle
+2014 Jan 08 00:58 <Vovsfs> what a pity
+2014 Jan 08 00:58 <Vovsfs> :)
+2014 Jan 08 00:59 <iQewe> :) 
+2014 Jan 08 00:59 <blackpit> well, but at least we validated an assumption
+2014 Jan 08 00:59 <iQewe> yeah
+2014 Jan 08 00:59 <blackpit> so everything is fine
+2014 Jan 08 00:59 <blackpit> could have worked out better, of course ;-)
+2014 Jan 08 00:59 <iQewe> :)
+2014 Jan 08 01:00 <Vovsfs> ok, it can still be xor... but I have my doubts about a non ascii plaintext...
+2014 Jan 08 01:00 <Vovsfs> ok guys, I will see you tomorrow perhaps
+2014 Jan 08 01:00 <blackpit> jpeg?? would be very typical for 3301
+2014 Jan 08 01:00 <iQewe> why would that be?
+2014 Jan 08 01:00 <iQewe> about a non acsii plaintext>
+2014 Jan 08 01:00 <iQewe> ?
+2014 Jan 08 01:00 <Vovsfs> yes you are right, no reason in particular for my previous statement
+2014 Jan 08 01:00 <Vovsfs> I take it out
+2014 Jan 08 01:00 <blackpit> yes, I'll have to go now too (late at night in europe..)
+2014 Jan 08 01:00 <Vovsfs> :)
+2014 Jan 08 01:00 <Vovsfs> byez
+2014 Jan 08 01:01 <iQewe> bye 
+2014 Jan 08 01:01 <blackpit> bye, see you later
+2014 Jan 08 01:01 * Quits: Vovsfs (~Vovsfs@89.248.172.45) (Quit: ...)
+2014 Jan 08 01:01 <iQewe> bye
+2014 Jan 08 01:03 * Joins: _kiki_ (~kiki@124-168-12-187.dyn.iinet.net.au)
+2014 Jan 08 01:03 * Joins: ItsMe1 (~Adium@c-174-51-81-232.hsd1.co.comcast.net)
+2014 Jan 08 01:03 * Joins: mrnatbus12 (~mrnatbus1@cpe-76-175-33-63.socal.res.rr.com)
+2014 Jan 08 01:03 * Joins: anon2342839434 (~lutz@gtng-4d08df3c.pool.mediaWays.net)
+2014 Jan 08 01:04 * Joins: Wand_ (~Wand@85-76-174-16-nat.elisa-mobile.fi)
+2014 Jan 08 01:05 * iQewe changes topic to 'http://shrib.com/CicadaString | http://shrib.com/XbugokEx | https://pad.riseup.net/p/3301xor | <blackpit73> result from #3301xor: it is not xor-encoded plaintext in complete ASCII'
+2014 Jan 08 01:05 * iQewe changes topic to 'http://shrib.com/CicadaString | http://shrib.com/XbugokEx | https://pad.riseup.net/p/3301xor | <blackpit73> : result from #3301xor: it is not xor-encoded plaintext in complete ASCII'
+2014 Jan 08 01:05 <iQewe> okay well we have to wait now..
+2014 Jan 08 01:05 <mrnatbus12> wooh
+2014 Jan 08 01:06 <blackpit> ok, going offline now. see you tomorrow :-)
+2014 Jan 08 01:07 <blackpit> bye
+2014 Jan 08 01:07 <mrnatbus12> later
+2014 Jan 08 01:07 <iQewe> bye
+2014 Jan 08 01:07 <hawker> so you thing it is not plaintext in ascii 
+2014 Jan 08 01:07 * Quits: blackpit (8603b075@gateway/web/freenode/ip.134.3.176.117) (Quit: Page closed)
+2014 Jan 08 01:07 <hawker> other suggestion ? 
+2014 Jan 08 01:08 <iQewe> nope
+2014 Jan 08 01:08 <hawker> unicode ?
+2014 Jan 08 01:08 <iQewe> hmm maybe 
+2014 Jan 08 01:08 <hawker> how about
+2014 Jan 08 01:09 <hawker> using timestamps 
+2014 Jan 08 01:09 <hawker> as a sorting device 
+2014 Jan 08 01:09 <hawker> i mean
+2014 Jan 08 01:09 <iQewe> i do not know if we can but ask blackpit when he comes back
+2014 Jan 08 01:09 <hawker> sort 2 bits by timestamp 
+2014 Jan 08 01:10 <hawker> then try xor 
+2014 Jan 08 01:10 <hawker> with like really short key
+2014 Jan 08 01:11 <hawker> we could sort it so it would be some lines 
+2014 Jan 08 01:12 <hawker> anyhow, if i could do something constructive about that clue, i would do it after my finals 
+2014 Jan 08 01:12 <hawker> goodnight 
+2014 Jan 08 01:20 <iQewe> goodnight sorry i was afk hawker
+2014 Jan 08 01:20 * Quits: hawker (9fcd191c@gateway/web/freenode/ip.159.205.25.28) (Ping timeout: 272 seconds)
+2014 Jan 08 01:20 <iQewe> and yeah guys i am going to be afk for a couple mins brb
+2014 Jan 08 01:22 * Joins: ItsMe2 (~Adium@66.55.144.248)
+2014 Jan 08 01:24 * Quits: ItsMe1 (~Adium@c-174-51-81-232.hsd1.co.comcast.net) (Ping timeout: 260 seconds)
+2014 Jan 08 01:28 * Quits: anon2342839434 (~lutz@gtng-4d08df3c.pool.mediaWays.net) (Quit: [BX] You can /quit any time you like, but you can never leave)
+2014 Jan 08 01:28 * Quits: mrnatbus12 (~mrnatbus1@cpe-76-175-33-63.socal.res.rr.com) (Quit: Leaving)
+2014 Jan 08 01:34 * Quits: iDanooweb (79631eac@gateway/web/freenode/ip.121.99.30.172) (Quit: Page closed)
+2014 Jan 08 01:36 * Quits: Reti (5c206b15@gateway/web/freenode/ip.92.32.107.21) (Ping timeout: 272 seconds)
+2014 Jan 08 01:37 * Quits: Wand_ (~Wand@85-76-174-16-nat.elisa-mobile.fi) (Read error: Connection reset by peer)
+2014 Jan 08 01:43 <iQewe> bye be back tomorrow 
+2014 Jan 08 01:44 * Quits: iQewe (47ee6f0b@gateway/web/freenode/ip.71.238.111.11) (Quit: Page closed)
+2014 Jan 08 01:44 * Joins: mmaxsted_ (~mmaxsted@unaffiliated/mmaxsted)
+2014 Jan 08 01:46 <SheCalledMePaul> the table with time incriments?
+2014 Jan 08 01:46 <SheCalledMePaul> know where it went
+2014 Jan 08 01:50 <SheCalledMePaul> nvm
+2014 Jan 08 01:57 * Quits: L0j1k (~l0j1k@unaffiliated/l0j1k) (Quit: Lost terminal)
+2014 Jan 08 02:08 * Quits: s1l1c0n (~s1l1c0n@94.54.230.216) (Quit: s1l1c0n)
+2014 Jan 08 02:12 * Joins: OwariDa (~je@clevcode.org)
+2014 Jan 08 02:12 * Joins: L0j1k (~l0j1k@unaffiliated/l0j1k)
+2014 Jan 08 02:28 * Quits: ubleblot (4cda6a1e@gateway/web/freenode/ip.76.218.106.30) (Ping timeout: 272 seconds)
+2014 Jan 08 02:30 <Lurker69> ALSO I MADETHREAD ON UF: http://forums.unfiction.com/forums/viewtopic.php?p=1027006#1027006
+2014 Jan 08 02:30 <Lurker69> sry spam
+2014 Jan 08 02:50 * Joins: notagain3301 (4b6d61b9@gateway/web/freenode/ip.75.109.97.185)
+2014 Jan 08 03:34 * Quits: scelsi (44ad917c@gateway/web/freenode/ip.68.173.145.124) (Ping timeout: 272 seconds)
+2014 Jan 08 04:10 * Joins: Church- (~hatter@unaffiliated/church-)
+2014 Jan 08 04:10 * Joins: TJ645 (~rr645@pool-100-1-180-112.nwrknj.fios.verizon.net)
+2014 Jan 08 04:10 * Joins: Wykam (~zemming@108-61-55-69ch.openskytelcom.net)
+2014 Jan 08 04:10 * Joins: metmop (~metmop@67-7-201-30.dlth.qwest.net)
+2014 Jan 08 04:16 * TJ645 is now known as rr645
+2014 Jan 08 04:26 * Joins: metmop__ (~metmop@67-7-227-30.dlth.qwest.net)
+2014 Jan 08 04:26 * Quits: metmop (~metmop@67-7-201-30.dlth.qwest.net) (Disconnected by services)
+2014 Jan 08 04:26 * metmop__ is now known as metmop
+2014 Jan 08 04:59 * Quits: d3adb3ef_ (42a81229@gateway/web/freenode/ip.66.168.18.41) (Ping timeout: 272 seconds)
+2014 Jan 08 05:27 * Joins: metmop___ (~metmop@67-7-239-9.dlth.qwest.net)
+2014 Jan 08 05:27 * Quits: metmop (~metmop@67-7-227-30.dlth.qwest.net) (Disconnected by services)
+2014 Jan 08 05:27 * metmop___ is now known as metmop
+2014 Jan 08 05:27 * Quits: ItsMe2 (~Adium@66.55.144.248) (Quit: Leaving.)
+2014 Jan 08 05:33 * Quits: SheCalledMePaul (~SheCalled@69.177.224.118) (Quit: Leaving)
+2014 Jan 08 05:51 * Quits: metmop (~metmop@67-7-239-9.dlth.qwest.net) (Ping timeout: 252 seconds)
+2014 Jan 08 05:51 * rr645 is now known as rr645-afk
+2014 Jan 08 05:54 * Joins: metmop_ (~metmop@67-7-250-96.dlth.qwest.net)
+2014 Jan 08 05:54 * metmop_ is now known as metmop
+2014 Jan 08 05:57 * Joins: metmop__ (~metmop@67-7-251-138.dlth.qwest.net)
+2014 Jan 08 05:57 * Quits: metmop (~metmop@67-7-250-96.dlth.qwest.net) (Disconnected by services)
+2014 Jan 08 05:57 * metmop__ is now known as metmop
+2014 Jan 08 06:05 * rr645-afk is now known as rr645
+Session Close: Wed Jan 08 06:09:37 2014

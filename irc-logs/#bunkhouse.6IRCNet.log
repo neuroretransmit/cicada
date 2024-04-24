@@ -1,0 +1,341 @@
+
+Session Start: Fri Jan 04 22:27:34 2013
+Session Ident: #bunkhouse
+2013 Jan 04 22:27 * Now talking in #bunkhouse
+2013 Jan 04 22:27 * Topic is 'Make & post tinfoil hats here: http://au.vichan.net/bunkhouse/res/8.html | Happy New Year faggots!'
+2013 Jan 04 22:27 * Set by Casey!casey@irc-eps.9v6.0.127.IP on Thu Dec 27 02:07:41
+2013 Jan 04 22:28 <onon> ymgve?
+2013 Jan 04 22:28 <lurker> hey
+2013 Jan 04 22:28 <Ymgve> onon: hi
+2013 Jan 04 22:28 <lurker> ymgve is the boss
+2013 Jan 04 22:28 <onon> he's from you?
+2013 Jan 04 22:28 * primius can confirm this
+2013 Jan 04 22:28 <lurker> he is the only guy from #arg that is able to solve the RSA puzzle for himself
+2013 Jan 04 22:28 <onon> k
+2013 Jan 04 22:28 <Ymgve> lurker took me in huis cool van
+2013 Jan 04 22:28 <onon> ^^
+2013 Jan 04 22:28 <primius> lurker: oooh, you gave him the 3301 RSA puzzle?
+2013 Jan 04 22:28 <Ymgve> lurker: well don't say that, I haven't solved anything RSA yet
+2013 Jan 04 22:28 <onon> btw [20:03] <CNM> i don't really want to join this whole cicada group. looks like a cult http://pastebin.com/dHJ6JNkr
+2013 Jan 04 22:29 <primius> that pastebin is teh lulz
+2013 Jan 04 22:29 <onon> ^
+2013 Jan 04 22:29 <primius> it's scarily correct as far as beliefs and origins go though
+2013 Jan 04 22:29 <onon> especially the last paragraph
+2013 Jan 04 22:29 <Ymgve> I found some GNFS software but eh, not sure if I want to devote CPU time to the old number yet
+2013 Jan 04 22:29 <primius> so it could actually be halfway legit
+2013 Jan 04 22:29 <lurker> î think that there is a reason for long ass pastebins like that... they want to keep certain profile of people away
+2013 Jan 04 22:30 <onon> it discredits itself though with the last three sentences
+2013 Jan 04 22:30 <primius> Ymgve: you're on the right track...I used a CUDA box to do about 5 different numbers during the puzzle
+2013 Jan 04 22:30 <primius> onon: but it could be info he heard from somebody else mixed with his own bullshit
+2013 Jan 04 22:30 <Ymgve> but I wonder if there are some easier way to crack them
+2013 Jan 04 22:30 <Ymgve> some weakness in the generation
+2013 Jan 04 22:30 <primius> some parts are clearly bullshit, some appear to come directly from inside
+2013 Jan 04 22:31 <Ymgve> seen this? https://www.youtube.com/watch?v=IuSnY_O8DqQ
+2013 Jan 04 22:31 <broBot> [YouTube] Title: FactHacks [29c3] | Views: 1,558
+2013 Jan 04 22:31 <onon> yep
+2013 Jan 04 22:32 <primius> always a relevant CCC
+2013 Jan 04 22:33 <onon> lol lurker
+2013 Jan 04 22:35 <Ymgve> wonder if there's some msieve build for amd
+2013 Jan 04 22:36 <primius> my gosh, that girl is cute
+2013 Jan 04 22:37 * primius needs a smartgf
+2013 Jan 04 22:38 <lurker> http://www.alpertron.com.ar/ECM.HTM  
+2013 Jan 04 22:38 <lurker> msieve for amd
+2013 Jan 04 22:39 <primius> "wish i would have had taht sqw....etc.com ip i would hold it offline for a hot min"
+2013 Jan 04 22:39 <primius> funny story, actually
+2013 Jan 04 22:39 <primius> there were a few of us together who noted that the server was vulnerable to slowloris
+2013 Jan 04 22:39 <primius> we were going to take it down after grabbing it when the counter hit 0
+2013 Jan 04 22:40 <primius> but they noticed our practice runs and patched the server
+2013 Jan 04 22:40 <Ymgve> lurker: no amd there?
+2013 Jan 04 22:40 <Ymgve> I mean GPUs btw, not their CPUs
+2013 Jan 04 22:40 <lurker> GPU.. not that i would know  aobutonly cuda is supporting science
+2013 Jan 04 22:42 <primius> a voxel box can do it in about 10 hours, IIRC
+2013 Jan 04 22:42 <lurker> but there should be some  toll that hardcore ati fans made to allow usage of GPUs in other purposes
+2013 Jan 04 22:43 <lurker> i think ATI is loosing big part of market beacuse of not providing drivers like cuda
+2013 Jan 04 22:43 <Ymgve> ati has opencl tho
+2013 Jan 04 22:45 <Ymgve> everyone who cracks passwords or mines bitcoins loves amd due to their integer performance
+2013 Jan 04 22:55 <primius> http://farm1.staticflickr.com/52/168488382_7d97c6af37_b.jpg
+2013 Jan 04 22:58 <primius> "Torchestra: Reducing interactive traffic delays over Tor. Deepika Gopal and Nadia Heninger. Workshop on Privacy in the Electronic Society 2012."
+2013 Jan 04 22:58 <onon> you guys mining bitcoins?
+2013 Jan 04 22:58 <primius> you love you lose
+2013 Jan 04 22:58 <onon> lol
+2013 Jan 04 22:58 <primius> I used to
+2013 Jan 04 22:59 <lurker> primus have you been on hackforums recently?
+2013 Jan 04 22:59 <primius> nothing crazy, had about 20kHps IIRC
+2013 Jan 04 22:59 <primius> I don't mess with HF much at all, no
+2013 Jan 04 22:59 <lurker> lol
+2013 Jan 04 22:59 <onon> HNL?
+2013 Jan 04 22:59 <lurker> i made post with new /b/ thread if they would like to bite it as they did last year
+2013 Jan 04 22:59 <lurker> http://prntscr.com/o4xq6
+2013 Jan 04 23:00 <lurker> apparently cicada was active there all the time
+2013 Jan 04 23:00 <lurker> they hve all sort of fake cicada puzzles puzzles 
+2013 Jan 04 23:01 <primius> lol fake cicada puzzles
+2013 Jan 04 23:01 <primius> they signed everything, you can't fake it
+2013 Jan 04 23:01 <lurker> http://prntscr.com/o4y22
+2013 Jan 04 23:02 <lurker> http://prntscr.com/o4xq6   but but he use 13 different fonts, must be legit
+2013 Jan 04 23:02 <Ymgve> so has anything recently been properly signed
+2013 Jan 04 23:03 <lurker> no
+2013 Jan 04 23:04 <lurker>  http://pastebin.com/iJCnw8EW  this was last signed cicadas message i have ssen
+2013 Jan 04 23:04 <lurker> http://www.losandesonline.cl/noticias/17643/11042012-pdi-advierte-sobre-nueva-modalidad-de-estafa-por-internet-a-traves-de-google.html this the reason for it
+2013 Jan 04 23:05 <Ymgve> what does it say
+2013 Jan 04 23:05 <lurker> necrome was hackforums member, openyl writing and recrouting people to make phishing bank sites for some south american bank
+2013 Jan 04 23:06 <lurker> he got busted, feds apparentyl found dome cicada related  files on his computer and 1+1= cicda must be evil secret  hackes organization
+2013 Jan 04 23:06 <lurker> he didnt even post much in cicada threads on hacksforums
+2013 Jan 04 23:07 <lurker> isend him PM :-)  after i saw that article...     he didnt answer, i wonder why
+2013 Jan 04 23:07 <primius> "You guys realise this got finished a LONG time ago, despite this being anonymous I was the one who got the i2p link from agrippa."
+2013 Jan 04 23:07 <lurker> ^
+2013 Jan 04 23:07 <lurker> agrippa sisnt lead to i2p site right?
+2013 Jan 04 23:07 <primius> as the person who hosted the fake i2p server, I can confirm that this moron is full of shit
+2013 Jan 04 23:07 <lurker> also 12p sie was fake as pamelas boobies
+2013 Jan 04 23:08 <primius> remember Wind 3301?
+2013 Jan 04 23:08 <lurker> http://pastebin.com/V62m76fN i do
+2013 Jan 04 23:09 <lurker> agrippa was lead to sq6wmgv2zcsrix6t.onion, first onion site i think
+2013 Jan 04 23:10 <primius> https://ezcrypt.it/GK5n#zuZQddn5TeDCx1aJ3hCMZTDb
+2013 Jan 04 23:10 <primius> yeah, sq6 was legit IIRC
+2013 Jan 04 23:11 * primius remembers signing that pastebin
+2013 Jan 04 23:11 <Buddy> do any of you work with c++
+2013 Jan 04 23:12 <primius> I didn't write it though...there was another who did that
+2013 Jan 04 23:14 * primius is tired of making fun of C++
+2013 Jan 04 23:15 <primius> oh god, those quickmeme links XD
+2013 Jan 04 23:19 <lurker> who posted that cartoon about python yetrday...
+2013 Jan 04 23:20 <lurker> http://imgs.xkcd.com/comics/python.png
+2013 Jan 04 23:22 <Buddy> oh that was me lurker 
+2013 Jan 04 23:24 <lurker> http://i.imgur.com/NRlQL.jpg?1 :-P
+2013 Jan 04 23:25 <primius> it's funny because import antigravity now makes python open that comic
+2013 Jan 04 23:27 <Buddy> pass me that module bro
+2013 Jan 04 23:37 <primius> so do any of you care to give me a summary of the time thing?
+2013 Jan 04 23:40 <onon> oh we just automated the voting requests so we could manipulate them into voting kimjongun to the top
+2013 Jan 04 23:40 <primius> it had a captcha...
+2013 Jan 04 23:40 <onon> nope
+2013 Jan 04 23:40 <onon> polldaddy is pretty noobishly setup in that regard
+2013 Jan 04 23:40 * primius remembers filling out a captcha while voting for the glorious leader
+2013 Jan 04 23:40 <onon> wut
+2013 Jan 04 23:41 <primius> I would have tried to automate it myself if I didn't
+2013 Jan 04 23:41 <onon> i read they had one in 2009 when voting moot to the top
+2013 Jan 04 23:41 <onon> but not this time
+2013 Jan 04 23:41 <primius> weird
+2013 Jan 04 23:41 <primius> maybe it was just the page and the API didn't need one
+2013 Jan 04 23:41 <onon> i never saw one on the page either
+2013 Jan 04 23:41 <onon> did you have js enabled?
+2013 Jan 04 23:42 <primius> probably, yeah
+2013 Jan 04 23:42 <onon> cause it was a simple ajax http request, only thing we had to do was create a new cookie with timestamp for each vote
+2013 Jan 04 23:46 <onon> thats basically it if you cbf http://pastebin.com/hDEnUmPC
+2013 Jan 04 23:47 <primius> you seriously used java?
+2013 Jan 04 23:48 <onon> *cough
+2013 Jan 04 23:48 <onon> we had this guy who made the first draft of it in java
+2013 Jan 04 23:48 <onon> was multithreaded so had its advantages
+2013 Jan 04 23:48 <onon> but we also made a perl one
+2013 Jan 04 23:49 <onon> but in the end java came in handy when we ran it as applet for newfags who were scared to run something posted in /b/
+2013 Jan 04 23:49 <primius> but you needed something much more complex to order the other lines
+2013 Jan 04 23:49 <onon> other lines as in?
+2013 Jan 04 23:49 <primius> the other people
+2013 Jan 04 23:49 <primius> to spell the message
+2013 Jan 04 23:50 <onon> this is one class out of say 30
+2013 Jan 04 23:50 <onon> http://pastebin.com/fJB0xu34
+2013 Jan 04 23:51 <onon> if you're interested i can upload you the whole thing
+2013 Jan 04 23:52 <primius> not really interested in reading java right now, actually
+2013 Jan 04 23:52 <onon> ^
+2013 Jan 04 23:52 <primius> thanks though
+2013 Jan 04 23:52 <onon> thought so
+2013 Jan 04 23:54 <onon> damn vpn
+2013 Jan 04 23:56 <primius> so first person to spot the 3301 lead gets an internetcookie
+2013 Jan 04 23:58 <Ymgve> so there is one now?
+2013 Jan 04 23:59 <primius> last year it was the 5th
+2013 Jan 04 23:59 <primius> before everything disappeared, I heard they were making a new puzzle this year
+Session Time: Sat Jan 05 00:00:00 2013
+2013 Jan 05 00:00 <primius> so I'm going to put good money on the first clue coming out tomorrow
+2013 Jan 05 00:00 <Ymgve> well it's midnight CET
+2013 Jan 05 00:00 <Ymgve> where is my trailhead
+2013 Jan 05 00:03 <primius> https://boards.4chan.org/x/res/11744741
+2013 Jan 05 00:04 <onon> wtf
+2013 Jan 05 00:06 <primius> https://boards.4chan.org/x/res/11741092
+2013 Jan 05 00:06 <primius> also that
+2013 Jan 05 00:07 <onon> yeah
+2013 Jan 05 00:07 <onon> lxxt>33m2mqkyv2gsq3q=w]O2ntk
+2013 Jan 05 00:10 <onon> >tfw browsing /x/
+2013 Jan 05 00:11 <lurker> dafuq who is bombing 4chan with cicada again
+2013 Jan 05 00:12 <Ymgve> everyone
+2013 Jan 05 00:12 <lurker> https://boards.4chan.org/x/res/11744741  hmm last line is copypasted fto cover something
+2013 Jan 05 00:14 * Quits: onon (onon@irc-30k.6mr.115.93.IP) (Ping timeout: 60 seconds)
+2013 Jan 05 00:15 <lurker> so our official state
+2013 Jan 05 00:15 <lurker> we think that http://pastebin.com/dHJ6JNkr is plausable, but bible link on the bottom is probbaly red herring
+2013 Jan 05 00:16 * Joins: onon (onon@irc-30k.6mr.115.93.IP)
+2013 Jan 05 00:16 <Ymgve> is there some precompiled stegdetect for windows
+2013 Jan 05 00:16 <Ymgve> don't want to mess with cygwin or vms
+2013 Jan 05 00:16 <lurker> that was posted to make some pussies and scared, brainwashed people to hide into their safe rooms
+2013 Jan 05 00:17 <lurker> next clue:
+2013 Jan 05 00:17 <lurker>  I´m actually found something wierd.
+2013 Jan 05 00:17 <onon> http://www.outguess.org/download.php
+2013 Jan 05 00:17 <lurker>     Do you know sms4tor?(http://sms4tor3vcr2geip.onion/)
+2013 Jan 05 00:17 <lurker>     I took the first 52 digits of the pgp key from >>448463952.
+2013 Jan 05 00:17 <lurker>     I got this message:
+2013 Jan 05 00:17 <lurker>     "You are near. The Mandelbrot set near the event horizon is the last clue."
+2013 Jan 05 00:17 <lurker>     -3301"
+2013 Jan 05 00:17 <lurker> is utter nonsennse with no legitimacy whatsoever
+2013 Jan 05 00:17 <lurker> also whant would maybe be samrt to do
+2013 Jan 05 00:18 <Ymgve> onon: old version is not enough to detect stuff in the previous iteration of cicada
+2013 Jan 05 00:18 <lurker> is outguess all the images that cicada shills posted in posts
+2013 Jan 05 00:18 <onon> your fault running windows ^^
+2013 Jan 05 00:18 <onon> i shouldnt open my mouth though
+2013 Jan 05 00:18 <lurker> check ID of both guys that posted that pastebing, torsms nonsense and OP and other people who were pasting relevat cicada stuff
+2013 Jan 05 00:19 <lurker> you cant detest sego cicda was using last year with stagdetect
+2013 Jan 05 00:19 <lurker> detect stego*
+2013 Jan 05 00:20 <lurker> stagdetect is rubish
+2013 Jan 05 00:20 * Quits: onon (onon@irc-30k.6mr.115.93.IP) (Ping timeout: 60 seconds)
+2013 Jan 05 00:20 <lurker> https://images.4chan.org/b/src/1357300732704.jpg try it on this one
+2013 Jan 05 00:21 <Ymgve> 404
+2013 Jan 05 00:21 <lurker> uh wait
+2013 Jan 05 00:21 <lurker> not 404 to me
+2013 Jan 05 00:21 <Ymgve> because your browser has it in cache
+2013 Jan 05 00:23 <lurker> http://imgur.com/TpJ4J
+2013 Jan 05 00:23 <lurker> wait imgur probbaly fucks it anyway
+2013 Jan 05 00:23 <Ymgve> is that different from the one that was posted almost a year ago
+2013 Jan 05 00:23 <lurker> it strips out exif so it probbaly resave it completely
+2013 Jan 05 00:24 * Joins: onon (onon@irc-30k.6mr.115.93.IP)
+2013 Jan 05 00:25 <lurker> http://tinypic.com/view.php?pic=r1bwg0&s=6
+2013 Jan 05 00:25 <lurker> this is from today post
+2013 Jan 05 00:25 <onon> from where
+2013 Jan 05 00:25 <onon> hf?
+2013 Jan 05 00:26 <Ymgve> but is it different?
+2013 Jan 05 00:26 <lurker> http://tinypic.com/view.php?pic=r1bwg0&s=6
+2013 Jan 05 00:26 <lurker> this is from my older map
+2013 Jan 05 00:26 <Ymgve> same link
+2013 Jan 05 00:28 <lurker> wait
+2013 Jan 05 00:29 <lurker> dafuq
+2013 Jan 05 00:29 * Quits: onon (onon@irc-30k.6mr.115.93.IP) (Ping timeout: 60 seconds)
+2013 Jan 05 00:30 <lurker> i ckesked file on disk they have same hashes
+2013 Jan 05 00:31 <lurker> http://tinypic.com/view.php?pic=35mqt94&s=6
+2013 Jan 05 00:31 <lurker> this image should also have outguess
+2013 Jan 05 00:31 <primius> http://www.reddit.com/r/a2e7j6ic78h0j/
+2013 Jan 05 00:31 <lurker> and i think that cicada uses imgur for some images so it doesnt stri embeded data ...
+2013 Jan 05 00:32 <primius> http://i.imgur.com/vjuNp.jpg
+2013 Jan 05 00:32 <primius> original final image ^
+2013 Jan 05 00:32 <primius> outguess is pgp-signed copy of the visible message
+2013 Jan 05 00:32 <primius> https://ezcrypt.it/HK5n#a1IYClSQYjOtlgVThO1x3U65
+2013 Jan 05 00:32 <Ymgve> btw outguess and stegdetect compiles fine in cygwin
+2013 Jan 05 00:33 <primius> Ymgve: lolwindows
+2013 Jan 05 00:33 <Ymgve> sorry, I can't hear you over the sound of 1000000 games playing
+2013 Jan 05 00:33 <lurker> http://tinypic.com/view.php?pic=35mqt94&s=6   same link again, looksl ike tiny pic checks  file hashes and if they are the same it givey aou old link
+2013 Jan 05 00:34 <Ymgve> much smarter than imgur then
+2013 Jan 05 00:34 <lurker> yes but sadly captcha
+2013 Jan 05 00:34 <primius> >We want to make it as easy as possible for the 2,500 games on Steam to run on Linux as well.
+2013 Jan 05 00:35 <primius> --gaben
+2013 Jan 05 00:36 <Ymgve> activision, bethesda: "lol"
+2013 Jan 05 00:36 <Ymgve> ea: "fuck you we're pulling our games again"
+2013 Jan 05 00:37 <Ymgve> thq: nothing because theyre DEAD
+2013 Jan 05 00:38 <lurker> jagged alliance 2 works on linux
+2013 Jan 05 00:39 * Joins: onon (onon@irc-1hu.quj.115.74.IP)
+2013 Jan 05 00:40 <onon> -.-
+2013 Jan 05 00:43 <primius> pretty much any game 10 years or older works fine with wine
+2013 Jan 05 00:44 <primius> and of course there's nethack, armegatron, wesnoth, etc.
+2013 Jan 05 00:44 <lurker> did you mange to get outguess to work in windows ymgve? i dont have any outguess.exe in my old cicada map
+2013 Jan 05 00:44 <primius> oh, and pop the bubble <3
+2013 Jan 05 00:44 <Ymgve> lurker: yeah with cygwin
+2013 Jan 05 00:44 <lurker> does it work
+2013 Jan 05 00:44 <primius> you guys are both gonna want to go ahead and move on over to linux just about as soon as you can
+2013 Jan 05 00:45 <primius> :p
+2013 Jan 05 00:45 <lurker> i dont recall anybody using windoes last year, but i cam to cicada when outguessing was olready over
+2013 Jan 05 00:45 <primius> you could do it on any OS, yeah
+2013 Jan 05 00:45 <primius> but data processing without bash+coreutils+python is incredibly painful
+2013 Jan 05 00:46 <lurker> i have linux only on one computer in my house, one poelpe are using for internet... old AMD 1600 MHz i think, it works great but i dont use it alot at all, addicted to adobe 
+2013 Jan 05 00:47 <primius> I did most of my puzzle solving on a tiny ARM box that was my router at the time
+2013 Jan 05 00:47 <primius> of course, gonna need the heavy metal for that RSA stuff...
+2013 Jan 05 00:49 <Ymgve> well I got gpg up and running, that should help
+2013 Jan 05 00:51 <onon> primius pretty much 90% of  non dx11 games work on wine
+2013 Jan 05 00:52 <primius> lol DX
+2013 Jan 05 00:52 <onon> i had a netsplit up there dont really know the context lol
+2013 Jan 05 00:53 <onon> trying to get the winfags over to linux huh
+2013 Jan 05 00:54 <primius> it's for their own good
+2013 Jan 05 00:54 <primius> we must protect them from themselves
+2013 Jan 05 00:54 <lurker> ymgve you can impoort cicadas key
+2013 Jan 05 00:55 <Ymgve> already did
+2013 Jan 05 00:55 <primius> they'll probably have a new key this year
+2013 Jan 05 00:56 <primius> that's my guess, anyway
+2013 Jan 05 00:56 <lurker> In addition, you can obtain this number if you look up the PGP key from the "Welcome" message:
+2013 Jan 05 00:56 <lurker> http://pgp.mit.edu:11371/pks/lookup?search=0x7A35090F&op=index
+2013 Jan 05 00:56 <lurker> where the User ID is listed as:
+2013 Jan 05 00:56 <lurker> Cicada 3301 (845145127)
+2013 Jan 05 00:56 <Ymgve> well, I hope they use the old key just to verify the trailhead
+2013 Jan 05 00:57 <lurker> http://pastebin.com/3nrS6SeJ nice pastebin
+2013 Jan 05 00:57 <primius> 6D85 4CD7 9333 22A6 01C3  286D 181F 01E5 7A35 090F
+2013 Jan 05 00:57 <lurker> they have to
+2013 Jan 05 00:57 <lurker> if they dont use old thhread it is gamejacking
+2013 Jan 05 00:58 <primius> it will be hilarious if someone has a fake round 2 ready to go
+2013 Jan 05 00:58 <Ymgve> there's some colors in the top 3 lines of that  "matrix" png
+2013 Jan 05 00:58 <lurker> dont underestimate real wind
+2013 Jan 05 00:58 <Ymgve> still believe it's a troll tho
+2013 Jan 05 00:59 <primius> it's not necessarily troll...it's just some random shit from /x/
+2013 Jan 05 00:59 <Ymgve> well, that too
+2013 Jan 05 01:00 * Quits: onon (onon@irc-1hu.quj.115.74.IP) (Ping timeout: 60 seconds)
+2013 Jan 05 01:10 <lurker> http://prntscr.com/o5elp  omly two color apart from some blue lines in first three lines of piyels in martix image
+2013 Jan 05 01:11 <Ymgve> there's actually slight variation in those lines
+2013 Jan 05 01:13 <Ymgve> might just be artifacts tho
+2013 Jan 05 01:13 <primius> nope, it's png
+2013 Jan 05 01:13 <lurker> it is only 2 pixels wide on the left and more on the right
+2013 Jan 05 01:14 <Ymgve> artifacts from whatever they used to create the image, I mean
+2013 Jan 05 01:14 <lurker> looks like some background bleeding or he fucked up while making screenshots
+2013 Jan 05 01:14 <primius> yeah, that font is cmd.exe
+2013 Jan 05 01:15 <primius> and I'm going to go out on a limb and predict that you're going to see a slight gradient in the blue pixels
+2013 Jan 05 01:15 <McMootles> OH HAY
+2013 Jan 05 01:15 <McMootles> http://pastebin.com/ymq3BVRr
+2013 Jan 05 01:17 <lurker> http://prntscr.com/o5fgw whole image is shewed for one pixel, i have no idea how drunk you have to be to be able to make this
+2013 Jan 05 01:20 <primius> lol
+2013 Jan 05 01:20 <primius> welp, 100% of that image is black, with the exception of the top 3 rows
+2013 Jan 05 01:20 <primius> (black or green, that is)
+2013 Jan 05 01:20 <primius> McMootles: wussat?
+2013 Jan 05 01:21 <McMootles> peoples home security cams and shit
+2013 Jan 05 01:21 <lurker> http://cams.hhba.info/#http://93.83.167.106:8080/anony/mjpg.cgi
+2013 Jan 05 01:21 <lurker> this cams links are in all irc channels today
+2013 Jan 05 01:21 <McMootles> the list is also old as fuck
+2013 Jan 05 01:21 <McMootles> I remember it floating around a year ago
+2013 Jan 05 01:21 <McMootles> but it's still hilarious
+2013 Jan 05 01:21 <primius> some of them still work, lol
+2013 Jan 05 01:21 <McMootles> I found a ski resort
+2013 Jan 05 01:22 <McMootles> a lot of them do
+2013 Jan 05 01:22 <McMootles> once you get past the first 20 or so
+2013 Jan 05 01:22 <lurker> there was even bigger list of jaopanese ones somwhere
+2013 Jan 05 01:22 <lurker> and some of had GUI so you could move them around and zoom in and oput
+2013 Jan 05 01:22 <primius> I remember hunting through a college network
+2013 Jan 05 01:22 <primius> and finding a printer and a camera in the same room
+2013 Jan 05 01:22 <McMootles> dude
+2013 Jan 05 01:22 <McMootles> remember
+2013 Jan 05 01:23 <McMootles> when /b/ found the hp online printer
+2013 Jan 05 01:23 <McMootles> where you could print shit
+2013 Jan 05 01:23 <McMootles> and watch it on a webcam
+2013 Jan 05 01:23 <primius> and then printing shit on the printer and seeing it print with the camera
+2013 Jan 05 01:23 <McMootles> that was a good day
+2013 Jan 05 01:23 <primius> sounds about the same as what I did
+2013 Jan 05 01:29 <McMootles> I found a fucking research lab  or some shit   http://169.226.168.91/anony/mjpg.cgi
+2013 Jan 05 01:33 * Joins: onon (onon@irc-1hu.quj.115.74.IP)
+2013 Jan 05 01:34 <lurker> paricle accelerator?
+2013 Jan 05 01:34 <McMootles> idk
+2013 Jan 05 01:35 <McMootles> nuclear anus cannon probably
+2013 Jan 05 01:35 <onon> lel
+2013 Jan 05 01:35 * broBot sets mode: +o onon
+2013 Jan 05 01:48 * Quits: onon (onon@irc-1hu.quj.115.74.IP) (Quit: DAT TINFOIL)
+2013 Jan 05 01:52 <McMootles> I found some mexicans tiny home
+2013 Jan 05 01:52 <McMootles> http://190.150.15.83:8080/anony/mjpg.cgi
+2013 Jan 05 01:52 <McMootles> why am I having so much fun with this?
+2013 Jan 05 01:58 <McMootles> wtf
+2013 Jan 05 01:58 <McMootles> http://213.221.215.14/anony/mjpg.cgi
+2013 Jan 05 01:58 <McMootles> why is that bold?
+2013 Jan 05 01:58 <McMootles> WHY AM I BOLD
+2013 Jan 05 01:58 <McMootles> WUT
+2013 Jan 05 02:00 <primius> lol
+2013 Jan 05 02:00 <zlh64> Because your hair particles are feeding a bacterial infection, also known as a potential virus, this is affecting individuals who are vulnerable to your case.
+2013 Jan 05 02:21 * Joins: onon (onon@irc-30k.6mr.115.93.IP)
+2013 Jan 05 02:25 * Joins: on0n (onon@irc-lipjfd.dip.t-dialin.net)
+2013 Jan 05 02:27 * Quits: onon (onon@irc-30k.6mr.115.93.IP) (Ping timeout: 60 seconds)
+2013 Jan 05 02:31 * Quits: on0n (onon@irc-lipjfd.dip.t-dialin.net) (Quit: DAT TINFOIL)
+2013 Jan 05 02:32 * Joins: onon (onon@irc-7lm7n1.com)
+2013 Jan 05 02:33 * Quits: onon (onon@irc-7lm7n1.com) (A TLS packet with unexpected length was received.)
+2013 Jan 05 02:35 * Joins: onon (onon@irc-7lm7n1.com)
+2013 Jan 05 02:43 * Quits: onon (onon@irc-7lm7n1.com) (Quit: DAT TINFOIL)
+2013 Jan 05 02:53 * Casey|Away is now known as Casey
+2013 Jan 05 03:43 * Joins: onon (onon@irc-7lm7n1.com)
+2013 Jan 05 03:46 * Quits: onon (onon@irc-7lm7n1.com) (A TLS packet with unexpected length was received.)
+2013 Jan 05 03:46 * Joins: onon (onon@irc-lipjfd.dip.t-dialin.net)
+2013 Jan 05 03:51 * Quits: onon (onon@irc-lipjfd.dip.t-dialin.net) (Quit: DAT TINFOIL)
+2013 Jan 05 03:51 * Joins: onon (onon@irc-7lm7n1.com)
+2013 Jan 05 03:51 * broBot sets mode: +o onon
+2013 Jan 05 03:51 * onon changes topic to 'Dat Tinfoil'
+Session Close: Sat Jan 05 04:41:09 2013

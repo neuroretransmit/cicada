@@ -1,0 +1,1337 @@
+
+Session Start: Sun Jan 12 01:56:27 2014
+Session Ident: #cicadatranslation
+2014 Jan 12 01:56 * Now talking in #cicadatranslation
+2014 Jan 12 01:56 * Topic is 'Full Runes: http://pastebin.com/PrzBzjvi'
+2014 Jan 12 01:56 * Set by SheCalledMePaul!~SheCalled@69.177.224.118 on Sun Jan 12 01:44:47
+2014 Jan 12 01:56 <JustExcited> cydoniac, so are the separated chars 3+rune
+2014 Jan 12 01:56 * Joins: per346 (5b424c37@gateway/web/freenode/ip.91.66.76.55)
+2014 Jan 12 01:56 <mlehmk3> anyways, there are 29 runes, there is no ROT with odd count of symbols
+2014 Jan 12 01:56 <cydoniac> is an onion 15 chars though?
+2014 Jan 12 01:56 <JustExcited> cydoniac, this is what I was talking about.
+2014 Jan 12 01:56 <JustExcited> cydoniac, 16.
+2014 Jan 12 01:56 <cydoniac> ONIO?
+2014 Jan 12 01:56 <JustExcited> BUT runes can be double char.
+2014 Jan 12 01:56 <cydoniac> yeah but
+2014 Jan 12 01:56 <JustExcited> You have TH, IA/IO NG/ING
+2014 Jan 12 01:56 * Joins: dead (~dead@unaffiliated/dead)
+2014 Jan 12 01:57 <JustExcited> So "IO" could be a rune.
+2014 Jan 12 01:57 <JustExcited> onIOn.
+2014 Jan 12 01:57 <cydoniac> wouldn't the ns look the same?
+2014 Jan 12 01:57 <Ymgve> so you are guessing it's variable shift?
+2014 Jan 12 01:57 <Ymgve> seems like too much structure for that to me
+2014 Jan 12 01:57 <nykos__> one thought
+2014 Jan 12 01:57 <cydoniac> they're 5 different letters... at the end
+2014 Jan 12 01:57 <JustExcited> Ymgve, variable takes structure.
+2014 Jan 12 01:57 <JustExcited> cydoniac, yes.
+2014 Jan 12 01:57 * Quits: mlehmk (~mlehmk@p5B3B0F62.dip0.t-ipconnect.de) (Ping timeout: 272 seconds)
+2014 Jan 12 01:57 <JustExcited> the space says that.
+2014 Jan 12 01:58 <nykos__> but the could ommit a letter to defeat bruteforce again
+2014 Jan 12 01:58 <cydoniac> but how could it be ONION when N repeats twice
+2014 Jan 12 01:58 <JustExcited> But then again maybe the space is just because the rune after 3 is taller and narrower.
+2014 Jan 12 01:58 <JustExcited> cydoniac, PROGRESSIVE shifting. 
+2014 Jan 12 01:58 <per346> we definitly need a table with all possible combinations of the strings
+2014 Jan 12 01:58 <JustExcited> One rune is shifted +1, the other +2, +3, so on.
+2014 Jan 12 01:58 <cydoniac> But how on earth can we figure it out if it's progressive shifting...
+2014 Jan 12 01:58 <per346> then we can try to shift
+2014 Jan 12 01:58 <cydoniac> that sounds like a nightmare to work out
+2014 Jan 12 01:58 <JustExcited> cydoniac, we can try to shift, and I am doing that together with MasterKey kind of as we speak.
+2014 Jan 12 01:59 <JustExcited> cydoniac, your nightare comment would require a philosophical movie-type statement from me, but unfortunately I have none so I'll just shut up so I don't sound ridiculous. :) 
+2014 Jan 12 01:59 <JustExcited> Something like "I long and... dream for nightmares". See, sounded crappy. :) 
+2014 Jan 12 01:59 <mdzhb> hmm what about
+2014 Jan 12 01:59 <mdzhb> 1) the magic square
+2014 Jan 12 01:59 <per346> only assumption is so far, that last few chars will be ONIO or ONION
+2014 Jan 12 01:59 <mdzhb> 2) crib -> SACRED?
+2014 Jan 12 02:00 * Joins: mlehmk (~mlehmk@p5B3B0B41.dip0.t-ipconnect.de)
+2014 Jan 12 02:00 * Joins: onecool (~onecool@ip68-226-62-5.om.om.cox.net)
+2014 Jan 12 02:00 * Joins: teefs (~teefs@gateway/tor-sasl/teefs)
+2014 Jan 12 02:00 <JustExcited> mdzhb, what?
+2014 Jan 12 02:00 <JustExcited> what do you mean?
+2014 Jan 12 02:01 <cydoniac> Okay, look at page 2
+2014 Jan 12 02:01 <cydoniac> the big red B
+2014 Jan 12 02:01 * Quits: mlehmk3 (~mlehmk@p5B3B0EFC.dip0.t-ipconnect.de) (Ping timeout: 256 seconds)
+2014 Jan 12 02:01 <cydoniac> Let's assume that's BEWARE - any way you can extrapolate from that?
+2014 Jan 12 02:02 <cydoniac> http://i.imgur.com/7QUyZmZ.jpg
+2014 Jan 12 02:02 * Joins: mlehmk3 (~mlehmk@p5B3B028F.dip0.t-ipconnect.de)
+2014 Jan 12 02:02 <JustExcited> onecool?
+2014 Jan 12 02:03 <cydoniac> Ah...think I might have done something...give me a moment...
+2014 Jan 12 02:03 <dead> cydoniac: the frequency of the second rune is quite high and thus could be 'e'
+2014 Jan 12 02:03 <dead> so that isn't such a bad assumption
+2014 Jan 12 02:03 <cydoniac> Maybe end of page 2 is A Warning again
+2014 Jan 12 02:03 * JustExcited is now known as JustVisiting
+2014 Jan 12 02:03 <cydoniac> just like the first runes
+2014 Jan 12 02:04 <mdzhb> SACRED ending a line is a decent guess as well
+2014 Jan 12 02:04 <mdzhb> both previous messages contained a line ending on SACRED, the square one even twice
+2014 Jan 12 02:04 <cydoniac> yes - I really think we should use the previous runes as a good guide
+2014 Jan 12 02:04 * Joins: mmay_ (4c1810ae@gateway/web/freenode/ip.76.24.16.174)
+2014 Jan 12 02:04 <JustVisiting> Guyes, let's split, it'll be confusing.
+2014 Jan 12 02:04 * Joins: faleur_to_sleep (~bob@c58-107-162-39.eburwd8.vic.optusnet.com.au)
+2014 Jan 12 02:04 <JustVisiting> One side we do Outguess, one side book pages. :) 
+2014 Jan 12 02:04 <mlehmk3> typing that rune text there is a strong distribution of runes
+2014 Jan 12 02:04 <cydoniac> argh too many subchannels
+2014 Jan 12 02:04 <mlehmk3> some are very common and others are rare
+2014 Jan 12 02:05 * Quits: mlehmk (~mlehmk@p5B3B0B41.dip0.t-ipconnect.de) (Ping timeout: 272 seconds)
+2014 Jan 12 02:05 * Joins: mc_teo (~user@unaffiliated/mcteo)
+2014 Jan 12 02:05 <mlehmk3> for example the H one is only once on the first page
+2014 Jan 12 02:05 <JustVisiting> It's just me, MasterKey and per346 doing outguess, right?
+2014 Jan 12 02:05 <mlehmk3> EA and EO are very common
+2014 Jan 12 02:05 <cydoniac> no, end of page 2 isn't a warning
+2014 Jan 12 02:05 <cydoniac> You'd see a repeating rune
+2014 Jan 12 02:05 <Xil> theres a one letter word on the second page
+2014 Jan 12 02:06 <Xil> 1st line after the red bit
+2014 Jan 12 02:06 <mlehmk3> onion would be 4 runes
+2014 Jan 12 02:06 <Xil> only ones in english are a and i
+2014 Jan 12 02:06 <mdzhb> presumably an 'a'
+2014 Jan 12 02:06 <JustVisiting> OK, this is confusing.
+2014 Jan 12 02:06 <Xil> exactly, its likely to be an a
+2014 Jan 12 02:06 <JustVisiting> :)
+2014 Jan 12 02:06 <cydoniac> red bit isn't a warning I don't think anyway
+2014 Jan 12 02:06 <per346> no outguessing here atm
+2014 Jan 12 02:06 <MasterKey> onecool: do you have your runes <-> english file ?
+2014 Jan 12 02:06 <faleur_to_sleep> Xil - i see 2
+2014 Jan 12 02:07 <SheCalledMePaul> masso posted somethingi nteresting on #cicadasolvers 
+2014 Jan 12 02:07 <Xil> even better
+2014 Jan 12 02:07 <faleur_to_sleep> an 'R' and an 'X_over_X'
+2014 Jan 12 02:07 * Joins: cmeinco (~cmeinco@c-24-13-166-18.hsd1.il.comcast.net)
+2014 Jan 12 02:07 <JustVisiting> I'll be in #3301magicsq for outguess. I know it has a different name, but it's already made for the magic square.
+2014 Jan 12 02:07 <Xil> cause thats probably an 'a' too
+2014 Jan 12 02:07 <cydoniac> I don't think it could be 'I'. They don't ever refer to themselves.
+2014 Jan 12 02:07 <faleur_to_sleep> i've been working on one being an a and the other an i ... but the frequencies don't seem to line up
+2014 Jan 12 02:07 <JustVisiting> It's a book page. Perhaps IN the book someone refers to himself.
+2014 Jan 12 02:08 <cydoniac> 'let the text guide you' just keep it in mind
+2014 Jan 12 02:08 <cydoniac> so I think the previous structure of messages will help
+2014 Jan 12 02:08 <Xil> no, its definitely not a straight caesar
+2014 Jan 12 02:09 <Xil> i think they're both 'A'
+2014 Jan 12 02:09 <Xil> 22 runes apart
+2014 Jan 12 02:09 <JustVisiting> What you could do is check the structure of the book pages against previous messages!
+2014 Jan 12 02:09 <JustVisiting> Previous ENGLISH letter messages.
+2014 Jan 12 02:09 <Xil> shift from the 22nd rune to the 5th rune
+2014 Jan 12 02:09 <mlehmk3> end rune combinations like ᛖᚫ cannot really exist
+2014 Jan 12 02:09 * Quits: mmay_ (4c1810ae@gateway/web/freenode/ip.76.24.16.174) (Quit: Page closed)
+2014 Jan 12 02:09 <onecool> what I did was rewrite the Gematria table into the order of the english alphabet
+2014 Jan 12 02:10 <cydoniac> it's 29 runes though
+2014 Jan 12 02:10 <mdzhb> and fill with digits?
+2014 Jan 12 02:10 <mdzhb> thats what ive done
+2014 Jan 12 02:10 <cydoniac> oh you mean
+2014 Jan 12 02:10 <mdzhb> A-Z1-3
+2014 Jan 12 02:10 <cydoniac> ok
+2014 Jan 12 02:10 * Joins: masso (~masso@unaffiliated/massospora)
+2014 Jan 12 02:10 * Quits: andre___ (459d8c27@gateway/web/freenode/ip.69.157.140.39) (Quit: Page closed)
+2014 Jan 12 02:10 <cydoniac> yeah good call
+2014 Jan 12 02:10 * SheCalledMePaul sets mode: +o masso
+2014 Jan 12 02:10 <cydoniac> This text doesn't use all 29 I don't believe
+2014 Jan 12 02:10 * Joins: brownsugarcube (328283de@gateway/web/freenode/ip.50.130.131.222)
+2014 Jan 12 02:10 <cydoniac> I think it's save to rule out 'x' 'q' and 'z' possibly
+2014 Jan 12 02:11 <cydoniac> maybe not q
+2014 Jan 12 02:11 <per346> someone update masso please, so he can explain his theory
+2014 Jan 12 02:11 <mc_teo> the FF at the end of line 3
+2014 Jan 12 02:11 <cydoniac> z, x and j maybe
+2014 Jan 12 02:11 <onecool> http://imgur.com/a/a0Phq is what i transcribed for the outguessed image
+2014 Jan 12 02:11 <mc_teo> what could it be, if it was a simple substitution cipher
+2014 Jan 12 02:11 <onecool> so i'll put that into the transpose cipher and play with it
+2014 Jan 12 02:12 <cydoniac> Are you replacing numbers?
+2014 Jan 12 02:12 <mc_teo> therefore, it has to be transposition, or polyalphabetic
+2014 Jan 12 02:12 * Quits: mlehmk3 (~mlehmk@p5B3B028F.dip0.t-ipconnect.de) (Read error: Operation timed out)
+2014 Jan 12 02:13 <SheCalledMePaul> wow onecool, youre going hard, hand transcription <3
+2014 Jan 12 02:14 <onecool> if you look at the options; there are 3 runes with 2 possible transcriptions(ing/ng, ing/ng, ia/io)
+2014 Jan 12 02:14 * Joins: mlehmk (~mlehmk@p5B3B06CC.dip0.t-ipconnect.de)
+2014 Jan 12 02:14 <JustVisiting> onecool, I do the same.
+2014 Jan 12 02:14 <mc_teo> two of those are the same?
+2014 Jan 12 02:14 <JustVisiting> hand rocks.
+2014 Jan 12 02:14 <JustVisiting> :) 
+2014 Jan 12 02:14 <JustVisiting> But I write nicer. Once a year when I do that is. :)) 
+2014 Jan 12 02:14 <masso> I don't think it's polyalphabetic. We's need a clearteyt for that...
+2014 Jan 12 02:14 <masso> we'd*
+2014 Jan 12 02:15 <per346> onecool: lol, nice!
+2014 Jan 12 02:15 <cydoniac> mlehmk did you write it all out in the end?
+2014 Jan 12 02:16 <per346> so we have OFIO at he end atm, any ideas on that, like shifting ...
+2014 Jan 12 02:17 <JustVisiting> That cannot be correct.
+2014 Jan 12 02:17 <onecool> cydoniac i'm not replacing numbers; i just wrote the corresponding letter/rune down for reference
+2014 Jan 12 02:17 <JustVisiting> For an onion.
+2014 Jan 12 02:17 <JustVisiting> TOO many chars.
+2014 Jan 12 02:17 <cydoniac> was the hint 'text' or 'texts'?
+2014 Jan 12 02:18 <per346> onion ist 16 or 17 long
+2014 Jan 12 02:18 <mdzhb> Let the text guide you.
+2014 Jan 12 02:18 <cydoniac> ok
+2014 Jan 12 02:18 <counterhash> "Let the text guide you" - 3301
+2014 Jan 12 02:18 <JustVisiting> per346, yes, but not with so many NG's and IO's and stuff.
+2014 Jan 12 02:18 * Quits: mlehmk (~mlehmk@p5B3B06CC.dip0.t-ipconnect.de) (Ping timeout: 260 seconds)
+2014 Jan 12 02:19 <per346> maybe we're deadend here, idk.
+2014 Jan 12 02:19 <JustVisiting> Per, don't be so positive brother.
+2014 Jan 12 02:19 * Joins: mlehmk (~mlehmk@p5B3B09AD.dip0.t-ipconnect.de)
+2014 Jan 12 02:19 <SheCalledMePaul> lol
+2014 Jan 12 02:20 <cydoniac> The runes have been misleading
+2014 Jan 12 02:20 <cydoniac> but there's a way
+2014 Jan 12 02:21 * Joins: mlehmk3 (~mlehmk@p5B3B09DB.dip0.t-ipconnect.de)
+2014 Jan 12 02:21 <per346> ok, lets get back a little, there are some numbers in this outguess, rest is runes. any ideas on this?
+2014 Jan 12 02:21 <counterhash> If you guys want a clue, you should really be checking the second paragraph in the second image, that begins with the 'B' rune
+2014 Jan 12 02:22 <counterhash> You should be solving the runes first, then the outguess
+2014 Jan 12 02:22 <JustVisiting> counterhash, but what if it's shifted?
+2014 Jan 12 02:22 <counterhash> JustVisiting: I haven't finished with my clue yet
+2014 Jan 12 02:22 <counterhash> Perhaps in that paragraph you will find a single character rune?
+2014 Jan 12 02:22 <counterhash> Or two?
+2014 Jan 12 02:22 <counterhash> Remember that 3301 have never used the word 'I'
+2014 Jan 12 02:22 <cydoniac> is there additional outguess? As in more hex etc?
+2014 Jan 12 02:22 <cydoniac> 3301 will never refer to themselves
+2014 Jan 12 02:23 <JustVisiting> Uh-huh.
+2014 Jan 12 02:23 <counterhash> So by logical conclusions, these single character runes would be 'A'?
+2014 Jan 12 02:23 <counterhash> And we should use their positions to help determine how this cipher works?
+2014 Jan 12 02:24 * Joins: mlehmk1 (~mlehmk@p5B3B1150.dip0.t-ipconnect.de)
+2014 Jan 12 02:24 * Quits: mlehmk (~mlehmk@p5B3B09AD.dip0.t-ipconnect.de) (Ping timeout: 272 seconds)
+2014 Jan 12 02:25 <mlehmk1> can anyone proof read? https://www.dropbox.com/s/ouwfjutahtxzen2/runes.txt
+2014 Jan 12 02:25 * Quits: mlehmk3 (~mlehmk@p5B3B09DB.dip0.t-ipconnect.de) (Read error: Operation timed out)
+2014 Jan 12 02:25 <per346> my point is: you can make an onion without numbers. if we assume this is an onion, and they make it with numbers, this is clearly a hint that this is an onion
+2014 Jan 12 02:26 <per346> and not an OFIO, lele
+2014 Jan 12 02:26 <per346> lol* :)
+2014 Jan 12 02:26 <counterhash> Guys, we should not start with an onion
+2014 Jan 12 02:26 <counterhash> "Let the text guide you"
+2014 Jan 12 02:26 <counterhash> We have to solve the text first
+2014 Jan 12 02:26 * Quits: Xil (520b5ec7@gateway/web/freenode/ip.82.11.94.199) (Quit: Page closed)
+2014 Jan 12 02:26 <counterhash> It is the only way
+2014 Jan 12 02:26 * Joins: shadowwalker (~shadowwal@unaffiliated/shadowwalker1337)
+2014 Jan 12 02:26 <counterhash> I have created a titanpad to assist in solving
+2014 Jan 12 02:26 <counterhash> http://titanpad.com/Hnugont7vT
+2014 Jan 12 02:26 * SheCalledMePaul sets mode: +o shadowwalker
+2014 Jan 12 02:27 <onecool> i'm working on the paragraph starting with a 'B'
+2014 Jan 12 02:27 <counterhash> onecool: Join the titanpad
+2014 Jan 12 02:27 * SheCalledMePaul sets mode: +o JustVisiting
+2014 Jan 12 02:27 <per346> counterhash: yeah, but we dont know at what point in the puzzle we are withe the maybeonion. maybe its an additional information not directly related with the book
+2014 Jan 12 02:28 <counterhash> per346: Trust me on this, you're not going to be able to solve the onion without finding out the key
+2014 Jan 12 02:28 <counterhash> The key will be in the rest of the text
+2014 Jan 12 02:29 <cydoniac> yes
+2014 Jan 12 02:29 <cydoniac> to solve the onion link is futile
+2014 Jan 12 02:29 <cydoniac> it's a jumble
+2014 Jan 12 02:29 <cydoniac> need an alphabet first
+2014 Jan 12 02:29 <per346> counterhash: cydoniac ok, i trust you! :0
+2014 Jan 12 02:29 * Joins: mlehmk (~mlehmk@p5B3B0D51.dip0.t-ipconnect.de)
+2014 Jan 12 02:30 <per346> but let me say, we had something like this wit the transponsition cypher earlier
+2014 Jan 12 02:30 * Quits: mlehmk1 (~mlehmk@p5B3B1150.dip0.t-ipconnect.de) (Ping timeout: 272 seconds)
+2014 Jan 12 02:31 <per346> some guys said you cant solve this without further information
+2014 Jan 12 02:31 * Joins: travelcec_ (0227b0e8@gateway/web/freenode/ip.2.39.176.232)
+2014 Jan 12 02:32 * Joins: Eve4 (~eve@ppp-83-171-168-22.dynamic.mnet-online.de)
+2014 Jan 12 02:32 * Joins: mlehmk3 (~mlehmk@p5B3B045C.dip0.t-ipconnect.de)
+2014 Jan 12 02:32 * Quits: mlehmk3 (~mlehmk@p5B3B045C.dip0.t-ipconnect.de) (Read error: Connection reset by peer)
+2014 Jan 12 02:32 * Joins: mlehmk3 (~mlehmk@p5B3B045C.dip0.t-ipconnect.de)
+2014 Jan 12 02:32 <mlehmk3> you probably have to download and open in whatever unicode aware editor you have. if on linux, try FreeMono or Junicode fonts
+2014 Jan 12 02:34 * Quits: mlehmk (~mlehmk@p5B3B0D51.dip0.t-ipconnect.de) (Ping timeout: 246 seconds)
+2014 Jan 12 02:34 <counterhash> okay fuck this I've spent too long here for today
+2014 Jan 12 02:34 <counterhash> you guys let me know if you solve anything
+2014 Jan 12 02:34 * Quits: counterhash (~counterha@122.150.41.106) (Quit: fucking 3301 and their stupid rune ciphers)
+2014 Jan 12 02:34 <mc_teo> lol
+2014 Jan 12 02:34 <JustVisiting> LOL, tat was abrupt.
+2014 Jan 12 02:35 * Joins: mlehmk (~mlehmk@p5B3B11D3.dip0.t-ipconnect.de)
+2014 Jan 12 02:35 <shadowwalker> dat rage
+2014 Jan 12 02:37 * Quits: mlehmk3 (~mlehmk@p5B3B045C.dip0.t-ipconnect.de) (Ping timeout: 272 seconds)
+2014 Jan 12 02:37 <SheCalledMePaul> people follwoing #cicadasolvers ?
+2014 Jan 12 02:37 <SheCalledMePaul> watching what's going on there
+2014 Jan 12 02:37 * Joins: mlehmk3 (~mlehmk@p5B3B3D2B.dip0.t-ipconnect.de)
+2014 Jan 12 02:37 <SheCalledMePaul> seems handy, Eve4 doing work
+2014 Jan 12 02:38 <mdzhb> so
+2014 Jan 12 02:38 <mdzhb> hypothesis: all single characters are 'a'
+2014 Jan 12 02:39 <Eve4> So, what can I help?
+2014 Jan 12 02:39 <mdzhb> from there we should be able to work out the offsets
+2014 Jan 12 02:39 <mdzhb> take their divisors, and hope we only have 1
+2014 Jan 12 02:39 * Joins: mlehmk1 (~mlehmk@p5B3B064B.dip0.t-ipconnect.de)
+2014 Jan 12 02:40 <JustVisiting> So this would be... polyalphabetic?
+2014 Jan 12 02:40 * Quits: mlehmk (~mlehmk@p5B3B11D3.dip0.t-ipconnect.de) (Ping timeout: 265 seconds)
+2014 Jan 12 02:40 <mdzhb> yes, just a guess
+2014 Jan 12 02:40 <mdzhb> that or its transposition again..
+2014 Jan 12 02:40 <mlehmk1> no
+2014 Jan 12 02:41 <mlehmk1> as I've typed that all in, there's a pattern in distribution
+2014 Jan 12 02:41 <mlehmk1> some runes are very common, others are rare
+2014 Jan 12 02:42 <per346> mlehmk1: seems you have some problems with your internetconnection. lol
+2014 Jan 12 02:42 * Quits: mlehmk3 (~mlehmk@p5B3B3D2B.dip0.t-ipconnect.de) (Ping timeout: 252 seconds)
+2014 Jan 12 02:42 <mc_teo> like english! I haven't typed a Z yet today!
+2014 Jan 12 02:42 <per346> hpoe you can solve them! :)
+2014 Jan 12 02:42 <mc_teo> oh wait...
+2014 Jan 12 02:42 * Joins: mlehmk (~mlehmk@p5B3B2FA3.dip0.t-ipconnect.de)
+2014 Jan 12 02:43 <mdzhb> mlehmk1: so? if its neither, then what is it? because 2-letter words consisting of the same character pretty much prove its not monoalphabetic
+2014 Jan 12 02:44 <JustVisiting> mdzhb, again I say: It can be LL, as in "you'LL'.
+2014 Jan 12 02:44 <JustVisiting> Or "They'LL" since we have a TH rune.
+2014 Jan 12 02:44 <JustVisiting> And it's three runes there.
+2014 Jan 12 02:45 <mdzhb> well, then there are 4 different single-character occurences
+2014 Jan 12 02:45 <JustVisiting> It can be different shifting by string.
+2014 Jan 12 02:45 <mdzhb> and they can only reasonably be 'i' or 'a'
+2014 Jan 12 02:45 * Quits: mlehmk1 (~mlehmk@p5B3B064B.dip0.t-ipconnect.de) (Ping timeout: 260 seconds)
+2014 Jan 12 02:46 <mc_teo> ooh, I want it to be LL
+2014 Jan 12 02:46 <JustVisiting> mdzhb, we can have every * as a stop and a new string-shifting after that.
+2014 Jan 12 02:46 <Eve4> On what do we work, forward, backward or both? Do we want to assume both images use the same code?
+2014 Jan 12 02:46 <mc_teo> I already but some of the single character rune only words into a substitution cipher brute forcer
+2014 Jan 12 02:46 <JustVisiting> Eve4, I say we should.
+2014 Jan 12 02:47 <mc_teo> and LL was the only one that made sense
+2014 Jan 12 02:47 <JustVisiting> Occam's razor tells me we should.
+2014 Jan 12 02:47 * Joins: mlehmk3 (~mlehmk@p5B3B2CFD.dip0.t-ipconnect.de)
+2014 Jan 12 02:47 <JustVisiting> You guys are so trigger happy, brute forcing this, brute forcing that, XORing here and there... :) 
+2014 Jan 12 02:47 <JustVisiting> Back in my day people relied more on social hacking, see Mitnick. :)) 
+2014 Jan 12 02:48 <Eve4> I suggested a couple days ago to just call Linode and request a root password reset. ^^
+2014 Jan 12 02:48 <absence_> kevin mitnick was charged with wire fraud & computer fraud, aswell as tapping wire communication
+2014 Jan 12 02:48 * Joins: mlehmk1 (~mlehmk@p5B3B38FD.dip0.t-ipconnect.de)
+2014 Jan 12 02:49 <mdzhb> Eve4: lol
+2014 Jan 12 02:49 <JustVisiting> absence_, yea, but he said he used social hacking mostly. :)
+2014 Jan 12 02:49 <absence_> as a kid maybe
+2014 Jan 12 02:49 <absence_> lawl
+2014 Jan 12 02:50 * Quits: mlehmk (~mlehmk@p5B3B2FA3.dip0.t-ipconnect.de) (Ping timeout: 272 seconds)
+2014 Jan 12 02:50 <JustVisiting> And he said that he got all those passwords directly, he didn't hack anything. :) 
+2014 Jan 12 02:50 <absence_> he did use it well though ;)
+2014 Jan 12 02:50 <JustVisiting> No, as a kid he hacked the public transportation.
+2014 Jan 12 02:50 <mdzhb> as for working on both pages
+2014 Jan 12 02:50 <absence_> Eve4, ive worked with linode and even called them last year regarding last leak, they wont reveal \anything\
+2014 Jan 12 02:50 <Eve4> . 46 M 19 P 16 AE 16 C/K 15  F 14 R 13 W 13 EO 12 IA/IO 12 U 10
+2014 Jan 12 02:50 <Eve4> . 50 J 16 P 16  R 15   U 15 EA 15 L 14 M 13 AE 12   C/K 12 E 11
+2014 Jan 12 02:50 <mdzhb> the 2nd page is obviously a continuation
+2014 Jan 12 02:51 <onecool> linode is cicada
+2014 Jan 12 02:51 <absence_> no they arent
+2014 Jan 12 02:51 <onecool> :)
+2014 Jan 12 02:51 <mdzhb> but the new paragraph could reset the keying or whatever
+2014 Jan 12 02:51 <Eve4> The frequencies match exceptionally well between both images but the symbols or completly mixed up.
+2014 Jan 12 02:51 * Quits: mlehmk3 (~mlehmk@p5B3B2CFD.dip0.t-ipconnect.de) (Ping timeout: 252 seconds)
+2014 Jan 12 02:53 * Quits: mlehmk1 (~mlehmk@p5B3B38FD.dip0.t-ipconnect.de) (Ping timeout: 252 seconds)
+2014 Jan 12 02:53 <Eve4> . 96 P 32 M 32 R 28 AE 28 C/K 27 J 26 U 25 EA 24 F 24 EO 21 <-- combined frequencies
+2014 Jan 12 02:54 * Joins: mlehmk (~mlehmk@p5B3B386D.dip0.t-ipconnect.de)
+2014 Jan 12 02:54 <nykos__> maybe one has the cipher in one direction, and the other has it in the reverse?
+2014 Jan 12 02:55 <cydoniac> if we can find one word it would be a start
+2014 Jan 12 02:55 <cydoniac> something like 'sacred'
+2014 Jan 12 02:55 * Joins: yomayamama (459d8c27@gateway/web/freenode/ip.69.157.140.39)
+2014 Jan 12 02:55 <nykos__> yeah
+2014 Jan 12 02:55 <cydoniac> I think I know a website that will work
+2014 Jan 12 02:55 <cydoniac> Just have to see if it accepts foreign characters
+2014 Jan 12 02:55 <nykos__> the use if language is probably similar
+2014 Jan 12 02:58 <Eve4> Ohh, I had (at least) two typos in the transcription; forward contains only 31 symbols, backwards 33.
+2014 Jan 12 02:58 * Quits: mlehmk (~mlehmk@p5B3B386D.dip0.t-ipconnect.de) (Ping timeout: 260 seconds)
+2014 Jan 12 02:58 * Joins: mlehmk (~mlehmk@p5B3B0E94.dip0.t-ipconnect.de)
+2014 Jan 12 02:58 <cydoniac> Are there any programs that work like this?
+2014 Jan 12 02:58 * Joins: yomayamama_ (459d8c27@gateway/web/freenode/ip.69.157.140.39)
+2014 Jan 12 02:59 <cydoniac> Except with foreign characters
+2014 Jan 12 02:59 <cydoniac> Or do we have this text written in an alphabet-friendly mode?
+2014 Jan 12 02:59 <onecool> try notepad++?
+2014 Jan 12 03:00 * Quits: mc_teo (~user@unaffiliated/mcteo) (Ping timeout: 276 seconds)
+2014 Jan 12 03:00 <Eve4> I just replaced everything with A-Z.
+2014 Jan 12 03:00 <Eve4> ZBUJEWG OEZPFBB WYI
+2014 Jan 12 03:00 <Eve4> TGMB AR BE TGVD URC
+2014 Jan 12 03:00 <Eve4> CRRN DFHCO XB CRS WW 
+2014 Jan 12 03:00 <Eve4> QZUED AF OD SFD GD DVN KIRH
+2014 Jan 12 03:00 <Eve4> OCS WFG EEDG OYF WLRX EGNC KDN 
+2014 Jan 12 03:00 <Eve4> KBMJ OA LD O RGYEDTGFN RPE G
+2014 Jan 12 03:00 <Eve4> UFZ EG OQN CFS KAKI WMSO OR GP
+2014 Jan 12 03:00 <Eve4> K AO GWZ YFCLNTWB LPK DYWWB
+2014 Jan 12 03:00 <Eve4> FY FWDI LRQFUJXJR NQXM NIZY
+2014 Jan 12 03:00 <Eve4> DNRY HALG JCIXUORKN ORS HAL
+2014 Jan 12 03:00 <Eve4> G IÖZAFM LUARWLFEZC NEL H
+2014 Jan 12 03:00 <Eve4> NIZ XMXJRCJI DR CS FA DRZW
+2014 Jan 12 03:00 * Quits: yomayamama (459d8c27@gateway/web/freenode/ip.69.157.140.39) (Ping timeout: 272 seconds)
+2014 Jan 12 03:00 <JustVisiting> Primes are sacred anyone!?
+2014 Jan 12 03:00 * Joins: mlehmk1 (~mlehmk@p5B3B3CFE.dip0.t-ipconnect.de)
+2014 Jan 12 03:00 <cydoniac> thank you.
+2014 Jan 12 03:01 * Joins: echoreply (17f2b2b9@gateway/web/freenode/ip.23.242.178.185)
+2014 Jan 12 03:01 <cydoniac> is the umlaut o just for extra letters?
+2014 Jan 12 03:01 <Eve4> .:-# turned into spaces and I had to use one Ö because there are still 27 symbols.
+2014 Jan 12 03:01 <mdzhb> cheater
+2014 Jan 12 03:01 <cydoniac> ok
+2014 Jan 12 03:02 * Joins: mlehmk2 (~mlehmk@p5B3B0E6E.dip0.t-ipconnect.de)
+2014 Jan 12 03:02 <Eve4> And I made the assignment completly random, there is absolutly no system to it, accept that Ö is the symbol occuring only ones.
+2014 Jan 12 03:02 <mlehmk2> I wonder what all I miss thanks to my bad connection
+2014 Jan 12 03:03 <Eve4> <Eve4>I just replaced everything with A-Z.
+2014 Jan 12 03:03 <Eve4> <Eve4>ZBUJEWG OEZPFBB WYI
+2014 Jan 12 03:03 <Eve4> <Eve4>TGMB AR BE TGVD URC
+2014 Jan 12 03:03 <Eve4> <Eve4>CRRN DFHCO XB CRS WW 
+2014 Jan 12 03:03 <Eve4> <Eve4>QZUED AF OD SFD GD DVN KIRH
+2014 Jan 12 03:03 <Eve4> <Eve4>OCS WFG EEDG OYF WLRX EGNC KDN 
+2014 Jan 12 03:03 <Eve4> <Eve4>KBMJ OA LD O RGYEDTGFN RPE G
+2014 Jan 12 03:03 <Eve4> <Eve4>UFZ EG OQN CFS KAKI WMSO OR GP
+2014 Jan 12 03:03 <Eve4> <Eve4>K AO GWZ YFCLNTWB LPK DYWWB
+2014 Jan 12 03:03 <onecool> try looking for 'Good Job' ?
+2014 Jan 12 03:03 <Eve4> <Eve4>FY FWDI LRQFUJXJR NQXM NIZY
+2014 Jan 12 03:03 <Eve4> <Eve4>DNRY HALG JCIXUORKN ORS HAL
+2014 Jan 12 03:03 * Quits: mlehmk (~mlehmk@p5B3B0E94.dip0.t-ipconnect.de) (Ping timeout: 272 seconds)
+2014 Jan 12 03:03 <Eve4> Just posted this (maybe) more frindly transcription.
+2014 Jan 12 03:03 <cydoniac> see the problem is it's not easy to substitute it
+2014 Jan 12 03:03 <mdzhb> that's not in line with the previous texts (good job)
+2014 Jan 12 03:03 <cydoniac> if the runes have changed some of these are several letters
+2014 Jan 12 03:04 <cydoniac> I thought 'sacred' would be better
+2014 Jan 12 03:04 * Joins: wutdis (ae71f012@gateway/web/freenode/ip.174.113.240.18)
+2014 Jan 12 03:04 <cydoniac> although I am not sure there are 6 letter words in here
+2014 Jan 12 03:04 <Eve4> I used this website to play around.
+2014 Jan 12 03:04 <Eve4> http://substitution.webmasters.sk/simple-substitution-cipher.php
+2014 Jan 12 03:04 <Eve4> But was unable to turn it into English; I doubt monoalphabetic more and more.
+2014 Jan 12 03:04 <cydoniac> http://scottbryce.com/cryptograms/ this one has a nice visual interface
+2014 Jan 12 03:05 <cydoniac> Oh it's not
+2014 Jan 12 03:05 <cydoniac> I imagine the runes have the same values
+2014 Jan 12 03:05 <cydoniac> i.e some are ING/NG
+2014 Jan 12 03:05 <onecool> er 'good work' maybe
+2014 Jan 12 03:05 <cydoniac> making it very hard to work without a custom program
+2014 Jan 12 03:05 * Quits: mlehmk1 (~mlehmk@p5B3B3CFE.dip0.t-ipconnect.de) (Ping timeout: 252 seconds)
+2014 Jan 12 03:05 <cydoniac> Hmm
+2014 Jan 12 03:06 <cydoniac> ILLUSION perhaps?
+2014 Jan 12 03:06 <cydoniac> Can't see a word with a double L rune
+2014 Jan 12 03:06 * Quits: mlehmk2 (~mlehmk@p5B3B0E6E.dip0.t-ipconnect.de) (Ping timeout: 252 seconds)
+2014 Jan 12 03:07 <cydoniac> eve4 just wondering have you got the entire text like that?
+2014 Jan 12 03:07 <cydoniac> I assume the letter values are same in both pages
+2014 Jan 12 03:08 <Eve4> No, but will make it.
+2014 Jan 12 03:08 <cydoniac> I'm going to cross reference all the older pages of the book to see what words appear most
+2014 Jan 12 03:08 * Joins: silence_ (18fd68fe@gateway/web/freenode/ip.24.253.104.254)
+2014 Jan 12 03:09 <JustVisiting> What if the text in the books is actually a text which we already have in English, and then we can use that for decryption?
+2014 Jan 12 03:09 <JustVisiting> Perhaps one of the texts they gave us before matches the pattern?
+2014 Jan 12 03:09 <wutdis> Could someone take a second look at the first line on the first page. It seems to me that the FTHX should be FWX. The > is connected at the top as opposed to lower down. 
+2014 Jan 12 03:09 <cydoniac> huh...never thought of that. Seems unlikely but I'll check letter lengths
+2014 Jan 12 03:10 * Joins: mce9 (~mce9@162-231-56-178.lightspeed.sndgca.sbcglobal.net)
+2014 Jan 12 03:10 <mdzhb> i misinterpreted some data, seems to be only one occurence of a single char on the first page?
+2014 Jan 12 03:11 <cydoniac> wurdis which word
+2014 Jan 12 03:11 <wutdis> Last word first line
+2014 Jan 12 03:11 <cydoniac> mdzhb I think that's wrong
+2014 Jan 12 03:11 <MasterKey> JustVisiting: there were several references to Blake's books maybe we should dig into that
+2014 Jan 12 03:11 <cydoniac> ᚠᚹᛉ
+2014 Jan 12 03:12 <cydoniac> can you see that?
+2014 Jan 12 03:12 <MasterKey> yup
+2014 Jan 12 03:12 <JustVisiting> Yes, cydoniac.
+2014 Jan 12 03:12 <JustVisiting> MasterKey i agree with ya.
+2014 Jan 12 03:13 * Quits: brownsugarcube (328283de@gateway/web/freenode/ip.50.130.131.222) (Quit: Page closed)
+2014 Jan 12 03:13 * Quits: yomayamama_ (459d8c27@gateway/web/freenode/ip.69.157.140.39) (Ping timeout: 272 seconds)
+2014 Jan 12 03:13 * Joins: galligaskins (4752d2e5@gateway/web/freenode/ip.71.82.210.229)
+2014 Jan 12 03:14 * Joins: xwing (becd1c6f@gateway/web/freenode/ip.190.205.28.111)
+2014 Jan 12 03:14 * Joins: perebor (~f@S010600262d4aa038.vc.shawcable.net)
+2014 Jan 12 03:14 <cydoniac> This is much harder than I thought it would be
+2014 Jan 12 03:15 * Joins: godbert (~godbert@d14-69-55-219.try.wideopenwest.com)
+2014 Jan 12 03:15 <galligaskins> it must be some kind of cryptogram
+2014 Jan 12 03:15 <cydoniac> just need to find the right words in it
+2014 Jan 12 03:16 <JustVisiting> Shall we make this +i?
+2014 Jan 12 03:16 <zoanthal_> typing them in gives you a sense of the frequency
+2014 Jan 12 03:16 <zoanthal_> seems to rotate frequency
+2014 Jan 12 03:16 <echoreply> sorry guys, so i was out 12 hours and came back to some interesting pieces... i have the runes translated with the 5 & 3... is that where everyone is?
+2014 Jan 12 03:16 <JustVisiting> Yes
+2014 Jan 12 03:17 <cydoniac> To be honest if the runes are different, we can't solve it by substitution easily
+2014 Jan 12 03:17 <cydoniac> Because any ABC vers are invalid
+2014 Jan 12 03:17 <zoanthal_> starts off with lots of M and AE, later basically non
+2014 Jan 12 03:17 * Joins: Vexus (52334393@gateway/web/freenode/ip.82.51.67.147)
+2014 Jan 12 03:18 <Vexus> Morning!
+2014 Jan 12 03:18 <perebor> have all single character substitutions been tested yet?
+2014 Jan 12 03:18 <cydoniac> Stuff like DX might seem like IN but it could just as easily be ING
+2014 Jan 12 03:18 <cydoniac> If you know what I mean
+2014 Jan 12 03:18 <JustVisiting> To you too Vexus.
+2014 Jan 12 03:18 <Vexus> im typing up the translation of the second image (with the red at the bottom)
+2014 Jan 12 03:19 <cydoniac> need to avoid substituting words with the optional runes...
+2014 Jan 12 03:19 <Vexus> adding in numbers as i go along 
+2014 Jan 12 03:19 <cydoniac> which is not easy
+2014 Jan 12 03:19 * Joins: Vess (~ne0n@afv211.neoplus.adsl.tpnet.pl)
+2014 Jan 12 03:20 * Joins: xiridium (4c69679e@gateway/web/freenode/ip.76.105.103.158)
+2014 Jan 12 03:21 * Joins: MrGrinch (~MrGrinch@pool-173-77-218-52.nycmny.fios.verizon.net)
+2014 Jan 12 03:22 <cydoniac> Do you think the gematria has any use?
+2014 Jan 12 03:23 <zoanthal_> only insofar as it provides a mental model for the alphabet
+2014 Jan 12 03:23 <zoanthal_> maybe the numbers will play a role
+2014 Jan 12 03:24 <JustVisiting> What if it's adi fferent runic alphabet?
+2014 Jan 12 03:25 <cydoniac> There's a possibility too that the gematria is right and message is simply encrypted.
+2014 Jan 12 03:25 <xiridium> what would you suggest JustVisiting?
+2014 Jan 12 03:25 <JustVisiting> Elder Futhark was my first thought, but some runes do not match.
+2014 Jan 12 03:26 <cydoniac> These are the futhark runes
+2014 Jan 12 03:26 * Joins: parardhes (~parardhes@79.106.109.179)
+2014 Jan 12 03:26 <cydoniac> I know what you mean
+2014 Jan 12 03:26 <cydoniac> It's possible that the message we got is right, simply encrypted/ciphered
+2014 Jan 12 03:26 <godbert> i think cydoniac is right why would they give us a message in an alphabet they have already produced if that wasn't meant to be a part of it
+2014 Jan 12 03:27 <cydoniac> Well, they have mixed up the gematria before right
+2014 Jan 12 03:27 <JustVisiting> http://en.wikipedia.org/wiki/File:Anglosaxonrunes.svg - the runes also have meanings, remember?
+2014 Jan 12 03:27 <galligaskins> because it's not a puzzle if you always know what to do next
+2014 Jan 12 03:27 <JustVisiting> They = ?
+2014 Jan 12 03:27 <cydoniac> Yeah, but those meanings aren't really helpful to us
+2014 Jan 12 03:28 <xiridium> that's a good point.
+2014 Jan 12 03:29 <xiridium> are you suggesting that there could be a message that mixes the meanings?  type and represented?
+2014 Jan 12 03:29 <Eve4> GHUSJIE#CJGYAHH:IQN
+2014 Jan 12 03:29 <Eve4> VELH:MB HJ VEZD UBK
+2014 Jan 12 03:29 <Eve4> KBBO DAWKC XH KBT II 
+2014 Jan 12 03:29 <Eve4> RGUJD-MA CD TAD ED DZO PNBW
+2014 Jan 12 03:29 <Eve4> CKT IAE JJDE CQA IFBX JEOK PDO 
+2014 Jan 12 03:29 <Eve4> PHLS CM FD C BEQJDVEAO BYJ-E
+2014 Jan 12 03:29 <Eve4> UAG JE CRO KAT PMPN ILTC CB EY
+2014 Jan 12 03:29 <Eve4> P MC EIG QAKFOVIH FYP DQIIH
+2014 Jan 12 03:29 <Eve4> AQ:AIDN FBRAUSXSB:ORXL ONGQ
+2014 Jan 12 03:29 <Eve4> DOBQ:WMFE SKNXUCBPO:CBT WMF
+2014 Jan 12 03:29 <Eve4> E NÄGMAL-FUMBIFAJGK:OJF W
+2014 Jan 12 03:29 <Eve4> ONG XLXSBKSN DB KT AM DBGI
+2014 Jan 12 03:29 <JustVisiting> xiridium, I do hope you're Cicada trying to tell me I'm on the right track... :) 
+2014 Jan 12 03:30 <JustVisiting> xiridium, I don't know, I'm playing around atm.
+2014 Jan 12 03:30 * Joins: Jase820_ (~Jase820@c-67-187-105-130.hsd1.tn.comcast.net)
+2014 Jan 12 03:30 <Eve4> #BM MJ DNCFSR RAZ WFGSNMV
+2014 Jan 12 03:30 <Eve4> RVB JCM WS ZRDWK APGZHUFK
+2014 Jan 12 03:30 <Eve4> D FYP AQN AZOOTLBD-LAPGXHK C
+2014 Jan 12 03:30 <Eve4> KHI CCJFB CBT WMF ÄLIG FGKLQ
+2014 Jan 12 03:30 <Eve4> H JFXJCCB-GBSE HJ LTDDEL:OT L
+2014 Jan 12 03:30 <Eve4> V ARGA HKAQVP VBR GLXLR JF
+2014 Jan 12 03:30 <Eve4> A GH LEY HYSKVB#
+2014 Jan 12 03:30 <Eve4> PBCQIA#OCF CNE U FHÜ FR
+2014 Jan 12 03:30 <Eve4> MB WMFEDKGI-AIÖ EEH C 
+2014 Jan 12 03:30 <Eve4> GFC ÖBPA YAPGZHUI-ZNR 
+2014 Jan 12 03:30 <Eve4> MYTHUGBVEYHH FD PAOW-IM
+2014 Jan 12 03:30 <Eve4> N DGI JFA NLQHÖ LQ EMGK#
+2014 Jan 12 03:30 <Eve4> #ER LDJTNQSDÄD#QILERC AXN CEPI#
+2014 Jan 12 03:30 * Joins: essen_ (47520646@gateway/web/freenode/ip.71.82.6.70)
+2014 Jan 12 03:30 <JustVisiting> Eve4, pastebin pls. 
+2014 Jan 12 03:30 * Joins: surtri1 (~surtri@MTRLPQ4706W-LP140-02-1177935963.dsl.bell.ca)
+2014 Jan 12 03:30 * surtri1 is now known as Surtri
+2014 Jan 12 03:30 <Surtri> Hello
+2014 Jan 12 03:30 * JustVisiting sets mode: +o Surtri
+2014 Jan 12 03:30 <Surtri> Thanks 
+2014 Jan 12 03:31 <per346> any new achievments in the last half hour? was afk.
+2014 Jan 12 03:31 <Surtri> I just got in, I didn't see anything about unes on wiki
+2014 Jan 12 03:31 <Eve4> Now letters assigned by frequency - A most common, ÄÖÜ least.
+2014 Jan 12 03:31 <JustVisiting> Don't mention it, feel free to return the favor. :)) 
+2014 Jan 12 03:31 <Eve4> kk
+2014 Jan 12 03:31 <MasterKey> Eve4: where do you get those message from ?
+2014 Jan 12 03:31 <Surtri> If lurker allows me to JustVisiting I will
+2014 Jan 12 03:31 <cydoniac> I can't see a 'the' phrase
+2014 Jan 12 03:31 <Eve4> Was there an error in the transcription?
+2014 Jan 12 03:31 <cydoniac> also
+2014 Jan 12 03:31 <cydoniac> ᚣᛈ ᚱᚫ ᛁᛈᚫ ᚳᚫ
+2014 Jan 12 03:31 <JustVisiting> Surtri, I'm just kidding!
+2014 Jan 12 03:31 <Surtri> I don
+2014 Jan 12 03:31 <Surtri> I don't mind asking tbh
+2014 Jan 12 03:32 <JustVisiting> xiridium, do you really think what I say makes sense?
+2014 Jan 12 03:32 <JustVisiting> Oh, lol.
+2014 Jan 12 03:32 <galligaskins> there's a word at the end of the third line of the forward .jpg that is just two of the same rune, i.e. FF
+2014 Jan 12 03:32 <galligaskins> i can't think of a way to make a word out of that
+2014 Jan 12 03:32 <cydoniac> yeah
+2014 Jan 12 03:32 <cydoniac> So perhaps...
+2014 Jan 12 03:33 <cydoniac> we got the english right but it's an encrypted message?
+2014 Jan 12 03:33 <cydoniac> then of course we have the same issue as before
+2014 Jan 12 03:33 <cydoniac> the IA/IO and NG/ING problem
+2014 Jan 12 03:33 <Jase820_> how do we know we have the english?
+2014 Jan 12 03:34 <cydoniac> http://snag.gy/yRk6U.jpg
+2014 Jan 12 03:34 <cydoniac> someone posted this in solvers
+2014 Jan 12 03:34 <galligaskins> I still think it's a simple monoalphabetic substitution because otherwise we'd need a key for all the rune pages and I don't know where we'd get that
+2014 Jan 12 03:34 <cydoniac> that distribution is strange as
+2014 Jan 12 03:34 <galligaskins> ok if that's the distribution then i'm thinking i'm wrong
+2014 Jan 12 03:35 <per346> cydoniac: we need a flipped version added and it will be random. :)
+2014 Jan 12 03:35 <cydoniac> did we get all possible outguess data?
+2014 Jan 12 03:35 <Eve4> http://pastebin.com/NXDE0r0c
+2014 Jan 12 03:36 <Jase820_> the distribution will always be strange with this.  for instance, not all uses of 'e' will actually be accounted for in the 'e' rune
+2014 Jan 12 03:36 <cydoniac> are there no extra clues or anything in the dump?
+2014 Jan 12 03:36 * Joins: iIIustrious (~iIIustrio@unaffiliated/iiiustrious)
+2014 Jan 12 03:37 <cydoniac> The reason I've been trying to avoid anything altering the runes too much is the 'let the text guide you' clue
+2014 Jan 12 03:37 <Eve4> Isn't the (supposed) word length distribution strange?
+2014 Jan 12 03:37 <galligaskins> cydoniac where did the let the text guide you clue come from
+2014 Jan 12 03:37 <cydoniac> it's like, linear
+2014 Jan 12 03:37 <Jase820_> that's why i wrote my script to change to single characters
+2014 Jan 12 03:37 <cydoniac> it was in the mass of code
+2014 Jan 12 03:37 <Vexus> im just typing up the second one 
+2014 Jan 12 03:37 <Vexus> with the red at the bottom 
+2014 Jan 12 03:37 <cydoniac> 'let the text guide you. good luck. 3301"
+2014 Jan 12 03:38 <Eve4> This message is in the outguess from the first image.
+2014 Jan 12 03:38 <galligaskins> oh, ok, thnaks
+2014 Jan 12 03:38 * Joins: po10 (~po10@c-178-73-197-136.anonymous.at.anonine.com)
+2014 Jan 12 03:38 <galligaskins> thanks*
+2014 Jan 12 03:38 <zoanthal_> at the risk of being pedantic
+2014 Jan 12 03:38 <zoanthal_> ETAOINSHRDLU
+2014 Jan 12 03:39 * Quits: Surtri (~surtri@MTRLPQ4706W-LP140-02-1177935963.dsl.bell.ca) (Changing host)
+2014 Jan 12 03:39 * Joins: Surtri (~surtri@unaffiliated/surtri)
+2014 Jan 12 03:39 * sendak.freenode.net sets mode: +o Surtri
+2014 Jan 12 03:39 * Joins: Lurker69 (~quassel@unaffiliated/lurker69)
+2014 Jan 12 03:39 <Lurker69> faggots, hidind here :-P
+2014 Jan 12 03:40 <galligaskins> well we already know five runes' translations
+2014 Jan 12 03:40 <Lurker69> can i get original jpgs
+2014 Jan 12 03:40 <JustVisiting> LOL 
+2014 Jan 12 03:40 <JustVisiting> [02:10] <per346> JustAround: Summary: Forward image: http://oi40.tinypic.com/2d9btwl.jpg Reverse image: http://i.imgur.com/tuMSH2r.jpg or http://i.imgur.com/7QUyZmZ.jpg outguessed image from forward: http://i.imgur.com/97YyfBk.jpg onion3: http://fv7lyucmeozzd5j4.onion/ translation: http://titanpad.com/I7tf8O9vTN
+2014 Jan 12 03:40 <Lurker69> and outgiess outputs?
+2014 Jan 12 03:40 <JustVisiting> Here lurker.
+2014 Jan 12 03:40 <cydoniac> what is the maximum length of an onion?
+2014 Jan 12 03:40 <galligaskins> 16
+2014 Jan 12 03:40 <Lurker69> JustVisiting: are imgur files bit by bit  same as orgiginals?
+2014 Jan 12 03:41 <cydoniac> ᛇᚠᛡ = ON(IO)? It's a longshot I guess.
+2014 Jan 12 03:41 <dead> anything new?
+2014 Jan 12 03:41 <JustVisiting> Lurker69, per gave them to me. I dunno. Should be, that's what he let me understand.
+2014 Jan 12 03:41 <Lurker69> Please do not use IMGUR for original Cicada images, reson is that IMGUR resamples jpgs, more here:
+2014 Jan 12 03:41 <Lurker69> http://www.reddit.com/r/EarthPorn/comments/1654yt/attention_all_artists_please_do_not_use_imgur_for/ 
+2014 Jan 12 03:41 <Eve4> Good to know.
+2014 Jan 12 03:41 <MasterKey> Lurker69: the pics don't seem to be byte identical i couldn't extract any outguess from that
+2014 Jan 12 03:41 <galligaskins> ah, minus doesn't fuck with the image
+2014 Jan 12 03:42 <Eve4> Way to many one, two and three symbol words for my taste.
+2014 Jan 12 03:42 <Lurker69> becasue of this we have buch of unorignal mages in wikia and  then people are outguessing images that have been resampled... :-/
+2014 Jan 12 03:42 <Lurker69> but small images usuall y stay the same anyway
+2014 Jan 12 03:42 <JustVisiting> We can do them later, Lurk, after this is all finished.
+2014 Jan 12 03:43 <MasterKey> JustVisiting: the point is the less time we have to explain what happened and how we worked the things out the more we have to actually work on the riddle
+2014 Jan 12 03:43 <Lurker69> JustVisiting: why we have thee images and only one outguess?
+2014 Jan 12 03:43 <cydoniac> so the story with ᚠᚠ...is there any possible word that could be?
+2014 Jan 12 03:43 <cydoniac> let's assume it's not you'll
+2014 Jan 12 03:43 <travelcec_> Goodnight guys. Sorry not being technically helpful, just know you have another supporter. You're doing a great job
+2014 Jan 12 03:43 <JustVisiting> Lurker69, fuck if I know. Only one had outguessed text in it?
+2014 Jan 12 03:43 <cydoniac> goodnight
+2014 Jan 12 03:43 <Jase820_> 3 images came from 1 hex dump
+2014 Jan 12 03:43 <Lurker69> MasterKey: patience, riddle wont run away from you
+2014 Jan 12 03:43 <JustVisiting> travelcec_, that sounded political of you. Work in the government by any chance?
+2014 Jan 12 03:43 <JustVisiting> Or the Parliament? :) 
+2014 Jan 12 03:43 <MasterKey> Lurker69: except when the onion goes down =)
+2014 Jan 12 03:43 <Surtri> lol
+2014 Jan 12 03:44 <Lurker69> JustVisiting: so far i havent seen single PGP
+2014 Jan 12 03:44 <masso> Lurker69: normal pic has an picture in outguess
+2014 Jan 12 03:44 <Jase820_> one of the images is the outguess of the original image
+2014 Jan 12 03:44 <Eve4> But the starting image (epiphany) was on imgur, too. Someone should tell cicada.
+2014 Jan 12 03:44 * Joins: lordlu (bd731f45@gateway/web/freenode/ip.189.115.31.69)
+2014 Jan 12 03:44 <Lurker69> this might all be troll :-/
+2014 Jan 12 03:44 <Surtri> lordlu: WEll if pic comes from verifiable source we don't really need pgp
+2014 Jan 12 03:44 <Jase820_> and the other image is the reverse of the original image
+2014 Jan 12 03:44 <Surtri> I meant
+2014 Jan 12 03:44 <Surtri> lurker
+2014 Jan 12 03:44 <masso> mirrored pic has kind of random data in outguess
+2014 Jan 12 03:44 <galligaskins> pgp led directly here
+2014 Jan 12 03:44 <Lurker69> masso: in hex? and no PGP?
+2014 Jan 12 03:44 <JustVisiting> Lurker69, you're not the first to notice. then again, they came FROM the Onion, afaik.
+2014 Jan 12 03:44 <JustVisiting> I wasn't here either.
+2014 Jan 12 03:44 <Surtri> Lurker69: WEll if pic comes from verifiable source we don't really need pgp
+2014 Jan 12 03:44 <JustVisiting> per346, still here? Ca you explain?
+2014 Jan 12 03:45 <masso> in the pgp is the hex for another pic
+2014 Jan 12 03:45 <travelcec_> Justvisiting: Iam Italian, we have political elections at least each year.. We just keep our selves ready..
+2014 Jan 12 03:45 <Lurker69> Surtri: of yes we do, are yo sure last onion is from verfied source Surtri?
+2014 Jan 12 03:45 <masso> Lurker69: http://pastebin.com/raw.php?i=jThtHMd6
+2014 Jan 12 03:45 <per346> JustVisiting: jeah, here. what to explain?
+2014 Jan 12 03:45 <JustVisiting> per346, Lurker wanted original images and source, for the ones you gave me earlier. Do you know them?
+2014 Jan 12 03:46 <Lurker69> Surtri: i am not saying it is troll, i know it is legit, just sayng that it could be possible since noody cares
+2014 Jan 12 03:46 * Quits: travelcec_ (0227b0e8@gateway/web/freenode/ip.2.39.176.232) (Quit: Page closed)
+2014 Jan 12 03:46 <masso> Surtri: pic is pgp verified
+2014 Jan 12 03:46 <Jase820_> they definitely came from the onion, multiple people downloaded it from the onion, including myself and the image was the same between each
+2014 Jan 12 03:46 <cydoniac> Just wondering...
+2014 Jan 12 03:46 <cydoniac> http://static2.wikia.nocookie.net/__cb20140108163161/uncovering-cicada/images/6/66/Runes-warning.jpg
+2014 Jan 12 03:46 <Lurker69> masso: thx this are links i want to see
+2014 Jan 12 03:46 <per346> oh, just c&ped it, but there must be 1:1 copys somewhere in the internet
+2014 Jan 12 03:46 <cydoniac> What was the original use of this?
+2014 Jan 12 03:46 <masso> but has not only text, but the hex for another pic in it
+2014 Jan 12 03:46 <Surtri> True lurker, I assume last onion is verified imo
+2014 Jan 12 03:47 <Jase820_> that's the cipher for the first page
+2014 Jan 12 03:47 <Jase820_> it's basically just an abash key
+2014 Jan 12 03:47 <Eve4> The first image contains a signature. Did not check but someone probably did.
+2014 Jan 12 03:47 <Jase820_> atbash*
+2014 Jan 12 03:47 <JustVisiting> Anyone XORed anthing this time around?
+2014 Jan 12 03:47 <masso> Lurker69: outguess from mirrored pic http://pastebin.com/raw.php?i=bmESdaSt
+2014 Jan 12 03:47 <zoanthal_> Eve4
+2014 Jan 12 03:47 <zoanthal_> i did, it is a good signature
+2014 Jan 12 03:47 <JustVisiting> Since XORing is a crowd favourite here. 
+2014 Jan 12 03:48 <Lurker69> masso: so we have two outguesse?
+2014 Jan 12 03:48 <Lurker69> masso: do we have obb string from between two images again?
+2014 Jan 12 03:48 <masso> 1 in the normal and one in the mirrored pic
+2014 Jan 12 03:48 * Joins: kml (~kml@199.111.173.141)
+2014 Jan 12 03:48 <JustVisiting> masso, so where is the other one? http://i.imgur.com/97YyfBk.jpg - I juts have this.
+2014 Jan 12 03:48 <dead> i think the outguess from the reversed pic
+2014 Jan 12 03:49 <dead> needs a key
+2014 Jan 12 03:49 <cydoniac> Do we have 100% everything of the data?
+2014 Jan 12 03:49 <masso> nope: ...ff d9 d9 ff... this is how the middle looks like
+2014 Jan 12 03:49 <JustVisiting> And the key is in the fucking matrix from yesterday?
+2014 Jan 12 03:49 <cydoniac> so just to clarify
+2014 Jan 12 03:49 <JustVisiting> Excuse the profanity.
+2014 Jan 12 03:49 <dead> maybe??
+2014 Jan 12 03:49 <cydoniac> we have 2 pages, 1 outguess jpg, 1 txt. Is there more?
+2014 Jan 12 03:49 <Lurker69> BW, can i opst nmae of this chat to 20 ppl PMing me aasking whats going on?
+2014 Jan 12 03:49 <Lurker69> i guess no
+2014 Jan 12 03:50 <cydoniac> I just want to avoid the "hi guys what is going on" questions every 5 mins
+2014 Jan 12 03:50 * JustVisiting sets mode: +o Lurker69
+2014 Jan 12 03:50 * Joins: Scott_Taylor (~Scott_Tay@129.200.69.111.dynamic.snap.net.nz)
+2014 Jan 12 03:50 <Lurker69> cydoniac: i know
+2014 Jan 12 03:50 <masso> 1 page, 1 hex data that can be split in 2 pics
+2014 Jan 12 03:50 <Eve4> Nope, middle is FF D9 FF D9 FF, one extra byte.
+2014 Jan 12 03:50 <Lurker69> thx eve
+2014 Jan 12 03:50 <cydoniac> masso so that's our 3 pics?
+2014 Jan 12 03:50 <dead> maybe the 3rd pic which is thought to be an onion address, is the key to the outguess for the reversed pic
+2014 Jan 12 03:51 <Jase820_> a FF byte doesn't really give us anything
+2014 Jan 12 03:51 <masso> the onion address pic yes
+2014 Jan 12 03:51 <cydoniac> dead there is no outguess key
+2014 Jan 12 03:51 <MasterKey> what about the extra bytes on the onion ?
+2014 Jan 12 03:51 <dead> cydoniac: what do you mean?
+2014 Jan 12 03:51 <cydoniac> that outguess pic is definitely a url
+2014 Jan 12 03:51 <JustVisiting> MasterKey: extra bytes?
+2014 Jan 12 03:51 <masso> what extra bytes?
+2014 Jan 12 03:51 <cydoniac> people keep saying outguess key like a buzzword, but it's just not a thing that has been done.
+2014 Jan 12 03:51 <MasterKey> If i recall correctly after the growing string ended there was a space and some bytes
+2014 Jan 12 03:52 <dead> outguess requires a key in some cases
+2014 Jan 12 03:52 <MasterKey> Entropy noted that
+2014 Jan 12 03:52 <dead> its been used in this year too
+2014 Jan 12 03:52 <cydoniac> But the first time entropy spoke he talked about the massive update right?
+2014 Jan 12 03:52 <JustVisiting> Anyone attempted to concatenate yesterday's hex string from the onion to any of the files? 
+2014 Jan 12 03:52 <dead> there is definitely some stego data in the reversed pic...the outguess (without a key) seems like garbage
+2014 Jan 12 03:52 <dead> ive tried various keys, all produced similar garbage
+2014 Jan 12 03:53 <cydoniac> So there are extra bytes?
+2014 Jan 12 03:53 <JustVisiting> masso, mind a PM?
+2014 Jan 12 03:53 <Eve4> Wait, stop, I may have used the wrong file.
+2014 Jan 12 03:53 * Joins: coilturn (5fd3949a@gateway/web/freenode/ip.95.211.148.154)
+2014 Jan 12 03:53 <cydoniac> Need to make sure we didn't miss anything in the dump
+2014 Jan 12 03:53 <cydoniac> just incase there was a new gematria key
+2014 Jan 12 03:54 <Lurker69> masso: html of onion when that hapened pls   and did it have any comment?
+2014 Jan 12 03:54 <zoanthal_> comment was <!--3301-->
+2014 Jan 12 03:54 <Eve4> Wrong file, no extra byte.
+2014 Jan 12 03:54 <cydoniac> That's right, it was 3301
+2014 Jan 12 03:54 <cydoniac> we don't know what 3301 actually means in primes
+2014 Jan 12 03:54 <JustVisiting> masso, or anyone else: so there are TWO outguesses?
+2014 Jan 12 03:54 <cydoniac> a txt and a jpg right
+2014 Jan 12 03:55 <Eve4> Here is all the onion3-longSTring stuff. http://mdzhb.dmtr.ru/onion3/
+2014 Jan 12 03:55 <cydoniac> 'Let the words guide you' quote
+2014 Jan 12 03:55 <cydoniac> text
+2014 Jan 12 03:55 <cydoniac> sorry
+2014 Jan 12 03:55 <cydoniac> let the text guide you
+2014 Jan 12 03:55 <zoanthal_> Let the text guide you.Good luck.3301
+2014 Jan 12 03:56 <cydoniac> let the text guide us...
+2014 Jan 12 03:56 <Eve4> One outguess.
+2014 Jan 12 03:56 <Eve4> In the first/forward image.
+2014 Jan 12 03:56 <JustVisiting> OK, thank you Eve4!
+2014 Jan 12 03:56 <cydoniac> Have people outguessed everything yeah?
+2014 Jan 12 03:56 <cydoniac> So there's no more data
+2014 Jan 12 03:57 * Jase820_ is now known as Jase820_afk
+2014 Jan 12 03:57 <onecool> can we outguess the outguess?
+2014 Jan 12 03:57 <zoanthal_> hexdump of outguess from reverse JPG if anyone wants it, personally think it is false positive http://pastebin.com/rNZQGeyb
+2014 Jan 12 03:57 <Eve4> Quite confident they tried the second/reversed, too. Not sure about the small one from the outguess form the first one. Waaahhhh outguess-ception!
+2014 Jan 12 03:57 <Vexus> heres the top part of the second image (with the red at the bottom) http://pastebin.com/qt8pdNNC
+2014 Jan 12 03:58 <cydoniac> thanks for that
+2014 Jan 12 03:59 <cydoniac> see there's that problem again
+2014 Jan 12 03:59 <cydoniac> 'p ux lcg cgstm'
+2014 Jan 12 03:59 <cydoniac> how would that translate
+2014 Jan 12 03:59 <Eve4> I go for a nightly 4 am walk to the gas station, grabing a pizza and a box of cigarettes.
+2014 Jan 12 03:59 <cydoniac> ;)
+2014 Jan 12 03:59 <echoreply> just don't put the cigs on the pizza ;)
+2014 Jan 12 04:00 <zoanthal_> here's how we know it rotates.  29 runes, 26 letters.  Distro is that OE is only used once though
+2014 Jan 12 04:00 <cydoniac> Oh damn, i totally didn't realise TH was a rune
+2014 Jan 12 04:00 <cydoniac> this changes a lot.
+2014 Jan 12 04:00 <zoanthal_> TH is used 14 times
+2014 Jan 12 04:00 <cydoniac> so we need a two rune word that repeats a lot
+2014 Jan 12 04:00 <zoanthal_> lowest distributions are OE (1), A(3), H(4)
+2014 Jan 12 04:00 <onecool> to/go/an/
+2014 Jan 12 04:00 <cydoniac> don't think  in letters, think in runes
+2014 Jan 12 04:01 <JustVisiting> cydoniac, you HAVE to think letters, to get something out of this.
+2014 Jan 12 04:01 <cydoniac> But if the runes are different now, letters will only confuse you.
+2014 Jan 12 04:01 <JustVisiting> Gas station sells pizza? Where do you live, man? Paradise
+2014 Jan 12 04:01 <cydoniac> Something that looks like "THE" will not be 3 letters anymore
+2014 Jan 12 04:01 <cydoniac> it's not direct like that
+2014 Jan 12 04:01 <cydoniac> ᛄᚫ appears twice
+2014 Jan 12 04:01 <Eve4> Germany.
+2014 Jan 12 04:02 <JustVisiting> Ah, die Autobahn! 
+2014 Jan 12 04:02 <Lurker69> HTML source of onion 3 when it had this last string containing mirrored images
+2014 Jan 12 04:02 <Lurker69> HTML source of onion 3 when it had this last string containing mirrored images
+2014 Jan 12 04:02 <Lurker69> HTML source of onion 3 when it had this last string containing mirrored images
+2014 Jan 12 04:02 <Lurker69> pls
+2014 Jan 12 04:02 <zoanthal_> A = 97 is only used in last "paragraph"
+2014 Jan 12 04:02 <Eve4> I hope they do, otherwise ... don't know what I will by ... let's see.
+2014 Jan 12 04:02 <Eve4> *buy
+2014 Jan 12 04:02 <Eve4> afk
+2014 Jan 12 04:02 <onecool> Lurker69
+2014 Jan 12 04:02 <onecool> http://mdzhb.dmtr.ru/onion3/onion3.html
+2014 Jan 12 04:02 <cydoniac> sicher sein.
+2014 Jan 12 04:02 <JustVisiting> Coke+crackers.
+2014 Jan 12 04:02 <onecool> Cokacrackers
+2014 Jan 12 04:03 <Vess> just a quick question.. why are we sure the letters have to be latin ?
+2014 Jan 12 04:03 <zoanthal_> OE is also only used in last paragraph
+2014 Jan 12 04:03 <JustVisiting> Vess, it looks Cyrillic to you too? :) 
+2014 Jan 12 04:03 <JustVisiting> I doubt there's too many Farsi speakers here, so...probably latin.
+2014 Jan 12 04:03 <masso> Lurker69: http://gjvc.com/3301/fv7lyucmeozzd5j4.onion-20140111-2218-GMT.txt
+2014 Jan 12 04:03 <cydoniac> uh oh
+2014 Jan 12 04:03 <cydoniac> my browser does not like that file lol
+2014 Jan 12 04:04 <JustVisiting> Neither does mine.
+2014 Jan 12 04:04 <godbert> i take it people have already tried columnar transposition
+2014 Jan 12 04:04 <JustVisiting> firefox ftw.
+2014 Jan 12 04:04 * Joins: beef (458dfd7c@gateway/web/freenode/ip.69.141.253.124)
+2014 Jan 12 04:04 <masso> Lurker69: especially for you: http://prntscr.com/2ilkuk
+2014 Jan 12 04:05 <cydoniac> columnar transposition would only work if we had even sequences
+2014 Jan 12 04:05 <cydoniac> even mostly even would be ok
+2014 Jan 12 04:05 <cydoniac> but not this
+2014 Jan 12 04:05 <essen_> ᚠ
+2014 Jan 12 04:05 <essen_> JUST TESTING
+2014 Jan 12 04:05 <onecool> can anybody outguess the outguessed image?
+2014 Jan 12 04:05 <essen_> can anyone see that rune
+2014 Jan 12 04:05 <cydoniac> I see it
+2014 Jan 12 04:05 <onecool> i think there's a password
+2014 Jan 12 04:06 <cydoniac> yeah, is it possible to outguess the outguess?
+2014 Jan 12 04:06 <Lurker69> thx guys
+2014 Jan 12 04:06 <cydoniac> Probably nothing but...
+2014 Jan 12 04:06 <zoanthal_> it's been outguessed
+2014 Jan 12 04:06 <zoanthal_> nothing
+2014 Jan 12 04:06 <onecool> did they supply a password?
+2014 Jan 12 04:07 <godbert> I'm guessing the outguessed image will give a new onion address when you use the cipher used on the larger texts
+2014 Jan 12 04:07 <onecool> 'Extracted datalen is too long: 7383 > 0' suggests a password is needed 
+2014 Jan 12 04:07 <cydoniac> okay, I'm going to try the anglosaxon runes
+2014 Jan 12 04:07 <cydoniac> seeing as they don't have double meanings
+2014 Jan 12 04:07 <cydoniac> it's still roughly the same use
+2014 Jan 12 04:08 <masso> <onecool> 'Extracted datalen is too long: 7383 > 0' suggests a password is needed 
+2014 Jan 12 04:08 <masso> suggests nothing, cause it's the default error message even when there is no data in it
+2014 Jan 12 04:08 <perebor> is this distribution for both of the new pages from onion3? http://snag.gy/yRk6U.jpg
+2014 Jan 12 04:08 <essen_> ᛠ has to be s,t, or o
+2014 Jan 12 04:08 <MasterKey> stupid question : from the onion's string how many image did we get ?
+2014 Jan 12 04:09 <essen_> likely o
+2014 Jan 12 04:09 <silence_> why can i not see the runes? is their a font i need to download?
+2014 Jan 12 04:09 <dead> MasterKey: 3
+2014 Jan 12 04:09 <godbert> 3 MasterKey 
+2014 Jan 12 04:09 <MasterKey> but there are many JFIF headers
+2014 Jan 12 04:09 <MasterKey> more than 3
+2014 Jan 12 04:10 <godbert> have people tried running just parts of the code>
+2014 Jan 12 04:10 <masso> MasterKey: the data on the onion page is 2 pics 
+2014 Jan 12 04:10 <masso> the 3rd one comes from outguessing the 1st
+2014 Jan 12 04:10 <MasterKey> no OOB or anything ?
+2014 Jan 12 04:10 <MasterKey> damn
+2014 Jan 12 04:10 <cydoniac> what's the jpg header again, ffd8?
+2014 Jan 12 04:10 <MasterKey> yup
+2014 Jan 12 04:11 <cydoniac> woah.
+2014 Jan 12 04:11 <cydoniac> you're right
+2014 Jan 12 04:11 <dead> interesting
+2014 Jan 12 04:11 <cydoniac> does that ever appear normally or especially for jpgs
+2014 Jan 12 04:11 <cydoniac> like ffd8 in code by change
+2014 Jan 12 04:11 <cydoniac> *chance
+2014 Jan 12 04:11 <nykos__> yes
+2014 Jan 12 04:11 * Joins: austintrigue (~austintri@adsl-76-244-76-44.dsl.austtx.sbcglobal.net)
+2014 Jan 12 04:11 <MasterKey> the point it needs to have both ffd8 at the beginning and ffd9 in the end
+2014 Jan 12 04:11 <MasterKey> +is*
+2014 Jan 12 04:11 <nykos__> there is also other data: resolution bit-depth etc
+2014 Jan 12 04:12 <dead> how many headers do you see? i dont have the original hex anymore
+2014 Jan 12 04:12 <masso> <MasterKey> but there are many JFIF headers
+2014 Jan 12 04:12 <masso> forget about JFIF, I can build you a mp3 with JFIF in the header... hex  FF D8 is the magic number, FF D9 the EOF, nothing more
+2014 Jan 12 04:12 <MasterKey> if you look at the very end of the onion string you can see that there is ffd8ff  maybe there is something to mirror
+2014 Jan 12 04:12 <cydoniac> there must be a mistage though...
+2014 Jan 12 04:12 <cydoniac> There are loads of ffd8's
+2014 Jan 12 04:12 <cydoniac> like too may for it to have that many images
+2014 Jan 12 04:12 <dead> MasterKey: we already mirrored and got one that way
+2014 Jan 12 04:12 <cydoniac> what are the image file sizes?
+2014 Jan 12 04:13 <cydoniac> of the pages
+2014 Jan 12 04:13 <MasterKey> dead: my bad :'(
+2014 Jan 12 04:14 <zoanthal_> around 2MB
+2014 Jan 12 04:14 <masso> 2400x3600px both
+2014 Jan 12 04:14 <cydoniac> each?
+2014 Jan 12 04:14 <essen_> the following appear in doubles: ᚠᚠᛗᛗᛠᛠᚱᚱᚹᚹᚫᚫᛇᛇ
+2014 Jan 12 04:14 <cydoniac> that's too many surely
+2014 Jan 12 04:15 <cydoniac> FF, MM, SS, TT, RR, LL, OO, EE, actually maybe not.
+2014 Jan 12 04:15 * Joins: purplefin (~purplef@109.73.73.180)
+2014 Jan 12 04:15 <essen_> and ᚳᚳ
+2014 Jan 12 04:15 <masso> file sizes, sorry, my bad: 
+2014 Jan 12 04:15 <masso> normal 892.759 Bytes
+2014 Jan 12 04:15 <masso> mirrored 1.223.337 Bytes
+2014 Jan 12 04:16 <Vexus> 4 more lines and ive finished translating the number for the whole of the second image 
+2014 Jan 12 04:16 <Vexus> be patient ;) 
+2014 Jan 12 04:16 <Vexus> haha 
+2014 Jan 12 04:16 <cydoniac> If the dump is about 4.11MB, and both of them are just under 1MB...
+2014 Jan 12 04:16 <cydoniac> what's going on?
+2014 Jan 12 04:16 <silence_> there's BB and DD also
+2014 Jan 12 04:17 <essen_> strange word: ᚳᚳᛠ may be the key to starting
+2014 Jan 12 04:17 <masso> this is the filesize of all the data from the onion, when saved as raw hex data 2.116.096 Bytes
+2014 Jan 12 04:17 <teefs> cydoniac: conversion from hex ascii digit to binary file, slicing out jpeg file between JFIF header and EOF mark
+2014 Jan 12 04:17 <silence_> I dont see the rune font?
+2014 Jan 12 04:17 <silence_> where can i get it?
+2014 Jan 12 04:17 <essen_> found a few online
+2014 Jan 12 04:17 <Jase820_afk> if it's shifting the dictionary by 1 position each time, a double could be 'no', 'ut', 'de'
+2014 Jan 12 04:17 <essen_> futhark
+2014 Jan 12 04:18 <essen_> anglo saxon runes
+2014 Jan 12 04:18 <masso> If you download the htnl or the .txt file it's exactly the double filesize
+2014 Jan 12 04:18 <cydoniac> oh, so there's a filesize change in the data type change, I forgot to account for that.
+2014 Jan 12 04:18 <essen_> BabelStoneRunes
+2014 Jan 12 04:18 <MasterKey> Jase820_afk: i shifted runes and alphabet in almost every position possible without any success
+2014 Jan 12 04:18 <essen_> in the dump there is an image in the front, a reversed image in the back, and chopping those left 1 byte
+2014 Jan 12 04:19 <Jase820_afk> shifting with each character?
+2014 Jan 12 04:19 <JustVisiting> MasterKey, I insist that it's some sort of progressive cipher.
+2014 Jan 12 04:19 <JustVisiting> And I stand firm by my opinion.
+2014 Jan 12 04:19 <teefs> lol
+2014 Jan 12 04:19 <JustVisiting> If you don't like it, then I have others, of course... :) 
+2014 Jan 12 04:19 <teefs> ^_^
+2014 Jan 12 04:19 <Vexus> masterkey: try caesar brute force 
+2014 Jan 12 04:19 <MasterKey> Vexus: I did
+2014 Jan 12 04:19 <Vexus> ahhhh 
+2014 Jan 12 04:20 <cydoniac> I think it might be a cipher now tbh
+2014 Jan 12 04:20 <MasterKey> I can dump all my generated text for the outguessed message if needed
+2014 Jan 12 04:20 <JustVisiting> Guys, stop brute-forcing everything!
+2014 Jan 12 04:20 <cydoniac> At least we've tried the easier stuff.
+2014 Jan 12 04:20 <teefs> only ~29! possible
+2014 Jan 12 04:20 <JustVisiting> They want Einstein, not Tyson!
+2014 Jan 12 04:20 <dead> maybe we need that matrix now
+2014 Jan 12 04:20 <cydoniac> They've already found ways to deter brute forcers before.
+2014 Jan 12 04:20 * Joins: panax (~panax@131.247.116.206)
+2014 Jan 12 04:21 <essen_> guys - i think the word ᚳᚳᛠ shows this is not a simple substitution cipher
+2014 Jan 12 04:21 * Joins: mrnatbus12 (~nathan@pool-71-106-46-195.lsanca.fios.verizon.net)
+2014 Jan 12 04:21 <essen_> can you think of an english word that starts with 2 of the same letters and has 1 more
+2014 Jan 12 04:21 <essen_> other than oof
+2014 Jan 12 04:21 <teefs> how do u know what is a word withut solve
+2014 Jan 12 04:21 <teefs> what if ther r no space
+2014 Jan 12 04:21 <onecool> eel
+2014 Jan 12 04:21 <mrnatbus12> How far are we also what happened to #cicadasolvers
+2014 Jan 12 04:21 <cydoniac> one of the runes could be a double letter remember.
+2014 Jan 12 04:21 <essen_> good one onecool
+2014 Jan 12 04:22 <cydoniac> or either of two letters.
+2014 Jan 12 04:22 <MasterKey> what if we need to multiply the text by the matrix ?
+2014 Jan 12 04:22 <MasterKey> we cut the text in good-sized vector
+2014 Jan 12 04:22 <MasterKey> and multiply stuff
+2014 Jan 12 04:22 <cydoniac> uh...
+2014 Jan 12 04:22 <cydoniac> that sounds far fetched
+2014 Jan 12 04:22 <cydoniac> to be honest
+2014 Jan 12 04:22 <JustVisiting> [05:21] <@xiridium> seems to me that in the single line script, there is a distinct difference between the second and third letters. - "He is talking about the outguess"!
+2014 Jan 12 04:22 <MasterKey> it is
+2014 Jan 12 04:22 * Joins: Nembius (177bb816@gateway/web/freenode/ip.23.123.184.22)
+2014 Jan 12 04:22 <cydoniac> remember the clue
+2014 Jan 12 04:22 <cydoniac> 'let the text guide you'
+2014 Jan 12 04:22 <cydoniac> ᛠ
+2014 Jan 12 04:22 * Joins: apx (root@storage.sly.mn)
+2014 Jan 12 04:22 <cydoniac> oops
+2014 Jan 12 04:22 * Joins: pacer (18454916@gateway/web/freenode/ip.24.69.73.22)
+2014 Jan 12 04:23 <cydoniac> Let's consider ᚳᚳᛠ
+2014 Jan 12 04:23 <per346> JustVisiting: ?
+2014 Jan 12 04:23 <cydoniac> http://static3.wikia.nocookie.net/__cb20130107123017/uncovering-cicada/images/1/1a/Testout.jpg
+2014 Jan 12 04:23 <JustVisiting> per346, the man is right!
+2014 Jan 12 04:23 <dead> god dman i dont have unicode support on her
+2014 Jan 12 04:23 <dead> e
+2014 Jan 12 04:23 <JustVisiting> And I am dumb.
+2014 Jan 12 04:23 <JustVisiting> Nevermind.
+2014 Jan 12 04:23 <JustVisiting> It's late, sorry.
+2014 Jan 12 04:23 <cydoniac> It basically looks like LLT, just imagine they are runes
+2014 Jan 12 04:23 <JustVisiting> i thought we don't have that rune.
+2014 Jan 12 04:23 <JustVisiting> But we do.
+2014 Jan 12 04:23 <per346> JustVisiting: can you update, maybe on pm
+2014 Jan 12 04:23 <per346> ?
+2014 Jan 12 04:23 <per346> me
+2014 Jan 12 04:23 <Jase820_afk> i have unicode, but still can't see those runes
+2014 Jan 12 04:24 * JustVisiting slaps himself
+2014 Jan 12 04:24 <essen_> i dont think that is a space - just the way those runes are formed leaves some whitespace in the middle
+2014 Jan 12 04:24 <cydoniac> Argh...I'm starting to think you're right about ᚳᚳᛠ
+2014 Jan 12 04:24 <cydoniac> It doesn't really compute to e
+2014 Jan 12 04:24 <essen_> anyway, i think the single dot is a space
+2014 Jan 12 04:24 <cydoniac> english
+2014 Jan 12 04:24 * Joins: mmaxsted (~mmaxsted@unaffiliated/mmaxsted)
+2014 Jan 12 04:24 <cydoniac> short of reversing it, which is obviously not the solution.
+2014 Jan 12 04:24 <Jase820_afk> what is the rune you're considering in english letters?
+2014 Jan 12 04:24 <cydoniac> there are too many iffy cases in the page
+2014 Jan 12 04:24 * Jase820_afk is now known as Jase820_
+2014 Jan 12 04:24 <cydoniac> imagine LLT
+2014 Jan 12 04:25 <cydoniac> or something
+2014 Jan 12 04:25 <cydoniac> It's literally CK CK EA
+2014 Jan 12 04:25 <cydoniac> in gematria
+2014 Jan 12 04:25 <essen_> yes
+2014 Jan 12 04:25 <onecool> eel, 
+2014 Jan 12 04:25 <onecool> e'er
+2014 Jan 12 04:25 <essen_> een
+2014 Jan 12 04:25 <essen_> oof
+2014 Jan 12 04:25 <essen_> but what are the odds?
+2014 Jan 12 04:25 <MasterKey> it may be stupid but what if we didn't need the gematria ?
+2014 Jan 12 04:25 <cydoniac> Were you guys given a gematria for the first ever rune?
+2014 Jan 12 04:25 <essen_> could each word be in reverse?
+2014 Jan 12 04:25 <Vess> maybe its not ck ck but C or K so CKEA or KCEA ?
+2014 Jan 12 04:26 <cydoniac> yes C/K
+2014 Jan 12 04:26 <essen_> forget the gematria at this point
+2014 Jan 12 04:26 <cydoniac> essen_ I thought about it but to be honest...it seems random?
+2014 Jan 12 04:26 <MasterKey> I mean we should read it as text
+2014 Jan 12 04:26 <cydoniac> I could type out a line in reverse if you want.
+2014 Jan 12 04:26 <MasterKey> the rune looking like a P let's say IT IS P
+2014 Jan 12 04:26 <dead> reversing wouldn't effect the frequency
+2014 Jan 12 04:26 <MasterKey> they look like letters somehow
+2014 Jan 12 04:26 <cydoniac> you're still going to get the strange OO words
+2014 Jan 12 04:26 <essen_> yeah, but maybe the whole thing is in reverse
+2014 Jan 12 04:27 <cydoniac> but it doesn't really solve the odd words
+2014 Jan 12 04:27 <Vess> I am still wondering if this translates to english and not some other language that has a different grammar structure
+2014 Jan 12 04:27 <cydoniac> It definitely isn't another language
+2014 Jan 12 04:27 <mrnatbus12> is the rune language the same as the other one?
+2014 Jan 12 04:27 <cydoniac> that would be really bizarre to do
+2014 Jan 12 04:27 <essen_> there are two single letter runes, ᛝ and ᚱ
+2014 Jan 12 04:27 <Jase820_> do we have the frequency on the other pages they've given us?
+2014 Jan 12 04:27 <essen_> could be A and I
+2014 Jan 12 04:27 <essen_> or A and B in the context
+2014 Jan 12 04:27 <cydoniac> But they'd never say I
+2014 Jan 12 04:28 <cydoniac> It could just as easily be all A or A/I
+2014 Jan 12 04:28 <beef> could be any Roman numeral
+2014 Jan 12 04:28 <Vexus> well converting it as HEX to ASCII didnt work
+2014 Jan 12 04:28 <cydoniac> What's the deal with IA/IO by the way? Was that meaning given to us by 3301?
+2014 Jan 12 04:30 * Joins: Lafolie (~Luca@cpc1-stok9-0-0-cust495.1-4.cable.virginm.net)
+2014 Jan 12 04:30 * Quits: Nembius (177bb816@gateway/web/freenode/ip.23.123.184.22) (Quit: Page closed)
+2014 Jan 12 04:30 <essen_> hmmm
+2014 Jan 12 04:30 <cydoniac> If the NG/ING-like meanings weren't there this would be a million times easier
+2014 Jan 12 04:31 <essen_> actually just realized that they have used acronyms before, like RSA, so perhaps this is english after all
+2014 Jan 12 04:32 * Quits: Surtri (~surtri@unaffiliated/surtri) (Quit: WeeChat 0.4.0)
+2014 Jan 12 04:32 <beef> essen what would be a likely acronym with 2 letters both the same? is there one?
+2014 Jan 12 04:32 <cydoniac> But where do you make the acronyms?
+2014 Jan 12 04:32 <Vexus> wasnt there something about things that begin with f?
+2014 Jan 12 04:33 <Vexus> i applied an MD5 crypt to what i got out of the translation: fba94c7bdc24a4edda0bc99366dbeb39
+2014 Jan 12 04:33 <cydoniac> is that string linked to anything?
+2014 Jan 12 04:33 <JustVisiting> Good luck everyone! Good night.
+2014 Jan 12 04:33 * JustVisiting is now known as JustSleeping
+2014 Jan 12 04:34 <cydoniac> Just for reference if it inspires you at all
+2014 Jan 12 04:34 <cydoniac> http://static4.wikia.nocookie.net/__cb20140109145115/uncovering-cicada/images/b/bc/Page3-book.jpg
+2014 Jan 12 04:34 <cydoniac> http://static3.wikia.nocookie.net/__cb20140109145202/uncovering-cicada/images/3/32/Book-page-4.jpg
+2014 Jan 12 04:34 <essen_> look at the 2 letter words: ᚩᛠ and ᛠᛇ
+2014 Jan 12 04:34 <cydoniac> at to?
+2014 Jan 12 04:34 <essen_> what letters can appear at the beginning and end of a 2 letter word in english
+2014 Jan 12 04:34 * Quits: silence_ (18fd68fe@gateway/web/freenode/ip.24.253.104.254) (Ping timeout: 272 seconds)
+2014 Jan 12 04:35 <essen_> s, t, o
+2014 Jan 12 04:35 <cydoniac> on no
+2014 Jan 12 04:35 <Lafolie> They read straight out though
+2014 Jan 12 04:35 <cydoniac> to be honest...1 on 1 subsitution just isn't working smoothly
+2014 Jan 12 04:35 <Lafolie> The new ones seem to be ciphered using polyalphabet
+2014 Jan 12 04:35 <cydoniac> what is polyalphabet exactly?
+2014 Jan 12 04:35 <pacer> Where did these new images come from?
+2014 Jan 12 04:35 <cydoniac> onion3
+2014 Jan 12 04:36 <pacer> it's returning new data?
+2014 Jan 12 04:36 <Lafolie> It's down now.
+2014 Jan 12 04:36 <cydoniac> it had a 4MB string with 3 images and a txt
+2014 Jan 12 04:36 * Joins: DominicReddit (~anonymous@cpe-24-209-204-244.cinci.res.rr.com)
+2014 Jan 12 04:37 <cydoniac> http://mdzhb.dmtr.ru/onion3/
+2014 Jan 12 04:37 <DominicReddit> Hello
+2014 Jan 12 04:37 <MasterKey> hi
+2014 Jan 12 04:37 <dead> how come we have 5 and 3 there, if 1 for 1 substitution doesnt work
+2014 Jan 12 04:37 <cydoniac> 5 and 3 are numbers
+2014 Jan 12 04:37 <cydoniac> they won't translate into runes like that
+2014 Jan 12 04:37 <essen_> is so, it to, to on
+2014 Jan 12 04:37 * Joins: p799531 (~panax@241641hfc93.tampabay.res.rr.com)
+2014 Jan 12 04:37 <Eve4> Pizza, beer, tampons, it's all there. I bet you can live in the gas station like one year without the need to step outside. ^^
+2014 Jan 12 04:37 <DominicReddit> Some decrypt the SHA1 Hash with the PGP Sig first
+2014 Jan 12 04:38 <DominicReddit> then bruteforce it for SHA1
+2014 Jan 12 04:38 <perebor> yeah I got nothing from testing monoalphabetic substitution
+2014 Jan 12 04:38 <Lafolie> perebor: we have 2 big clues in here
+2014 Jan 12 04:38 <cydoniac> I don't believe it's substitution anymore
+2014 Jan 12 04:38 <Lafolie> 1: the FF. 2: there's a lone R. That could be an A
+2014 Jan 12 04:38 <cydoniac> Did someone mention the message from 3301 was PGP signed?
+2014 Jan 12 04:39 <DominicReddit> I did.
+2014 Jan 12 04:39 <Lafolie> If we have R as an A, that could be a starting point for polyalphabet
+2014 Jan 12 04:39 <DominicReddit> http://mdzhb.dmtr.ru/onion3/1.msg
+2014 Jan 12 04:39 <DominicReddit> That was PGP signed.
+2014 Jan 12 04:39 <MasterKey> DominicReddit: yeah so ?
+2014 Jan 12 04:39 <cydoniac> Thank you
+2014 Jan 12 04:39 <cydoniac> I never saw that
+2014 Jan 12 04:39 <DominicReddit> The PGP sign for it is at the bottom.
+2014 Jan 12 04:39 <DominicReddit> So you can't just crack it for SHA1 before you decrypt the PGP
+2014 Jan 12 04:39 <cydoniac> What is that string with it?
+2014 Jan 12 04:39 <perebor> the distribution of glyphs suggests it isn't semantically secure
+2014 Jan 12 04:39 <cydoniac> looks like an image at start
+2014 Jan 12 04:39 <perebor> right?
+2014 Jan 12 04:39 <Lafolie> Yeah
+2014 Jan 12 04:40 <Lafolie> There's no... continuity
+2014 Jan 12 04:40 <per346> bye, good night and good luck!
+2014 Jan 12 04:40 <Lafolie> I translated the forward image, http://hastebin.com/bogikojiho.txt
+2014 Jan 12 04:40 <Lafolie> There's no structure at all, the only clues are the FF and R.
+2014 Jan 12 04:40 <Eve4> gn8 per346!
+2014 Jan 12 04:40 <cydoniac> Yep, we have that too, but it doesn't seem to make sense in that form
+2014 Jan 12 04:40 <DominicReddit> I SEE
+2014 Jan 12 04:41 <DominicReddit> You a anagram to decode it.
+2014 Jan 12 04:41 <Lafolie> Oh, there's an YP and a PY too.
+2014 Jan 12 04:41 <cydoniac> I don't think an anagram will work. It's too long
+2014 Jan 12 04:41 <DominicReddit> Cryptowheel I mean :P
+2014 Jan 12 04:41 <cydoniac> But about that message
+2014 Jan 12 04:41 <DominicReddit> FF is a really easy thing to decode with a cryptowheel
+2014 Jan 12 04:41 <cydoniac> Just to clarify
+2014 Jan 12 04:41 <Lafolie> If it's ciphered, it'll be something like PURPLE.
+2014 Jan 12 04:42 <cydoniac> After the 3301 message, what is that string? Looks like  a jpg at start. is that the onion link?
+2014 Jan 12 04:42 <perebor> is there a transciption of the second page?
+2014 Jan 12 04:42 <Lafolie> Yeah
+2014 Jan 12 04:42 <dead> what are the facts we know about the cipher text thus far?
+2014 Jan 12 04:43 <cydoniac> But guys, you forget another problem with just translating it to english and ciphering. There are NGs that may be INGs, Cs that may be Ks
+2014 Jan 12 04:43 <DominicReddit> The clues are FF and R
+2014 Jan 12 04:43 <perebor> that linear distribution of glyphs that someone posted wouldn't suggest PURPLE though, right?
+2014 Jan 12 04:43 <cydoniac> AOs and Ios
+2014 Jan 12 04:43 <Lafolie> http://pastebin.com/2JTMvjsR
+2014 Jan 12 04:43 <dead> position is important? so 1 for 1 wont work but maybe some sort of rotating replacement or something
+2014 Jan 12 04:43 <Lafolie> I think the reverse image runes follow on from the first.
+2014 Jan 12 04:43 <Eve4> Maybe we should work backwards. If we stick with the assumption that http://i.imgur.com/97YyfBk.jpg is a onion address and we are expected to figure out the algorithm from the other two images, we may be able to reduce the search space a bit. The algorithm must work in a way that allows us to reuse it for the inner image.
+2014 Jan 12 04:43 <dead> yes they do
+2014 Jan 12 04:43 <Lafolie> The first char is a line break, why else would it start with that?
+2014 Jan 12 04:44 <cydoniac> the 16 dot symbol is a line break
+2014 Jan 12 04:44 <cydoniac> <cydoniac> After the 3301 message, what is that string? Looks like  a jpg at start. is that the onion link? anyone?
+2014 Jan 12 04:44 <DominicReddit> http://rumkin.com/tools/cipher/cryptogram.php
+2014 Jan 12 04:45 <dead> cydoniac: what are you talking about?
+2014 Jan 12 04:45 * Quits: per346 (5b424c37@gateway/web/freenode/ip.91.66.76.55) (Ping timeout: 272 seconds)
+2014 Jan 12 04:45 <Lafolie> perebor: I'm not sure, I've no idea what the best candidate is
+2014 Jan 12 04:45 <cydoniac> http://mdzhb.dmtr.ru/onion3/1.msg
+2014 Jan 12 04:45 <cydoniac> What is this string?
+2014 Jan 12 04:45 <DominicReddit> It's a php signed SHA1 hash
+2014 Jan 12 04:45 <perebor> I was entertaining the vigenier/playfair/n-gram substition based on the distribution of glyphs
+2014 Jan 12 04:45 <dead> thats where the inner image comes from
+2014 Jan 12 04:45 <cydoniac> The Onion link?
+2014 Jan 12 04:45 <dead> thats the outguess we got from the first image
+2014 Jan 12 04:45 <dead> yes
+2014 Jan 12 04:45 <cydoniac> Ok
+2014 Jan 12 04:45 <Eve4> Outguess from the first image. Contains this image http://i.imgur.com/97YyfBk.jpg .
+2014 Jan 12 04:45 <cydoniac> So no outguess from 2nd image?
+2014 Jan 12 04:45 <dead> correct
+2014 Jan 12 04:46 <cydoniac> Ok, clear now.
+2014 Jan 12 04:46 <DominicReddit> Did you solve the onion3/1.msg?
+2014 Jan 12 04:46 <Eve4> http://i.imgur.com/97YyfBk.jpg
+2014 Jan 12 04:46 * Joins: silence__ (18fd68fe@gateway/web/freenode/ip.24.253.104.254)
+2014 Jan 12 04:46 <dead> first image from the onion link itself, we got outguess
+2014 Jan 12 04:46 <dead> which is what that 1.msg is
+2014 Jan 12 04:46 <Eve4> That is 1.msg.
+2014 Jan 12 04:46 <cydoniac> It can't be solved without knowing what the letters are
+2014 Jan 12 04:46 <DominicReddit> http://imgur.com/a/a0Phq
+2014 Jan 12 04:46 <dead> that string after the 3301, is the "inner" message
+2014 Jan 12 04:46 <cydoniac> they are clearly not standard gematria
+2014 Jan 12 04:46 <dead> hey
+2014 Jan 12 04:46 <dead> guys
+2014 Jan 12 04:46 <dead> we didnt mirror the inner image??
+2014 Jan 12 04:46 <dead> i see a reverese jpeg header there
+2014 Jan 12 04:46 <dead> i think
+2014 Jan 12 04:46 <p799531> cydoniac: that was i.imgur.com/97YyfBk.jpg
+2014 Jan 12 04:47 <cydoniac> I don't see one...
+2014 Jan 12 04:47 * Joins: Nembius (177bb816@gateway/web/freenode/ip.23.123.184.22)
+2014 Jan 12 04:47 <p799531> yeah i see one
+2014 Jan 12 04:47 <p799531> or looks like it
+2014 Jan 12 04:47 <cydoniac> copy/paste header?
+2014 Jan 12 04:47 <silence__> it does sorta look like a header?
+2014 Jan 12 04:48 <teefs> header all over this mofo
+2014 Jan 12 04:48 <cydoniac> if it's ffd9 that's not it
+2014 Jan 12 04:48 <DominicReddit> Thmmeofmar5uaeingngringng3eameofiaio
+2014 Jan 12 04:48 <DominicReddit> From
+2014 Jan 12 04:48 <DominicReddit> http://i.imgur.com/97YyfBk.jpg
+2014 Jan 12 04:48 <DominicReddit> Using
+2014 Jan 12 04:48 <DominicReddit> http://imgur.com/a/a0Phq
+2014 Jan 12 04:48 <cydoniac> but the gematria isn't working
+2014 Jan 12 04:49 <cydoniac> and you did that wrong
+2014 Jan 12 04:49 <cydoniac> it's not ingng
+2014 Jan 12 04:49 <cydoniac> it's either or
+2014 Jan 12 04:49 <Eve4> We think the inner image (http://i.imgur.com/97YyfBk.jpg ) is a onion address again.
+2014 Jan 12 04:49 <DominicReddit> oh :P
+2014 Jan 12 04:49 <cydoniac> Oh it definitely is
+2014 Jan 12 04:49 <cydoniac> But they're hiding ONION somehow
+2014 Jan 12 04:49 <DominicReddit> Wait a second.
+2014 Jan 12 04:49 <cydoniac> They know people would instantly try find the letters.
+2014 Jan 12 04:49 <p799531> inner image might be a key
+2014 Jan 12 04:50 <cydoniac> the inner image cannot be read properly
+2014 Jan 12 04:50 <galligaskins> maybe some kind of vigenere- or autokey-like cipher
+2014 Jan 12 04:50 <beef> p799531 I agree it might be a key
+2014 Jan 12 04:50 <cydoniac> I don't think so
+2014 Jan 12 04:50 <silence__> there are only 20 runes, the complete address would be 21, one rune is counting as 2 characters
+2014 Jan 12 04:50 <cydoniac> xxxxxxxx5xxxxx3 . onion is valid
+2014 Jan 12 04:50 * Jase820_ is now known as Jase820_afk
+2014 Jan 12 04:50 <DominicReddit> The inner image has no plain text with hex
+2014 Jan 12 04:50 <p799531> problem is it contains several characters which are repeated not characteristic of a key
+2014 Jan 12 04:51 <silence__> @cydoniac: do we have any guesses at the rest, any would be helpful?
+2014 Jan 12 04:51 <cydoniac> they were right about everything being encrypted...
+2014 Jan 12 04:51 <Eve4> [16 chars]onion => 21  chars, image has 20 chars. Would be enough if one of the runes represents two characters.
+2014 Jan 12 04:52 <MasterKey> Eve4: there are more than one 1 think
+2014 Jan 12 04:52 <p799531> or they live it as onio
+2014 Jan 12 04:52 <perebor> I'm convinced we're to find the key to break the inner jpg from attacking the 2 pages of cipher text
+2014 Jan 12 04:52 <cydoniac> ᛠᛗᛇᚠᛡ
+2014 Jan 12 04:52 <cydoniac> really want that to be onion but it obv isn't
+2014 Jan 12 04:52 <cydoniac> onion would probably only be 4 runes to start with
+2014 Jan 12 04:52 <cydoniac> O N IO N
+2014 Jan 12 04:52 <p799531> last onion from transposition cipher was .onio
+2014 Jan 12 04:52 <DominicReddit> So break the 1.msg?
+2014 Jan 12 04:52 <Lafolie> perebor: yep. The reverse page is packed with outguess
+2014 Jan 12 04:52 <cydoniac> you'd still see a repeated char
+2014 Jan 12 04:53 <cydoniac> Well by that logic onion would be O N IO ᛇᚠᛡ
+2014 Jan 12 04:53 <beef> I tried anagramming the letters from the inner message, got nothing yet.
+2014 Jan 12 04:53 <cydoniac> what two letters with ᛇ or ᚠ?
+2014 Jan 12 04:53 <cydoniac> anagrams won't work
+2014 Jan 12 04:53 <cydoniac> and btw
+2014 Jan 12 04:53 <cydoniac> anagram a url and it's gone
+2014 Jan 12 04:53 <Vexus> 5 71 89 41 2 71 91 11 53 3 19 79 11 79 37 109 83 107
+2014 Jan 12 04:54 * Joins: mig22 (dcff0226@gateway/web/freenode/ip.220.255.2.38)
+2014 Jan 12 04:54 <Lafolie> What's that from?
+2014 Jan 12 04:54 <Vexus> theyre the numbers of the runes from the small image 
+2014 Jan 12 04:54 <silence__> which runes do not repeat?
+2014 Jan 12 04:54 <Eve4> They have 29 runes but only need 26, probably less because they there is no Q or X in the message. My guess is still that they equalized the frequency distribution by using some runes for two chars and using serveral runes for some high frequency chars.
+2014 Jan 12 04:54 <Vexus> cock i forgot the 5 and 3 
+2014 Jan 12 04:54 <dead>  /names
+2014 Jan 12 04:54 <masso> there is no way to find the solution for the onion address because it has no cleartext. it's only possible when we break the rune texts first
+2014 Jan 12 04:55 <MasterKey> Vexus: where did you find this translation ? it is very different from the titanpad
+2014 Jan 12 04:55 <Lafolie> I agree with masso. We've been given the 2 pages to translate in order to determine the new cipher.
+2014 Jan 12 04:55 <Vexus> 5 71 89 41 2 71 91 11 5 53 3 19 79 11 79 37 109 83 107 3
+2014 Jan 12 04:55 <Vexus> there we go 
+2014 Jan 12 04:55 <Vexus> and i did it myself 
+2014 Jan 12 04:55 <Vexus> why?
+2014 Jan 12 04:55 <Lafolie> From there we can recover the address from the inner image.
+2014 Jan 12 04:55 <silence__> maybe they put the em and the m on top of each other?
+2014 Jan 12 04:55 <MasterKey> well I ran all my computation on another translation
+2014 Jan 12 04:56 <cydoniac> yep, it's definitely a new gematria.
+2014 Jan 12 04:56 <MasterKey> maybe I will find something with that
+2014 Jan 12 04:56 <cydoniac> and it's not easily determined by a computer because most programs assume one letter, not doubles/triples
+2014 Jan 12 04:56 <cydoniac> i.e ING
+2014 Jan 12 04:56 <silence__> If you stack the e rune and the m rune on top of oneanother they make the same rune
+2014 Jan 12 04:56 <Lafolie> And on top of that there's the subject of the new text, we have no idea what the words mean yet.
+2014 Jan 12 04:56 <Vexus> the small one comes out from Hex - base65 as 
+2014 Jan 12 04:56 <Vexus> VxiUEnGREVUzGXkReTcQmDEHAw==
+2014 Jan 12 04:56 <perebor> the gematria primus holds for the 5x5 matrix from yesterday tho
+2014 Jan 12 04:56 <Vexus> doesnt the "==" mean something?
+2014 Jan 12 04:57 <DominicReddit> That's base64
+2014 Jan 12 04:57 <Lafolie> I noticed something about the 5x5, how come the middle columns has two different words at the top and bottom?
+2014 Jan 12 04:57 <Lafolie> *column
+2014 Jan 12 04:57 <cydoniac> symmetrical
+2014 Jan 12 04:57 <cydoniac> it's central symmetry around the middle number
+2014 Jan 12 04:58 <DominicReddit> Vexus no it doesn't.
+2014 Jan 12 04:58 <cydoniac> we never figured that out so I assume they just  moved on
+2014 Jan 12 04:58 <Vexus> ... oh 
+2014 Jan 12 04:58 <Vexus> :P 
+2014 Jan 12 04:58 <DominicReddit> It's ussualy because it's encrypted with base64 :P
+2014 Jan 12 04:58 <p799531> its padding
+2014 Jan 12 04:58 * Joins: nazgul (~quassel@HSI-KBW-095-208-122-178.hsi5.kabel-badenwuerttemberg.de)
+2014 Jan 12 04:58 <cydoniac> we're getting more and more stuff we just can't solve easily
+2014 Jan 12 04:58 <perebor> Lafolie: both words total 130 gematrically
+2014 Jan 12 04:58 <Lafolie> ah
+2014 Jan 12 04:59 <Lafolie> And what of the byte stream from last night?
+2014 Jan 12 04:59 <Eve4> We don't know/didn't use.
+2014 Jan 12 04:59 <DominicReddit> Did anyone solve the 1.msg yet?
+2014 Jan 12 04:59 <silence__> Did any one try adding and adding an e to one of the m's?
+2014 Jan 12 04:59 <DominicReddit> AS ARE ISRE CRE RENW BXMD.
+2014 Jan 12 05:00 <Eve4> 1.msg contains http://i.imgur.com/97YyfBk.jpg.
+2014 Jan 12 05:00 <DominicReddit> I got that guessing using a cryptogram
+2014 Jan 12 05:01 <silence__> We know they combined char because an onion url is 21 char long (16+5).  If you lay the m rune on top of the e ruin you get the same rune
+2014 Jan 12 05:01 <Vexus> wait wait wait 
+2014 Jan 12 05:01 <Vexus> how many runes are there?
+2014 Jan 12 05:01 <cydoniac> 29
+2014 Jan 12 05:01 <Vexus> did someone say 29?
+2014 Jan 12 05:01 <Vexus> ok 
+2014 Jan 12 05:01 <Vexus> the small code 
+2014 Jan 12 05:01 <silence__> the m could be m,e, me, or me
+2014 Jan 12 05:01 <cydoniac> some are combinations
+2014 Jan 12 05:01 <Vexus> if you take all the letters they represent in latin 
+2014 Jan 12 05:01 <cydoniac> ng/ing, ia/io, etc
+2014 Jan 12 05:01 <DominicReddit> Anything on the inner image?
+2014 Jan 12 05:01 <Vexus> and yse the 5 and 3 as th and u 
+2014 Jan 12 05:01 <Vexus> theres 29 characters 
+2014 Jan 12 05:02 <Vexus> thmdeofmarsuaeingringjeaeoiau
+2014 Jan 12 05:02 <cydoniac> no, 3 and 5 are obviously numbers
+2014 Jan 12 05:02 <DominicReddit> Did you try it as a onion?
+2014 Jan 12 05:02 <Vexus> nope 
+2014 Jan 12 05:02 <cydoniac> it's an obvious clue that it's an onion
+2014 Jan 12 05:02 <cydoniac> but it's not possible to access the onion 
+2014 Jan 12 05:02 <cydoniac> they gave us the url in plain sight but knowing the letters aren't clear at all
+2014 Jan 12 05:02 <Vess> hmm isnt 5 and 3 and that would make 53 so S/Z ?
+2014 Jan 12 05:03 <Vexus> theyre separate vess 
+2014 Jan 12 05:03 <DominicReddit> Bye guys.
+2014 Jan 12 05:03 <Vexus> 5 is the 9th and 3 is the last character 
+2014 Jan 12 05:03 <cydoniac> 5 and 3 are obviously numbers in the url
+2014 Jan 12 05:03 <Vess> i know theya are so what  . :) its the only 2 digits on that sting
+2014 Jan 12 05:03 <cydoniac> it fits perfectly with the chars
+2014 Jan 12 05:03 <MasterKey> Vexus: I checked your translation : there is no 91 value in the gematria
+2014 Jan 12 05:04 <Vess> could mean 53 also .. which lead to S/Z rune but no diea if that is right or if that gives anything :)
+2014 Jan 12 05:04 <Lafolie> The two pages of runes are what should be attacked
+2014 Jan 12 05:04 <cydoniac> But then you have no onion
+2014 Jan 12 05:04 <Vexus> oh cock 
+2014 Jan 12 05:04 <Vexus> thanks for the heads up masterkey 
+2014 Jan 12 05:04 <Lafolie> The inner will follow.
+2014 Jan 12 05:04 <cydoniac> onions nearly always have at least one digit
+2014 Jan 12 05:04 <Vexus> 97 ... sorry I have terrible handwriting that I can't even read sometimes 
+2014 Jan 12 05:05 <MasterKey> that's allright =)
+2014 Jan 12 05:05 <perebor> anyone have a transcription for the second page of runes? I was going to test n-gram substitutions/distributions
+2014 Jan 12 05:05 <Vexus> yeah perebor im just typign it up 
+2014 Jan 12 05:05 <perebor> this script can test gematria theories. it holds for the 5x5: http://pastebin.com/inwfMBD4
+2014 Jan 12 05:07 <Lafolie> http://pastebin.com/2JTMvjsR
+2014 Jan 12 05:07 * Quits: DominicReddit (~anonymous@cpe-24-209-204-244.cinci.res.rr.com) (Ping timeout: 246 seconds)
+2014 Jan 12 05:07 <perebor> wow awesome thanks
+2014 Jan 12 05:08 <Lafolie> I didn't transcribe it :P
+2014 Jan 12 05:09 * Quits: silence__ (18fd68fe@gateway/web/freenode/ip.24.253.104.254) (Quit: Page closed)
+2014 Jan 12 05:09 * Joins: Lgx (4c7bbaf6@gateway/web/freenode/ip.76.123.186.246)
+2014 Jan 12 05:10 <cydoniac> The worst thing is this feels so blatantly obvious in a sense
+2014 Jan 12 05:10 <cydoniac> It's like hearing english sounding words that are gibberish
+2014 Jan 12 05:10 <p799531> aren't the letter frequencies similarish to english without substitution (e=e)
+2014 Jan 12 05:10 * Quits: MasterKey (53c7bc46@gateway/web/freenode/ip.83.199.188.70) (Quit: Page closed)
+2014 Jan 12 05:11 <dead> no
+2014 Jan 12 05:11 <dead> not at all
+2014 Jan 12 05:11 <cydoniac> http://upload.wikimedia.org/wikipedia/commons/b/b0/English_letter_frequency_%28frequency%29.svg this is average letter frequency
+2014 Jan 12 05:11 <cydoniac> in general
+2014 Jan 12 05:11 <cydoniac> not this
+2014 Jan 12 05:11 <cydoniac> the problem is, this graph doesn't count for special runes like oe, ae, i/ng, etc
+2014 Jan 12 05:12 <nazgul> How many independent transcriptions do we have and has anyone compared them for errors?
+2014 Jan 12 05:12 * Joins: marksman (acf8eb6e@gateway/web/freenode/ip.172.248.235.110)
+2014 Jan 12 05:12 <cydoniac> The transciptions can't be accurate unless they have NG/ING instead of guessing one
+2014 Jan 12 05:13 <cydoniac> then it's useless for any sort of substitution without a special program or using a number/symbol to account for that
+2014 Jan 12 05:13 * Joins: Electfried (4b6d6869@gateway/web/freenode/ip.75.109.104.105)
+2014 Jan 12 05:13 <Vess> is there a general consensus on what the dots mean. besides the bigger cluster ones that probably are end of sentences ..
+2014 Jan 12 05:13 <Vess> ?
+2014 Jan 12 05:13 <cydoniac> the other problem is there are very few words that don't have the special characters added on
+2014 Jan 12 05:13 <cydoniac> big cluster is a line break I think.
+2014 Jan 12 05:13 <cydoniac> 4 dots is a full stop I believe
+2014 Jan 12 05:14 <nazgul> My transcription is here: http://pastebin.com/WkVMJZ12
+2014 Jan 12 05:14 <Vess> big I mean 4 and above 
+2014 Jan 12 05:14 <Vess> I am inetrested in the single dots ..
+2014 Jan 12 05:14 <mig22> space
+2014 Jan 12 05:14 <cydoniac> single dot means space
+2014 Jan 12 05:14 <Vess> yes and that is wrong I think , single dots are not spaces
+2014 Jan 12 05:14 <cydoniac> they are
+2014 Jan 12 05:14 <Lafolie> cydoniac: based on the previous runes I thought it was 4 for break, 2 for stop, 1 for space. Cluster for colon/header
+2014 Jan 12 05:15 <Lgx> could it be like onion 2?
+2014 Jan 12 05:15 <cydoniac> I need to check an earlier rune to verify that
+2014 Jan 12 05:15 <cydoniac> http://static4.wikia.nocookie.net/__cb20140109145115/uncovering-cicada/images/b/bc/Page3-book.jpg
+2014 Jan 12 05:15 * Parts: Electfried (4b6d6869@gateway/web/freenode/ip.75.109.104.105)
+2014 Jan 12 05:15 <Lurker69> IMPORTANT
+2014 Jan 12 05:15 <Lurker69> IMPORTANT
+2014 Jan 12 05:15 <Lurker69> [05:13] <Lurker69> yup
+2014 Jan 12 05:15 <Lurker69> [05:13] <Lurker69> we are loosing incredible amount of smat ppl
+2014 Jan 12 05:15 <Lurker69> [05:14] <Lurker69> becasue some faggots are creating secret chans instead of using alt chans
+2014 Jan 12 05:15 <Lurker69> [05:14] <Lurker69> today we had artcles in BBS anf the guardian
+2014 Jan 12 05:15 <Lurker69> [05:14] <masso> only because some ppl give a fuck about cocada this year and are 98% afk, but fuck up everything in the 2%
+2014 Jan 12 05:15 <Lurker69> [05:14] <Lurker69> we got like 2000 people interested in this ,  so much that they check wikia nd irc
+2014 Jan 12 05:15 <Lurker69> [05:15] <Lurker69> 50 of them are smart i am sure of this
+2014 Jan 12 05:16 <Lurker69> [05:15] <Lurker69> and we are loosing them becasue mai nchan is dumb
+2014 Jan 12 05:16 <Lurker69> [05:15] <iIIustrious> we definately need a better way to organize this
+2014 Jan 12 05:16 <Lurker69> [05:15] <masso> ya, and bak gives a fuck about anything and only messes thing s up
+2014 Jan 12 05:16 <Lurker69> [05:15] <Lurker69> i wll add al secret channels in wikia
+2014 Jan 12 05:16 <Lurker69> [05:15] <Lurker69> ok?
+2014 Jan 12 05:16 <Lurker69> [05:15] <iIIustrious> yes
+2014 Jan 12 05:16 <cydoniac> or we could turn back to cicadasolvers.
+2014 Jan 12 05:16 <Lafolie> Vess you think the dots are hiding something?
+2014 Jan 12 05:16 <cydoniac> no
+2014 Jan 12 05:16 <cydoniac> not really
+2014 Jan 12 05:16 <cydoniac> they're just to separate the letters
+2014 Jan 12 05:16 <dead> 33012014 is a lost cause
+2014 Jan 12 05:16 <dead> cicadasolvers or this channel
+2014 Jan 12 05:16 <cydoniac> 33012014 is problematic at the moment
+2014 Jan 12 05:16 <SheCalledMePaul> Lurker69, agreed, we need to fix chans, or have more order/rules in them
+2014 Jan 12 05:16 <cydoniac> let's move back to cicadasolvers.
+2014 Jan 12 05:17 <cydoniac> too much fragmentation, my fault
+2014 Jan 12 05:17 <Vexus> here we go kids 
+2014 Jan 12 05:17 <Vess> for some reason yes , but thats my weird way of thingking . I would go with cydoniac on this one for now :)
+2014 Jan 12 05:17 <Vexus> http://pastebin.com/JdJXPD5p
+2014 Jan 12 05:17 <Vexus> translation with numbers 
+2014 Jan 12 05:17 <Vexus> :)
+2014 Jan 12 05:17 <nazgul> I'd favor cicadasolvers, keep the work in one channel
+2014 Jan 12 05:17 * Parts: cydoniac (~Jamie@80.111.244.58) ("Leaving")
+2014 Jan 12 05:17 <Vess> cicadasolvers it is then :)
+2014 Jan 12 05:18 <Lurker69> dead
+2014 Jan 12 05:18 <Lurker69> yes
+2014 Jan 12 05:18 <Lurker69> and reson why we are not getting new fresh minds into comunity
+2014 Jan 12 05:18 <Lurker69> PLS USE ALT CHANS THAT ARE IN TOPIC
+2014 Jan 12 05:18 <Lurker69> PLS USE ALT CHANS THAT ARE IN TOPIC
+2014 Jan 12 05:18 <Lurker69> PLS USE ALT CHANS THAT ARE IN TOPIC
+2014 Jan 12 05:18 <Lurker69> PLS USE ALT CHANS THAT ARE IN TOPIC
+2014 Jan 12 05:18 <Lurker69> #Cicada3301 IS PERFECT EMPTY NO CHAT THERE
+2014 Jan 12 05:18 <Lurker69> #Cicada3301 IS PERFECT EMPTY NO CHAT THERE
+2014 Jan 12 05:18 <Lurker69> #Cicada3301 IS PERFECT EMPTY NO CHAT THERE
+2014 Jan 12 05:18 <Lurker69> #Cicada3301 IS PERFECT EMPTY NO CHAT THERE
+2014 Jan 12 05:18 <Lurker69> cicadasolvers also good
+2014 Jan 12 05:18 <Lurker69> THX ALL
+2014 Jan 12 05:18 <Lurker69> we nned to keep communty open to get new people in
+2014 Jan 12 05:18 * Quits: beef (458dfd7c@gateway/web/freenode/ip.69.141.253.124) (Quit: Page closed)
+2014 Jan 12 05:18 <Lurker69> we nned to keep communty open to get new people in
+2014 Jan 12 05:18 <Lurker69> also i feel we dont have right to decide who can pla cicad and who dont, so everybody deserves same chance
+2014 Jan 12 05:19 * Parts: dead (~dead@unaffiliated/dead)
+2014 Jan 12 05:19 <perebor> will this channel be dedicated to breaking the 2 pages of runes / solving the 3rd nested image?
+2014 Jan 12 05:19 <Lurker69> not fair to real 3301 cicada if we  exclude some poeple, by making main chans look like dumb trol holes
+2014 Jan 12 05:19 <SheCalledMePaul> no
+2014 Jan 12 05:19 <SheCalledMePaul> this chanel is about to die
+2014 Jan 12 05:19 * Joins: silence_ (18fd68fe@gateway/web/freenode/ip.24.253.104.254)
+2014 Jan 12 05:19 <SheCalledMePaul> redirecting everyone to proper channels
+2014 Jan 12 05:19 <iIIustrious> once everyone knows, you can clear channels
+2014 Jan 12 05:19 <Lurker69> http://prntscr.com/2ilyhf
+2014 Jan 12 05:20 <Lurker69> we had like 10 secret channels for each part of puzzle
+2014 Jan 12 05:20 * Parts: Lgx (4c7bbaf6@gateway/web/freenode/ip.76.123.186.246)
+2014 Jan 12 05:20 <nazgul> Everyone get back to #cicadasolvers, then
+2014 Jan 12 05:20 <Lurker69> all of them died right after that step was solved
+2014 Jan 12 05:20 * Quits: parardhes (~parardhes@79.106.109.179) (Ping timeout: 265 seconds)
+2014 Jan 12 05:20 <Lurker69> all of them could be solved in #cicada3301 or #solvers and nothing of value would be lost
+2014 Jan 12 05:21 * Parts: Vess (~ne0n@afv211.neoplus.adsl.tpnet.pl) ("Leaving")
+2014 Jan 12 05:21 <SheCalledMePaul> PLEASE LEAVE OR KICKS WILL BEGIN (NOT IN A RUDE WAY)
+2014 Jan 12 05:22 * Parts: kml (~kml@199.111.173.141) ("Leaving")
+2014 Jan 12 05:22 * Parts: galligaskins (4752d2e5@gateway/web/freenode/ip.71.82.210.229)
+2014 Jan 12 05:22 * Parts: iIIustrious (~iIIustrio@unaffiliated/iiiustrious)
+2014 Jan 12 05:22 <Vexus> where are we going to now?
+2014 Jan 12 05:22 <Vexus> ive been translating and have no idea whats going on
+2014 Jan 12 05:23 <SheCalledMePaul> either #cicadasolvers or #cicada3301 for serious talk
+2014 Jan 12 05:23 * Parts: Jase820_afk (~Jase820@c-67-187-105-130.hsd1.tn.comcast.net)
+2014 Jan 12 05:23 * Parts: mce9 (~mce9@162-231-56-178.lightspeed.sndgca.sbcglobal.net) ("Leaving")
+2014 Jan 12 05:23 <Vexus> why two?
+2014 Jan 12 05:23 <Vexus> that doesnt even make sense 
+2014 Jan 12 05:23 <SheCalledMePaul> theres 12 channels atm
+2014 Jan 12 05:23 <SheCalledMePaul> trying to make them all into 2
+2014 Jan 12 05:23 <SheCalledMePaul> lol
+2014 Jan 12 05:23 <SheCalledMePaul> too many side channels happening
+2014 Jan 12 05:24 <Vexus> christ 12?
+2014 Jan 12 05:24 * SheCalledMePaul changes topic to 'PLEASE MOVE TO #cicadasolvers &/or #cicada3301 for serious discussion only!'
+2014 Jan 12 05:24 <SheCalledMePaul> yep
+2014 Jan 12 05:24 * Joins: ppl4444 (6c148348@gateway/web/freenode/ip.108.20.131.72)
+2014 Jan 12 05:24 * Parts: mig22 (dcff0226@gateway/web/freenode/ip.220.255.2.38)
+2014 Jan 12 05:25 * shadowwalker was kicked by SheCalledMePaul (shadowwalker)
+2014 Jan 12 05:26 * JustSleeping was kicked by SheCalledMePaul (JustSleeping)
+2014 Jan 12 05:26 * Lurker69 was kicked by SheCalledMePaul (Lurker69)
+2014 Jan 12 05:26 * masso was kicked by SheCalledMePaul (masso)
+2014 Jan 12 05:26 * SheCalledMePaul was kicked by SheCalledMePaul (SheCalledMePaul)
+2014 Jan 12 05:26 * Parts: austintrigue (~austintri@adsl-76-244-76-44.dsl.austtx.sbcglobal.net)
+2014 Jan 12 05:27 * Parts: nazgul (~quassel@HSI-KBW-095-208-122-178.hsi5.kabel-badenwuerttemberg.de) ("goodbye")
+2014 Jan 12 05:27 <marksman> huh
+2014 Jan 12 05:28 * Parts: Vexus (52334393@gateway/web/freenode/ip.82.51.67.147)
+2014 Jan 12 05:30 <ppl4444> yea what
+2014 Jan 12 05:31 * Parts: Scott_Taylor (~Scott_Tay@129.200.69.111.dynamic.snap.net.nz)
+2014 Jan 12 05:32 * Joins: carbon15 (d863399c@gateway/web/freenode/ip.216.99.57.156)
+2014 Jan 12 05:33 * Parts: onecool (~onecool@ip68-226-62-5.om.om.cox.net)
+2014 Jan 12 05:44 <marksman> test
+2014 Jan 12 05:44 * Parts: marksman (acf8eb6e@gateway/web/freenode/ip.172.248.235.110)
+2014 Jan 12 06:13 * Quits: ppl4444 (6c148348@gateway/web/freenode/ip.108.20.131.72) (Ping timeout: 272 seconds)
+2014 Jan 12 06:13 * Joins: hihihihihihi (459d8c27@gateway/web/freenode/ip.69.157.140.39)
+2014 Jan 12 06:15 * Quits: silence_ (18fd68fe@gateway/web/freenode/ip.24.253.104.254) (Quit: Page closed)
+2014 Jan 12 06:20 * Joins: dynomite27 (dynomite27@c-67-176-24-97.hsd1.co.comcast.net)
+Session Close: Sun Jan 12 06:27:37 2014
