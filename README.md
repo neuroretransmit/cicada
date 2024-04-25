@@ -37,10 +37,6 @@ See [IRC Logs](./irc-logs)
 
 ## Timeline
 
-**2006 (Possibly not Cicada but similar style with claims from other solvers)**
-
-- [rarpng](./leads/4chan_before_cicada/README.md)
-
 **2011 (Possibly not Cicada but posts signed 3301)**
 
 - [2ch.hk/sn](./leads/sn_archive/README.md)
@@ -97,3 +93,13 @@ See [IRC Logs](./irc-logs)
 **2017**
 
 - [Paste with valid signature (Beware false paths)](./2017/yEiTHhvF)
+
+## Trolls
+
+- [Wind](./trolls/V62m76fN)
+
+**2006 (Possibly not Cicada but similar style with claims from other solvers)**
+
+- [rarpng](./trolls/4chan_before_cicada/README.md)
+
+
