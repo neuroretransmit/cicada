@@ -1,0 +1,1117 @@
+From: <Saved by Mozilla 5.0 (Windows)>
+Subject: hiddenchan
+Date: Mon, 06 Apr 2015 19:29:13 +0400
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_409E6425.6D502F3C"
+X-MAF-Information: Produced By MAF V3.0.4
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_409E6425.6D502F3C
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://hiddenchan.i2p/
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en"><h=
+ead>
+<meta http-equiv=3D"content-type" content=3D"text/html; charset=3DUTF-8">
+    <title>hiddenchan</title>
+    <meta http-equiv=3D"content-type" content=3D"text/html; charset=3DUTF-8=
+">
+    <style type=3D"text/css"><!--
+
+/* Effective stylesheet produced by snapshot save */
+
+body, html { width: 100%; height: 100%; margin: 0px; padding: 0px; overflow=
+: auto; background-color: rgb(29, 31, 33); }
+
+#menu { position: absolute; left: 0px; top: 0px; margin: 0px; padding: 0px;=
+ height: 100%; border: 0px none; width: calc(10% - 15px); }
+
+#main { position: absolute; top: 0px; height: 100%; border: 0px none; width=
+: calc(90% + 15px); left: calc(10% - 15px); }
+
+@media (max-width: 75em) {
+
+  #main { left: 0px; width: 100%; }
+
+  #menu { width: 0px; }
+
+}
+
+--></style>
+  </head>
+  <body>
+    <iframe src=3D"urn:snapshot-059B7CDC:http://hiddenchan.i2p/menu.html"=
+ name=3D"menu" id=3D"menu" scrolling=3D"no">
+      &lt;a href=3D"menu.html"&gt;hiddenchan&lt;/a&gt;
+    </iframe>
+    <iframe src=3D"urn:snapshot-6EC6B822:http://hiddenchan.i2p/overview.htm=
+l" name=3D"main" id=3D"main">
+      &lt;a href=3D"overview.html"&gt;hiddenchan Navigation&lt;/a&gt;
+    </iframe>
+ =20
+
+</body></html>
+------=_NextPart_000_0000_409E6425.6D502F3C
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: urn:snapshot-059B7CDC:http://hiddenchan.i2p/menu.html
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html><head>
+<meta http-equiv=3D"content-type" content=3D"text/html; charset=3DUTF-8">
+    <title>hiddenchan</title>
+    <meta http-equiv=3D"content-type" content=3D"text/html; charset=3DUTF-8=
+">
+    <link rel=3D"stylesheet" type=3D"text/css" href=3D"urn:snapshot-0EB109D=
+4:http://hiddenchan.i2p/styles.css">
+    <link rel=3D"stylesheet" type=3D"text/css" href=3D"urn:snapshot-817DBED=
+6:http://hiddenchan.i2p/user.css">
+    <base href=3D"" target=3D"main">
+  </head>
+  <body>
+    <div id=3D"menu" class=3D"menu-left">
+      <ul>
+        <li><a href=3D"http://hiddenchan.i2p/" target=3D"_top">Main</a></li=
+><br>
+        <li><a href=3D"http://hiddenchan.i2p/anime-1.html" target=3D"main">=
+anime</a> <a href=3D"http://hiddenchan.i2p/anime-recent.html" target=3D"mai=
+n">(1)</a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/anonymity-1.html" target=3D"ma=
+in">anonymity</a> <a href=3D"http://hiddenchan.i2p/anonymity-recent.html"=
+ target=3D"main">(3)</a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/cp-1.html" target=3D"main">cp<=
+/a> <a href=3D"http://hiddenchan.i2p/cp-recent.html" target=3D"main">(22)</=
+a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/crime-1.html" target=3D"main">=
+crime</a> <a href=3D"http://hiddenchan.i2p/crime-recent.html" target=3D"mai=
+n">(1)</a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/datalove-1.html" target=3D"mai=
+n">datalove</a> <a href=3D"http://hiddenchan.i2p/datalove-recent.html" targ=
+et=3D"main">(8)</a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/games-1.html" target=3D"main">=
+games</a> <a href=3D"http://hiddenchan.i2p/games-recent.html" target=3D"mai=
+n">(0)</a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/hackers-1.html" target=3D"main=
+">hackers</a> <a href=3D"http://hiddenchan.i2p/hackers-recent.html" target=
+=3D"main">(2)</a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/hiddenchan-1.html" target=3D"m=
+ain">hiddenchan</a> <a href=3D"http://hiddenchan.i2p/hiddenchan-recent.html=
+" target=3D"main">(0)</a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/invasion-1.html" target=3D"mai=
+n">invasion</a> <a href=3D"http://hiddenchan.i2p/invasion-recent.html" targ=
+et=3D"main">(0)</a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/life-1.html" target=3D"main">l=
+ife</a> <a href=3D"http://hiddenchan.i2p/life-recent.html" target=3D"main">=
+(1)</a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/market-1.html" target=3D"main"=
+>market</a> <a href=3D"http://hiddenchan.i2p/market-recent.html" target=3D"=
+main">(10)</a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/mlp-1.html" target=3D"main">ml=
+p</a> <a href=3D"http://hiddenchan.i2p/mlp-recent.html" target=3D"main">(0)=
+</a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/music-1.html" target=3D"main">=
+music</a> <a href=3D"http://hiddenchan.i2p/music-recent.html" target=3D"mai=
+n">(0)</a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/overchan-1.html" target=3D"mai=
+n">overchan</a> <a href=3D"http://hiddenchan.i2p/overchan-recent.html" targ=
+et=3D"main">(0)</a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/politics-1.html" target=3D"mai=
+n">politics</a> <a href=3D"http://hiddenchan.i2p/politics-recent.html" targ=
+et=3D"main">(0)</a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/porn-1.html" target=3D"main">p=
+orn</a> <a href=3D"http://hiddenchan.i2p/porn-recent.html" target=3D"main">=
+(0)</a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/random-1.html" target=3D"main"=
+>random</a> <a href=3D"http://hiddenchan.i2p/random-recent.html" target=3D"=
+main">(7)</a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/ru.drugs-1.html" target=3D"mai=
+n">ru.drugs</a> <a href=3D"http://hiddenchan.i2p/ru.drugs-recent.html" targ=
+et=3D"main">(0)</a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/ru.i2p-1.html" target=3D"main"=
+>ru.i2p</a> <a href=3D"http://hiddenchan.i2p/ru.i2p-recent.html" target=3D"=
+main">(2)</a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/ru.politics-1.html" target=3D"=
+main">ru.politics</a> <a href=3D"http://hiddenchan.i2p/ru.politics-recent.h=
+tml" target=3D"main">(4)</a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/ru.random-1.html" target=3D"ma=
+in">ru.random</a> <a href=3D"http://hiddenchan.i2p/ru.random-recent.html"=
+ target=3D"main">(7)</a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/science-1.html" target=3D"main=
+">science</a> <a href=3D"http://hiddenchan.i2p/science-recent.html" target=
+=3D"main">(1)</a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/technology-1.html" target=3D"m=
+ain">technology</a> <a href=3D"http://hiddenchan.i2p/technology-recent.html=
+" target=3D"main">(6)</a></li>
+
+        <li><a href=3D"http://hiddenchan.i2p/test-1.html" target=3D"main">t=
+est</a> <a href=3D"http://hiddenchan.i2p/test-recent.html" target=3D"main">=
+(2)</a></li>
+
+      </ul><br>
+    </div>
+    <div class=3D"menu-footer">
+      <a href=3D"http://hiddenchan.i2p/?i2paddresshelper=3DgDx1%7E2CLlz2N7l=
+23D0xSLJV4ctLi5-FEMSBG6dNAIRYdGAgaPM9Dgr%7EwPQRPgdLrTIRxAFDKtZjgSO2nQvt8NM2=
+LLW9AiAM538BsqY5i2OD2NFO6ZTZX-fMM1QCDG4eYinQItMPYQwXTLyYYO3zmdqatVvPbAYF4eY=
+HYVLrC9OzQTRehOQ28Gu5lgsSS9TwpMIzENiClCjbxsnjNgQPMF%7E1IF5WRTLuDY7b1WcP-58z=
+T7EmXu8YduZ14raAvAwmnTCJJ%7Ec9P2UznTD3DBK4sGrqr3qAuWInxr2LWHkZhW%7EBROJ2%7E=
+DNzx2o4I50zb6BXfqfyMuyvA2I6epdpTBha7l3g2j%7E9-RsDwEa7DoRbe40wLmycoKiffWR-Ln=
+UNDwxxc5ZXJgRKVlsVipOv188FDIMpN4AZstuP6T041yMJIjkAVtR6pHM7J2d1KPPhSe8jMWTLy=
+BfRt4ClcjKRFrI2Ci1%7EchqA5hm0EAStTNnHsA2R734IIQ48sgUAgnPcK8CCrAAAA" target=
+=3D"_top">Add to addressbook</a>
+    </div>
+ =20
+
+</body></html>
+------=_NextPart_000_0000_409E6425.6D502F3C
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: urn:snapshot-0EB109D4:http://hiddenchan.i2p/styles.css
+
+/* Effective stylesheet produced by snapshot save */
+body { margin: 0px; background: none repeat scroll 0% 0% rgb(16, 16, 16);=
+ font-family: arial,sans-serif,helvetica; color: rgb(255, 255, 255); font-s=
+ize: 10pt; }
+a { color: rgb(247, 172, 177); }
+.menu-footer { font-size: 0.7em; text-align: center; margin: 0.3em; bottom:=
+ 5em; position: fixed; }
+.menu-left { font-size: 0.9em; }
+
+------=_NextPart_000_0000_409E6425.6D502F3C
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: urn:snapshot-817DBED6:http://hiddenchan.i2p/user.css
+
+/* Effective stylesheet produced by snapshot save */
+body, .image_root, .postform th, .overlay { background: none repeat scroll=
+ 0px 0px rgb(238, 238, 238); color: rgb(51, 51, 51); font-family: "Trebuche=
+t MS",Trebuchet,serif; font-size: 11pt; }
+a { color: rgb(102, 102, 102); }
+a:hover { color: rgb(0, 102, 255); }
+#menu { margin-top: 0px; margin-left: 0.1em; }
+#menu li { margin-left: 0.5em; padding-left: 0.5em; border-left: 1px solid=
+ rgb(204, 204, 204); list-style: outside none none; margin-top: 0em; paddin=
+g-top: 0em; }
+#menu ol, ul { list-style-position: inside; padding-left: 0em; margin-top:=
+ 0em; padding-top: 0em; }
+
+------=_NextPart_000_0000_409E6425.6D502F3C
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: urn:snapshot-6EC6B822:http://hiddenchan.i2p/overview.html
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html><head>
+<meta http-equiv=3D"content-type" content=3D"text/html; charset=3DUTF-8">
+    <title>hiddenchan :: ru.random :: None</title>
+    <meta http-equiv=3D"content-type" content=3D"text/html; charset=3DUTF-8=
+">
+    <script type=3D"text/javascript" src=3D"urn:snapshot-B965C584:http://hi=
+ddenchan.i2p/overchan.js"></script>
+    <link rel=3D"stylesheet" type=3D"text/css" href=3D"urn:snapshot-0F4491B=
+8:http://hiddenchan.i2p/styles.css">
+    <link rel=3D"stylesheet" type=3D"text/css" href=3D"urn:snapshot-8EA5231=
+6:http://hiddenchan.i2p/user.css">
+  </head>
+  <body>
+    <div class=3D"boards">[ <a href=3D"http://hiddenchan.i2p/anime-1.html">=
+anime</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/anonymity-1.html">anonymi=
+ty</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/cp-1.html">cp</a>=C2=A0/ <a=
+ href=3D"http://hiddenchan.i2p/crime-1.html">crime</a>=C2=A0/ <a href=3D"ht=
+tp://hiddenchan.i2p/datalove-1.html">datalove</a>=C2=A0/ <a href=3D"http://=
+hiddenchan.i2p/games-1.html">games</a>=C2=A0/ <a href=3D"http://hiddenchan.=
+i2p/hackers-1.html">hackers</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/hid=
+denchan-1.html">hiddenchan</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/inva=
+sion-1.html">invasion</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/life-1.ht=
+ml">life</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/market-1.html">market<=
+/a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/mlp-1.html">mlp</a>=C2=A0/ <a=
+ href=3D"http://hiddenchan.i2p/music-1.html">music</a>=C2=A0/ <a href=3D"ht=
+tp://hiddenchan.i2p/overchan-1.html">overchan</a>=C2=A0/ <a href=3D"http://=
+hiddenchan.i2p/politics-1.html">politics</a>=C2=A0/ <a href=3D"http://hidde=
+nchan.i2p/porn-1.html">porn</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/ran=
+dom-1.html">random</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/ru.drugs-1.h=
+tml">ru.drugs</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/ru.i2p-1.html">ru=
+.i2p</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/ru.politics-1.html">ru.pol=
+itics</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/ru.random-1.html">ru.rand=
+om</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/science-1.html">science</a>=
+=C2=A0/ <a href=3D"http://hiddenchan.i2p/technology-1.html">technology</a>=
+=C2=A0/ <a href=3D"http://hiddenchan.i2p/test-1.html">test</a>=C2=A0]</div>
+    <hr>
+    <div class=3D"sitetitle">
+      <h2><a href=3D"#">hiddenchan</a></h2>
+      <b>decentralized and distributed</b>
+    </div>
+    <center><b>ru.random :: None</b></center>
+    <div class=3D"postform" align=3D"center">
+      <form method=3D"POST" action=3D"http://hiddenchan.i2p/incoming" encty=
+pe=3D"multipart/form-data">
+        <input name=3D"frontend" value=3D"overchan" type=3D"hidden">
+        <input name=3D"board" value=3D"overchan.ru.random" type=3D"hidden">
+        <input name=3D"reply" value=3D"b2c265ea7628462de57e40021332ab268644=
+3228" type=3D"hidden">
+        <input name=3D"target" value=3D"ru.random-1.html" type=3D"hidden">
+        <table cellpadding=3D"0" cellspacing=3D"1">
+          <tbody><tr>
+            <th>Name</th>
+            <td><input name=3D"name" class=3D"posttext" type=3D"text"></td>
+          </tr>
+          <tr>
+            <th>Subject</th>
+            <td><input name=3D"subject" class=3D"posttext" type=3D"text"></=
+td>
+          </tr>
+          <tr>
+            <th>Comment</th>
+            <td><textarea name=3D"comment" class=3D"postarea"></textarea></=
+td>
+          </tr>
+          <tr>
+            <th>File</th>
+            <td>
+              <table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                <tbody><tr>
+                  <td><input name=3D"file" class=3D"postfile" type=3D"file"=
+></td>
+                  <td align=3D"right"><input value=3D"reply" class=3D"postb=
+utton" type=3D"submit"></td>
+                </tr>
+              </tbody></table>
+            </td>
+          </tr>
+          <tr><td class=3D"board_description" colspan=3D"2"></td></tr>
+        </tbody></table>
+      </form>
+    </div>
+    <a href=3D"http://hiddenchan.i2p/help.html" class=3D"lblhelp">?</a>
+    <input class=3D"evilmod" title=3D"evil mod" type=3D"checkbox">
+    <form method=3D"POST" action=3D"http://hiddenchan.i2p/moderate?evil" en=
+ctype=3D"multipart/form-data">
+    <div class=3D"evilstuff">
+      <label>secret</label><!--&nbsp;[<a href=3D"/moderate?getkey" target=
+=3D"_blank">?</a>]-->
+      <input name=3D"target" value=3D"ru.random-1.html" type=3D"hidden">
+      <input title=3D"secret" name=3D"secret" class=3D"posttext" type=3D"te=
+xt">
+      <input value=3D"be evil" class=3D"postbutton" type=3D"submit">
+    </div>
+    <div class=3D"thread">
+      <div class=3D"messageroot" id=3D"b2c265ea76">
+        <a href=3D"http://hiddenchan.i2p/img/nope.png" class=3D"image_link"=
+ target=3D"_blank" title=3D""><img src=3D"http://hiddenchan.i2p/thumbs/nope=
+.png" class=3D"image_root"></a>
+        <a name=3D"b2c265ea76"></a><span class=3D"topicline"><b>None</b> An=
+onymous <span class=3D"published">01.04.2015 (Wed) 23:43 UTC</span>  <a hre=
+f=3D"http://hiddenchan.i2p/thread-b2c265ea76.html" onmouseover=3D"" onclick=
+=3D"">=E2=84=96  131178</a> <a href=3D"http://hiddenchan.i2p/thread-b2c265e=
+a76.html">[Reply]</a> <span class=3D"frontend"></span></span>
+        <div class=3D"stillevil">
+          <input value=3D"b2c265ea7628462de57e40021332ab2686443228" title=
+=3D"delete thread" name=3D"purge_root" id=3D"purge_rootb2c265ea76" type=3D"=
+checkbox">
+          <label for=3D"purge_rootb2c265ea76">delete thread</label>
+          <input value=3D"b2c265ea7628462de57e40021332ab2686443228" title=
+=3D"delete attachment" name=3D"delete_a" id=3D"delete_ab2c265ea76" type=3D"=
+checkbox">
+          <label for=3D"delete_ab2c265ea76">delete attachment</label>
+          <input value=3D"b2c265ea7628462de57e40021332ab2686443228" title=
+=3D"Delete all" name=3D"purge_desthash" id=3D"purge_desthashb2c265ea76" typ=
+e=3D"checkbox">
+          <label for=3D"purge_desthashb2c265ea76">Delete all i2p-user's pos=
+ts</label>
+          <input value=3D"b2c265ea7628462de57e40021332ab2686443228" title=
+=3D"sticky" name=3D"sticky" id=3D"stickyb2c265ea76" type=3D"checkbox">
+          <label for=3D"stickyb2c265ea76">sticky thread</label>
+          <input value=3D"b2c265ea7628462de57e40021332ab2686443228" title=
+=3D"close" name=3D"close" id=3D"closeb2c265ea76" type=3D"checkbox">
+          <label for=3D"closeb2c265ea76">close thread</label>
+        </div><br>
+        <span class=3D"frontend">[ web.overchan.hiddenchan ]</span>
+        <br><br>
+        <span class=3D"message_span">=D0=AF =D0=B4=D0=BE=D0=BB=D0=B3=D0=BE=
+ =D1=80=D0=B0=D0=B7=D0=BC=D1=8B=D1=88=D0=BB=D1=8F=D1=8E, =D0=B2 =D0=BF=D0=
+=BE=D1=81=D0=BB=D0=B5=D0=B4=D0=BD=D0=B5=D0=B5 =D0=B2=D1=80=D0=B5=D0=BC=D1=
+=8F, =D0=BE =D1=82=D0=BE=D0=BC, =D0=BC=D0=BE=D0=B6=D0=B5=D1=82 =D0=BB=D0=B8=
+ =D1=83 =D0=B8=D0=BD=D1=82=D0=B5=D1=80=D0=BD=D0=B5=D1=82=D0=B0 =D0=BF=D0=BE=
+=D1=8F=D0=B2=D0=B8=D1=82=D1=81=D1=8F =D1=81=D0=B0=D0=BC=D0=BE=D1=81=D0=BE=
+=D0=B7=D0=BD=D0=B0=D0=BD=D0=B8=D0=B5. =D0=94=D1=83=D0=BC=D0=B0=D1=8E, =D0=
+=BD=D0=B5 =D1=81=D1=82=D0=BE=D0=B8=D1=82 =D0=BE=D0=B1=D1=8A=D1=8F=D1=81=D0=
+=BD=D1=8F=D1=82=D1=8C =D0=BF=D0=BE=D1=87=D0=B5=D0=BC=D1=83 =D1=82=D0=B0=D0=
+=BA=D0=B8=D0=B5 =D0=BC=D1=8B=D1=81=D0=BB=D0=B8 =D0=B2=D0=BE=D0=B7=D0=BD=D0=
+=B8=D0=BA=D0=B0=D1=8E=D1=82, =D0=B2=D0=B5=D0=B4=D1=8C =D0=B0=D0=BD=D0=B0=D0=
+=BB=D0=BE=D0=B3=D0=B8=D1=8F =D1=81=D0=B5=D1=82=D0=B8 =D0=BD=D0=B5=D0=B9=D1=
+=80=D0=BE=D0=BD=D0=BD=D0=BE=D0=B9 =D1=81 =D1=81=D0=B5=D1=82=D1=8C=D1=8E =D0=
+=B8=D0=BD=D1=82=D0=B5=D1=80=D0=BD=D0=B0=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=
+=D1=8C=D0=BD=D0=BE=D0=B9 =D0=B1=D0=BE=D0=BB=D0=B5=D0=B5 =D1=87=D0=B5=D0=BC=
+ =D0=BE=D1=87=D0=B5=D0=B2=D0=B8=D0=B4=D0=BD=D0=B0. =D0=98=D0=BD=D1=82=D0=B5=
+=D1=80=D0=B5=D1=81=D0=BD=D0=B5=D0=B5 =D0=B4=D1=80=D1=83=D0=B3=D0=BE=D0=B5=
+ - =D0=BD=D0=B5=D0=B1=D0=BE=D0=BB=D1=8C=D1=88=D0=BE=D0=B9 =D0=BC=D1=8B=D1=
+=81=D0=BB=D0=B5=D0=BD=D0=BD=D1=8B=D0=B9 =D1=8D=D0=BA=D1=81=D0=BF=D0=B5=D1=
+=80=D0=B8=D0=BC=D0=B5=D0=BD=D1=82, =D1=81=D1=83=D1=82=D1=8C =D0=BA=D0=BE=D1=
+=82=D0=BE=D1=80=D0=BE=D0=B3=D0=BE =D1=82=D0=B0=D0=BA=D0=BE=D0=B2=D0=B0:
+
+=D0=9F=D1=80=D0=B5=D0=B4=D1=81=D1=82=D0=B0=D0=B2=D1=8C=D1=82=D0=B5, =D1=87=
+=D1=82=D0=BE =D0=B5=D1=81=D1=82=D1=8C =D0=B4=D0=B2=D0=B0 =D1=87=D0=B5=D0=BB=
+=D0=BE=D0=B2=D0=B5=D0=BA=D0=B0 =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B5=
+ =D0=BD=D0=B5 =D0=B7=D0=BD=D0=B0=D0=BA=D0=BE=D0=BC=D1=8B =D0=B4=D1=80=D1=83=
+=D0=B3 =D1=81 =D0=B4=D1=80=D1=83=D0=B3=D0=BE=D0=BC =D0=B8 =D0=BD=D0=B8=D0=
+=BA=D0=BE=D0=B3=D0=B4=D0=B0 =D0=BF=D1=80=D0=B5=D0=B6=D0=B4=D0=B5 =D0=BD=D0=
+=B5 =D0=BE=D0=B1=D1=89=D0=B0=D0=BB=D0=B8=D1=81=D1=8C. =D0=9A=D0=B0=D0=B6=D0=
+=B4=D0=BE=D0=BC=D1=83 =D0=B8=D0=B7 =D0=BD=D0=B8=D1=85 =D0=BF=D1=80=D0=B5=D0=
+=B4=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D1=8F=D0=B5=D1=82=D1=81=D1=8F =D0=B4=D0=
+=BE=D1=81=D1=82=D1=83=D0=BF =D0=BA =D0=BD=D0=B5=D0=BA=D0=BE=D1=82=D0=BE=D1=
+=80=D0=BE=D0=BC=D1=83 =D0=B4=D0=BD=D0=B5=D0=B2=D0=BD=D0=B8=D0=BA=D1=83, =D0=
+=B3=D0=B4=D0=B5 =D0=BE=D0=BD=D0=B8 =D0=B4=D0=BE=D0=BB=D0=B6=D0=BD=D1=8B =D0=
+=B7=D0=B0=D0=BF=D0=B8=D1=81=D1=8B=D0=B2=D0=B0=D1=82=D1=8C =D1=83=D0=BD=D0=
+=B8=D0=BA=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D1=81=D0=BE=D0=B1=D1=8B=D1=
+=82=D0=B8=D1=8F =D0=B8=D1=85 =D0=B6=D0=B8=D0=B7=D0=BD=D0=B8. =D0=9E=D0=B4=
+=D0=BD=D0=B0=D0=BA=D0=BE, =D0=BF=D1=80=D0=B8 =D1=8D=D1=82=D0=BE=D0=BC, =D0=
+=BD=D1=83=D0=B6=D0=BD=D0=BE =D1=81=D0=BE=D0=B1=D0=BB=D1=8E=D0=B4=D0=B0=D1=
+=82=D1=8C =D0=BD=D0=B5=D1=81=D0=BA=D0=BE=D0=BB=D1=8C=D0=BA=D0=BE =D0=BF=D1=
+=80=D0=B0=D0=B2=D0=B8=D0=BB:
+
+1. =D0=92=D1=81=D0=B5=D0=B3=D0=B4=D0=B0 =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=
+=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =D1=81=D0=BB=D0=BE=D0=B2=D0=BE =D0=
+=AF, =D0=B2 =D0=BA=D0=B0=D1=87=D0=B5=D1=81=D1=82=D0=B2=D0=B5 =D0=BE=D0=B1=
+=D1=8A=D0=B5=D0=BA=D1=82=D0=B0 =D1=81=D0=BE=D0=B2=D0=B5=D1=80=D1=88=D0=B8=
+=D0=B2=D1=88=D0=B5=D0=B3=D0=BE =D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=B8=
+=D0=B5.
+2. =D0=9D=D0=B5 =D0=BF=D1=8B=D1=82=D0=B0=D1=82=D1=8C=D1=81=D1=8F =D1=83=D0=
+=B7=D0=BD=D0=B0=D1=82=D1=8C, =D0=BA=D0=B0=D0=BA=D0=B8=D0=BC =D0=B1=D1=8B =
+=D1=82=D0=BE =D0=BD=D0=B8 =D0=B1=D1=8B=D0=BB=D0=BE =D0=BE=D0=B1=D1=80=D0=B0=
+=D0=B7=D0=BE=D0=BC, =D0=B8=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=B8=
+=D1=8E =D0=BE =D0=BB=D0=B8=D1=87=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =D1=82=D0=BE=
+=D0=B3=D0=BE, =D0=BA=D1=82=D0=BE =D0=B5=D1=89=D0=B5 =D0=B7=D0=B0=D0=BF=D0=
+=BE=D0=BB=D0=BD=D1=8F=D0=B5=D1=82 =D0=B4=D0=BD=D0=B5=D0=B2=D0=BD=D0=B8=D0=
+=BA.
+3. =D0=92 =D0=B7=D0=B0=D0=BF=D0=B8=D1=81=D1=8F=D1=85 =D0=BC=D0=BE=D0=B6=D0=
+=BD=D0=BE =D0=B2=D0=B5=D1=81=D1=82=D0=B8 =D1=81=D0=BF=D0=BE=D1=80, =D0=BD=
+=D0=BE =D0=BB=D0=B8=D1=88=D1=8C =D1=82=D0=B0=D0=BA, =D0=BA=D0=B0=D0=BA =D0=
+=B5=D1=81=D0=BB=D0=B8 =D0=B1=D1=8B =D0=B2=D1=8B =D0=B2=D0=B5=D0=BB=D0=B8 =
+=D1=81=D0=BF=D0=BE=D1=80 =D1=81=D0=B0=D0=BC=D0=B8 =D1=81 =D1=81=D0=BE=D0=B1=
+=D0=BE=D0=B9.
+
+=D0=A2=D0=B5=D0=BF=D0=B5=D1=80=D1=8C =D0=BF=D1=80=D0=B5=D0=B4=D1=81=D1=82=
+=D0=B0=D0=B2=D0=B8=D0=BC, =D1=87=D1=82=D0=BE =D1=8D=D1=82=D0=BE=D1=82 =D0=
+=B4=D0=BD=D0=B5=D0=B2=D0=BD=D0=B8=D0=BA =D0=BF=D0=BE=D0=BF=D0=B0=D0=BB =D0=
+=B2 =D1=80=D1=83=D0=BA=D0=B8 =D0=BD=D0=B5=D0=BA=D0=BE=D1=82=D0=BE=D1=80=D0=
+=BE=D0=B3=D0=BE =D1=82=D1=80=D0=B5=D1=82=D1=8C=D0=B5=D0=B3=D0=BE =D0=BB=D0=
+=B8=D1=86=D0=B0, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B9 =D0=BD=D0=B8=D1=
+=87=D0=B5=D0=B3=D0=BE =D0=BD=D0=B5 =D0=B7=D0=BD=D0=B0=D0=B5=D1=82 =D0=BE =
+=D0=BF=D1=80=D0=BE=D1=85=D0=BE=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D0=B8 =D1=8D=
+=D1=82=D0=BE=D0=B3=D0=BE =D0=B4=D0=BD=D0=B5=D0=B2=D0=BD=D0=B8=D0=BA=D0=B0.=
+ =D0=A1=D0=BC=D0=BE=D0=B6=D0=B5=D1=82 =D0=BB=D0=B8 =D0=BE=D0=BD =D0=BD=D0=
+=B0=D0=B9=D1=82=D0=B8 =D0=B2 =D0=BD=D0=B5=D0=BC =D1=87=D1=82=D0=BE =D0=BD=
+=D0=B8=D0=B1=D1=83=D0=B4=D1=8C =D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=BD=D0=BE=
+=D0=B5? =D0=9F=D0=BE=D1=81=D1=87=D0=B8=D1=82=D0=B0=D0=B5=D1=82 =D0=BB=D0=B8=
+, =D1=87=D1=82=D0=BE =D1=87=D0=B5=D0=BB=D0=BE=D0=B2=D0=B5=D0=BA =D0=BE=D0=
+=B1=D0=BB=D0=B0=D0=B4=D0=B0=D0=BB =D1=80=D0=B0=D0=B7=D0=B4=D0=B2=D0=BE=D0=
+=B5=D0=BD=D0=B8=D0=B5=D0=BC =D0=BB=D0=B8=D1=87=D0=BD=D0=BE=D1=81=D1=82=D0=
+=B8, =D0=BB=D0=B8=D0=B1=D0=BE =D0=B2=D0=BE=D0=B2=D1=81=D0=B5 =D0=BE=D0=B1=
+=D0=BD=D0=B0=D1=80=D1=83=D0=B6=D0=B8=D1=82, =D1=87=D1=82=D0=BE =D0=BE=D0=BD=
+ =D0=B7=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D1=8F=D0=BB=D1=81=D1=8F =D0=B4=D0=B2=
+=D1=83=D0=BC=D1=8F =D1=80=D0=B0=D0=B7=D0=BD=D1=8B=D0=BC=D0=B8 =D0=BB=D1=8E=
+=D0=B4=D1=8C=D0=BC=D0=B8? =D0=AF =D1=81=D1=87=D0=B8=D1=82=D0=B0=D1=8E =D1=
+=87=D1=82=D0=BE =D0=BD=D0=B5=D1=82, =D0=B8 =D0=B1=D0=BE=D0=BB=D0=B5=D0=B5=
+ =D1=82=D0=BE=D0=B3=D0=BE, =D0=BD=D0=B0=D1=88=D0=B5 =D0=AF, =D1=82=D0=BE =
+=D0=BA =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D0=BE=D0=BC=D1=83 =D0=BC=D1=8B =D1=82=
+=D0=B0=D0=BA =D0=BF=D1=80=D0=B8=D0=B2=D1=8B=D0=BA=D0=BB=D0=B8 =D0=B8 =D0=B5=
+=D1=81=D1=82=D1=8C =D0=BD=D0=B8=D1=87=D1=82=D0=BE =D0=B8=D0=BD=D0=BE=D0=B5=
+ =D0=BA=D0=B0=D0=BA =D1=82=D0=B0=D0=BA=D0=BE=D0=B9 =D0=B4=D0=BD=D0=B5=D0=B2=
+=D0=BD=D0=B8=D0=BA. =D0=9A =D0=BD=D0=B5=D0=BC=D1=83 =D0=BE=D0=B1=D1=80=D0=
+=B0=D1=89=D0=B0=D1=8E=D1=82=D1=81=D1=8F =D1=80=D0=B0=D0=B7=D0=BD=D1=8B=D0=
+=B5 =D0=BE=D1=82=D0=B4=D0=B5=D0=BB=D1=8B =D0=BD=D0=B0=D1=88=D0=B5=D0=B3=D0=
+=BE =D0=BC=D0=BE=D0=B7=D0=B3=D0=B0 =D0=B8 =D0=B7=D0=B0=D0=BF=D0=B8=D1=81=D1=
+=8B=D0=B2=D0=B0=D1=8E=D1=82 =D1=82=D1=83 =D0=B8=D0=BD=D1=84=D0=BE=D1=80=D0=
+=BC=D0=B0=D1=86=D0=B8=D1=8E, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=83=D1=8E =D0=
+=BD=D0=B0=D1=85=D0=BE=D0=B4=D1=8F=D1=82 =D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=
+=BE=D0=B4=D0=B8=D0=BC=D1=8B=D0=BC =D1=81=D0=BE=D1=85=D1=80=D0=B0=D0=BD=D0=
+=B8=D1=82=D1=8C. =D0=9D=D0=B0 =D0=B2=D1=8B=D1=85=D0=BE=D0=B4=D0=B5 =D0=B6=
+=D0=B5 =D1=8D=D1=82=D0=BE=D1=82 =D0=B4=D0=BD=D0=B5=D0=B2=D0=BD=D0=B8=D0=BA=
+ =D0=B2=D1=8B=D0=B3=D0=BB=D1=8F=D0=B4=D0=B8=D1=82 =D1=82=D0=B5=D0=BC =D1=81=
+=D0=B0=D0=BC=D1=8B=D0=BC =D1=86=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=BC =D0=AF=
+ =D1=81=D0=BE =D1=81=D0=B2=D0=BE=D0=B8=D0=BC =D0=B8=D0=BD=D1=82=D0=B5=D0=BB=
+=D0=BB=D0=B5=D0=BA=D1=82=D0=BE=D0=BC, =D1=85=D0=B0=D1=80=D0=B0=D0=BA=D1=82=
+=D0=B5=D1=80=D0=BE=D0=BC =D0=B8 =D0=BF=D1=80=D0=B8=D1=81=D1=82=D1=80=D0=B0=
+=D1=81=D1=82=D0=B8=D1=8F=D0=BC=D0=B8.
+
+=D0=9D=D0=BE =D0=B5=D1=81=D0=BB=D0=B8 =D0=B2=D1=81=D0=B5 =D0=B4=D0=B5=D0=B9=
+=D1=81=D1=82=D0=B2=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE =D1=82=D0=B0=
+=D0=BA =D0=BF=D1=80=D0=BE=D1=81=D1=82=D0=BE, =D0=BD=D0=B5 =D0=BD=D0=B0=D1=
+=81=D1=82=D0=B0=D0=BB=D0=BE =D0=BB=D0=B8 =D0=B2=D1=80=D0=B5=D0=BC=D1=8F =D0=
+=B4=D0=BB=D1=8F =D1=82=D0=BE=D0=B3=D0=BE =D1=81=D0=B0=D0=BC=D0=BE=D0=B3=D0=
+=BE =D1=86=D0=B8=D0=B2=D0=B8=D0=BB=D0=B8=D0=B7=D0=B0=D1=86=D0=B8=D0=BE=D0=
+=BD=D0=BD=D0=BE=D0=B3=D0=BE =D1=81=D0=BA=D0=B0=D1=87=D0=BA=D0=B0, =D0=BE =
+=D0=BA=D0=BE=D1=82=D0=BE=D1=80=D0=BE=D0=BC =D1=82=D0=B0=D0=BA =D0=B3=D1=80=
+=D0=B5=D0=B7=D1=8F=D1=82 =D1=84=D0=B0=D0=BD=D1=82=D0=B0=D1=81=D1=82=D1=8B?=
+ =D0=91=D1=8B=D1=82=D1=8C =D0=BC=D0=BE=D0=B6=D0=B5=D1=82, =D0=B2=D1=81=D0=
+=B5 =D1=87=D1=82=D0=BE =D0=BD=D0=B0=D0=BC =D0=BD=D1=83=D0=B6=D0=BD=D0=BE =
+=D1=87=D1=82=D0=BE =D0=B1=D1=8B =D0=BF=D0=B5=D1=80=D0=B5=D1=81=D1=82=D0=B0=
+=D1=82=D1=8C =D0=B1=D1=8B=D1=82=D1=8C =D0=BB=D1=8E=D0=B4=D1=8C=D0=BC=D0=B8,=
+ =D0=B8 =D1=81=D1=82=D0=B0=D1=82=D1=8C =D1=87=D0=B0=D1=81=D1=82=D1=8C=D1=8E=
+ =D1=87=D0=B5=D0=B3=D0=BE =D1=82=D0=BE =D0=B1=D0=BE=D0=BB=D1=8C=D1=88=D0=B5=
+=D0=B3=D0=BE, =D1=8D=D1=82=D0=BE =D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D1=82=D1=8C=
+ =D1=8D=D1=82=D0=BE=D1=82 =D1=81=D0=B0=D0=BC=D1=8B=D0=B9 =D0=B4=D0=BD=D0=B5=
+=D0=B2=D0=BD=D0=B8=D0=BA?</span>
+        <br style=3D"clear: both;">
+      </div>
+      <div class=3D"message" id=3D"99d5f09c23">
+        <a name=3D"99d5f09c23"></a><span class=3D"topicline"><b></b> Anonym=
+ous <span class=3D"published">02.04.2015 (Thu) 03:33 UTC</span>  <a href=3D=
+"http://hiddenchan.i2p/thread-b2c265ea76.html#99d5f09c23" onclick=3D"">=E2=
+=84=96</a> <a href=3D"http://hiddenchan.i2p/thread-b2c265ea76.html#i99d5f09=
+c23" onmouseover=3D"" onclick=3D"">131179</a></span>
+        <div class=3D"stillevil">
+          <input value=3D"99d5f09c23a03ef59eb03e655e59b727d94aa3ff" title=
+=3D"delete post" name=3D"purge" id=3D"purge99d5f09c23" type=3D"checkbox">
+          <label for=3D"purge99d5f09c23">delete post</label>
+          <input value=3D"99d5f09c23a03ef59eb03e655e59b727d94aa3ff" title=
+=3D"Delete all" name=3D"purge_desthash" id=3D"purge_desthash99d5f09c23" typ=
+e=3D"checkbox">
+          <label for=3D"purge_desthash99d5f09c23">Delete all i2p-user's pos=
+ts</label>
+        </div><br>
+        <span class=3D"frontend">[ web.overchan.hiddenchan ]</span>
+        <br><br>
+        <span class=3D"message_span"><span class=3D"quote">&gt;&gt;=D0=9A=
+=D0=B0=D0=B6=D0=B4=D0=BE=D0=BC=D1=83 =D0=B8=D0=B7 =D0=BD=D0=B8=D1=85 =D0=BF=
+=D1=80=D0=B5=D0=B4=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D1=8F=D0=B5=D1=82=D1=81=D1=
+=8F =D0=B4=D0=BE=D1=81=D1=82=D1=83=D0=BF =D0=BA =D0=BD=D0=B5=D0=BA=D0=BE=D1=
+=82=D0=BE=D1=80=D0=BE=D0=BC=D1=83 =D0=B4=D0=BD=D0=B5=D0=B2=D0=BD=D0=B8=D0=
+=BA=D1=83</span>
+=D0=9F=D1=80=D0=BE=D1=81=D1=82=D0=BE=D0=BA=D0=B2=D0=B0=D1=88=D0=B8=D0=BD=D0=
+=BE =D1=81=D0=BC=D0=BE=D1=82=D1=80=D0=B5=D0=BB? =D1=82=D0=B0=D0=BA =D1=83=
+ =D0=BD=D0=B8=D1=85 =D0=BD=D0=B8=D1=87=D0=B5=D0=B3=D0=BE =D0=BD=D0=B5 =D0=
+=B2=D1=8B=D1=88=D0=BB=D0=BE</span>
+        <br style=3D"clear: both;">
+      </div>
+      <div class=3D"message" id=3D"f2d0f1194e">
+        <a name=3D"f2d0f1194e"></a><span class=3D"topicline"><b></b> Anonym=
+ous <span class=3D"published">02.04.2015 (Thu) 04:24 UTC</span>  <a href=3D=
+"http://hiddenchan.i2p/thread-b2c265ea76.html#f2d0f1194e" onclick=3D"">=E2=
+=84=96</a> <a href=3D"http://hiddenchan.i2p/thread-b2c265ea76.html#if2d0f11=
+94e" onmouseover=3D"" onclick=3D"">131180</a></span>
+        <div class=3D"stillevil">
+          <input value=3D"f2d0f1194e33a430ed938a821a21c34fdaea2b96" title=
+=3D"delete post" name=3D"purge" id=3D"purgef2d0f1194e" type=3D"checkbox">
+          <label for=3D"purgef2d0f1194e">delete post</label>
+          <input value=3D"f2d0f1194e33a430ed938a821a21c34fdaea2b96" title=
+=3D"Delete all" name=3D"purge_desthash" id=3D"purge_desthashf2d0f1194e" typ=
+e=3D"checkbox">
+          <label for=3D"purge_desthashf2d0f1194e">Delete all i2p-user's pos=
+ts</label>
+        </div><br>
+        <span class=3D"frontend">[ web.overchan.hiddenchan ]</span>
+        <br><br>
+        <span class=3D"message_span"><a onclick=3D"" href=3D"http://hiddenc=
+han.i2p/thread-b2c265ea76.html#99d5f09c23">&gt;&gt;131179</a>
+=D0=94=D0=BD=D0=B5=D0=B2=D0=BD=D0=B8=D0=BA =D1=8D=D1=82=D0=BE =D0=BB=D0=B8=
+=D1=88=D1=8C =D0=B0=D0=B1=D1=81=D1=82=D1=80=D0=B0=D0=BA=D1=82=D0=BD=D0=BE=
+=D0=B5 =D0=BF=D0=BE=D0=BD=D1=8F=D1=82=D0=B8=D0=B5, =D1=87=D1=82=D0=BE-=D1=
+=82=D0=BE =D0=B2=D1=80=D0=BE=D0=B4=D0=B5 =D0=B1=D0=B0=D0=B7=D1=8B =D0=B4=D0=
+=B0=D0=BD=D0=BD=D1=8B=D1=85, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=83=D1=8E =D0=
+=BE=D0=B1=D1=80=D0=B0=D0=B1=D0=B0=D1=82=D1=8B=D0=B2=D0=B0=D0=B5=D1=82 =D0=
+=BD=D0=B5 =D0=BA=D0=BE=D0=BC=D0=BF=D1=8C=D1=8E=D1=82=D0=B5=D1=80, =D0=B0 =
+=D1=87=D0=B5=D0=BB=D0=BE=D0=B2=D0=B5=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D0=B9 =
+=D0=BC=D0=BE=D0=B7=D0=B3. =D0=98 =D0=BA=D0=B0=D0=B6=D0=B4=D1=8B=D0=B9 =D1=
+=82=D0=B0=D0=BA=D0=BE=D0=B9 =D0=BC=D0=BE=D0=B7=D0=B3, =D0=BD=D0=B5 =D0=B1=
+=D0=BE=D0=BB=D0=B5=D0=B5 =D1=87=D0=B5=D0=BC =D0=BE=D0=B4=D0=B8=D0=BD =D0=B4=
+=D0=BE=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=
+=B9 =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D1=81=D1=81=D0=BE=D1=80.</span>
+        <br style=3D"clear: both;">
+      </div>
+      <div class=3D"message" id=3D"b3b93e31e3">
+        <a name=3D"b3b93e31e3"></a><span class=3D"topicline"><b></b> Anonym=
+ous <span class=3D"published">05.04.2015 (Sun) 02:26 UTC</span>  <a href=3D=
+"http://hiddenchan.i2p/thread-b2c265ea76.html#b3b93e31e3" onclick=3D"">=E2=
+=84=96</a> <a href=3D"http://hiddenchan.i2p/thread-b2c265ea76.html#ib3b93e3=
+1e3" onmouseover=3D"" onclick=3D"">131193</a></span>
+        <div class=3D"stillevil">
+          <input value=3D"b3b93e31e323735ac112577ad494517b20541a22" title=
+=3D"delete post" name=3D"purge" id=3D"purgeb3b93e31e3" type=3D"checkbox">
+          <label for=3D"purgeb3b93e31e3">delete post</label>
+          <input value=3D"b3b93e31e323735ac112577ad494517b20541a22" title=
+=3D"Delete all" name=3D"purge_desthash" id=3D"purge_desthashb3b93e31e3" typ=
+e=3D"checkbox">
+          <label for=3D"purge_desthashb3b93e31e3">Delete all i2p-user's pos=
+ts</label>
+        </div><br>
+        <span class=3D"frontend">[ web.overchan.hiddenchan ]</span>
+        <br><br>
+        <span class=3D"message_span">=D0=BF=D0=BE=D0=BB=D0=BD=D0=B0=D1=8F=
+ =D1=87=D1=83=D1=88=D1=8C. =D0=BA=D0=BE=D0=BD=D0=B5=D1=87=D0=BD=D0=BE =D0=
+=B1=D1=83=D0=B4=D0=B5=D1=82 =D0=BF=D0=BE=D0=BD=D1=8F=D1=82=D0=BD=D0=BE, =D1=
+=87=D1=82=D0=BE =D0=B4=D0=BD=D0=B5=D0=B2=D0=BD=D0=B8=D0=BA =D0=B7=D0=B0=D0=
+=BF=D0=BE=D0=BB=D0=BD=D1=8F=D0=BB=D0=B8 =D0=B4=D0=B2=D0=B0 =D1=80=D0=B0=D0=
+=B7=D0=BD=D1=8B=D1=85 =D1=87=D0=B5=D0=BB=D0=BE=D0=B2=D0=B5=D0=BA=D0=B0. =D1=
+=8D=D1=82=D0=BE =D1=80=D0=B0=D0=B7.
+
+=D0=B4=D0=B2=D0=B0 - =D0=B0=D0=BD=D0=B0=D0=BB=D0=BE=D0=B3=D0=B8=D0=B8 =D0=
+=92=D0=A1=D0=95=D0=93=D0=94=D0=90 =D0=BD=D0=B5=D0=B2=D0=B5=D1=80=D0=BD=D1=
+=8B. =D0=98 =D0=B0=D0=BD=D0=B0=D0=BB=D0=BE=D0=B3=D0=B8=D1=8F =D1=81 =D0=B4=
+=D0=BD=D0=B5=D0=B2=D0=BD=D0=B8=D0=BA=D0=BE=D0=BC =D0=BA=D0=B0=D0=BA =D1=81=
+=D1=85=D0=B5=D0=BC=D0=BE=D0=B9 =D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=8B =D1=81=
+=D0=BE=D0=B7=D0=BD=D0=B0=D0=BD=D0=B8=D1=8F - =D1=82=D0=B0=D0=BA=D0=B6=D0=B5=
+ =D0=BD=D0=B5 =D0=B2=D0=B5=D1=80=D0=BD=D0=B0. =D0=BD=D0=B5=D1=82 =D0=BD=D0=
+=B8=D0=BA=D0=B0=D0=BA=D0=B8=D1=85 "=D1=87=D0=B0=D1=81=D1=82=D0=B5=D0=B9 =D1=
+=81=D0=BE=D0=B7=D0=BD=D0=B0=D0=BD=D0=B8=D1=8F", =D0=BA=D0=BE=D1=82=D0=BE=D1=
+=80=D1=8B=D0=B5 =D0=B1=D1=8B "=D0=B7=D0=B0=D0=BF=D0=B8=D1=81=D1=8B=D0=B2=D0=
+=B0=D0=BB=D0=B8 =D0=B4=D0=BD=D0=B5=D0=B2=D0=BD=D0=B8=D0=BA".=20
+
+=D0=B4=D0=B0=D0=B6=D0=B5 =D0=BB=D0=B5=D0=BD=D1=8C =D0=BE=D0=B1=D1=8A=D1=8F=
+=D1=81=D0=BD=D1=8F=D1=82=D1=8C, =D0=BF=D0=BE=D1=87=D0=B5=D0=BC=D1=83.</span>
+        <br style=3D"clear: both;">
+      </div>
+      <div class=3D"message" id=3D"cfb36fbe6e">
+        <a name=3D"cfb36fbe6e"></a><span class=3D"topicline"><b></b> Anonym=
+ous <span class=3D"published">05.04.2015 (Sun) 08:38 UTC</span>  <a href=3D=
+"http://hiddenchan.i2p/thread-b2c265ea76.html#cfb36fbe6e" onclick=3D"">=E2=
+=84=96</a> <a href=3D"http://hiddenchan.i2p/thread-b2c265ea76.html#icfb36fb=
+e6e" onmouseover=3D"" onclick=3D"">131196</a></span>
+        <div class=3D"stillevil">
+          <input value=3D"cfb36fbe6e3c39158bdf3d03574293f8db8b8ffc" title=
+=3D"delete post" name=3D"purge" id=3D"purgecfb36fbe6e" type=3D"checkbox">
+          <label for=3D"purgecfb36fbe6e">delete post</label>
+          <input value=3D"cfb36fbe6e3c39158bdf3d03574293f8db8b8ffc" title=
+=3D"Delete all" name=3D"purge_desthash" id=3D"purge_desthashcfb36fbe6e" typ=
+e=3D"checkbox">
+          <label for=3D"purge_desthashcfb36fbe6e">Delete all i2p-user's pos=
+ts</label>
+        </div><br>
+        <span class=3D"frontend">[ web.overchan.hiddenchan ]</span>
+        <br><br>
+        <span class=3D"message_span"><a onclick=3D"" href=3D"http://hiddenc=
+han.i2p/thread-b2c265ea76.html#b3b93e31e3">&gt;&gt;131193</a>
+=D0=90 =D1=82=D1=8B =D0=BF=D0=BE=D0=BF=D1=80=D0=BE=D0=B1=D1=83=D0=B9, =D0=
+=B2=D0=B4=D1=80=D1=83=D0=B3 =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B8=D1=82=D1=
+=81=D1=8F.</span>
+        <br style=3D"clear: both;">
+      </div>
+      <div class=3D"message" id=3D"2644066205">
+        <a name=3D"2644066205"></a><span class=3D"topicline"><b></b> Anonym=
+ous <span class=3D"published">05.04.2015 (Sun) 11:32 UTC</span>  <a href=3D=
+"http://hiddenchan.i2p/thread-b2c265ea76.html#2644066205" onclick=3D"">=E2=
+=84=96</a> <a href=3D"http://hiddenchan.i2p/thread-b2c265ea76.html#i2644066=
+205" onmouseover=3D"" onclick=3D"">131200</a></span>
+        <div class=3D"stillevil">
+          <input value=3D"26440662058b1bdf49ab2fda0884c826e7d3b471" title=
+=3D"delete post" name=3D"purge" id=3D"purge2644066205" type=3D"checkbox">
+          <label for=3D"purge2644066205">delete post</label>
+          <input value=3D"26440662058b1bdf49ab2fda0884c826e7d3b471" title=
+=3D"Delete all" name=3D"purge_desthash" id=3D"purge_desthash2644066205" typ=
+e=3D"checkbox">
+          <label for=3D"purge_desthash2644066205">Delete all i2p-user's pos=
+ts</label>
+        </div><br>
+        <span class=3D"frontend">[ web.overchan.404chan ]</span>
+        <br><br>
+        <span class=3D"message_span">=D0=93=D0=B4=D0=B5 =D0=BA=D1=80=D0=B8=
+=D1=82=D0=B5=D1=80=D0=B8=D0=B8? =D0=A2=D0=B5=D1=80=D0=BC=D0=B8=D0=BD =D1=81=
+=D0=BE=D0=B7=D0=BD=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BD=D0=B5=D0=BD=D0=B0=D1=83=
+=D1=87=D0=B5=D0=BD. =D0=9F=D1=80=D0=BE =D0=BD=D0=BE=D0=BE=D1=81=D1=84=D0=B5=
+=D1=80=D1=83 =D0=BD=D0=B5 =D1=81=D0=BB=D1=8B=D1=88=D0=B0=D0=BB. =D0=9F=D1=
+=80=D0=BE=D0=B1=D1=83=D0=B9 =D0=BD=D0=B0 =D1=81=D0=BE=D1=81=D0=B0=D1=87=D0=
+=B5.</span>
+        <br style=3D"clear: both;">
+      </div>
+      <div class=3D"message" id=3D"fd67675494">
+        <a name=3D"fd67675494"></a><span class=3D"topicline"><b></b> Anonym=
+ous <span class=3D"published">05.04.2015 (Sun) 16:04 UTC</span>  <a href=3D=
+"http://hiddenchan.i2p/thread-b2c265ea76.html#fd67675494" onclick=3D"">=E2=
+=84=96</a> <a href=3D"http://hiddenchan.i2p/thread-b2c265ea76.html#ifd67675=
+494" onmouseover=3D"" onclick=3D"">131203</a></span>
+        <div class=3D"stillevil">
+          <input value=3D"fd67675494094d8f85f7aceec0984088f6eacdb7" title=
+=3D"delete post" name=3D"purge" id=3D"purgefd67675494" type=3D"checkbox">
+          <label for=3D"purgefd67675494">delete post</label>
+          <input value=3D"fd67675494094d8f85f7aceec0984088f6eacdb7" title=
+=3D"Delete all" name=3D"purge_desthash" id=3D"purge_desthashfd67675494" typ=
+e=3D"checkbox">
+          <label for=3D"purge_desthashfd67675494">Delete all i2p-user's pos=
+ts</label>
+        </div><br>
+        <span class=3D"frontend">[ web.overchan.hiddenchan ]</span>
+        <br><br>
+        <span class=3D"message_span"><a onclick=3D"" href=3D"http://hiddenc=
+han.i2p/thread-b2c265ea76.html#2644066205">&gt;&gt;131200</a>
+<a onclick=3D"" href=3D"http://hiddenchan.i2p/thread-b2c265ea76.html#b3b93e=
+31e3">&gt;&gt;131193</a>
+
+=D0=92=D1=8B =D0=BC=D0=B5=D0=BD=D1=8F =D0=BD=D0=B5 =D0=BF=D1=80=D0=B0=D0=B2=
+=D0=B8=D0=BB=D1=8C=D0=BD=D0=BE =D0=BF=D0=BE=D0=BD=D1=8F=D0=BB=D0=B8. =D0=AF=
+ =D0=BD=D0=B5 =D0=BF=D1=80=D0=B5=D0=B4=D0=BB=D0=B0=D0=B3=D0=B0=D1=8E =D1=81=
+=D0=BE=D0=B7=D0=B4=D0=B0=D1=82=D1=8C =D1=87=D1=82=D0=BE-=D1=82=D0=BE =D1=81=
+=D0=B2=D0=B5=D1=80=D1=85 =D0=B5=D1=81=D1=82=D0=B5=D1=81=D1=82=D0=B2=D0=B5=
+=D0=BD=D0=BD=D0=BE=D0=B5 =D0=B8=D0=BB=D0=B8 =D0=BD=D0=B5=D0=BD=D0=B0=D1=82=
+=D1=83=D1=80=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=B5. =D0=AF =D0=BB=D0=B8=D1=88=
+=D1=8C =D0=BF=D1=80=D0=B5=D0=B4=D0=BB=D0=B0=D0=B3=D0=B0=D1=8E =D0=B8=D0=B7=
+=D0=BC=D0=B5=D0=BD=D0=B8=D1=82=D1=8C =D1=81=D0=B2=D0=BE=D0=B9 =D0=B2=D0=B7=
+=D0=B3=D0=BB=D1=8F=D0=B4 =D0=BD=D0=B0 =D0=BE=D0=B1=D1=8B=D0=B4=D0=B5=D0=BD=
+=D0=BD=D1=8B=D0=B5 =D0=B2=D0=B5=D1=89=D0=B8, =D0=B8 =D0=B7=D0=B0=D0=BC=D0=
+=B5=D1=82=D0=B8=D1=82=D1=8C =D0=BD=D0=B5=D0=BA=D0=BE=D1=82=D0=BE=D1=80=D0=
+=BE=D0=B5 =D0=B7=D0=B0=D0=BA=D0=BE=D0=BD=D0=BE=D0=BC=D0=B5=D1=80=D0=BD=D0=
+=BE=D1=81=D1=82=D0=B8, =D0=B4=D0=BB=D1=8F =D1=87=D0=B5=D0=B3=D0=BE =D0=B8=
+ =D0=BF=D1=80=D0=B8=D0=B2=D0=BE=D0=B4=D0=B8=D0=BB =D0=B0=D0=BD=D0=B0=D0=BB=
+=D0=BE=D0=B3=D0=B8=D1=8E =D1=81 =D0=B4=D0=BD=D0=B5=D0=B2=D0=BD=D0=B8=D0=BA=
+=D0=BE=D0=BC. =D0=9A=D0=BE=D0=BD=D0=B5=D1=87=D0=BD=D0=BE =D1=87=D0=B5=D0=BB=
+=D0=BE=D0=B2=D0=B5=D1=87=D0=B5=D1=81=D0=BA=D0=BE=D0=B5 =D1=81=D0=BE=D0=B7=
+=D0=BD=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BD=D0=B5 =D0=B4=D0=BD=D0=B5=D0=B2=D0=BD=
+=D0=B8=D0=BA, =D0=B0 =D0=B3=D0=BE=D1=80=D0=B0=D0=B7=D0=B4=D0=BE =D0=B1=D0=
+=BE=D0=BB=D0=B5=D0=B5 =D1=81=D0=BB=D0=BE=D0=B6=D0=BD=D0=B0=D1=8F =D1=81=D1=
+=82=D1=80=D1=83=D0=BA=D1=82=D1=83=D1=80=D0=B0. =D0=9D=D0=BE =D0=BE=D0=B1=D1=
+=89=D0=B0=D1=8F =D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D1=8C =D1=81=D0=BE=D0=B7=D0=
+=BD=D0=B0=D0=BD=D0=B8=D1=8F, =D0=B5=D0=B3=D0=BE =D1=83=D0=BF=D1=80=D0=BE=D1=
+=89=D0=B5=D0=BD=D0=BD=D0=B0=D1=8F =D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D1=8C, =D0=
+=B2=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5 =D0=BC=D0=BE=D0=B6=D0=B5=D1=82 =D0=B1=D1=
+=8B=D1=82=D1=8C =D0=BE=D1=82=D0=BE=D0=B6=D0=B4=D0=B5=D1=81=D1=82=D0=B2=D0=
+=BB=D0=B5=D0=BD=D0=B0 =D1=81 =D0=B4=D0=BD=D0=B5=D0=B2=D0=BD=D0=B8=D0=BA=D0=
+=BE=D0=BC.
+
+=D0=9C=D1=8B =D0=B2=D1=81=D0=B5 =D0=BF=D1=80=D0=B8=D0=B2=D1=8B=D0=BA=D0=BB=
+=D0=B8, =D1=87=D1=82=D0=BE =D0=B3=D0=BE=D0=B2=D0=BE=D1=80=D1=8F =D0=AF =D0=
+=B8 =D0=BC=D1=8B =D0=B8=D0=BC=D0=B5=D0=B5=D0=BC =D0=B2=D0=B2=D0=B8=D0=B4=D1=
+=83 =D1=81=D0=B5=D0=B1=D1=8F =D0=B8 =D0=BD=D0=B8=D0=BA=D0=BE=D0=B3=D0=BE =
+=D0=B1=D0=BE=D0=BB=D0=B5=D0=B5. =D0=95=D1=81=D0=BB=D0=B8 =D0=BC=D0=BD=D0=B5=
+ =D0=B8=D0=BB=D0=B8 =D0=B2=D0=B0=D0=BC =D1=81=D0=BB=D1=83=D1=87=D0=B8=D0=BB=
+=D0=BE=D1=81=D1=8C =D0=B2=D1=81=D1=82=D1=80=D0=B5=D1=82=D0=B8=D1=82=D1=8C=
+=D1=81=D1=8F, =D0=BD=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80, =D0=B2 =D1=
+=87=D0=B0=D1=82=D0=B5 =D0=B1=D0=B5=D0=B7 =D1=8F=D0=B2=D0=BD=D0=BE=D0=B3=D0=
+=BE =D1=83=D0=BA=D0=B0=D0=B7=D0=B0=D0=BD=D0=B8=D1=8F =D0=B0=D0=B2=D1=82=D0=
+=BE=D1=80=D1=81=D1=82=D0=B2=D0=B0 =D0=BF=D0=BE=D1=81=D1=82=D0=BE=D0=B2, =D0=
+=B2=D1=8B =D0=B1=D1=8B =D1=81 =D0=BB=D0=B5=D0=B3=D0=BA=D0=BE=D1=81=D1=82=D1=
+=8C=D1=8E =D0=BE=D1=82=D0=B4=D0=B5=D0=BB=D0=B8=D0=BB=D0=B8 =D1=81=D0=B2=D0=
+=BE=D0=B8 =D0=B7=D0=B0=D0=BF=D0=B8=D1=81=D0=B8 =D0=BE=D1=82 =D0=B7=D0=B0=D0=
+=BF=D0=B8=D1=81=D0=B5=D0=B9 =D0=B4=D1=80=D1=83=D0=B3=D0=B8=D1=85 =D0=BB=D1=
+=8E=D0=B4=D0=B5=D0=B9, =D0=B8 =D1=82=D0=B0=D0=BA =D0=B6=D0=B5 =D1=82=D1=80=
+=D0=B5=D1=82=D1=8C=D1=8F =D1=81=D1=82=D0=BE=D1=80=D0=BE=D0=BD=D0=B0 =D1=81=
+=D0=BC=D0=BE=D0=B3=D0=BB=D0=B0 =D0=B1=D1=8B =D1=8D=D1=82=D0=BE =D1=81=D0=B4=
+=D0=B5=D0=BB=D0=B0=D1=82=D1=8C. =D0=9D=D0=BE =D0=B2=D0=BD=D0=BE=D0=B2=D1=8C=
+, =D0=BF=D1=80=D0=B5=D0=B4=D1=81=D1=82=D0=B0=D0=B2=D1=8C=D1=82=D0=B5, =D1=
+=87=D1=82=D0=BE =D0=B4=D0=B2=D0=B0 =D0=B8=D0=BB=D0=B8 =D0=B1=D0=BE=D0=BB=D0=
+=B5=D0=B5 =D0=BB=D1=8E=D0=B4=D0=B5=D0=B9, =D0=BF=D0=BE =D0=BE=D0=B1=D0=BE=
+=D1=8E=D0=B4=D0=BD=D0=BE=D0=BC=D1=83 =D1=81=D0=BE=D0=B3=D0=BB=D0=B0=D1=81=
+=D0=B8=D1=8E =D0=B8 =D0=BE=D0=B1=D1=89=D0=B5=D0=BC=D1=83 =D0=B0=D0=BB=D0=B3=
+=D0=BE=D1=80=D0=B8=D1=82=D0=BC=D1=83 "=D0=BE=D1=82=D1=8B=D0=B3=D1=80=D1=8B=
+=D0=B2=D0=B0=D1=8E=D1=82" =D0=BE=D0=B4=D0=BD=D0=BE =D1=81=D1=83=D1=89=D0=B5=
+=D1=81=D1=82=D0=B2=D0=BE. =D0=9E=D0=BD=D0=B8 =D0=BD=D0=B5 =D0=B2=D1=8B=D1=
+=85=D0=BE=D0=B4=D1=8F=D1=82 =D0=B7=D0=B0 =D1=80=D0=B0=D0=BC=D0=BA=D0=B8 =D0=
+=B7=D0=BD=D0=B0=D0=BD=D0=B8=D0=B9 =D1=8D=D1=82=D0=BE=D0=B3=D0=BE =D1=81=D1=
+=83=D1=89=D0=B5=D1=81=D1=82=D0=B2=D0=B0, =D1=81=D0=BE=D1=85=D1=80=D0=B0=D0=
+=BD=D1=8F=D1=8E=D1=82 =D0=B7=D0=B0=D1=80=D0=B0=D0=BD=D0=B5=D0=B5 =D0=BE=D0=
+=BF=D1=80=D0=B5=D0=B4=D0=B5=D0=BB=D0=B5=D0=BD=D0=BD=D1=8B=D0=B9 =D1=85=D0=
+=B0=D1=80=D0=B0=D0=BA=D1=82=D0=B5=D1=80, =D1=81=D0=BF=D0=BE=D1=81=D0=BE=D0=
+=B1 =D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D1=8F. =D0=9A=D0=B0=D0=B6=D0=B4=D1=
+=8B=D0=B9 =D0=B8=D0=B7 =D0=BD=D0=B8=D1=85 =D1=8F=D0=B2=D0=BB=D1=8F=D0=B5=D1=
+=82=D1=81=D1=8F =D1=81=D0=BE=D0=B1=D1=81=D1=82=D0=B2=D0=B5=D0=BD=D0=BD=D0=
+=BE=D0=B9 =D0=B8=D0=BD=D0=B4=D0=B8=D0=B2=D0=B8=D0=B4=D1=83=D0=B0=D0=BB=D1=
+=8C=D0=BD=D0=BE=D1=81=D1=82=D1=8C=D1=8E =D0=B2 =D0=BE=D0=B1=D1=8B=D1=87=D0=
+=BD=D0=BE=D0=BC =D1=81=D0=BB=D1=83=D1=87=D0=B0=D0=B5, =D0=BD=D0=BE =D0=BF=
+=D0=BE=D0=B4=D0=BA=D0=BB=D1=8E=D1=87=D0=B0=D1=8F=D1=81=D1=8C =D0=BA =D1=8D=
+=D1=82=D0=BE=D0=BC=D1=83 =D1=81=D1=83=D1=89=D0=B5=D1=81=D1=82=D0=B2=D1=83=
+ =D0=BE=D0=BD=D0=B8 =D0=BE=D1=82=D0=BA=D0=B0=D0=B7=D1=8B=D0=B2=D0=B0=D1=8E=
+=D1=82=D1=81=D1=8F =D0=BE=D1=82 =D0=BD=D0=B5=D0=B5, =D0=B8 =D0=BE=D1=81=D1=
+=82=D0=B0=D0=B2=D0=BB=D1=8F=D1=8E=D1=82 =D1=81=D0=BE=D0=B1=D1=81=D1=82=D0=
+=B2=D0=B5=D0=BD=D0=BD=D0=BE=D0=BC=D1=83 =D0=BC=D0=BE=D0=B7=D0=B3=D1=83 =D0=
+=BB=D0=B8=D1=88=D1=8C =D0=BF=D1=80=D0=B0=D0=B2=D0=BE =D0=BF=D1=80=D0=BE=D0=
+=B8=D0=B7=D0=B2=D0=BE=D0=B4=D0=B8=D1=82=D1=8C =D1=82=D0=B5 =D0=B2=D1=8B=D1=
+=87=D0=B8=D1=81=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F, =D0=BA=D0=BE=D1=82=D0=BE=D1=
+=80=D1=8B=D0=B5 =D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D1=
+=8B =D0=B4=D0=BB=D1=8F =D0=BF=D0=BE=D0=B4=D0=B4=D0=B5=D1=80=D0=B6=D0=B0=D0=
+=BD=D0=B8=D1=8F =D1=81=D1=83=D1=89=D0=B5=D1=81=D1=82=D0=B2=D0=BE=D0=B2=D0=
+=B0=D0=BD=D0=B8=D1=8F =D1=8D=D1=82=D0=BE=D0=B3=D0=BE =D0=BD=D0=BE=D0=B2=D0=
+=BE=D0=B3=D0=BE =D1=81=D1=83=D1=89=D0=B5=D1=81=D1=82=D0=B2=D0=B0. =D0=92=D0=
+=BE=D1=82 =D0=BE =D1=87=D0=B5=D0=BC =D1=8F =D0=B3=D0=BE=D0=B2=D0=BE=D1=80=
+=D1=8E. =D0=92 =D1=82=D0=B0=D0=BA=D0=BE=D0=BC =D1=81=D0=BB=D1=83=D1=87=D0=
+=B0=D0=B5, =D1=8D=D1=82=D0=BE =D1=81=D1=83=D1=89=D0=B5=D1=81=D1=82=D0=B2=D0=
+=BE (=D0=B4=D0=BB=D1=8F =D1=82=D1=80=D0=B5=D1=82=D1=8C=D0=B5=D0=B9 =D1=81=
+=D1=82=D0=BE=D1=80=D0=BE=D0=BD=D1=8B) =D0=B1=D1=83=D0=B4=D0=B5=D1=82 =D0=BE=
+=D0=B1=D0=BB=D0=B0=D0=B4=D0=B0=D1=82=D1=8C =D0=B5=D0=B4=D0=B8=D0=BD=D0=BE=
+=D0=B9 =D0=BB=D0=B8=D1=87=D0=BD=D0=BE=D1=81=D1=82=D1=8C=D1=8E, =D0=BD=D0=BE=
+ =D1=8D=D1=82=D0=BE =D0=BB=D0=B8=D1=87=D0=BD=D0=BE=D1=81=D1=82=D1=8C =D0=B1=
+=D1=83=D0=B4=D0=B5=D1=82 =D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D0=B2=D0=B0=D1=82=
+=D1=8C=D1=81=D1=8F =D0=B8=D0=B7 =D0=BD=D0=B5=D0=BA=D0=BE=D1=82=D0=BE=D1=80=
+=D0=BE=D0=B3=D0=BE =D0=BC=D0=BD=D0=BE=D0=B6=D0=B5=D1=81=D1=82=D0=B2=D0=B0=
+ =D0=BB=D1=8E=D0=B4=D0=B5=D0=B9.</span>
+        <br style=3D"clear: both;">
+      </div>
+      <div class=3D"message" id=3D"7d07db0aec">
+        <a name=3D"7d07db0aec"></a><span class=3D"topicline"><b></b> Anonym=
+ous <span class=3D"published">06.04.2015 (Mon) 00:33 UTC</span>  <a href=3D=
+"http://hiddenchan.i2p/thread-b2c265ea76.html#7d07db0aec" onclick=3D"">=E2=
+=84=96</a> <a href=3D"http://hiddenchan.i2p/thread-b2c265ea76.html#i7d07db0=
+aec" onmouseover=3D"" onclick=3D"">131205</a></span>
+        <div class=3D"stillevil">
+          <input value=3D"7d07db0aec6b6c84ca8cc96a71aa332a165cad1b" title=
+=3D"delete post" name=3D"purge" id=3D"purge7d07db0aec" type=3D"checkbox">
+          <label for=3D"purge7d07db0aec">delete post</label>
+          <input value=3D"7d07db0aec6b6c84ca8cc96a71aa332a165cad1b" title=
+=3D"Delete all" name=3D"purge_desthash" id=3D"purge_desthash7d07db0aec" typ=
+e=3D"checkbox">
+          <label for=3D"purge_desthash7d07db0aec">Delete all i2p-user's pos=
+ts</label>
+        </div><br>
+        <span class=3D"frontend">[ web.overchan.hiddenchan ]</span>
+        <br><br>
+        <span class=3D"message_span">=D0=92=D0=B8=D0=B4=D0=B8=D1=88=D1=8C=
+ =D0=BB=D0=B8, =D1=81=D0=BE=D0=B2=D0=B5=D1=80=D1=88=D0=B5=D0=BD=D0=BD=D0=BE=
+ =D0=BD=D0=B5 =D0=B2=D0=B0=D0=B6=D0=BD=D0=BE, =D0=B1=D1=83=D0=B4=D0=B5=D1=
+=82 =D0=BA=D0=B0=D0=B7=D0=B0=D1=82=D1=8C=D1=81=D1=8F =D1=8D=D1=82=D0=BE "=
+=D1=81=D1=83=D1=89=D0=B5=D1=81=D1=82=D0=B2=D0=BE" =D0=B5=D0=B4=D0=B8=D0=BD=
+=D1=8B=D0=BC =D0=BA=D0=BE=D0=BC=D1=83-=D1=82=D0=BE =D1=82=D1=80=D0=B5=D1=82=
+=D1=8C=D0=B5=D0=BC=D1=83. =D0=9E=D1=82 =D1=82=D0=BE=D0=B3=D0=BE, =D1=87=D1=
+=82=D0=BE =D0=BA=D1=82=D0=BE-=D1=82=D0=BE =D1=81=D0=BE =D1=81=D1=82=D0=BE=
+=D1=80=D0=BE=D0=BD=D1=8B =D0=BD=D0=B5 =D0=BF=D0=BE=D0=B9=D0=BC=D0=B5=D1=82,=
+ =D1=87=D1=82=D0=BE =D1=8D=D1=82=D0=BE =D0=BD=D0=B5=D1=81=D0=BA=D0=BE=D0=BB=
+=D1=8C=D0=BA=D0=BE =D1=87=D0=B5=D0=BB=D0=BE=D0=B2=D0=B5=D0=BA - =D1=81=D1=
+=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D1=8C =D0=BD=D0=B5 =D0=BF=D0=BE=D1=8F=D0=
+=B2=D0=B8=D1=82=D1=81=D1=8F. =D0=AD=D1=82=D0=BE =D0=B1=D1=83=D0=B4=D0=B5=D1=
+=82 =D0=BB=D0=B8=D1=88=D1=8C =D1=81=D0=B8=D0=BC=D1=83=D0=BB=D1=8F=D1=86=D0=
+=B8=D1=8F.
+
+=D0=A2=D0=B0=D0=BA =D0=BA=D0=B0=D0=BA =D1=81=D0=BE=D0=B7=D0=BD=D0=B0=D0=BD=
+=D0=B8=D0=B5 - =D1=8D=D1=82=D0=BE =D0=A1=D0=90=D0=9C=D0=9E=D1=81=D0=BE=D0=
+=B7=D0=BD=D0=B0=D0=BD=D0=B8=D0=B5. =D0=AD=D1=82=D0=BE =D1=80=D0=B5=D1=84=D0=
+=BB=D0=B5=D0=BA=D1=81=D0=B8=D1=8F.
+
+=D0=90 =D1=83 =D1=82=D0=B5=D0=B1=D1=8F =D1=82=D0=B0=D0=BA =D0=BF=D0=BE=D0=
+=BB=D1=83=D1=87=D0=B0=D0=B5=D1=82=D1=81=D1=8F, =D1=87=D1=82=D0=BE =D1=81=D0=
+=BE=D0=B1=D1=80=D0=B0=D0=BB=D0=B8=D1=81=D1=8C =D1=82=D1=80=D0=B8 =D0=B1=D0=
+=BB=D0=B0=D0=B3=D0=BE=D1=80=D0=BE=D0=B4=D0=BD=D1=8B=D1=85 =D0=B4=D0=BE=D0=
+=BD=D0=B0 =D0=BF=D0=B5=D1=80=D0=B5=D0=B4 =D0=BA=D0=B0=D0=BC=D0=B8=D0=BD=D0=
+=BE=D0=BC, =D0=B2=D1=8B=D0=BF=D0=B8=D1=82=D1=8C =D0=BF=D0=BE =D0=B1=D0=BE=
+=D0=BA=D0=B0=D0=BB=D1=83 =D0=B1=D1=80=D0=B5=D0=BD=D0=B4=D0=B8, =D0=B7=D0=B0=
+=D0=B2=D0=B5=D0=BB=D0=B8 =D0=BD=D0=B5=D1=81=D0=BF=D0=B5=D1=88=D0=BD=D1=8B=
+=D0=B9 =D1=80=D0=B0=D0=B7=D0=B3=D0=BE=D0=B2=D0=BE=D1=80 - =D0=B8 =D1=82=D1=
+=8B =D0=BF=D1=80=D0=B5=D0=B4=D0=BB=D0=B0=D0=B3=D0=B0=D0=B5=D1=88=D1=8C =D1=
+=8D=D1=82=D0=BE=D1=82 =D1=80=D0=B0=D0=B7=D0=B3=D0=BE=D0=B2=D0=BE=D1=80 =D1=
+=81=D1=87=D0=B8=D1=82=D0=B0=D1=82=D1=8C =D0=BD=D0=B5=D0=BA=D0=B8=D0=BC "=D1=
+=81=D0=BE=D0=B7=D0=BD=D0=B0=D0=BD=D0=B8=D0=B5=D0=BC", =D0=BA=D0=B0=D0=BA =
+=D0=B1=D1=83=D0=B4=D1=82=D0=BE =D1=80=D0=B0=D0=B7=D0=B3=D0=BE=D0=B2=D0=BE=
+=D1=80 =D0=BC=D0=BE=D0=B6=D0=B5=D1=82 =D0=B2=D0=BD=D0=B5=D0=B7=D0=B0=D0=BF=
+=D0=BD=D0=BE =D0=BF=D0=BE=D0=BD=D1=8F=D1=82=D1=8C, =D1=87=D1=82=D0=BE =D0=
+=BE=D0=BD =D1=80=D0=B0=D0=B7=D0=B3=D0=BE=D0=B2=D0=BE=D1=80.
+
+=D0=AD=D1=82=D0=BE, =D0=BE=D1=87=D0=B5=D0=B2=D0=B8=D0=B4=D0=BD=D0=BE, =D0=
+=B5=D1=80=D1=83=D0=BD=D0=B4=D0=B0. =D0=9F=D1=80=D0=BE=D1=81=D1=82=D0=BE =D1=
+=82=D1=8B =D0=BF=D0=BE=D0=B9=D0=BC=D0=B0=D0=BB=D1=81=D1=8F =D0=B2 =D0=BB=D0=
+=BE=D0=B2=D1=83=D1=88=D0=BA=D1=83 =D1=8F=D0=B7=D1=8B=D0=BA=D0=B0. =D0=92=D1=
+=81=D1=8F =D1=8D=D1=82=D0=B0 =D0=B1=D1=83=D0=B4=D0=BE=D1=80=D0=B0=D0=B6=D0=
+=B0=D1=89=D0=B0=D1=8F =D1=82=D0=B5=D1=80=D0=BC=D0=B8=D0=BD=D0=BE=D0=BB=D0=
+=BE=D0=B3=D0=B8 "=D0=BD=D0=B5=D0=B9=D1=80=D0=BE=D0=BD=D0=BD=D1=8B=D0=B5 =D1=
+=81=D0=B5=D1=82=D0=B8", "=D0=B8=D0=BD=D1=82=D0=B5=D0=BB=D0=BB=D0=B5=D0=BA=
+=D1=82", "=D1=81=D0=BE=D0=B7=D0=BD=D0=B0=D0=BD=D0=B8=D0=B5". =D0=9C=D0=B5=
+=D0=B6=D0=B4=D1=83 =D1=82=D0=B5=D0=BC, =D1=83=D0=BF=D0=BE=D1=82=D1=80=D0=B5=
+=D0=B1=D0=BB=D1=8F=D1=8F =D0=B8=D1=85, =D1=82=D1=8B =D0=BD=D0=B5 =D0=B2=D0=
+=B4=D0=B0=D0=B5=D1=88=D1=8C=D1=81=D1=8F =D0=B2 =D1=81=D1=83=D1=82=D1=8C =D0=
+=BF=D0=BE=D0=BD=D1=8F=D1=82=D0=B8=D0=B9. =D0=95=D1=81=D0=BB=D0=B8 =D0=BD=D0=
+=B5 =D0=BD=D0=B0 =D0=BA=D1=83=D1=85=D0=BE=D0=BD=D0=BD=D0=BE=D0=BC =D1=83=D1=
+=80=D0=BE=D0=B2=D0=BD=D0=B5 =D1=80=D0=B0=D0=B7=D0=B3=D0=BE=D0=B2=D0=B0=D1=
+=80=D0=B8=D0=B2=D0=B0=D1=82=D1=8C, =D0=B0 =D1=81=D1=82=D1=80=D0=BE=D0=B3=D0=
+=BE =D0=BE=D0=BF=D1=80=D0=B5=D0=B4=D0=B5=D0=BB=D1=8F=D1=82=D1=8C =D0=BA=D0=
+=B0=D0=B6=D0=B4=D0=BE=D0=B5 =D0=BF=D0=BE=D0=BD=D1=8F=D1=82=D0=B8=D0=B5, =D1=
+=82=D0=BE =D0=B2 =D0=BE=D0=B1=D1=89=D0=B5=D0=BC =D0=B2=D1=81=D1=91 =D1=81=
+=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=B8=D1=82=D1=81=D1=8F =D1=8F=D1=81=D0=BD=
+=D0=BE.
+
+=D0=A2=D1=8B =D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D0=BB =D0=B0=D0=BD=D0=B0=D0=BB=
+=D0=BE=D0=B3=D0=B8=D1=8E =D0=B8=D0=BD=D1=82=D0=B5=D1=80=D0=BD=D0=B5=D1=82=
+=D0=B0 =D1=81 =D0=BD=D0=B5=D0=B9=D1=80=D0=BE=D0=BD=D0=BD=D0=BE=D0=B9 =D1=81=
+=D0=B5=D1=82=D1=8C=D1=8E =D0=BC=D0=BE=D0=B7=D0=B3=D0=B0.=20
+
+=D0=90 =D1=82=D1=8B =D0=BA=D0=BB=D1=83=D0=B1=D0=BE=D0=BA =D0=BD=D0=B8=D1=82=
+=D0=BE=D0=BA =D0=BD=D0=B5 =D1=85=D0=BE=D1=87=D0=B5=D1=88=D1=8C =D0=BF=D0=BE=
+ =D1=82=D0=B0=D0=BA=D0=BE=D0=B9 =D0=B6=D0=B5 =D0=B0=D0=BD=D0=B0=D0=BB=D0=BE=
+=D0=B3=D0=B8=D0=B8 =D0=BD=D0=B0=D1=87=D0=B0=D1=82=D1=8C =D0=BF=D0=BE=D0=B4=
+=D0=BE=D0=B7=D1=80=D0=B5=D0=B2=D0=B0=D1=82=D1=8C =D0=B2 =D0=B2=D0=BE=D0=B7=
+=D0=BC=D0=BE=D0=B6=D0=BD=D0=BE=D0=BC =D0=BF=D0=BE=D1=8F=D0=B2=D0=BB=D0=B5=
+=D0=BD=D0=B8=D0=B8 =D1=81=D0=BE=D0=B7=D0=BD=D0=B0=D0=BD=D0=B8=D1=8F?
+
+=D0=90=D0=BD=D0=B0=D0=BB=D0=BE=D0=B3=D0=B8=D0=B8 - =D0=BD=D0=B5 =D0=B2=D0=
+=B5=D1=80=D0=BD=D1=8B =D0=BD=D0=B8=D0=BA=D0=BE=D0=B3=D0=B4=D0=B0.</span>
+        <br style=3D"clear: both;">
+      </div>
+      <div class=3D"message" id=3D"51bdd137b4">
+        <a name=3D"51bdd137b4"></a><span class=3D"topicline"><b></b> Anonym=
+ous <span class=3D"published">06.04.2015 (Mon) 11:40 UTC</span>  <a href=3D=
+"http://hiddenchan.i2p/thread-b2c265ea76.html#51bdd137b4" onclick=3D"">=E2=
+=84=96</a> <a href=3D"http://hiddenchan.i2p/thread-b2c265ea76.html#i51bdd13=
+7b4" onmouseover=3D"" onclick=3D"">131206</a></span>
+        <div class=3D"stillevil">
+          <input value=3D"51bdd137b4a685bb6e1c4ab270c3f7baea9c2973" title=
+=3D"delete post" name=3D"purge" id=3D"purge51bdd137b4" type=3D"checkbox">
+          <label for=3D"purge51bdd137b4">delete post</label>
+          <input value=3D"51bdd137b4a685bb6e1c4ab270c3f7baea9c2973" title=
+=3D"Delete all" name=3D"purge_desthash" id=3D"purge_desthash51bdd137b4" typ=
+e=3D"checkbox">
+          <label for=3D"purge_desthash51bdd137b4">Delete all i2p-user's pos=
+ts</label>
+        </div><br>
+        <span class=3D"frontend">[ web.overchan.hiddenchan ]</span>
+        <br><br>
+        <span class=3D"message_span"><a onclick=3D"" href=3D"http://hiddenc=
+han.i2p/thread-b2c265ea76.html#fd67675494">&gt;&gt;131203</a>
+<span class=3D"quote">&gt;&gt;=D0=90=D0=BD=D0=B0=D0=BB=D0=BE=D0=B3=D0=B8=D0=
+=B8 =D0=BD=D0=B5 =D0=B2=D0=B5=D1=80=D0=BD=D1=8B =D0=BD=D0=B8=D0=BA=D0=BE=D0=
+=B3=D0=B4=D0=B0</span>
+=D0=A2=D1=8B =D0=BE=D1=88=D0=B8=D0=B1=D0=B0=D0=B5=D1=88=D1=8C=D1=81=D1=8F.<=
+/span>
+        <br style=3D"clear: both;">
+      </div>
+      <div class=3D"message" id=3D"53052e4019">
+        <a name=3D"53052e4019"></a><span class=3D"topicline"><b></b> Anonym=
+ous <span class=3D"published">06.04.2015 (Mon) 14:04 UTC</span>  <a href=3D=
+"http://hiddenchan.i2p/thread-b2c265ea76.html#53052e4019" onclick=3D"">=E2=
+=84=96</a> <a href=3D"http://hiddenchan.i2p/thread-b2c265ea76.html#i53052e4=
+019" onmouseover=3D"" onclick=3D"">131207</a></span>
+        <div class=3D"stillevil">
+          <input value=3D"53052e4019ad948b3cb71ceaba8f54bac1e6e81d" title=
+=3D"delete post" name=3D"purge" id=3D"purge53052e4019" type=3D"checkbox">
+          <label for=3D"purge53052e4019">delete post</label>
+          <input value=3D"53052e4019ad948b3cb71ceaba8f54bac1e6e81d" title=
+=3D"Delete all" name=3D"purge_desthash" id=3D"purge_desthash53052e4019" typ=
+e=3D"checkbox">
+          <label for=3D"purge_desthash53052e4019">Delete all i2p-user's pos=
+ts</label>
+        </div><br>
+        <span class=3D"frontend">[ web.overchan.hiddenchan ]</span>
+        <br><br>
+        <span class=3D"message_span"><a onclick=3D"" href=3D"http://hiddenc=
+han.i2p/thread-a118fb2d10.html#bbcee8ec2d">&gt;&gt;131204</a>
+=D0=9F=D1=80=D0=BE=D1=81=D1=82=D0=BE =D1=82=D1=8B =D0=BD=D0=B5 =D0=BF=D0=BE=
+=D0=BD=D0=B8=D0=BC=D0=B0=D0=B5=D1=88=D1=8C =D0=BE =D1=87=D0=B5=D0=BC =D0=B2=
+=D0=BE=D0=BE=D0=B1=D1=89=D0=B5 =D0=B2=D0=B5=D0=B4=D1=91=D1=82 =D1=80=D0=B5=
+=D1=87=D1=8C =D0=9E=D0=9F. =D0=A3 =D0=BD=D0=B0=D1=81 =D1=80=D0=B0=D0=B7=D0=
+=BD=D1=8B=D0=B5 =D0=BF=D0=BE=D0=BD=D1=8F=D1=82=D0=B8=D1=8F =D0=BE =D1=82=D0=
+=B0=D0=BA=D0=B8=D1=85 =D0=B2=D0=B5=D1=89=D0=B0=D1=85, =D0=BA=D0=B0=D0=BA =
+=D0=AF =D0=B8=D0=BB=D0=B8 =D1=81=D0=BE=D0=B7=D0=BD=D0=B0=D0=BD=D0=B8=D0=B5,=
+ =D1=81=D0=B0=D0=BC=D0=BE=D1=81=D0=BE=D0=B7=D0=BD=D0=B0=D0=BD=D0=B8=D0=B5.<=
+/span>
+        <br style=3D"clear: both;">
+      </div>
+
+    </div>
+
+    <hr style=3D"clear: both;">
+    <a name=3D"end_of_page"></a>
+    </form>
+    <div class=3D"boards">[ <a href=3D"http://hiddenchan.i2p/anime-1.html">=
+anime</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/anonymity-1.html">anonymi=
+ty</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/cp-1.html">cp</a>=C2=A0/ <a=
+ href=3D"http://hiddenchan.i2p/crime-1.html">crime</a>=C2=A0/ <a href=3D"ht=
+tp://hiddenchan.i2p/datalove-1.html">datalove</a>=C2=A0/ <a href=3D"http://=
+hiddenchan.i2p/games-1.html">games</a>=C2=A0/ <a href=3D"http://hiddenchan.=
+i2p/hackers-1.html">hackers</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/hid=
+denchan-1.html">hiddenchan</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/inva=
+sion-1.html">invasion</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/life-1.ht=
+ml">life</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/market-1.html">market<=
+/a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/mlp-1.html">mlp</a>=C2=A0/ <a=
+ href=3D"http://hiddenchan.i2p/music-1.html">music</a>=C2=A0/ <a href=3D"ht=
+tp://hiddenchan.i2p/overchan-1.html">overchan</a>=C2=A0/ <a href=3D"http://=
+hiddenchan.i2p/politics-1.html">politics</a>=C2=A0/ <a href=3D"http://hidde=
+nchan.i2p/porn-1.html">porn</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/ran=
+dom-1.html">random</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/ru.drugs-1.h=
+tml">ru.drugs</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/ru.i2p-1.html">ru=
+.i2p</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/ru.politics-1.html">ru.pol=
+itics</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/ru.random-1.html">ru.rand=
+om</a>=C2=A0/ <a href=3D"http://hiddenchan.i2p/science-1.html">science</a>=
+=C2=A0/ <a href=3D"http://hiddenchan.i2p/technology-1.html">technology</a>=
+=C2=A0/ <a href=3D"http://hiddenchan.i2p/test-1.html">test</a>=C2=A0]</div>
+    <hr>
+ =20
+
+</body></html>
+------=_NextPart_000_0000_409E6425.6D502F3C
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://hiddenchan.i2p/thumbs/nope.png
+
+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
+AElFTkSuQmCC
+------=_NextPart_000_0000_409E6425.6D502F3C
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: urn:snapshot-0F4491B8:http://hiddenchan.i2p/styles.css
+
+/* Effective stylesheet produced by snapshot save */
+body { margin: 0px; background: none repeat scroll 0% 0% rgb(16, 16, 16);=
+ font-family: arial,sans-serif,helvetica; color: rgb(255, 255, 255); font-s=
+ize: 10pt; }
+a { color: rgb(247, 172, 177); }
+hr { color: rgb(54, 54, 54); width: 98%; height: 0px; border-top: 1px solid=
+; border-bottom: medium none; }
+.sitetitle { text-align: center; color: rgb(171, 171, 171); margin: 10px 20=
+px 20px; }
+.sitetitle h2 { margin: 0px; }
+.sitetitle a { color: rgb(171, 171, 171); text-decoration: none; }
+.message, .highlight { margin-left: 25px; margin-bottom: 1px; border: 1px=
+ solid rgb(54, 54, 54); background: none repeat scroll 0% 0% rgb(28, 28, 28=
+); border-radius: 0px; padding: 9px 9px 1.5em; }
+.image_link { float: left; padding-right: 5px; position: relative; }
+.image_root { border-radius: 0px; border: 1px solid rgb(54, 54, 54); width:=
+ 180px; max-height: 360px; }
+.thread { padding-top: 5px; padding-left: 10px; padding-right: 20px; }
+.message_span { white-space: pre-wrap; word-wrap: break-word; }
+.topicline b { color: rgb(255, 20, 147); }
+.postform th { background: none repeat scroll 0% 0% rgb(28, 28, 28); border=
+: 1px solid rgb(54, 54, 54); text-align: left; padding-left: 4px; padding-r=
+ight: 5px; }
+.posttext { width: 400px; height: 20px; border: 1px solid rgb(54, 54, 54);=
+ background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.postbutton { width: 100px; border: 1px solid rgb(54, 54, 54); background:=
+ none repeat scroll 0% 0% rgb(255, 255, 255); }
+.postarea { width: 400px; height: 48px; border: 1px solid rgb(54, 54, 54);=
+ background: none repeat scroll 0% 0% rgb(255, 255, 255); padding: 0px; mar=
+gin: 0px; }
+.postfile {  }
+.boards { padding: 0px 2.5em 0px 10px; }
+.boards a, .pagelist a { text-decoration: none; }
+.evilstuff { background-color: rgb(51, 51, 51); border: 1px solid rgb(102,=
+ 102, 102); border-radius: 30px; padding: 10px; margin-right: 10px; positio=
+n: fixed; right: 0px; top: 20px; display: none; }
+.stillevil { display: none; }
+.evilmod { position: fixed; right: 20px; top: 0px; }
+.evilmod:checked ~ form .evilstuff { display: block; }
+.evilmod:checked ~ form .stillevil { display: inline; }
+.stillevil input { margin: 0px; }
+.lblhelp { position: fixed; top: 0px; right: 10px; cursor: pointer; font-we=
+ight: bold; }
+a.lblhelp, a.lblhelp:hover { color: rgb(197, 200, 198); padding: 0px; text-=
+decoration: none; }
+.quote { color: rgb(0, 170, 0); }
+.published { font-size: 0.85em; color: rgb(137, 142, 147); }
+.board_description { width: 400px; padding: 10px; font-size: 0.75em; font-f=
+amily: sans-serif; white-space: pre-wrap; word-wrap: break-word; }
+
+------=_NextPart_000_0000_409E6425.6D502F3C
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: urn:snapshot-8EA52316:http://hiddenchan.i2p/user.css
+
+/* Effective stylesheet produced by snapshot save */
+body, .image_root, .postform th, .overlay { background: none repeat scroll=
+ 0px 0px rgb(238, 238, 238); color: rgb(51, 51, 51); font-family: "Trebuche=
+t MS",Trebuchet,serif; font-size: 11pt; }
+a { color: rgb(102, 102, 102); }
+a:hover { color: rgb(0, 102, 255); }
+table {  }
+tr { padding: 6px; }
+.sitetitle { color: rgb(51, 51, 51); }
+.sitetitle h2 a { color: rgb(0, 0, 0); }
+.sitetitle b { color: rgb(171, 171, 171); }
+.messageroot { overflow: auto; }
+.message, .highlight { margin: 10px 10px 10px 45px; }
+.quote { color: rgb(120, 153, 34); }
+.messageroot, .message, .overlay_inner { background: none repeat scroll 0px=
+ 0px rgb(221, 221, 221); padding: 10px; border: 1px solid rgb(204, 204, 204=
+); }
+.posttext, .postarea { background: none repeat scroll 0px 0px rgb(255, 255,=
+ 255); }
+.postarea { height: 200px; }
+.topicline b { color: rgb(0, 34, 68); }
+table, .news { border-radius: 10px; }
+table, .news { padding: 10px; }
+.frontend, .frontend_icon { z-index: -1; font-size: 0.8em; font-family: san=
+s-serif; }
+.published { font-size: 0.9em; color: rgb(137, 142, 147); }
+
+------=_NextPart_000_0000_409E6425.6D502F3C
+Content-Type: text/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: urn:snapshot-B965C584:http://hiddenchan.i2p/overchan.js
+
+/* Script removed by snapshot save */
+
+------=_NextPart_000_0000_409E6425.6D502F3C--

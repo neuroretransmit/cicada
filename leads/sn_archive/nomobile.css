@@ -1,0 +1,14 @@
+@media only screen and (min-width: 990px) {
+
+.mobile{
+	display: none !important;
+}
+
+blockquote {
+overflow: auto;
+	max-height:400px;
+	line-height: 19px;
+
+}
+
+}

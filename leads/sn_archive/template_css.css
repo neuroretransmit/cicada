@@ -1,0 +1,228 @@
+body { margin: 0; padding: 8px; margin-bottom: auto; }
+blockquote blockquote { margin-left: 0em }
+form { margin-bottom: 0px }
+form .trap { display:none }
+.postarea { text-align: center }
+.postarea table { margin: 0px auto; text-align: left }
+.img { border: none; float: left; margin: 2px 20px }
+.nothumb { float: left; background: #eee; border: 2px dashed #aaa; text-align: center; margin: 2px 20px; padding: 1em 0.5em 1em 0.5em; }
+.reflink a { color: inherit; text-decoration: none }
+.reply .filesize { margin-left: 20px }
+.userdelete { float: right; text-align: center; white-space: nowrap }
+.replypage .replylink { display: none }
+.o { text-decoration: overline; }
+.u { text-decoration: underline; }
+.s {text-decoration: line-through;}
+ 
+/* for Internet Explorer to force a menu refresh after :active + ul */
+#adminbar li a,
+body {behavior:url(/images/trigger.htc)}
+#adminbar {width:99%; position:relative; font-family:arial, sans-serif; z-index:100; float: left;}
+#adminbar {margin-bottom:5px; /* this demo only */}
+#adminbar ul.menu {padding:0; margin:0; list-style:none;}
+#adminbar ul.menu ul {padding:0; margin:0; list-style:none; font-size:0.8em;}
+#adminbar ul.menu ul.left {padding:0; margin:0; list-style:none; float:left;}
+#adminbar ul.menu ul li {display:inline-block; line-height:15px;}
+#adminbar ul.menu ul li a {display:inline-block; line-height:15px; color:#FF6600; padding:0 2px; font-size:13px;}
+#adminbar ul.menu ul li a:visited {color:#FF6600;}
+#adminbar ul.menu ul li a:hover {white-space:nowrap; color:#0066FF;}
+.rmenu {padding:0; margin:0; font-size:0.8em;}
+.rmenu a {display:inline-block; color:#FF6600;}
+.rmenu a:visited {color:#FF6600;}
+.rmenu a:hover {white-space:nowrap; color:#0066FF;}
+.rmenu span.nowrap {display:inline-block; padding: 0 0 5px 0;}
+
+.abupost { 
+	color: red; 
+	font-size: 0.9em;
+	text-align: center;
+}
+ .wrap {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	vertical-align: baseline;
+}
+
+.form-tbl {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-size: 100%;
+}
+
+a {
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+
+table .form-tbl{
+	border-collapse: collapse; 
+	border-spacing: 0;
+}
+
+div .superreply { margin: 0px 0px 0px 20px; 
+display: inline-block;
+}
+
+td, td img {
+	vertical-align: top;
+} 
+
+
+input[type="text"], input[type="password"], textarea {
+	padding: 0;
+}
+
+input[type="checkbox"] {
+	vertical-align: bottom;
+}
+
+input[type="radio"] {
+	vertical-align: text-bottom;
+}
+
+sub {
+	vertical-align: sub;
+	font-size: smaller;
+}
+
+sup {
+	vertical-align: super;
+	font-size: smaller;
+}
+
+.hidden {opacity:0}
+.hidden:hover {opacity:.8}
+
+html {
+	overflow-y: scroll; 
+}
+
+
+
+label, input[type="button"], input[type="submit"], button {
+	cursor: pointer;
+}
+
+ 
+
+.nuclear:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+}
+
+.nuclear{ 
+  display: block;
+}
+
+.wrap{
+	width: 540px;
+	margin: 0px auto;
+	padding: 50px 0 0 0;
+}
+
+.form-tbl td{
+	padding: 0 20px 0 0;
+}
+
+.form-tbl p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	padding: 0 0 3px 0;
+	margin: 0;
+	font-weight: bold;
+}
+
+.form-tbl td p i{
+	font-size: 11px;
+	color: #858585;
+}
+
+.form-tbl td .inp:not(select) {
+	width: 220px;
+	height: 23px;
+	line-height: 23px;
+	border: 1px solid #CACACA;
+	padding: 0 10px;
+	margin: 0 0 10px 0;
+	color: #858585;
+}
+
+.form-tbl td .inp-1{
+	width: 320px;
+}
+
+.form-tbl td .but{
+	width: 137px;
+	height: 25px;
+	padding: 0;
+	margin: 0px 0 10px 0;
+	border: none;
+	cursor: pointer;
+	background: url(../images/but.jpg) left top no-repeat;
+}
+
+.form-tbl td textarea{
+	width: 485px;
+	height: 95px;
+	padding: 5px;
+	border: 1px solid #CACACA;
+	resize: auto;
+	margin: 0 0 10px;
+}
+.form-tbl td .but {
+color: transparent;
+}
+
+.form-tbl .navi{
+	padding: 10px 0;
+}
+
+.form-tbl .navi span{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	display: inline-block;
+	margin: 0 10px 0 0;
+	color: #9F9F9F;
+}
+
+.form-tbl .navi a{
+	text-decoration: none !important;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	display: inline-block;
+	margin: 0 10px 0 0;
+	color: #0298F9;
+	border-bottom: 1px dashed #0298F9;
+}
+
+.form-tbl .navi a:hover{
+	border-bottom: none;
+}
+
+.form-tbl .inp-2{
+	width: 155px;
+}
+
+#hideUserFlds {
+color: #858585;
+font-size: 11px;
+}
+
+#hideRules {
+color: #858585;
+font-size: 11px;
+}
+
+.markup {margin: 1px; padding: 2px}

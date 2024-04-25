@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Два.ч — Свободное общение</title>
+<link href="/style/style2.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery.js"></script>
+<script type="text/javascript" src="/scripts/js.js"></script>
+<script type="text/javascript" src="/scripts/jquery.metadata.min.js"></script>
+<script type="text/javascript">
+//$.swapImage(".swapImageClick", true, true, "click");
+function get_cookie(name)
+{
+	with(document.cookie)
+	{
+		var regexp=new RegExp("(^|;\\s+)"+name+"=(.*?)(;|$)");
+		var hit=regexp.exec(document.cookie);
+		if(hit&&hit.length>2) return unescape(hit[2]);
+		else return '';
+	}
+}
+
+function set_cookie(name,value,days)
+{
+	if(days)
+	{
+		var date=new Date();
+		date.setTime(date.getTime()+(days*24*60*60*1000));
+		var expires="; expires="+date.toGMTString();
+	}
+	else expires="";
+	document.cookie=name+"="+value+expires+"; path=/";
+}
+
+function swap()
+{
+	var coo = get_cookie('mas');
+	if(!coo) { coo='2ct.png'; } else { coo = (coo == '2ct.png')?'2t2.jpg':'2ct.png'; } 
+	document.getElementById('mas').src = "/images/" + coo;
+	set_cookie('mas', coo);
+}
+
+function init()
+{
+var coo = get_cookie('mas');
+	if(!coo) coo = '2t2.jpg';
+document.getElementById('mas').src = "/images/" + coo;
+}
+
+
+</script> 
+
+
+</head>
+<body onload="javascript:init();"><script type="text/javascript">
+//<![CDATA[
+new Image().src = "/cdn-cgi/ping?cf[location]=404&cf[js]=1";
+//]]>
+</script>
+<noscript>
+<img src="/cdn-cgi/ping?cf[location]=404&amp;cf[js]=0" alt=""/>
+</noscript>
+
+<div class="center">
+
+  <div class="box1"> <center><a class="logo404" href="/">Два.ч</a>
+       </center></div>
+       
+  <div class="box1">
+    <nav>
+    <div class="nav">
+
+        <div class="nl404"> 
+          <center><h5>404 - Ничего не найдено</h5></center>
+          <br><br>
+         <center><script type="text/javascript">
+function getRand(min, max){
+ return Math.round(Math.random()*(max-min))+min;
+}
+
+var images = new Array("/images/1.png", "/images/monkey_not_found.jpg"); // сюда вписать картинки, можно сколько угодно
+var lo = 0;
+var hi = images.length-1;
+var num = getRand(lo, hi);
+document.write("<img style='border:1px solid #002244; border-radius: 5px 5px 5px 5px;' src='"+images[num]+"'>");
+</script>
+ </center>
+
+
+          
+          <br class="clear">
+        </div>
+        
+        <br class="clear">
+      </div>
+       
+    </nav>
+  </div>
+  
+ <footer>
+    <div class="foot"><a href="/">главная</a> / <a href="/faq.html">FAQ</a> / <a href="/contacts.html">контакты</a> / <a href="/d">идеи и предложения</a> / <a href="http://www.so-slow.com/">so slow</a> / <a href="https://twitter.com/#!/abusomalia/">twitter</a> / <a href="http://www.formspring.me/2chabu">formsping</a> / <a href="/index2.html">версия с фреймом</a></div>
+
+<br><center>  <!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t26.6;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число посетителей за"+
+" сегодня' "+
+"border='0' width='88' height='15'><\/a>")
+//--></script><a href="http://www.liveinternet.ru/click" target="_blank"><img src="//counter.yadro.ru/hit?t26.6;r;s1920*1200*24;uhttp%3A//2ch.so/b/wwdaefa.html;0.688400932343099" alt="" title="LiveInternet: показано число посетителей за сегодня" border="0" height="15" width="88"></a><!--/LiveInternet-->
+
+
+<!-- Yandex.Metrika counter -->
+<div style="display:none;"><script type="text/javascript">
+(function(w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter4029370 = new Ya.Metrika(4029370);
+             yaCounter4029370.clickmap(true);
+             yaCounter4029370.trackLinks(true);
+        
+        } catch(e) { }
+    });
+})(window, 'yandex_metrika_callbacks');
+</script></div>
+<script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript" defer="defer"></script>
+<noscript><div><img src="//mc.yandex.ru/watch/4029370" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter --> </center>
+
+</footer>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,685 @@
+
+html,body{background-color:#EEEEEE;color:#333333;font-family:Verdana,sans-serif;font-size:1em;}
+form{font-size:0.9em;}
+a{color:#FF6600;padding:0px;}
+a:hover{color:#0066FF;}
+.adminbar{text-align:right;background:inherit;clear:both;float:right;         line-height:17px;font-size:0.8em;}
+.adminbar a{font-weight:normal;}
+.logo{clear:both;text-align:left;font-size:2em;font-weight:bold;color:#FF6600;}
+.logo2{text-align:center;}
+.theader,.passvalid{background:#DDDDDD;text-align:center;color:#FF6600;clear:both;font-weight:bold;border:solid 1px #CCCCCC;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+.postarea{font-size:0.9em;}
+.rules{font-size:0.9em;}
+.postblock{background:transparent;color:#002244;font-weight:bold;}
+.footer{text-align:center;font-size:12px;font-family:serif;margin:2em 0 0 0;}
+.dellist{font-weight:bold;text-align:center;}
+.delbuttons{text-align:center;padding-bottom:4px;}
+.managehead{background:#DDDDDD;color:#002244;padding:0px;}
+.postlists{background:#FFFFFF;width:100%;padding:0px;color:#800000;}
+.row1{background:#DDDDDD;color:#002244;}
+.row2{background:#CCCCCC;color:#002244;}
+.unkfunc{background:inherit;color:#789922;}
+.filesize{text-decoration:none;color:#666666;font-size:.8em;}
+.filetitle{background:inherit;font-size:1.2em;color:#002244;font-weight:bold;}
+.postertrip{color:#228854;}
+.oldpost,.notabene{color:#CC1105;font-weight:bold;}
+.omittedposts{color:#666666;}
+.reply{background:#DDDDDD;border:solid 1px #CCCCCC;padding:0;margin:0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+blockquote{display:block;margin:0 40px;}
+.doubledash{display:none; vertical-align:top;clear:both;float:left;}
+.replytitle{font-size:1.2em;color:#002244;font-weight:bold;}
+.thumbnailmsg{font-size:.6em;color:#666666;}
+hr{border-style:solid none none none;border-width:1px;border-color:#BBBBBB;}
+table{border-style:none;}
+table td{border-style:none;}
+.nothumb{background-color:#FFFFFF;border-style:dotted;margin:.3em .5em;}
+.abbrev{color:#666666;}
+.highlight{background:#EEDACB;color:#333333;border:2px dashed #EE6600;}
+.extrafunctions{color:#008000;}
+dl.menu dt{background:#DDDDDD;border:solid 1px #CCCCCC;border-radius:5px;-moz-border-radius:5px;
+-webkit-border-radius:5px;margin-top:1em;padding-left:.5em;cursor:pointer;
+}
+dl.menu dd{margin-left:.5em;padding-left:.5em;border-left:solid 1px #CCCCCC;}
+dl.menu dd.hidden{display:none;}
+p.spoiler > span.warning{color:#FF6600;font-weight:bolder;}
+span.spoiler{background:#BBBBBB;color:#BBBBBB;}
+span.spoiler:hover{color:#333333;}
+.u{text-decoration:underline;}
+.s{text-decoration:line-through;}
+.o{text-decoration:overline;}
+span.mod{color:#2266AA;}
+span.adm{color:#800080;}
+.locked{width:50%!important;margin:20px!important;text-align:center!important;background-color:#151515!important;border:1px solid #CCCCCC!important;}
+.msgheader{background-color:#CCCCCC!important;color:#FF6600!important;}
+.msg{background-color:#EEEEEE!important;color:#212121!important;font-size:.9em!important;}
+#oekaki-form select[name="oek_painter"],#oekaki-form input[type="text"]{margin-right:.7em;}
+.filesize img[alt="edit"]{border:0 none!important;}
+#webcam,#canvas{width:320px;border:1px solid transparent;background:#FFFFFF;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;-moz-box-shadow:
+inset 0 0 0 1px rgba(255,255,255,0.5),0 1px 3px rgba(0,0,0,0.1),0 0 0 1px rgba(0,0,0,0.05),0 3px 8px rgba(0,0,0,0.1);-webkit-box-shadow:
+inset 0 0 0 1px rgba(255,255,255,0.5),0 1px 3px rgba(0,0,0,0.1),0 0 0 1px rgba(0,0,0,0.05),0 3px 8px rgba(0,0,0,0.1);box-shadow:
+inset 0 0 0 1px rgba(255,255,255,0.5),0 1px 3px rgba(0,0,0,0.1),0 0 0 1px rgba(0,0,0,0.05),0 3px 8px rgba(0,0,0,0.1);padding:.4em;}
+#webcam{position:relative;margin-top:50px;margin-bottom:50px;}
+#webcam > span{z-index:2;position:absolute;color:#eee;font-size:10px;bottom:-16px;left:152px;}
+#webcam > img{z-index:1;position:absolute;border:0px none;padding:0px;bottom:-40px;left:89px;}
+#webcam > div{border:5px solid #333;position:absolute;right:-90px;padding:5px;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;cursor:pointer;}
+#webcam a{background:#fff;font-weight:bold;}
+#webcam a > img{border:0px none;}
+#anoniconsselectlist{padding:0 0 0 10px!important;}
+
+
+
+#adminbar {
+	display: none !important;
+}
+.postarea {
+	display: none !important;
+}
+
+.logo2 {
+	display: none !important;
+}
+.footer {
+	display: none !important;
+}
+
+.theader {
+	display: none !important;
+}
+.abupost {
+	display: none !important;
+}
+.turnmeoff {
+	display: none !important;
+}
+
+.post_video_pic {max-width: 100px !important; max-height: 100px !important;}
+.rekl {display: none !important;}
+.ABU_refmap {display: none !important;}
+
+.omittedposts {display: none !important;}
+
+.filetitle {display: none !important;}
+.postername {display: none !important;}
+.postertrip {display: none !important;}
+.mod {display: none !important;}
+.adm {display: none !important;}
+.posttime {display: none !important;}
+.reflink {display: none !important;}
+.replynomobile {display: none !important;}
+
+#boardNav {display: none;}
+
+div#boardNavMobile {
+		padding: 5px;
+
+		background-color: #ede4dc;
+
+		overflow: hidden;
+
+		border-bottom: 1px solid #dcc5b8;
+
+
+		position: fixed;
+		top: 0px;
+
+		width: 100%;
+		font-size: x-small;
+	}
+
+	div#boardNavMobile select, div#boardNavMobile option {
+		font-size: x-small;
+	}
+	
+
+/** GENERIC / ELEMENT STYLING **/
+	
+	img {
+		border: none;
+	}
+	
+	div.boardBanner {
+		margin-top: 40px!important;
+	}
+	
+	.mobile {
+		display: block!important;
+	}
+	
+	.mobileinline {
+		display: inline!important;
+	}
+	
+	span.replyTextM {
+		display: inline!important;
+	}
+	
+	.desktop {
+		display: none!important;
+	}
+	
+	.hideMobile {
+		display: none!important;
+	}
+	
+	div.board > hr {
+		border: none;
+		border-top: 1px solid #D9BFB7;
+		
+		height: 0;
+		
+		margin-top: 35px!important;
+		margin-bottom: 35px!important;
+	}
+	
+	hr.abovePostForm {
+		width: 90%;
+	}
+	
+	span.x-small {
+		font-size: x-small;
+	}
+	
+	/** Mobile Specific CSS **/
+	div.postLink {
+		background-color: #d3d3d3;
+		border-top: 1px solid #CCCCCC;
+		padding: 5px;
+		
+		overflow: hidden;
+		
+		margin: -5px;
+	}
+	
+	div.postLink span {
+		float: left;
+		font-size: 0.8em;
+		color: #666666;
+	}
+	
+	div.postLink a {
+		float: right;
+	}
+	
+	div.mobilePostFormToggle {
+		text-align: center;
+		
+		font-weight: bold;
+		
+		margin: 0 auto;
+		padding-top: 15px;
+		margin-top: 5px;
+	}
+	
+	div.mobilePostFormToggle div {
+		width: 300px;
+		background-color: #EA8;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border: 1px solid #800;
+		margin: 0 auto;
+	}
+	
+	 #delform img {
+		max-width: 100px !important;
+		max-height: 100px !important;
+		float: left !important;
+		margin-left: 0px!important;
+		margin-right: 5px!important;
+ 
+	}
+	
+ 
+	div.post div.file .FileThumb, div.post div.file div.fileInfo {
+		margin-left: 5px!important;
+		margin-right: 10px!important;
+	}
+	
+	div.sideArrows {
+		display: none;
+	}
+	
+	div.reply {
+	background: none repeat scroll 0 0 #DDDDDD;
+	}
+	
+	div.replyContainer {
+		border: 1px solid #CCCCCC!important;
+		
+		margin-top: 5px;
+		
+		background-color: #DDDDDD;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+	div.oppost {
+		padding: 5px;
+		
+		display: block;
+		overflow: hidden;
+		
+		background-color: #e6e6e6;
+		
+		border-top: 1px solid #CCCCCC!important;
+		border-bottom: 1px solid #CCCCCC!important;
+	}
+.post {
+    margin: 1px 10px !important;
+    overflow: hidden;
+}
+
+	td.reply {
+		padding: 5px;
+		
+		display: block;
+		overflow: hidden;
+		max-width: 500px;
+		background-color: #e6e6e6;
+		
+		border-top: 1px solid #CCCCCC!important;
+		border-bottom: 1px solid #CCCCCC!important;
+	}
+	
+	div.postInfoM {
+		overflow: hidden;
+	
+		border-bottom: 1px solid #d3d3d3;
+		background-color: #CCCCCC;
+		
+		padding: 5px;
+		
+		
+	}
+	
+ div.postInfoM span.postNum em:before {
+		content: "\2014";
+	}
+	
+ div.postInfoM span.postNum em a:first-child:before {
+		content: " ";
+	}
+	
+ div.postInfoM span.postNum em a:first-child:after {
+		content: " ";
+	}
+	
+ div.postInfoM span.postNum, div.postInfo span.postNum {
+		float: left;
+
+	}
+	
+ div.postInfoM span.postNum a, div.postInfo span.postNum a {
+		text-decoration: none;
+		color: #000000;
+		font-size: 0.9em;
+	}
+	
+
+	 div.postInfo span.reflink a {
+		font-size: 0.5em;
+		color: #800000;
+		font-weight: normal;
+		
+	}
+	
+ div.postInfoM span.postNum a:hover {
+		color: red;
+	}
+	
+	/* Name */
+ div.postInfoM span.nameBlock, div.postInfo span.nameBlock {	
+		display: inline;
+		float: left;
+    clear: left;
+	}
+	
+ div.postInfoM span.nameBlock span.name, div.postInfo span.nameBlock span.name {
+		font-size: 0.9em;
+	}
+	
+div.postInfoM span.nameBlock span.tripcode, div.postInfo span.nameBlock span.tripcode {
+		color: #117743;
+	font-size: 0.5em;
+	}
+	
+	
+	span.summary {
+		padding: 5px;
+		text-align: center;
+		display: block;
+		
+		background-color: #EAD6CA;
+		border-bottom: 1px solid #D9BFB7!important;
+		
+		color: #800;
+		
+		margin-top: 0px;
+		margin-bottom: 5px;
+		
+		font-weight: bold;
+	}
+
+	
+	div.thread {
+		border-top: none;
+		margin-top: 20px;
+	}
+	
+ div.oppost div.postInfo {
+    display: none !important;
+    width: 10%;
+}
+	
+	/* Date/Time */
+div.postInfoM span.dateTime {
+		float: right;
+		font-style: italic;
+		font-size: 0.9em;
+		text-align: right;
+		font-weight: normal;
+				display: inline;
+				clear: right;
+	}
+	
+	div.post div.postInfoM span.time {
+		
+	}
+	
+	div.post div.postInfoM span.subject {
+		color: #cc1105;
+		font-weight: bold;
+	}
+	
+	span.fileText {
+		font-weight: bold;
+	}
+	
+	div.replyContainer div.reply {
+		width: 100%;
+		
+		padding: 0px!important;
+		
+	}
+	
+	div.replyContainer div.post div.postInfo {
+		overflow: hidden;
+		
+		border-bottom: 1px solid #dcdcdc;
+		background-color: #CCCCCC;
+		
+		padding: 3px;
+		
+		
+		margin: 0px;
+	}
+	
+	div.replyContainer div.post div.postInfo input[type=checkbox] {
+		display: none;
+	}
+	
+	div.replyContainer div.post div.postInfo span.postNum {
+		
+		
+		font-style: italic;
+	}
+	
+	div.replyContainer div.post div.postInfo span.userInfo {
+		float: left;
+		padding-left: 5px;
+		font-size: 0.5em;
+	}
+	
+	div.replyContainer div.post div.postInfo span.nameBlock {
+		
+	}
+	
+	div.replyContainer div.post div.postInfo span.postNum a:first-child:after {
+		content: " ";
+	}
+	
+	div.replyContainer div.post div.postInfo span.postNum:before {
+		content: "\2014";
+	}
+	
+	div.replyContainer div.post div.postInfo span.dateTime {
+		float: right;
+		text-align: right;
+		font-size: 0.5em;
+		padding-right: 10px;
+		
+		font-style: italic;
+		font-weight: bold;
+	}
+	div.replyContainer div.post div.postInfo span.postername {
+		 
+		font-size: 0.5em;
+	 
+	}
+	
+	
+	
+	div.replyContainer div.post div.postInfo span.dateTime span.date {
+		display: block;
+	}
+	
+	div.thread > div:nth-of-type(2) > div.reply {
+		margin-top: 0px!important;
+	}
+	
+	div.replyContainer div.post div.fileInfo {
+		margin-left: 0px;
+	}
+	
+	div.replyContainer div.file {
+		padding: 5px;
+		margin: 0 auto;
+		display: block;
+	}
+	
+	div.mPagelist {
+		margin-top: 10px;
+		text-align: center;
+		
+		
+		border-bottom: 1px solid #D9BFB7;
+		
+		padding-bottom: 10px;
+		
+	}
+	
+	div.mPagelist > div.prev, div.mPagelist div.next {
+		margin: 10px;
+		display: inline-block;
+	}
+	
+	 
+	
+	.button {
+		border-radius: 3px;
+		padding:6px 10px 5px 10px;
+		font-weight: bold;
+		background-color: #DDDDDD;
+		border: 1px solid #CCCCCC;
+		user-select: none;
+	 
+		background-repeat: repeat-x;
+	background-image: url(http://2ch.so/images/buttonfade.png);
+		text-decoration: none;
+		color: #FF6600!important;
+	}
+	
+	
+	div.mPagelist span {
+		padding-left: 5px;
+		padding-right: 5px;
+		
+		font-size: larger;
+	}
+	.button:hover {
+		cursor: pointer;
+	}
+	
+	div.absBotText {
+		margin-top: 10px;
+	}
+	
+	div#boardNavMobile {
+		padding: 5px;
+		
+		background-color: #ede4dc;
+		
+		overflow: hidden;
+		
+		border-bottom: 1px solid #dcc5b8;
+		
+		
+		position: fixed;
+		top: 0px;
+		
+		width: 100%;
+		font-size: x-small;
+	}
+	
+	div#boardNavMobile select, div#boardNavMobile option {
+		font-size: x-small;
+	}
+	
+	div.boardSelect {
+		float: left;
+	}
+	
+	div.pageJump {
+		float: right;
+		padding-right: 10px;
+	}
+	
+	div.postingMode {
+		background-color: #e04000;
+		padding: 3px;
+		text-align: center;
+		
+		width: 300px;
+		margin: 0 auto;
+	}
+	
+	div.navLinks {
+	margin-bottom: 0px!important;
+		text-align: center;
+	}
+	
+	/** WP7 ADDITIONS **/
+	div.post div.postInfo span.postNum a {
+		text-decoration: none;
+		color: #800000;
+	}
+	
+
+	span.quote {
+		color: #789922;
+	}
+	
+	a.quoteLink {
+		color: navy!important;
+	}
+	
+	div.boardBanner {
+		text-align: center;
+		clear: both;
+	}
+	
+	div.boardBanner > img {
+		border: 1px solid #34345C;
+		
+		margin: 5px 0px 5px 0px;
+	}
+	
+	div.boardBanner > div.boardTitle {
+		font-family: Tahoma;
+		font-size: 28px;
+		font-weight: bold;
+		letter-spacing: -2px;
+		
+		margin-top: 0px;
+	}
+	
+	div.boardBanner > div.boardBlurb {
+		font-size: x-small;
+	}
+	
+	div.post div.file .FileThumb img {
+		border: none;
+		
+		
+	}
+	
+	span.subject {
+		display: block;
+		font-size: 1.1em;
+		font-weight: bold;
+	}
+	
+	hr {
+		border: none;
+		border-top: 1px solid #D9BFB7;
+		
+		height: 0;
+	}
+	
+.commentpostername {
+	font-weight: bold;
+}
+	
+.identityIcon {
+	margin-bottom: -3px;
+}
+.globalMessage {
+	color: red;
+	text-align: center;
+}
+
+.reply .identityIcon {
+	float: left;
+	margin-left: 3px;
+}
+.highlightPost {
+	background: #f0d6d6!important;
+}
+
+span.capcodeAdmin span.name, span.capcodeAdmin span.name a, span.capcodeAdmin span.postertrip, span.capcodeAdmin strong.capcode {
+	color: #F00!important;
+}
+
+span.capcodeMod span.name, span.capcodeMod span.name a, span.capcodeMod span.postertrip, span.capcodeMod strong.capcode {
+	color: #800080!important;
+}
+
+.omittedposts, .abbr {
+	color: #707070;
+}
+
+span.spoiler {
+	color: #000!important;
+	background: #000!important;
+}
+
+span.spoiler:hover {
+	color: #fff!important;
+}
+
+
+table.exif {
+	min-width: 450px;
+}
+
+table.exif td {
+	color: #707070;
+	min-width: 150px;
+	font-size: 8pt;
+}
+
+table.exif td b {
+	text-decoration: underline;
+}
+
+	
+	
