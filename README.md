@@ -31,6 +31,10 @@ c99194853094755497@gmail.com/@3409933
 
 See [Structure/Beliefs](./structure-beliefs/README.md)
 
+## IRC Logs
+
+See [IRC Logs](./irc-logs)
+
 ## Timeline
 
 **2006 (Possibly not Cicada but similar style with claims from other solvers)**
