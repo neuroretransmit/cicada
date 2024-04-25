@@ -1,0 +1,125 @@
+﻿html,body{background:scroll #211F1A url('/icons/muon_bg.jpg') repeat;color:#9B8165;font-family:Verdana,sans-serif;font-size:1em}
+form{font-size:0.9em}
+a,#adminbar ul.menu ul li a,.rmenu a{color:#FFD97A!important;text-decoration:none;padding:0px;-o-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-webkit-transition:all 0.5s ease;transition:all 0.3s ease}
+a:hover,#adminbar ul.menu ul li a:hover,.rmenu a:hover{color:#FCE236!important;text-shadow:#FCE236 0px 0px 10px}
+#adminbar ul.menu ul li a{text-decoration:underline;padding:0 2px}
+.adminbar{text-align:right;background:inherit;clear:both;float:right;line-height:17px;font-size:0.8em}
+.adminbar a{font-weight:normal;color:#B5935F!important}
+.logo{clear:both;text-align:left;font-size:2em;font-weight:bold;color:#ECCA74}
+.logo2{text-align:center}
+.theader,.passvalid{background:url('/icons/muon_inputs.jpg') #161616;text-align:center;padding:2px;color:#757575;clear:both;font-weight:bold;margin:.5em 0;border:solid 1px #9B8165;box-shadow:0 0 4px rgba(155,129,101,0.7);border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px}
+.postarea{font-size:0.9em}
+.rules{font-size:0.8em}
+.postblock,.form-tbl p{background:transparent;color:#5E5E5E!important;font-weight:bold}
+#dynamicNamed{margin-right:0.5em;padding:0.1em 0.2em}
+.footer{text-align:center;font-size:12px;font-family:serif;margin:2em 0 0 0}
+.footer a{color:#9B8165!important}
+.dellist{font-weight:bold;text-align:center}
+.delbuttons{text-align:center;padding-bottom:4px}
+.managehead{background:#9B8165;color:#000000;font-family:sans-serif;font-size:14px;padding:0px}
+.postlists{background:#FFFFFF;width:100%;padding:0px;color:#000000}
+.row1{background:#B5935F;font-family:sans-serif;font-size:12px;color:#000000}
+.row2{background:#ECCA74;font-family:sans-serif;font-size:12px;color:#000000}
+.row1 a,.row2 a{color:#115011!important}
+.row1 a:hover,.row2 a:hover{text-shadow:none}
+.unkfunc{background:inherit;color:#C1B387}
+.reflink{font-size:85%;font-weight:bold}
+.filesize{text-decoration:none;color:#5E5E5E;font-size:.8em}
+.filesize a{margin:0 .5em!important}
+.filetitle{background:inherit;font-size:1.2em;color:#FFC17B;font-weight:bold}
+hr{height:3px;border:0!important;background:url('/icons/muon_line.png') center no-repeat;background-size:100% 100%;-moz-background-size:100% 100%}
+a.highslide img{visibility:hidden;width:1px!important}
+a.highslide:before{content:url('/icons/inc_neut.png')!important;visibility:visible!important;position:relative!important;top:2px!important}
+.highslide-loading{background-color:#212121!important;border:1px dotted black!important}
+.postername,.commentpostername{color:#9B8165;font-weight:bold}
+.postertrip{color:#896541;font-weight:bold}
+.oldpost,.notabene{font-family:serif;color:#0F0C5D;font-weight:bold}
+.omittedposts{color:#896640}
+.reply{color:#C6985C;background:url('/icons/muon_posts.jpg') #292825;border:solid 1px #34352D;margin:5px 5px;padding:1px 2px 6px 2px;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-moz-box-shadow:0px 0px 12px rgba(0,0,0,0.3);-webkit-box-shadow:0px 0px 12px rgba(0,0,0,0.3);box-shadow:0px 0px 12px #161616}
+blockquote{margin:.5em .5em .5em 1em;line-height:1.3em}
+.reply blockquote{margin:.5em}
+.doubledash{display:none; vertical-align:top;clear:both;float:left}
+.replytitle{font-size:1.2em;color:#FFC17B;font-weight:bold}
+.thumbnailmsg{font-size:.6em;color:#666666}
+table{border-style:none}
+table td{border-style:none}
+.nothumb{background:url('/icons/muon_inputs.jpg') #3E3C38;border:1px #666666 dashed;margin:.3em .5em}
+.abbrev{color:#666666}
+.highlight{color:#C6985C;background:#292825 url('/icons/muon_posts.jpg');border:2px dashed #725B48;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;margin:5px 5px;padding:1px 2px 3px 2px;-moz-box-shadow:0px 0px 12px rgba(0,0,0,0.3);-webkit-box-shadow:0px 0px 12px rgba(0,0,0,0.3);box-shadow:0px 0px 12px #161616}
+.extrafunctions{color:#800000}
+dl.menu dt{background:url('/icons/muon_inputs.jpg') #3E3C38;color:#757575;border:solid 1px #CCCCCC;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;margin-top:1em;padding-left:.5em;cursor:pointer}
+dl.menu dd{margin-left:.5em;padding-left:.5em;border-left:solid 1px #CCCCCC}
+dl.menu dd.hidden{display:none}
+p.spoiler > span.warning{color:#FF6600;font-weight:bolder}
+span.spoiler{background:#454545;color:#454545;opacity:.5}
+.spoiler a{color:#454545!important}
+span.spoiler:hover{color:#AEAEAE;opacity:1}
+.spoiler:hover a{color:#FCE236!important}
+.u{text-decoration:underline}
+.s{text-decoration:line-through}
+.o{text-decoration:overline}
+span.mod{color:#FFAB3F!important}
+span.adm{color:#EE0000!important}
+.locked{width:50%!important;margin:20px!important;text-align:center!important;background-color:#151515!important;border:1px solid #242424!important;-moz-box-shadow:rgba(155,129,101,0.7) -1px -1px 1em,rgba(155,129,101,0.7) 1px 1px 2em!important;-webkit-box-shadow:rgba(155,129,101,0.7) -1px -1px 1em,rgba(155,129,101,0.7) 1px 1px 2em!important;box-shadow:rgba(155,129,101,0.7) -1px -1px 1em,rgba(155,129,101,0.7) 1px 1px 2em!important}
+.msgheader{background-color:#242424!important;color:#757575!important}
+.msg{background-color:#333333!important;color:#FEC77D!important;font-size:.9em!important}
+.abupost{color:#857070!important}
+select,textarea,input[type="text"],input[type="file"],input[type="password"],input[name="snum"],#anoniconsselectlist{color:#FEC77D!important;background:#3E3C38 url('/icons/muon_inputs.jpg');border:1px solid #44453D!important;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-o-transition:all 0.3s ease;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}
+select:hover,textarea:hover,input[type="text"]:hover,input[type="file"]:hover,input[type="password"]:hover,input[name="snum"]:hover,#anoniconsselectlist{border:1px solid #5B5347!important}
+select:focus,textarea:focus,input[type="text"]:focus,input[type="file"]:focus,input[type="password"]:focus,input[name="snum"]:focus{box-shadow:0 0 4px rgba(155,129,101,0.7)}
+#postform td {padding-bottom:.5em!important}
+select,textarea,input[type="text"],input[type="file"],input[type="password"],input[name="snum"],#anoniconsselectlist {padding-left:.4em!important}
+textarea,input[type="text"],input[type="file"],input[type="password"],input[name="snum"] {padding-right:.4em!important}
+hr + hr{display:none}
+#adminbar + hr {display: none}
+.postMessage{margin-bottom:0px!important}
+.logo img,#title {float:left;clear:both}
+#title {margin:.25em 0 .25em 1em}
+.logo img {margin:.25em 0 0 .5em}
+a.postbtn_hide{background-image:url("data:image/gif;base64,R0lGODlhDgAOAIQfAIdvVYdvVohvVYdwVYhwVYhwVo1yU41yVIxzU4xzVI1zU41zVJJ1UpJ1U5N1UpN1U5J2UpJ2U5d4UZd4Uph4UZd5UZh5UZ17UJ17UZ57UJ18UKJ+UKN+T6N+UP/ZepuBZSH+EUNyZWF0ZWQgd2l0aCBHSU1QACH5BAEKAB8ALAAAAAAOAA4AAAWJ4DcAYwEQ5CAIH7Ach6HMS30sgJAwjvMwQMbDsUAZIhQJxSKpUCiQg8DFkGCulwumElEAXA0LZsPpcC4ViGJqaHje8DdjMU244/BGUbCIVDAcgRsYFhE4fAwUGFkYGRoUczkLYRYWE5UVFg90iBANDREOPENeAAgLNKgwNwcALSgBUwIEAgO2HyEAOw==")!important}
+a.postbtn_rep{background-image:url("data:image/gif;base64,R0lGODlhDgAOAIQcAIdvVYdvVohvVYdwVYhwVYhwVo1yU41yVIxzU4xzVI1zU41zVJJ1UpJ1U5N1UpN1U5J2UpJ2U5d4UZd4Uph4UZd5UZh5UZ17UJ17UZ57UJ18UP/ZepuBZZuBZZuBZZuBZSH+EUNyZWF0ZWQgd2l0aCBHSU1QACH5BAEKAB8ALAAAAAAOAA4AAAV94DcAYwEQ5CAIH7Ach6HMS30sgJAwjvMwQMbDsUAZIpTNxiKpUCiQg8DFkCiVF0wlogC4GpbrtQJRTA1g8ZWxmCYaE7WyURQsIhW5JYKzM5JXGRoUbDkLaRsTFhYVFg9tfhANDREOPENdAAgLNJwwNwcALSgBUwIEAgOqHyEAOw==")!important}
+a.postbtn_expall{background-image:url("data:image/gif;base64,R0lGODlhDgAOAMZDAIhvVIhwVIhwVYhxVYhxVolxVYlxVopxVYlyVYpyVYpyVotyVYxzVYxzVox0Vox0V410V411V451Vo51V491Vo91V492V492WJB3V5B3WJF4V5J5WJN6WJR7WZV7WJV7WZZ8WZd9WZd9Wpd+Wph+WZl+Wph/WZuBWpuBW5yBW5yCW56DW56EXJ+EXKCFW6CFXKGFW6GGXKGGXaKGXKKGXaSIXaWKXaaKXqeLXqiLX6eMXqiMXqiMX6mMX6qOYKuOX6uPX66SYP/Zev///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////yH5BAEKAH8ALAAAAAAOAA4AAAetgH8CgwIEChAYHSAdGH8DBQUHCQsSGyQrQishGAsNERMXGRwlMjtCOCsdFRsfICImKTJCs7MgHycrLzA0NTo/QUI5qSi0xUA9Qi0jGJg8ODc5PqcyKiAaDi+nNTI1PEI1Kh4WDAfZNjEtMzdCMSYZDwUC2TjbNThCLyAWCgIAzc84vLH4IAHBIGLFZqHY0MBAAAG3Vrh44WLFiQ8UFgwY9IcViI8fNlRgEE/An0AAOw==")!important}
+a.postbtn_exp{background-image:url("data:image/gif;base64,R0lGODlhDgAOAIQeAIdvVYdvVohvVYdwVYhwVYhwVo1yU41yVIxzU4xzVI1zU41zVJJ1UpJ1U5N1UpN1U5J2UpJ2U5d4UZd4Uph4UZd5UZh5UZ17UJ17UZ18UaJ+T6J+UKN+T//ZepuBZZuBZSH+EUNyZWF0ZWQgd2l0aCBHSU1QACH5BAEKAB8ALAAAAAAOAA4AAAWC4DcAYwEQ5CAIH7Ach6HMS30sgJAwjvN0HQbj4VigDBGKBAikUCAHgYuxZAIrEQXA1bBgNkDOpQJRSA1djCZ8sTAW0kRjcuGEM5KGUbCIVDB2HRsYFhE4fAwUVk1vOQtdFlYVFg9wiBANDUA8RFoACAs0oTA3BwAtKAFSAgQCA68fIQA7")!important}
+a.postbtn_adm{background-image:url("data:image/gif;base64,R0lGODlhDgAOAIQcAIdvVYdvVohvVYdwVYhwVYhwVo1yU41yVIxzU4xzVI1zU41zVJJ1UpJ1U5N1UpN1U5J2UpJ2U5d4UZd4Uph4UZd5UZh5UZ17UJ17UZ18UJ18Uf/ZepuBZZuBZZuBZZuBZSH+EUNyZWF0ZWQgd2l0aCBHSU1QACH5BAEKAB8ALAAAAAAOAA4AAAWA4DcAYwEQ5CAIH7Ach6HMS30sgJAwjrP9G8bDsUAZIhQJcEOhQA4CF0OCqV4umEpEAXA1LJjlpQJRRA3fMPBiYSyiicbkstRIGkXBIlJR/zAWETh6DBR+GxkUbjkLXxZLFRYPb4QQDQ0/PENcAAgLNJ8wNwcALSgBUQIEAgOtHyEAOw==")!important}
+#ABU_select{border:solid 1px #9B8165!important;box-shadow:0 0 4px rgba(155,129,101,1);background:#3E3C38 url('/icons/muon_inputs.jpg')}
+#ABU_select a{-o-transition:none;-moz-transition:none;-webkit-transition:none;transition:none}
+#ABU_select a:hover{color:#FFD97A!important;text-shadow:none;background:url('/icons/muon_posts.jpg') #292825!important}
+#ABU_select a:hover:first-child{border-radius:5px 5px 0 0}
+#ABU_select a:hover:last-child{border-radius:0 0 5px 5px}
+span[id*="ABU_hiddenthr"]{border:solid 1px #34352D!important}
+#ABU_alert_wait{border:solid 1px #34352D!important;background:#292825!important;-o-transition:all 05s ease;-moz-transition:all 0.5s ease;-webkit-transition:all 0.5s ease;transition:all 0.5s ease}
+#ABU_alert {border-color:#C6985C!important}
+div[id*="preview_"]{border:solid 1px #34352D!important}
+div[style="float:right; margin:0 0 0.5em 0;"]{float:left!important}
+body.replypage{counter-reset:postcount;counter-increment:postcount}
+body.replypage td.reply .reflink:before{counter-increment:postcount;content:"#" counter(postcount) " ";color:#789922!important;font-weight:normal!important;margin-right:1em;}
+a[href="mailto:sage"],a[href="mailto:Sage"],a[href="mailto:SAGE"]{color:#AA0000!important}
+a[href="mailto:sage"]:hover,a[href="mailto:Sage"]:hover,a[href="mailto:SAGE"]:hover{text-shadow:none}
+a[href="mailto:sage"]:before,a[href="mailto:Sage"]:before,a[href="mailto:SAGE"]:before{content:url('/icons/sage.png')!important}
+::-moz-selection{background:#FEC77D!important;color:#111111!important}
+::selection{background:#FEC77D!important;color:#111111!important}
+pre,code{white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word;overflow:auto!important;max-width:80em!important;display:block!important}
+.rekl a[href*="kopipasta.ru"] img{visibility:hidden;width:1px!important}
+.rekl a[href*="kopipasta.ru"]:before{content:url('/icons/kopipasta_alt.png')!important;visibility:visible!important}
+.rekl a[href*="lulzne.ws"] img{visibility:hidden;width:1px!important}
+.rekl a[href*="lulzne.ws"]:before{content:url('/icons/lulznews_alt.png')!important;visibility:visible!important}
+.rekl a[href*="makeyourmeme.ru"] img{visibility:hidden;width:1px!important}
+.rekl a[href*="makeyourmeme.ru"]:before{content:url('/icons/mym_alt.png')!important;visibility:visible!important}
+input[type="submit"],input[type="reset"],.buttons input[type="button"]{-o-appearance:none!important;-webkit-appearance:none!important;-moz-appearance:none!important;appearance:none!important;background-color:#333333!important;background-image:-moz-linear-gradient(center top,#4A4A4A,#292929,#4A4A4A)!important;background-image:-o-linear-gradient(rgb(74,74,74),rgb(41,41,41),rgb(74,74,74))!important;background-image:-webkit-gradient(linear,center top,center bottom,from(#4A4A4A),color-stop(25%,#313131),color-stop(50%,#292929),color-stop(75%,#313131),to(#4A4A4A))!important;-webkit-border-radius:5px!important;-moz-border-radius:5px!important;border-radius:5px!important;border-bottom:1px solid #151515!important;border-top:1px solid #151515!important;border-left:1px solid #000000!important;border-right:1px solid #000000!important;color:#AAAAAA!important;font-weight:bold!important}
+input[type="submit"]:hover,input[type="reset"]:hover,.buttons input[type="button"]:hover{background-color:#212121!important;background-image:-moz-linear-gradient(center top,#151515,#505050,#151515)!important;background-image:-o-linear-gradient(rgb(21,21,21),rgb(80,80,80),rgb(21,21,21))!important;background-image:-webkit-gradient(linear,center top,center bottom,from(#151515),color-stop(25%,#222222),color-stop(50%,#505050),color-stop(75%,#222222),to(#151515))!important;border:1px solid #9B8165!important;color:#FFFFCC!important;box-shadow:inset 0 0 4px 1px  #9B8165}
+font[color*="2267"] em{color:#EE0000!important;font-weight:bold}
+#oekaki-form select[name="oek_painter"],#oekaki-form input[type="text"]{margin-right:.7em}
+.filesize img[alt="edit"]{border:0 none!important}
+.markup{opacity: 0}
+.m_bold,.m_italic,.m_quote,.m_underline,.m_overline,.m_spoiler,.m_strike,.m_sup,.m_sub,.m_hidden{height:27px;width:27px;display:inline-block}
+.m_spoiler,.m_hidden{width:41px!important}
+.m_bold{background: url("/icons/markup_buttons/muon/bold.png")}
+.m_italic{background: url("/icons/markup_buttons/muon/italic.png")}
+.m_quote{background: url("/icons/markup_buttons/muon/quote1.png")}
+.m_underline{background: url("/icons/markup_buttons/muon/underline.png")}
+.m_overline{background: url("/icons/markup_buttons/muon/overline.png")}
+.m_spoiler{background: url("/icons/markup_buttons/muon/spoiler.png")}
+.m_strike{background: url("/icons/markup_buttons/muon/strike.png")}
+.m_sup{background: url("/icons/markup_buttons/muon/sup.png")}
+.m_sub{background: url("/icons/markup_buttons/muon/sub.png")}
+.m_hidden{background: url("/icons/markup_buttons/muon/hide.png")}

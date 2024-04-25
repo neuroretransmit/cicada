@@ -1,0 +1,82 @@
+/* ::::: http://2ch.so/test/js/wakaba_ext.css ::::: */
+
+blockquote { max-height: 400px; overflow: auto; line-height: 19px; }
+.postpanel { margin-left: 4px; font-size: 13px; }
+.postbtn_hide, .postbtn_rep, .postbtn_exp, .postbtn_adm { outline: medium none; cursor: pointer; margin: 0pt 4px 0pt 0pt; padding: 0pt 14px 0pt 0pt; }
+.postbtn_hide { background: url('undefined') no-repeat scroll 0% 0% transparent; }
+.postbtn_rep { background: url('undefined') no-repeat scroll 0% 0% transparent; }
+.postbtn_exp { background: url('undefined') no-repeat scroll 0% 0% transparent; }
+.postbtn_adm { background: url('undefined') no-repeat scroll 0% 0% transparent; }
+.ABU_refmap { font-size: 70%; font-style: italic; margin: 10px 4px 4px; white-space: pre-wrap; word-wrap: break-word; }
+#ABU_alertbox { position: fixed; top: 0pt; right: 0pt; z-index: 9999; cursor: default; font: 14px sans-serif; }
+/* ::::: http://2ch.so/test/js/template_css.css ::::: */
+
+body { margin: 0pt 0pt auto; padding: 8px; }
+form { margin-bottom: 0px; }
+form .trap { display: none; }
+.postarea { text-align: center; }
+.postarea table { margin: 0px auto; text-align: left; }
+.img { border: medium none; float: left; margin: 2px 20px; }
+.reflink a { color: inherit; text-decoration: none; }
+.reply .filesize { margin-left: 20px; }
+.userdelete { float: right; text-align: center; white-space: nowrap; }
+.s { text-decoration: line-through; }
+#adminbar li a, body {  }
+#adminbar { width: 99%; position: relative; font-family: arial,sans-serif; z-index: 100; float: left; }
+#adminbar { margin-bottom: 5px; }
+#adminbar ul.menu { padding: 0pt; margin: 0pt; list-style: none outside none; }
+#adminbar ul.menu ul { padding: 0pt; margin: 0pt; list-style: none outside none; font-size: 0.8em; }
+#adminbar ul.menu ul li { display: inline-block; line-height: 15px; }
+#adminbar ul.menu ul li a { display: inline-block; line-height: 15px; color: rgb(255, 102, 0); padding: 0pt 2px; font-size: 13px; }
+#adminbar ul.menu ul li a:visited { color: rgb(255, 102, 0); }
+#adminbar ul.menu ul li a:hover { white-space: nowrap; color: rgb(0, 102, 255); }
+.rmenu { padding: 0pt; margin: 0pt; font-size: 0.8em; }
+.rmenu a { display: inline-block; color: rgb(255, 102, 0); }
+.rmenu a:visited { color: rgb(255, 102, 0); }
+.rmenu a:hover { white-space: nowrap; color: rgb(0, 102, 255); }
+.rmenu span.nowrap { display: inline-block; padding: 0pt 0pt 5px; }
+.abupost { color: red; font-size: 0.9em; text-align: center; }
+.form-tbl { margin: 0pt; padding: 0pt; border: 0pt none; outline: 0pt none; vertical-align: baseline; background: none repeat scroll 0% 0% transparent; font-size: 100%; }
+a { margin: 0pt; padding: 0pt; font-size: 100%; vertical-align: baseline; background: none repeat scroll 0% 0% transparent; }
+div .superreply { margin: 0px 0px 0px 20px; display: inline-block; }
+td, td img { vertical-align: top; }
+input[type="text"], input[type="password"], textarea { padding: 0pt; }
+input[type="checkbox"] { vertical-align: bottom; }
+html { overflow-y: scroll; }
+label, input[type="button"], input[type="submit"], button { cursor: pointer; }
+.form-tbl td { padding: 0pt 20px 0pt 0pt; }
+.form-tbl p { font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(0, 0, 0); padding: 0pt 0pt 3px; margin: 0pt; font-weight: bold; }
+.form-tbl td .inp:not(select) { width: 220px; height: 23px; line-height: 23px; border: 1px solid rgb(202, 202, 202); padding: 0pt 10px; margin: 0pt 0pt 10px; color: rgb(133, 133, 133); }
+.form-tbl td .inp-1 { width: 320px; }
+.form-tbl td .but { width: 137px; height: 25px; padding: 0pt; margin: 0px 0pt 10px; border: medium none; cursor: pointer; background: url('but.jpg') no-repeat scroll left top transparent; }
+.form-tbl td textarea { width: 485px; height: 95px; padding: 5px; border: 1px solid rgb(202, 202, 202); margin: 0pt 0pt 10px; }
+.form-tbl td .but { color: transparent; }
+#hideUserFlds { color: rgb(133, 133, 133); font-size: 11px; }
+#hideRules { color: rgb(133, 133, 133); font-size: 11px; }
+/* ::::: http://2ch.so/css/Photon.css ::::: */
+
+html, body { background-color: rgb(238, 238, 238); color: rgb(51, 51, 51); font-family: Verdana,sans-serif; font-size: 1em; }
+form { font-size: 0.9em; }
+a { color: rgb(255, 102, 0); padding: 0px; }
+a:hover { color: rgb(0, 102, 255); }
+.logo { clear: both; text-align: left; font-size: 2em; font-weight: bold; color: rgb(255, 102, 0); }
+.logo2 { text-align: center; }
+.theader, .passvalid { background: none repeat scroll 0% 0% rgb(221, 221, 221); text-align: center; color: rgb(255, 102, 0); clear: both; font-weight: bold; border: 1px solid rgb(204, 204, 204); border-radius: 5px 5px 5px 5px; }
+.postarea { font-size: 0.9em; }
+.rules { font-size: 0.9em; }
+.footer { text-align: center; font-size: 12px; font-family: serif; margin: 2em 0pt 0pt; }
+.unkfunc { background: inherit; color: rgb(120, 153, 34); }
+.reflink { font-size: 85%; font-weight: bold; }
+.filesize { text-decoration: none; color: rgb(102, 102, 102); font-size: 0.8em; }
+.filetitle { background: inherit; font-size: 1.2em; color: rgb(0, 34, 68); font-weight: bold; }
+.postertrip { color: rgb(34, 136, 84); }
+.reply { background: none repeat scroll 0% 0% rgb(221, 221, 221); border: 1px solid rgb(204, 204, 204); padding: 0pt; margin: 0pt; border-radius: 5px 5px 5px 5px; }
+blockquote { display: block; margin: 0pt 40px; }
+.replytitle { font-size: 1.2em; color: rgb(0, 34, 68); font-weight: bold; }
+.thumbnailmsg { font-size: 0.6em; color: rgb(102, 102, 102); }
+hr { border-style: solid none none; border-width: 1px; border-color: rgb(187, 187, 187); }
+table { border-style: none; }
+table td { border-style: none; }
+span.spoiler { background: none repeat scroll 0% 0% rgb(187, 187, 187); color: rgb(187, 187, 187); }
+span.spoiler:hover { color: rgb(51, 51, 51); }
+.s { text-decoration: line-through; }

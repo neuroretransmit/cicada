@@ -35,7 +35,11 @@ See [Structure/Beliefs](./structure-beliefs/README.md)
 
 **2006 (Possibly not Cicada but similar style with claims from other solvers)**
 
-- [4chan_before_cicada](./leads/4chan_before_cicada/README.md)
+- [rarpng](./leads/4chan_before_cicada/README.md)
+
+**2011 (Possibly not Cicada but posts signed 3301)**
+
+- [2ch.hk/sn](./leads/sn_archive/README.md)
 
 **2012**
 
