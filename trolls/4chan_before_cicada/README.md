@@ -1,10 +1,22 @@
 # 4chan post before Cicada
 
-This is a summary of a post that is largely believed to be the first 3301 post prior to Cicada 3301 puzzle launch in 2012. The password is unknown but a solver in the cicadasolvers Discord said they solved it long ago by getting  password from the zlib upon binwalk extraction. I haven't been unable to reproduce this. The key for Cicada was created outside of this time frame so don't let that deter the possibility of this in your mind.
+Some solvers believed this was Cicada related due to "THE KEY IS ALL AROUND YOU". It is not. Don't spin your gears, it's a huge troll and don't let anyone in IRC/Discord tell you differently.
+
+[Original thread](http://web.archive.org/web/20240425200634/https://old.sage.moe/b/thread/16979236/)
 
 ## Image
 
 ![H99kXge.png](H99kXge.png)
+
+## Solving
+
+There is a RAR appended to the PNG that is password protected - the password is...
+
+>! `/b/isfullofweeaboofaggotswhowillfallforanything`
+
+This results in `the next step` which is also a PNG.
+
+>! ![the next step](the next step)
 
 ## Relevant web pages
 
@@ -44,20 +56,3 @@ and 2006 not 2008, sorry
 *
 It'll be inside the zlib
 ```
-
-## Folder Contents
-
-- `Parsed Wordlists*` - wordlists I have thrown at the RAR
-- _1430824148833.png.extracted - binwalk extracted contents of one of the 4chan post images
-- _H99kXge.png.extracted - binwalk extracted contents of the image in question
-- stegoVeritas - output of stegoVeritas run/color planes
-- [1430824148833.png](1430824148833.png) - image from one of the 4chan posts
-- [H99kXge.png](H99kXge.png) - image in question
-- [crack.py](crack.py) - attempting to use the inverse of the pieces of the original message from one of the 4chan posts
-- [dictionary_attack.sh](dictionary_attack.sh) - attempts to unrar with wordlists
-- [errors-in-text.txt](errors-in-text.txt) - random notes on identified errors
-- [hash.txt](hash.txt) - rar2john extracted hash
-- [history.txt](history.txt) - summary of notes
-- [trailing.rar](trailing.rar) - the appended rar file
-- [transcription.txt](transcription.txt) - transcription of image in question
-- [wordlist.py](wordlist.py) - random script I grabbed to generate wordlist
