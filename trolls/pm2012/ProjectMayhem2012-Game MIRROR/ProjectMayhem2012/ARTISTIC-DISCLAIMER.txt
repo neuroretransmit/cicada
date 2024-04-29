@@ -1,0 +1,686 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+﻿
+
+
+
+<!--
+The Secret is there is NO Secret.
+- -->
+
+<!--
+ALL contents, artwork, software and ideas submitted and released by PM2012,
+including these files, are released into the Public Domain.
+http://en.wikipedia.org/wiki/Public_domain
+
+Have we enrichened your life if only a little beet?
+
+Feeling grateful and wanna say 'Thank You!'?
+
+ALL donations will be put towards keeping Project Mayhem 2012 strong.
+PM2012 team Bitcoin: 1PQFLihJDNC8axSPS3qWFmvd9eKyD4YfvC
+- -->
+
+<!--
+"Art is now the only evolutionary-revolutionary power.
+Only art is capable of dismantling the repressive social system to build
+a SOCIAL ORGANISM AS A WORK OF ART."
+Joseph Beuys, 1921-1986
+- -->
+
+<!--
+
+*******************************************************
+*******************************************************
+*****                                             *****
+*****   ARTISTIC Disclaimer in CAPITAL LETTERS:   *****
+*****                                             *****
+*******************************************************
+*******************************************************
+
+PM2012, as *** A SOCIAL SCULPTURE OF PANIC ART *** is
+SUPPORTED BY NOBEL PRIZE FINALIST FERNANDO ARRABAL.
+
+CURRICULUM VITAE OF FERNANDO ARRABAL by Ante Glibota:
+WHO'S WHO IN THE WORLD 2000 17th Edition:
+http://www.arrabal.org/cure.html
+
+By many estimates, Arrabal is probably
+THE MOST PERFORMED LIVING DRAMATIC AUTHOR WORLDWIDE.
+
+How and Where has Fernando Arrabal shown his support
+for Project Mayhem 2012 as a Social Sculpture of Panic Art?
+
+At his personal blog.
+
+HERE:
+
+…ἀνάγκη … desperados…rats d’égout… autre arrabalesque… Project Mayhem 2012…
+http://laregledujeu.org/arrabal/2011/09/05/2643
+
+http://en.wikipedia.org/wiki/Fernando_Arrabal
+http://en.wikipedia.org/wiki/Panic_Movement
+http://en.wikipedia.org/wiki/Pan_(god)
+
+- -->
+
+<!--
+DISCLAIMER:
+*************************************************************************
+*************************************************************************
+***         WE, PM2012 team members and PM2012 mirror owners          ***
+***          TOTALLY REFUSE TO SUPPORT ANY KIND OF VIOLENT            ***
+***   AND/OR ILLEGAL ACTIONS TOWARDS ACHIEVING *ANY* KIND OF GOALS.   ***
+*************************************************************************
+*************************************************************************
+
+************************************************************************************
+************************************************************************************
+*** IF YOU INTERPRET *** ANYTHING *** YOU READ ON THE FOLLOWING PAGES AS         ***
+*** BEING ILLEGAL/forbidden IN YOUR COUNTRY or in your local jurisdiction, then  ***
+***              DO NOT DO IT | DO NOT DO IT | DO NOT DO IT                      *** 
+************************************************************************************
+************************************************************************************
+
+Also,
+
+|=-----------------------------------------------------------------------=|
+|=-----------------------------------------------------------------------=|
+|=--------=[                                                   ]=--------=|
+|=--------=[  « Never do anything against Conscience even      ]=--------=|
+|=--------=[    if the State demands it. »                     ]=--------=|
+|=--------=[                                Albert Einstein    ]=--------=|
+|=-----------------------------------------------------------------------=|
+|=-----------------------------------------------------------------------=|
+- -->
+
+And always,
+
+Remember: we will NEVER ever suggest you to do anything ILLEGAL and/or anything against your own Consciousness.
+Remember: we will NEVER ever DO anything ILLEGAL and/or against our own Consciousness.
+
+http://projectmayhem2012.org/00README-001.txt
+
+***************************************************************************************
+***   We LIVE by these words and WE TOTALLY REFUSE TO SUPPORT ANY KIND OF VIOLENT   ***
+***   AND/OR ILLEGAL ACTIONS TOWARDS ACHIEVING ANY KIND OF GOALS.                   ***
+***************************************************************************************
+
+If some entity wants to link Project Mayhem 2012 with calling for illegal deeds to be committed,
+then KNOW that they are simply DISINFORMING you.
+ 
+ALWAYS demand that "journalists" or other corporate/governmental institutions
+PROVE their assertions about PM2012 and back them up with FACTUAL DATA
+found inside the cryptographically signed -for, if it is not cryptographicall signed
+with the PM2012 team key, it is NOT ours- literature found at Project Mayhem 2012 site,
+for they will find NONE.
+
+Each object served by PM2012 has got an associated cryptographic signature: a .sig file.
+Append that to the end of the filename to cryptographically verify its authenticity and integrity.
+
+i.e.: 
+
+http://projectmayhem2012.org/hivemind10001001.gif -> http://projectmayhem2012.org/hivemind10001001.gif.sig
+http://projectmayhem2012.org/hivemind11001010010.html -> http://projectmayhem2012.org/hivemind11001010010.html.sig
+
+If it hasn't got an .sig that correctly verifies with the PM2012 public key,
+then the file has either been corrupted on download or it's been forged or it simply is NOT coming from PM2012 team.
+ 
+PM2012 GnuPG public key: http://projectmayhem2012.org/pm2012-publickey.asc
+
+pm2012-publickey.asc backup: http://pastebin.com/LFB7LywF
+
+pub   4096R/C085EDF7 2011-08-01 [valid until: 2012-12-21]
+Fingerprint: 4FF0 9759 2A91 DFBF A8B3  66FF B9EA 8E8E C085 EDF7
+sub   4096R/7E78969A 2011-08-01 [valid until: 2012-12-21]
+
+- -----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1.6.18 (MindH23)
+
+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
++Ieu0w==
+=ov96
+- -----END PGP PUBLIC KEY BLOCK-----
+
+- -->
+
+<!--
+********************************
+***** ARTISTIC DISCLAIMER: *****
+********************************
+
+***********************
+***                 ***
+*** We are *** FAKE ***
+***     REPEAT      ***
+*** We are *** FAKE ***
+***                 ***
+*** it's ONLY ART   ***
+***     REPEAT      ***
+***                 ***
+*** it's ONLY ART   ***
+***     REPEAT      ***
+***                 ***
+*** INOFFENSIVE ART ***
+***     REPEAT      ***
+***                 ***
+*** INOFFENSIVE ART ***
+***                 ***
+***  DO NOT BELIEVE ***
+***   ANYTHING YOU  ***
+***   READ @PM2012  ***
+***    FOR IT IS    ***
+***  TOTALLY FAKE   ***
+***                 ***
+*** ALL PM2012 IS   ***
+*** MEANT AS A JOKE ***
+***                 ***
+*** INNOCENT JOKE!  ***
+*** INNOFENSIVE JOKE!**
+*** INNOCENT JOKE!  ***
+*** INNOFENSIVE JOKE!**
+***                 ***
+***********************
+
+N01ZᴚƎVNI
+REI UNIUS
+ᴚƎI VN10Z
+VNIᴚƎZ10N
+ 
+is
+the
+name
+of
+the
+game
+ 
+ZENx.
+
+http://twitpic.com/6pwozc/full
+
+http://www.youtube.com/watch_popup?v=xhohcQ6Tqv0&hl=en
+
+you want REAL CHAOS?:
+
+http://www.worldometers.info/
+http://www.usdebtclock.org/
+http://www.stopthehunger.com/
+- -->
+
+<!--
+
+
+                               .' '.           __
+         B'zzzzzzzzzzz.        .   .          (__\_
+                       .        .         . -{{_(|8)
+                        ' .  . ' ' .  . '     (__/`
+ 
+       _     _
+                   _
+                   /_/_      .'''. 
+                =O(_)))) ...'     `.
+                   \_\              `.    .'''B'zzzzzzzzzzz
+                                      `..'
+                
+                            /|      __  
+                           / |   ,-~ /  
+                          Y :|  //  /    
+                          | jj /( .^  
+                          >-"~"-v"  
+                         /       Y    
+                        jo  o    |  
+                       ( ~T~     j   
+                        >._-' _./   
+                       /   "~"  |    
+                      Y     _,  |      
+                     /| ;-"~ _  l    
+                    / l/ ,-"~    \  
+                    \//\/      .- \  
+                     Y        /    Y*  
+                     l       I     ! 
+                     ]\      _\    /"\ 
+                    (" ~----( ~   Y.  )   
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~    
+
+- -->
+
+
+<!--
+
+"International, regional and national standards also recognize that 
+freedom of speech, as the freedom of expression, includes any medium, be 
+it orally, in written, in print,
+THROUGH THE INTERNET OR THROUGH *** ART FORMS ***.
+
+THIS MEANS THAT THE PROTECTION OF FREEDOM OF SPEECH AS A RIGHT 
+INCLUDES NOT ONLY THE CONTENT, BUT ALSO THE MEANS OF EXPRESSION."
+
+Source: http://en.wikipedia.org/wiki/Freedom_of_Speech
+
+___________________________________________________________________________________________
+
+Under the Miller test, A WORK IS OBSCENE IF:
+
+(a)...‘the average person, applying contemporary community standards’ would find the work, as a whole, appeals to the prurient interest,
+(b)...the work depicts or describes, in a patently offensive way, sexual conduct specifically defined by the applicable state law, and
+(c)...the work, taken as a whole, lacks serious ***** LITERARY, ARTISTIC, ***** political, or scientific value.
+
+http://en.wikipedia.org/wiki/First_Amendment_to_the_United_States_Constitution#Obscenity
+___________________________________________________________________________________________
+
+********************************
+***** ARTISTIC DISCLAIMER: *****
+********************************
+
+
+the stories and inforMAtion posted here are artistic works of http://en.wikipedia.org/wiki/Panic_Movement social art, fiction and *** falsehood ***.
+only a looɟ such as http://en.wikipedia.org/wiki/Fernando_Arrabal would publicly show his support for Project Mayhem 2012 
+and/or take anythinG posted here as fact.
+
+…autre arrabalesque:
+
+“…le Pape danse avec Zarathoustra car son célibat est de moins en moins héréditaire…” 
+ “…el Papa baila con Zaratustra , ya que su solteri’a es cada vez menos hereditaria…”
+ 
+http://laregledujeu.org/arrabal/2011/09/05/2643/
+
+u IrK, bros?
+
+
+******************************************************
+
+"In 1962 Arrabal co-founded the Panic Movement with Alejandro Jodorowsky 
+and Roland Topor, inspired by the god Pan, and was elected Transcendent 
+Satrap of the Collège de Pataphysique in 1990. Forty other Transcendent 
+Satraps have been elected over the past half-century, including Marcel 
+Duchamp, Eugène Ionesco, Man Ray, Boris Vian, Dario Fo, Umberto Eco and 
+Jean Baudrillard. 
+
+A friend of Andy Warhol and Tristan Tzara, Arrabal spent three years as 
+a member of André Breton’s surrealist group." 
+
+In 2001, he was runner-up for the Premio Cervantes, nominated by Nobel 
+Prize in Literature Camilo José Cela and José Hierro.
+
+He was  reportedly a FINALIST FOR THE NOBEL PRIZE IN 2005,
+a prize which several institutions and personalities solicited for him.
+On July 14, 2005, he was named to France’s Légion d'honneur. 
+
+http://en.wikipedia.org/wiki/Fernando_Arrabal
+http://en.wikipedia.org/wiki/Panic_Movement
+
+______________________________________
+
+And always,
+
+Remember: we will NEVER ever suggest you to do anything ILLEGAL and/or anything against your own Consciousness.
+Remember: we will NEVER ever DO anything ILLEGAL and/or against our own Consciousness.
+
+http://projectmayhem2012.org/00README-001.txt
+______________________________________
+
+We LIVE by these words and WE TOTALLY REFUSE TO SUPPORT ANY KIND OF VIOLENT
+AND/OR ILLEGAL ACTIONS TOWARDS ACHIEVING ANY KIND OF GOALS.
+We LIVE by these words and WE TOTALLY REFUSE TO SUPPORT ANY KIND OF VIOLENT
+AND/OR ILLEGAL ACTIONS TOWARDS ACHIEVING ANY KIND OF GOALS.
+We LIVE by these words and WE TOTALLY REFUSE TO SUPPORT ANY KIND OF VIOLENT
+AND/OR ILLEGAL ACTIONS TOWARDS ACHIEVING ANY KIND OF GOALS.
+We LIVE by these words and WE TOTALLY REFUSE TO SUPPORT ANY KIND OF VIOLENT
+AND/OR ILLEGAL ACTIONS TOWARDS ACHIEVING ANY KIND OF GOALS.
+We LIVE by these words and WE TOTALLY REFUSE TO SUPPORT ANY KIND OF VIOLENT
+AND/OR ILLEGAL ACTIONS TOWARDS ACHIEVING ANY KIND OF GOALS.
+We LIVE by these words and WE TOTALLY REFUSE TO SUPPORT ANY KIND OF VIOLENT
+AND/OR ILLEGAL ACTIONS TOWARDS ACHIEVING ANY KIND OF GOALS.
+We LIVE by these words and WE TOTALLY REFUSE TO SUPPORT ANY KIND OF VIOLENT
+AND/OR ILLEGAL ACTIONS TOWARDS ACHIEVING ANY KIND OF GOALS.
+We LIVE by these words and WE TOTALLY REFUSE TO SUPPORT ANY KIND OF VIOLENT
+AND/OR ILLEGAL ACTIONS TOWARDS ACHIEVING ANY KIND OF GOALS.
+We LIVE by these words and WE TOTALLY REFUSE TO SUPPORT ANY KIND OF VIOLENT
+AND/OR ILLEGAL ACTIONS TOWARDS ACHIEVING ANY KIND OF GOALS.
+We LIVE by these words and WE TOTALLY REFUSE TO SUPPORT ANY KIND OF VIOLENT
+AND/OR ILLEGAL ACTIONS TOWARDS ACHIEVING ANY KIND OF GOALS.
+
+************************************************************************************
+************************************************************************************
+*** IF YOU INTERPRET *** ANYTHING *** YOU READ ON THE FOLLOWING PAGES AS         ***
+*** BEING ILLEGAL/forbidden IN YOUR COUNTRY or in your local jurisdiction, then  ***
+***              DO NOT DO IT | DO NOT DO IT | DO NOT DO IT                      *** 
+************************************************************************************
+************************************************************************************
+
+(enough?)
+
+
+Article 19 of the Universal Declaration of Human Rights, adopted in 1948, states that:
+
+"Everyone has the right to freedom of opinion and expression; THIS RIGHT 
+INCLUDES FREEDOM TO HOLD OPINIONS WITHOUT INTERFERENCE AND TO SEEK, 
+RECEIVE AND IMPART INFORMATION AND IDEAS THROUGH ANY MEDIA AND 
+REGARDLESS OF FRONTIERS."
+
+Today freedom of speech, or the freedom of expression, is recognized in 
+international and regional human rights law. The right is enshrined in 
+Article 19 of the International Covenant on Civil and Political Rights, 
+Article 10 of the European Convention on Human Rights, Article 13 of the 
+American Convention on Human Rights and Article 9 of the African Charter 
+on Human and Peoples' Rights. Based on John Milton's arguments, 
+freedom of speech is understood as a multi-faceted right that includes 
+not only the right to express, or disseminate, information and ideas, 
+but three further distinct aspects: 
+
+THE RIGHT TO SEEK INFORMATION AND ***** IDEAS *****;
+THE RIGHT TO RECEIVE INFORMATION AND ***** IDEAS *****;
+THE RIGHT TO IMPART INFORMATION AND ***** IDEAS *****.
+
+International, regional and national standards also recognize that 
+freedom of speech, as the freedom of expression, includes any medium, be 
+it orally, in written, in print, THROUGH THE INTERNET OR THROUGH ART 
+FORMS.
+
+THIS MEANS THAT THE PROTECTION OF FREEDOM OF SPEECH AS A RIGHT 
+INCLUDES NOT ONLY THE CONTENT, BUT ALSO THE MEANS OF EXPRESSION. 
+
+Source: http://en.wikipedia.org/wiki/Freedom_of_Speech
+- -->
+
+
+<!--
+ 
+DISCLAIMER in disGUISE:
+ 
+We would like to add that Project Mayhem 2012 is NOT in ANY way related to any other group that have been calling themselves "Project Mayhem",
+or that have called themselves "Project Mayhem" in the past or that will ever be called "Project Mayhem" or any phonetical/grammatical variations of it.
+ 
+We would like to state that we have NO Facebook group or page anywhere else other than at http://projectmayhem2012.org and that our ONLY and exclusive presence in social media is
+the Twitter account: http://twitter.com/#!/pm2012org
+ 
+As you can imagine, ANYBODY can pretend to be us, as anybody can pretend to be anyone: that's disinformation tactics 101, of course.
+ 
+The ONLY artwork that we will ever produce will be published in this page. Obviously other people can feel free to post it anywhere else.
+ 
+We haven't uploaded ANY video to ANY site, such as YouTube or any other.
+ 
+If and when we do, you will know for certain that we take responsibility of
+its authorship because the url address will be CRYPTOGRAPHICALLY SIGNED by us.
+ 
+ 
+And always,
+ 
+Remember: we will NEVER ever suggest you to do anything ILLEGAL and/or anything against your own Consciousness.
+Remember: we will NEVER ever DO anything ILLEGAL and/or against our own Consciousness.
+ 
+As stated here http://projectmayhem2012.org/00README-001.txt
+ 
+We LIVE by these words and we totally refuse to support ANY kind of violent and/or illegal actions towards achieving ANY kind of goals.
+ 
+If some entity wants to link Project Mayhem 2012 with calling for illegal deeds to be committed,
+then KNOW that they are simply DISINFORMING you.
+ 
+ALWAYS demand that they PROVE their assertions and back them up with FACTUAL DATA found inside the literature found at Project Mayhem 2012 site,
+for they will find NONE.
+ 
+Our Public GnuPG can be found here: 
+ 
+http://projectmayhem2012.org/pm2012-publickey.asc
+ 
+We will be cryptographically signing special communications to prove our identity whenever we deem it necessary.
+ 
+If the site is taken down and/or our GnuPG key is compromised
+and we wish to communicate any more information, we will include
+the poem which will prove that the new information came from PM2012. 
+ 
+Also, if anyone else tries to write and pretend to be PM2012, they will 
+not have the GnuPG key or know the poem, so don't believe them. 
+ 
+If anyone presents a poem as the key, be sure to check that it returns the 
+below value with the SHA-512 algorithm: 
+ 
+(truncated in 2 lines for ease of reading):
+ 
+973b954648ce93a86dbe9e50dfcb4bb092f7724a2e89155fbe4e044779d753e2
+655c3020cc03376338286d67c0816113553d6edb5fda93decd53d402d25d66eb
+ 
+- -->
+
+
+<!--
+
+***********************
+***                 ***
+*** We are *** FAKE ***
+***     REPEAT      ***
+*** We are *** FAKE ***
+***                 ***
+*** it's ONLY ART   ***
+***     REPEAT      ***
+*** it's ONLY ART   ***
+***     REPEAT      ***
+***                 ***
+*** INOFFENSIVE ART ***
+***     REPEAT      ***
+*** INOFFENSIVE ART ***
+***  DO NOT BELIEF  ***
+***   ANYTHING YOU  ***
+***   READ @PM2012  ***
+***    FOR IT IS    ***
+***      FAKE       ***
+***********************
+
+N01ZᴚƎVNI
+REI UNIUS
+ᴚƎI VN10Z
+VNIᴚƎZ10N
+ 
+is
+the
+name
+of
+the
+game
+ 
+ZENx.
+
+http://twitpic.com/6pwozc/full
+
+http://www.youtube.com/watch_popup?v=xhohcQ6Tqv0&hl=en
+
+you want REAL CHAOS?:
+
+http://www.worldometers.info/
+http://www.usdebtclock.org/
+http://www.stopthehunger.com/
+- -->
+
+
+<!--
+
+********************************************************************
+********************************************************************
+***                                                              ***
+***                 FOLLOW THE WHITE RABBIT =                    ***
+***   TRUST YOUR ~♥~, INTUITION, SYNCRONICITIES & COINCIDANCES   ***
+***                                                              ***
+********************************************************************
+********************************************************************
+
+Rabbit as Symbol: The Significance of Rabbits in Dreams and Art, by Sandy Koi.
+
+"One of the most important archetypes is that of the Psychopomp. A Psychopomp is a god or goddess (energy form) that 
+acts as a liaison, and guide, between the three worlds-the physical earthly level that we dwell upon, the Underworld and 
+the Heavens. In classical mythology, the Roman God Mercury was a Psychopomp, for example.
+
+HE GUIDED THE ANCIENT HEROES TO AND THROUGH THE UNDERWORLD,
+AND HE ALSO BROUGHT MESSAGES FROM ABOVE TO THE MERE MORTALS HERE ON EARTH. 
+
+Symbolically, Rabbit in the Underworld is therefore representative of USING ONE'S INTUITION: knowing how to get around 
+"in the dark" and being comfortable traveling in "unmarked territory." By default, it can also denote having or 
+DEVELOPING TRUST IN THE "INNER LIGHT."
+
+RABBIT DOES NOT NEED AN OUTSIDE SOURCE TO ILLUMINATE HIS WAY.
+
+His connection to the Collective Energy maintains his pathway.
+
+They teach us Unconditional Love, and Compassion for Life, by virtue of eliciting those things within us.
+
+And one important symbolical meaning that Rabbit should elicit in us is that of PLAYFULNESS AND JOY.
+Their nonsense displays of happiness are part of the Dance of Life-which is nothing more than a Cosmic Binkie."
+
+http://www.rabbit.org/journal/4-11/symbol.html
+- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+                    / \     / \
+                   {   }   {   }
+                   {   {   }   }
+                    \   \ /   /
+                     \   Y   /
+                     .-"`"`"-.
+                   ,`         `.
+                  / 12.21.2012  \
+                 /    11:11      \
+                {     ;"";,       }
+                {  /";`'`,;       }
+                 \{  ;`,'`;.     /
+                  {  }`""`  }   /}
+                  {  }      {  // 
+                  {||}      {  /
+                  `"'       `"'
+- -->
+<!--
+Or maybe yes...
+- -->
+</html>
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.6.18 (MindH23)
+
+iQIcBAEBAgAGBQJOhwrGAAoJELnqjo7Ahe3331MP+wSGAk4+E7WyNT3fdiRcqprE
+PYn8jeEUxThD5AQKA2UEXQOUT3/sNkbD2al2i/uG52bMNCWFMGoL0vCy1iW5pHJE
+tfsJgy6C7TSCD2tXOxWqGS2bWpLqrbuQT8X2deVEvFLqPapu7FXtJDhkWRoFZWc7
+tOLQ4o76W126UBalcw7YcN2wBaif1asT7kewmI82NrztaUNpVJUFMWnjemF3tHyy
+eQyisCzKZcRQHRpNH9Qe2C07Lwnp2una0IgFeIRzZ5muhJkvRjIkBUWg0Iak3U3a
+4qMFMSqaE4dWChMtZCugOADSp8ItPCPqHYDZwHBK4PadoXHHk4lP4naBSqTU1VzW
+Bf3SVtedufx0o/YOFQs4VwQHiSvJ7gxZIs9rPP3FcWGydU0YXkcBzIei/Cz1i5zc
+q48QvYScjC4VWzIYxgKVGJVy+zMi+CubZcuKkg+3AZkTNvcbB1XZ1L4tQyQQ5cM4
+VT92EJtoJoSklJPz4/yL5IBuf/u496naLG4t1BtjJPS3lomfLgbgZNazevwPBUNH
+yzTrde1cNQRVd6//OE9ALuc/r1jzxI/SACGy0IgCy/CcgAS9R2jQzHCPmPkTWruZ
+cw+mojZsFyk/pnciVOBqRplWh5LX0jAz3SPsVkMqQ2XRM/otg6EBRZ6fepy3kro7
+HogODEaY9ENCG3uYtQMK
+=4DV2
+-----END PGP SIGNATURE-----

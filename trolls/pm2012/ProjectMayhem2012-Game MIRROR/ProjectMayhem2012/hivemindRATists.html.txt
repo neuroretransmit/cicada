@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>12.21.2012 11:11 Expect Us. Project Mayhem 2012: The End of Fear. #pm2012</title>
+	<style type="text/css" media="screen">
+		body, html {height: 100%; padding: 0px; margin: 0px;}
+		#outer {width: 100%; height: 100%; overflow: visible; padding: 0px; margin: 0px;}
+		#middle {vertical-align: middle}
+		#centered {width: 942px; margin-left: auto; margin-right: auto; text-align:center;}
+		a {text-decoration:none;}
+		b {COLOR: red; text-decoration: none}
+		a:link {COLOR: red; text-decoration: none}
+		h1 {COLOR: red; text-decoration: none}
+		a:visited {COLOR: red; text-decoration: none}
+		a:hover {COLOR: red; text-decoration: none}
+		a:active {COLOR: red; text-decoration: none}	</style>
+<style type="text/css"></style></head>
+
+<body background="./hivemindRATists.jpg" bgcolor="#333333"> 
+<center><font face="Courier New, Courier, sans-serif" size="1" color="red">[<a href=./ARTISTIC-DISCLAIMER.txt>Artistic Disclaimer</a>]</font></center>
+<h1>PM2012 HIVE MIND FEATURED RATISTS</h1>
+
+look ma', me got teh interwebz skillz!11!11!
+<p>
+
+
+
+<br>
+<b>PROJECT MAYHEM 2012.org PRESENTS:</b>
+<p>
+<ul>
+<li><a href="./DangerousIdeaNumberOne.mp3">Anonamoose - <b>Dangerous Idea Number One.mp3</b></a></li>
+</ul>

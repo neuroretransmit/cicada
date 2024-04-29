@@ -1,0 +1,25 @@
+PROJECT MAYHEM 2012
+12.21.2012 11:11
+
+Explanation for the chosen date:*
+
+<!--
+anon shares:
+
+12.21.2012 11:11 UTC is the precise time when Winter solstice occur in 2012.
+
+Winter solstice (typically defined as when the apparent ecliptic longitude of the Sun is 270 degrees) is:
+
+2012-Dec-21 11:11:38 UTC.
+
+Below you can see the crossover point when going from the 38 second "tick" to the 39 second "tock":
+
+Date__(UT)__HR:MN:SC.fff ObsEcLon ObsEcLat
+2012-Dec-21 11:11:38.000 269.9999939 0.0001750
+2012-Dec-21 11:11:39.000 270.0000057 0.0001750
+
+You can generate this information yourself from the "Horizons" server: 
+http://ssd.jpl.nasa.gov/?horizons
+-->
+
+* From the hidden sauce code inside every hivemind[*].html pages.

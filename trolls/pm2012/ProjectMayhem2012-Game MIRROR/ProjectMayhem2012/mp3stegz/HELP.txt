@@ -1,0 +1,15 @@
+==============To hide a file inside mp3======================
+1. Choose 'container' mp3 by clicking 'Select source mp3' button
+- You may check maximum hidden data size that previously selected mp3 can handle by clicking 'Max. Hidden Size'
+- You may check selected mp3 info by clicking 'Get mp3 info'
+2. Choose a file you want to hide by clicking 'Select Hidden File'
+- You may check file size after encryption and compression by clicking 'Size after encrypt+compress'
+3. Type your password in the provided textbox. Do not forget this password since this application have no input for confirmation password.
+4. Click 'Hide It!' to begin hiding data. Please be patient since the algorithm is not optimized, so, the application maybe look not responding.
+5. For example, if your source mp3 is 'one.mp3', the stegged-mp3 result will have file name 'one.mp3-steg.mp3' located in the same folder as 'one.mp3'
+
+==============To reveal/get hidden file inside mp3===========
+1. type your password in the textbox provided. Wrong password will cause damaged result file.
+2. Choose stegged-mp3 file by clicking 'Select Stegged-mp3'.
+3. Click 'Reveal!' to begin revealing hidden file.
+4. For example, if your stegged-mp3 file is 'one.mp3-steg.mp3' and you hidden data is '.jpg' file, result file will have file name 'one.mp3-steg.mp3.jpg' located in the same folder as 'one.mp3-steg.mp3'.

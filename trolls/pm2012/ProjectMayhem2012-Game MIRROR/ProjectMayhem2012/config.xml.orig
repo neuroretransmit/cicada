@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<audioplay>
+    <config>
+	<!-- 
+	
+	    AudioPlay - visit http://www.strangecube.com/audioplay/ for more
+	    
+	    Here is an example multiple players configuration (set unique id for each player)
+	    
+	-->
+	
+	<player playerid="1">
+	    <!-- set player's background color -->
+	    <backgroundColor>0xffffff</backgroundColor>
+	
+	    <!-- music file -->
+	    <musicfile>music.mp3</musicfile>
+	
+	    <!-- how many times music will be played (0 - unlimited) -->
+	    <repeatTimes>1</repeatTimes>
+	
+	    <!-- should music starts automatically -->
+	    <autostart>no</autostart>
+	    
+	    <!-- button directory -->
+	    <buttondir>buttons/classic</buttondir>
+	    
+	    <!-- player mode - playstop or playpause -->
+	    <mode>playstop</mode>
+	    
+	    <!-- send stop command to other players ? -->
+	    <sendstop>yes</sendstop>
+	    
+	    <!-- listen stop command from other players ? -->
+	    <listenstop>yes</listenstop>
+	    
+	    <!-- track id - must be unique -->
+	    <trackid>first</trackid>
+	    
+	    <!-- which player (trackid) will be started after this player will end playing -->
+	    <nexttrack>second</nexttrack>
+	    
+	    <!-- use background color specified in 'backgroundColor' tag - no transparency -->
+	    <usebgcolor>no</usebgcolor>
+	    
+	    <!-- player alpha fade in duration -->
+	    <fadeindur>1000</fadeindur>
+	    
+	    <!-- volume 0-100 -->
+	    <mastervol>90</mastervol>
+
+	    <!-- you could specify URL of external scripts that will be used when play/pause/stop action is invoked (default: none) -->
+            <playscriptfile></playscriptfile>
+            <pausescriptfile></pausescriptfile>
+            <stopscriptfile></stopscriptfile>
+
+	    <!-- autostart delay in ms (default 500)-->
+	    <autostartdelay>1000</autostartdelay>
+	    
+	    <!-- external interface feature (player could be controlled by JS play(), stop(), pause() methods) - default: no -->
+	    <einterface>yes</einterface>
+
+	    <!-- inititial buffering - music download starts immediately after player loads -->
+            <initbuf>no</initbuf>
+	
+	    <!-- images could be customized by changing images in button directory -->
+	    
+	</player>
+	
+	<!-- 
+	    For multiple instances of AudioPlay add separate player tags with unique playerid attribute
+	    then add '?playerid=X' to every AudioPlay url in object/embed tags. For example: 'audioplay.swf?playerid=2'
+	-->
+	
+	<player playerid="2">
+	    <musicfile>music.mp3</musicfile>
+	    <repeatTimes>1</repeatTimes>
+	    <autostart>no</autostart>
+	    <buttondir>buttons/classic</buttondir>
+	    <mode>playpause</mode>
+	    <sendStop>yes</sendStop>
+	    <listenstop>yes</listenstop>
+	    <trackid>second</trackid>
+	    <nexttrack>third</nexttrack>
+	    <fadeindur>1000</fadeindur>
+	    <mastervol>90</mastervol>
+	    <playscriptfile></playscriptfile>  
+            <pausescriptfile></pausescriptfile>
+            <stopscriptfile></stopscriptfile>
+	    <autostartdelay>1000</autostartdelay>
+	    <einterface>yes</einterface>
+	    <initbuf>no</initbuf>
+	</player>
+	
+	<player playerid="3">
+	    <musicfile>music.mp3</musicfile>
+	    <repeatTimes>1</repeatTimes>
+	    <autostart>no</autostart>
+	    <buttondir>buttons/classic</buttondir>
+	    <mode>playstop</mode>
+	    <listenstop>yes</listenstop>
+	    <trackid>third</trackid>
+	    <nexttrack>first</nexttrack>
+	    <fadeindur>1000</fadeindur>
+	    <mastervol>90</mastervol>
+	    <playscriptfile></playscriptfile>  
+            <pausescriptfile></pausescriptfile>
+            <stopscriptfile></stopscriptfile>
+	    <autostartdelay>1000</autostartdelay>
+	    <einterface>no</einterface>
+	    <initbuf>no</initbuf>
+	</player>
+	
+    </config>
+</audioplay>
+
