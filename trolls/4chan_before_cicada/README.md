@@ -27,9 +27,48 @@ This results in `the next step` which is also a PNG.
 - Russian forum where it was mentioned two weeks earlier, on April 9: https://web.archive.org/web/20130425134659/http://2ch.hk/sn/res/161855.html#161917
 - Also a file was referred to, that was also uploaded on April 9: https://web.archive.org/web/20130517121757/http://rghost.ru/45151011
 
+## The doxxing problem
+
+Logs received from another solver...
+
+```
+[12:53] anonymous: That you again?
+[12:53] GrandTheftHippo: no
+[12:53] GrandTheftHippo: link plox
+[12:53] anonymous:http://img.4chan.org/b/res/17132070.html
+[12:53] GrandTheftHippo: *hopes i have created copypasta*
+[12:53] anonymous: Haha
+[12:54] GrandTheftHippo: oh ya i made that
+[12:54] GrandTheftHippo: i didnt post it tho
+[12:54] GrandTheftHippo: I MADE COPYPASTA
+[12:54] anonymous: o_O Odd
+[12:54] GrandTheftHippo: oh hells yes
+[12:55] anonymous: Haha, grats I guess
+[12:55] GrandTheftHippo: wow its epic
+```
+
+![authors_post.png](authors_post.png)
+
+The author was the same person behind the Pi puzzle 1000-1020th digits of Pi. [link here](https://web.archive.org/web/20110204102348/http://iiichan.net/stuff/pi_puzzle/)
+
+His [Steam](http://web.archive.org/web/20240429014238/https://steamcommunity.com/profiles/76561198090290576)/[DeviantArt](http://web.archive.org/web/20240429014050/https://www.deviantart.com/grandthefthippo) are full of comments about his puzzles.
+
+[WikiPedia](https://en.wikipedia.org/wiki/Talk%3AFundamentals_of_Engineering_exam)
+
+```
+its  his  name  +  gmail.com
+someone  posted  previously  on  chans  this  email
+he  also  made  more  riddles  under  http://students.washington.edu/toanb/
+but  doesnt  seem  archived
+had  also  google  pages  but  its  dead  http://grandthefthippo.googlepages.com/
+i  think  pi  puzzle  was  on  http://students.washington.edu/toanb/temp_redirect0886.html
+```
+
+Within the IRC logs in this repo you can see someone named hippo joining: [grepped logs here](../../irc-logs/hippo.txt)
+
 ## Chat logs describing this
 
-Scrubbed for brevity.
+Scrubbed for brevity, was ether8unny in Discord
 
 ```
 *

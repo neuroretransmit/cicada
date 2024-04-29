@@ -1,0 +1,131 @@
+﻿
+The "Project Mayhem 2012" folder is ready to BEE a mirror of The Game.
+
+1. tl;dr: Unpack to your webserver & Go.
+2. Announce your PM2012 mirror in Twitter with the hashtags #PM2012 
+and/or #PM2012 and/or #PROJECTMAYHEM2012 and/or #PM2012Mirror
+
+<!--
+DISCLAIMER:
+*************************************************************************
+*************************************************************************
+***         WE, PM2012 team members and PM2012 mirror owners          ***
+***          TOTALLY REFUSE TO SUPPORT ANY KIND OF VIOLENT            ***
+***   AND/OR ILLEGAL ACTIONS TOWARDS ACHIEVING *ANY* KIND OF GOALS.   ***
+*************************************************************************
+*************************************************************************
+
+************************************************************************************
+************************************************************************************
+*** IF YOU INTERPRET *** ANYTHING *** YOU READ ON THE FOLLOWING PAGES AS         ***
+*** BEING ILLEGAL/forbidden IN YOUR COUNTRY or in your local jurisdiction, then  ***
+***              DO NOT DO IT | DO NOT DO IT | DO NOT DO IT                      *** 
+************************************************************************************
+************************************************************************************
+
+Also,
+
+|=-----------------------------------------------------------------------=|
+|=-----------------------------------------------------------------------=|
+|=--------=[                                                   ]=--------=|
+|=--------=[  « Never do anything against Conscience even      ]=--------=|
+|=--------=[    if the State demands it. »                     ]=--------=|
+|=--------=[                                Albert Einstein    ]=--------=|
+|=-----------------------------------------------------------------------=|
+|=-----------------------------------------------------------------------=|
+- -->
+
+Please see also ARTISTIC-DISCLAIMER.txt
+
+-->
+
+
+INSTRUCTIONS TO MIRROR PM2012 from your hosting server:
+
+1. Verify that you have got these two files, contained inside PM2012-backup.zip :
+
+ - ProjectMayhem2012.zip
+
+2. Install GnuPG: http://www.gnupg.org/download/
+
+3. Import PM2012 team Public Key into your keyring:
+
+PM2012 GnuPG public key: http://projectmayhem2012.org/pm2012-publickey.asc
+
+ pm2012-publickey.asc backups:
+
+ http://pastebin.com/SgVyzm3Y
+ http://pastebin.com/LFB7LywF
+ http://pastehtml.com/view/b8tv7b23c.txt
+
+pub   4096R/C085EDF7 2011-08-01 [valid until: 2012-12-21]
+Fingerprint: 4FF0 9759 2A91 DFBF A8B3  66FF B9EA 8E8E C085 EDF7
+sub   4096R/7E78969A 2011-08-01 [valid until: 2012-12-21]
+
+4. Verify that the PM2012-FullBackup.zip.sig signature
+  validates the ProjectMayhem2012.zip file correctly.
+  
+  Once you have successfully verified this, it means that:
+  
+  a) You have correctly downloaded the file.
+  b) The file and its contents where made by the #PM2012Crew members.
+  c) You can safely assume that the file has not been tampered with.
+
+ATTENTION pl0x:
+ 
+If it doesn't verify correctly, please re-check that you imported our public key.
+If it still doesn't verify correctly, the file might have been corrupted during download.
+In that case, please re-download it again.
+
+Each and every file served from you hosting server HAS to have
+the corresponding .sig file.
+If you 
+  
+5. Finally, simply unzip the contents of PM2012-FullBackup.zip and upload them
+   to a folder called PM2012 in your hosting server.
+   
+6. You can setup a subdomain or a /ProjectMayhem2012/ url address.
+
+ i.e.: 
+ 
+      http://ProjectMayhem2012.myhostingserver.com
+      or
+      http://www.myhostingserver.com/ProjectMayhem2012/
+
+7. Done.
+
+Wanna say "Thank You, /b/ros!"?
+
+Nobody has done this for the money —ANYTHING we do is #4TEHLULZ— but bitcoin-sponsored beers are nice too! 
+A Grand Total of *4* bitcoins have BEEn sent to #PM2012Crew since The Game started, back in June 2010. Yay! :-D
+
+To whomever sent them: we LOVE you.
+
+You'll bee one of the first persons to hear from us once the post-scarcity based Operating System BEE in place, count on it. ;)
+
+Anyway, these are some #PM2012 RATists & BusyBusyBees whom have decided to publish their bitcoin addresses.
+
+Who knows, the System MIGHT BEE about to collapse indeed and THIS list might BEEcome useful sometime soon... };-DDD
+
+1KGug7xA6VgkpcbesA19yMrec7zFdH5AJk - Anonamoose | Dangerous Idea Number One.mp3 Composer & Producer
+1GTr3TN3UgqhpUUBaPvy2ZPuEPPKWX9Uua - @R_A201 | http://ra2012.tumblr.com/ | http://www.youtube.com/user/rEVOLUTIONART2012/
+1BrVJ6q5sYucBtdNm2mQBBVMyL5ag6YYS2 - http://GALAT.ORG Had the COURAGE to host a forum and a PM2012 mirror on his own.
+1PQFLihJDNC8axSPS3qWFmvd9eKyD4YfvC - Yours trulie, #PM2012Crew | @PM2012org | http://pm2012.tumblr.com
+
+
+FAQ: So what'll happen with The Game now? Is it OVER?
+
+It's FAAAAR from OVER. It has BARELY started yet. }:-)
+
+iMAGIne a RELAY RACE... imagine we just passed the RELAY to YOU whom are reading this.
+
+Soooooooo so so so many amazing people we have met along this trip. You know who you are: THANK YOU!
+
+protip: we'll BEE silently monitoring http://GALAT.ORG in stealth mode, but *YOU* are the Game MASTERS now.
+This Game can bee as REAL as *YOU* want it to BEE. Or not, sure.
+
+To all RATs, /B/ees & SILENT MOLES all around the world: you are over 9000.
+
+See you at the other side of teh ɹoɹɹıɯ!
+
+To TAR, to inPHInity & BEEyond!

@@ -1,0 +1,34 @@
+#33012013.freenode.log:2013 Jan 07 17:50 * Joins: Hippo (c6695858@gateway/web/freenode/ip.198.105.88.88)
+#33012013.freenode.log:2013 Jan 07 17:58 * Quits: Hippo (c6695858@gateway/web/freenode/ip.198.105.88.88) (Ping timeout: 245 seconds)
+#33012014.freenode.log:2014 Jan 06 13:00 * Joins: hippo (d4ebb189@gateway/web/freenode/ip.212.235.177.137)
+#33012014.freenode.log:2014 Jan 06 13:34 <hippo> god, is this interesing..
+#33012014.freenode.log:2014 Jan 06 13:35 <Stiffler> I have no clue what so ever, I just pointed out to Hippo that yes, this is boring waiting.
+#33012014.freenode.log:2014 Jan 06 13:42 <hippo> maybe something with height/width of the psoted pics?
+#33012014.freenode.log:2014 Jan 06 15:35 <hippo> soo.. any progress?
+#33012014.freenode.log:2014 Jan 06 20:24 <hippo> stop with the IPs, damn..
+#33012014.freenode.log:2014 Jan 07 01:46 * Quits: hippo (d4ebb189@gateway/web/freenode/ip.212.235.177.137) (Ping timeout: 272 seconds)
+#33012014.freenode.log:2014 Jan 08 00:58 * Quits: hippo (d4ebb189@gateway/web/freenode/ip.212.235.177.137) (Ping timeout: 272 seconds)
+#ARG.freenode.log:2012 Oct 09 18:46 <Lurker69> http://www.sailwx.info/shiptrack/shipposition.phtml?call=NEPP    healy is also traveling north quite speedy
+#ARG.freenode.log:2012 Oct 09 20:09 <maulsel-school> http://www.sailwx.info/shiptrack/shipposition.phtml?call=UGYU
+#ARG.freenode.log:2012 Oct 09 20:23 <maulsel-school> crash: http://www.sailwx.info/shiptrack/shipposition.phtml?call=UGYU
+#ARG.freenode.log:2012 Oct 09 20:30 <maulsel-school> http://www.sailwx.info/shiptrack/shipposition.phtml?call=UCJU
+#ARG.freenode.log:2012 Oct 13 20:05 <Lurker69> http://www.sailwx.info/shiptrack/shipposition.phtml?call=NEPP  now healy moved to the east
+#ARG.freenode.log:2012 Nov 13 22:40 <Lurker69> http://www.sailwx.info/shiptrack/shipposition.phtml?call=NEPP
+#ARG.freenode.log:2012 Dec 05 18:25 <Gwraspeatwork> good luck with that :P transmitters are hungry hippos
+#ARG.freenode.log:2013 Aug 26 14:34 <lurker69> http://www.sailwx.info/shiptrack/shipposition.phtml?call=NEPP  this us ship was very near our convoy
+#ARG.freenode.log:2014 Jul 10 10:46 <Smugtrio> do you guys have the hippos?
+#ARG.freenode.log:2014 Jul 11 19:05 <morningcoffee> they have lots of Kinder stuff but not the hippos
+#cicada3301.freenode.log:2014 Jan 06 16:13 * Joins: hippo (d4ebb189@gateway/web/freenode/ip.212.235.177.137)
+#cicada3301.freenode.log:2014 Jan 07 01:46 * Quits: hippo (d4ebb189@gateway/web/freenode/ip.212.235.177.137) (Ping timeout: 272 seconds)
+#cicadasolvers.freenode.2.log:2015 Jan 06 23:40 <TaiiwoBot> DollX: No. I made a statement earlier telling you that my name was Ben, and that you could call me Hippo. Do you remember?
+#cicadasolvers.freenode.2.log:2015 Jan 06 23:41 <DollX> Hippo hea
+#cicadasolvers.freenode.log:2014 Jan 06 16:45 <hippo> mostly bitching around..
+#cicadasolvers.freenode.log:2014 Jan 07 01:46 * Quits: hippo (d4ebb189@gateway/web/freenode/ip.212.235.177.137) (Ping timeout: 272 seconds)
+#cicadasolvers.freenode.log:2014 Feb 13 15:55 <cheetahburn> hippopotamus
+#cicadasolvers.freenode.log:2014 Feb 15 18:56 <SheCalledMePaul> wtf is that purple hippo
+#cicadasolvers.freenode.log:2014 Apr 23 00:16 * Joins: shadyhippo (~identityf@72.81-167-67.customer.lyse.net)
+#cicadasolvers.freenode.log:2014 Apr 23 00:16 * Quits: shadyhippo (~identityf@72.81-167-67.customer.lyse.net) (Client Quit)
+#cicadasolvers.freenode.log:2014 Apr 23 00:18 * Joins: shadyhippo (~identityf@72.81-167-67.customer.lyse.net)
+#cicadasolvers.freenode.log:2014 Apr 23 00:22 * Quits: shadyhippo (~identityf@72.81-167-67.customer.lyse.net) (Read error: Operation timed out)
+#cicadasolvers.freenode.log:2014 Jun 10 22:57 * Quits: cryptohippo (~cryptohip@99-117-14-48.lightspeed.cicril.sbcglobal.net) (*.net *.split)
+#cicadasolvers.freenode.log:2014 Jun 10 23:12 * Joins: cryptohippo (~cryptohip@99-117-14-48.lightspeed.cicril.sbcglobal.net)

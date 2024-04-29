@@ -1,0 +1,84 @@
+unit Unit1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, MPlayer, StdCtrls, uMP3;
+
+type
+  TForm1 = class(TForm)
+    txtFilename: TEdit;
+    btnBrowse: TButton;
+    OpenDialog1: TOpenDialog;
+    MediaPlayer1: TMediaPlayer;
+    btnFindFirst: TButton;
+    Memo1: TMemo;
+    btnClearMemo: TButton;
+    procedure btnBrowseClick(Sender: TObject);
+    procedure btnFindFirstClick(Sender: TObject);
+    procedure btnClearMemoClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.btnBrowseClick(Sender: TObject);
+begin
+  if (OpenDialog1.Execute) then
+  begin
+    if FileExists(OpenDialog1.FileName) then
+    begin
+      txtFilename.Text:=OpenDialog1.FileName;
+      MediaPlayer1.FileName:=OpenDialog1.FileName;
+      MediaPlayer1.Open;
+    end;
+  end;
+end;
+
+procedure TForm1.btnFindFirstClick(Sender: TObject);
+var
+  pos, posNext: Integer;
+  myRawHeader: TRawMP3Header;
+  myHeaderArray: TMP3HeaderArray;
+begin
+  if FileExists(txtFilename.Text) then
+  begin
+    pos:=FindFirstHeader(txtFilename.Text);
+    Memo1.Lines.Add('First header found at byte '+inttostr(pos));
+    myHeaderArray:=getMP3Header(txtFilename.Text, pos);
+    ParseHeaderArray(myHeaderArray, myRawHeader);
+    //print result into memo
+    Memo1.Lines.Add('Audio version='+inttostr(myRawHeader.AudioVersion));
+    Memo1.Lines.Add('Layer index='+inttostr(myRawHeader.LayerIdx));
+    Memo1.Lines.Add('Protection bit='+inttostr(myRawHeader.Protection));
+    Memo1.Lines.Add('Padding bit='+inttostr(myRawHeader.Padding));
+    Memo1.Lines.Add('Frame Size='+inttostr(frameSize(myHeaderArray)));
+    posNext:=FindNextFrame(txtFilename.Text, pos, myHeaderArray);
+    Memo1.Lines.Add('Frame #2 found at='+inttostr(posNext));
+    myHeaderArray:=getMP3Header(txtFilename.Text, posNext);
+    Memo1.Lines.Add('Frame Size='+inttostr(frameSize(myHeaderArray)));
+    Memo1.Lines.Add('IsVBR='+inttostr(ord(isVBR(txtFilename.text))));
+    Memo1.Lines.Add('VBRPos='+inttostr(VBRPos(txtFilename.text)));
+    Memo1.Lines.Add('Frame Count='+inttostr(frameCount(txtFilename.text)));
+  end else
+  begin
+    MessageDlg('File tidak ada!', mtError, [mbOK], 0);
+    exit;
+  end;
+end;
+
+procedure TForm1.btnClearMemoClick(Sender: TObject);
+begin
+  Memo1.Lines.Clear;
+end;
+
+end.
