@@ -606,3 +606,7 @@ Result
 ## Valēte! (spoilers)
 
 After a month of no communication from Cicada at the end of the puzzle, another image was posted to the subreddit. See [Valēte!](../011-valete/README.md)
+
+## Loose Ends
+
+- Maya numerals never used
