@@ -16,7 +16,7 @@ This results in an [imgur link](https://i.imgur.com/m9sYK.jpg). Go [here](../002
 
 ## Outguess
 
-To extract the message hinted at by [`m9sYK.jpg`](m9sYK.jpg) (decoys image), a steganography program called outguess must be used.
+To extract the message hinted at by [`m9sYK.jpg`](../002-m9sYK.jpg) (decoys image), a steganography program called outguess must be used.
 
 `outguess -r final.jpg final.jpg.txt`
 
